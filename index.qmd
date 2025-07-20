@@ -1,7 +1,11 @@
 ---
-title: "website_pro"
+title: "About"
+pagetitle: "Antoine Vernet"
+description-meta: "Antoine Vernet..."
+# main-photo:
+
 ---
 
-This is a Quarto website.
+I am an associate professor in management at the [Bartlett School of Sustainable Construction](https://www.ucl.ac.uk/bartlett/construction/) at [University College London](https://www.ucl.ac.uk/). My research interests include social networks, organizational design, strategy and organisational behaviour.
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+Before joining UCL, I was a research associate at Imperial Business Analytics, part of Imperial College Business School.

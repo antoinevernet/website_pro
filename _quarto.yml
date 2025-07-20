@@ -1,8 +1,22 @@
 project:
   type: website
 
+
+
+# Metadata stuff
+pagetitle: "{{< meta title >}} | Antoine Vernet"
+author-meta: "Antoine Vernet"
+
+
 website:
-  title: "website_pro"
+  title: "Antoine Vernet"
+  description: "Antoine Vernet is an associate professor at the Bartlett School of Sustainable Construction at UCL."
+  # favicon: "/files/favicon-512.png"
+  # site-url: "https://www.antoinevernet.com"
+ # repo-url: "https://github.com/antoinevernet/website_pro"
+
+  # google-analytics:
+
   navbar:
     left:
       - href: index.qmd
@@ -17,5 +31,9 @@ format:
     css: styles.css
     toc: true
 
+
+
+# bibliography: files/bib/references.bib
+# csl: files/bib/amj.csl
 
 
