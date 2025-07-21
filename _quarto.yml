@@ -10,7 +10,7 @@ author-meta: "Antoine Vernet"
 
 website:
   title: "Antoine Vernet"
-  description: "Antoine Vernet is an associate professor at the Bartlett School of Sustainable Construction at UCL."
+  description: "Antoine Vernet is an associate professor at the Bartlett School of Sustainable Construction at UCL, researching organizational design and ."
   # favicon: "/files/favicon-512.png"
   # site-url: "https://www.antoinevernet.com"
  # repo-url: "https://github.com/antoinevernet/website_pro"
@@ -20,8 +20,16 @@ website:
   navbar:
     left:
       - href: index.qmd
-        text: Home
-      - about.qmd
+        text: About
+      - href: cv/index.qmd
+        text: CV
+      - href: research/index.qmd
+        text: Research
+      - href: teaching/index.qmd
+        text: Teaching
+      - href: blog/index.qmd
+        text: Blog
+        
 
 format:
   html:

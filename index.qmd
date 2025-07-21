@@ -1,11 +1,47 @@
 ---
-title: "About"
+title: ""
 pagetitle: "Antoine Vernet"
-description-meta: "Antoine Vernet..."
-# main-photo:
+description-meta: "Antoine Vernet is an associate professor in management at UCL Bartlett School of Sustainable Construction. His research interests include social networks, organizational design, strategy, and organisational behaviour."
+main-photo: /files/antoine_vernet_2021.jpg
 
 ---
 
-I am an associate professor in management at the [Bartlett School of Sustainable Construction](https://www.ucl.ac.uk/bartlett/construction/) at [University College London](https://www.ucl.ac.uk/). My research interests include social networks, organizational design, strategy and organisational behaviour.
 
-Before joining UCL, I was a research associate at Imperial Business Analytics, part of Imperial College Business School.
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-sm-4}
+
+```{=html}
+<div class="grid" style="--bs-columns: 5; row-gap: 0;">
+  <div class="g-col-1 g-col-sm-0"></div>
+  <div class="g-col-3 g-col-sm-5">
+    <picture>
+      <!-- <source media="(max-width: 576px)" srcset="{{< meta main-photo >}}"> -->
+      <source media="(min-width: 576px)" srcset="{{< meta main-photo >}}">
+      <img class="img-fluid" src="{{< meta main-photo >}}" alt="{{< meta author-meta >}}">
+    </picture>
+  </div>
+  <div class="g-col-1 g-col-sm-0"></div>
+</div>
+```
+
+:::
+
+::: {.g-col-12 .g-col-sm-8}
+
+
+I am an associate professor in management at the [Bartlett School of Sustainable Construction](https://www.ucl.ac.uk/bartlett/construction/) at [University College London](https://www.ucl.ac.uk/). My research interests include social networks, organizational design, strategy, and organisational behaviour.
+
+Before joining UCL, I was a research associate at Imperial Business Analytics, part of the [Imperial Data Science Institute](https://www.imperial.ac.uk/data-science/) and [Imperial College Business School](https://www.imperial.ac.uk/business-school/).
+
+I received a PhD in Sociology from the [Université Paris Nanterre](https://www.parisnanterre.fr) in 2010.
+
+I study 
+
+I teach courses on organizational design, data analytics, and social network analysis.
+
+
+:::
+
+:::
