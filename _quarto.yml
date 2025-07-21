@@ -3,6 +3,7 @@ project:
 
 
 
+
 # Metadata stuff
 pagetitle: "{{< meta title >}} | Antoine Vernet"
 author-meta: "Antoine Vernet"
@@ -11,7 +12,7 @@ author-meta: "Antoine Vernet"
 website:
   title: "Antoine Vernet"
   description: "Antoine Vernet is an associate professor at the Bartlett School of Sustainable Construction at UCL, researching organizational design and ."
-  # favicon: "/files/favicon-512.png"
+  # favicon: "/files/"
   # site-url: "https://www.antoinevernet.com"
  # repo-url: "https://github.com/antoinevernet/website_pro"
 
@@ -29,7 +30,35 @@ website:
         text: Teaching
       - href: blog/index.qmd
         text: Blog
-        
+
+
+    right:
+      # - text: "{{< iconify bi rss size=1.1em title='RSS' >}}"
+      #   href: atom.xml
+      - href: "mailto:a.vernet@ucl.ac.uk"
+        icon: bi-envelope
+      # - text: "{{< iconify fa6-brands bluesky size=1.1em title='Bluesky' >}}"
+      #   href: https://bsky.app/profile/antoinevernet.bsky.social
+      - text: '{{< fa brands bluesky size=sm >}}' 
+        href: https://bsky.app/profile/antoinevernet.bsky.social
+
+      - icon: youtube
+        href: https://www.youtube.com/@antoinevernet
+        rel: me
+      - icon: github
+        href: https://github.com/antoinevernet
+      - icon: linkedin
+        href: https://www.linkedin.com/in/antoine-vernet-6ba2462/
+     
+      
+page-footer:
+    left: |    
+    center: |
+      <span class="faux-block">{{< fa brands orcid >}} <strong>ORCID</strong> [{{< var orcid >}}](https://orcid.org/{{< var orcid >}})</span>
+    right: |
+      <span class="faux-block">Made with {{< fa brands r-project >}} and [Quarto](https://quarto.org/)</span>
+      <span class="faux-block">[View the source at {{< fa brands github >}} GitHub]({{< var github-url >}})</span>
+
 
 format:
   html:
@@ -38,6 +67,7 @@ format:
       - brand
     css: styles.css
     toc: true
+    icons: iconify
 
 
 
