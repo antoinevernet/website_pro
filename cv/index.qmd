@@ -1,0 +1,9 @@
+---
+title: "Curriculum Vitae"
+pagetitle: "Antoine Vernet's CV"
+description-meta: "Antoine Vernet's Curriculum Vitae"
+
+
+---
+
+
