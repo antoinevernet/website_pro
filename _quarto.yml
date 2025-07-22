@@ -19,6 +19,8 @@ website:
   # google-analytics:
 
   navbar:
+    pinned: true
+
     left:
       - href: index.qmd
         text: About
@@ -30,6 +32,8 @@ website:
         text: Teaching
       - href: blog/index.qmd
         text: Blog
+      # - href: games/index.qmd
+      #   text: Games
 
 
     right:
@@ -51,12 +55,14 @@ website:
         href: https://www.linkedin.com/in/antoine-vernet-6ba2462/
      
       
-page-footer:
-    left: |    
+  page-footer:
+    left: |
+      <span class="faux-block">{{< fa copyright >}} {{< var years >}} Antoine Vernet</span>
     center: |
       <span class="faux-block">{{< fa brands orcid >}} <strong>ORCID</strong> [{{< var orcid >}}](https://orcid.org/{{< var orcid >}})</span>
     right: |
       <span class="faux-block">Made with {{< fa brands r-project >}} and [Quarto](https://quarto.org/)</span>
+
       <span class="faux-block">[View the source at {{< fa brands github >}} GitHub]({{< var github-url >}})</span>
 
 
@@ -65,6 +71,9 @@ format:
     theme:
       - cosmo
       - brand
+    fontsize: 0.9em
+    grid: 
+      body-width: 900px
     css: styles.css
     toc: true
     icons: iconify

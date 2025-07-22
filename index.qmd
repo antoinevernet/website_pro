@@ -37,7 +37,9 @@ Before joining UCL, I was a research associate at Imperial Business Analytics, p
 
 I received a PhD in Sociology from the [Université Paris Nanterre](https://www.parisnanterre.fr) in 2010.
 
-I study 
+I study the interplay betwween the formal and informal structures of organizations, and how these structures affect individual and organizational outcomes. My current focus includes the impact of hybrid working on collaboration and knowledge sharing, the role of network structures in innovation, and the dynamics of organizational change, and the mapping of organizational knowledge.
+
+I also have an interest in the use of data analytics and computational methods to study organizations, including the analysis of large-scale social networks, text mining, and machine learning techniques. 
 
 I teach courses on organizational design, data analytics, and social network analysis.
 
