@@ -2,4 +2,5 @@
 title: "Blog"
 pagetitle: "Blog"
 description-meta: ""
+title-block-banner: "#003249"
 ---

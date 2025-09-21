@@ -2,5 +2,6 @@
 title: "Teaching"
 pagetitle: "Teaching"
 description-meta: ""
+title-block-banner: "#003249"
 ---
 

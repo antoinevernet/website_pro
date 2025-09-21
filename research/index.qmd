@@ -31,8 +31,10 @@ include-back-link: false
 toc-location: right
 ---
 
-My research...
-I also research 
+My research focuses on the intersection between formal organizational structures and informal social networks within organizations. 
+I also do research on project management, specifically on project estimations and the role of cognitive biases in estimation processes.
+
+
 
 
 ## Journal articles

@@ -5,7 +5,7 @@ description-meta: "Antoine Vernet's Curriculum Vitae"
 engine: knitr
 cv:
   pdf: "antoine-vernet-cv.pdf"
-
+title-block-banner: "#003249"
 ---
 
 
