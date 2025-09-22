@@ -39,6 +39,7 @@ doi: 10.1177/08912432221128548
 #   - Raw model results?
 #   - Stop! Hard to understand! Use
 #   - "{marginaleffects}."
+
 ---
 
 ## Important links

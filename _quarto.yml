@@ -71,10 +71,11 @@ format:
     theme:
       - cosmo
       - brand
+      - html/ath.scss
     fontsize: 0.9em
     grid: 
       body-width: 900px
-    css: styles.css
+    # css: styles.css
     toc: true
     icons: iconify
 
