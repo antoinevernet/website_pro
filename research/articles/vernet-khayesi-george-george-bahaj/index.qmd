@@ -1,0 +1,87 @@
+---
+title: "How does energy matter? Rural electrification, entrepreneurship, and community development in Kenya"
+date: 2019-03-01
+author:
+  - name: Antoine Vernet
+    url: https://antoinevernet.com
+    orcid: 0000-0002-7546-9829
+    affiliation: University College London
+  - name: Jane O. Khayesi
+    url: https://business.leeds.ac.uk/faculty/staff/1114/dr-jane-khayesi
+    orcid: 0000-0002-1057-2294
+    affiliation: University of Leeds
+categories:
+  - energy
+  - solar
+  - entrepreneurship
+  - inequality
+  - gender
+pub-info:
+  reference: >-
+    <strong>Antoine Vernet</strong>, Jane N.O. Khayesi, Vivian George, Gerard George, and Abubakar S. Bahaj, "How does energy matter? Rural electrification, entrepreneurship, and community development in Kenya," <em>Energy Policy</em> (2019), doi: <a href="https://doi.org/10.1016/j.enpol.2018.11.012"><code>10.1016/j.enpol.2018.11.012/</code></a>
+  links:
+    - name: Preprint
+      url: https://discovery.ucl.ac.uk/id/eprint/10062104/1/How_does_energy_matter_Energy_Policy.pdf
+      icon: fa-solid fa-file-pdf
+      local: true
+    - name: Final version
+      url: https://doi.org/10.1016/j.enpol.2018.11.012
+      icon: fa-solid fa-scroll
+#    - name: Code
+#      url: 
+#      icon: fa-brands fa-github
+    - name: Add to Zotero
+      url: https://www.zotero.org/save?type=doi&q=10.1016/j.enpol.2018.11.012
+      icon: ai ai-zotero
+doi: 10.1016/j.enpol.2018.11.012
+# haiku:
+#   - sdfsdgf
+#   - fsfgfs
+#   - fgdfg
+
+---
+
+## Important links
+
+<!-- - [Paper (preprint)](https://discovery.ucl.ac.uk/id/eprint/10157025/3/Vernet_GnS%20Manuscript_RnR2_210622_cut.pdf) -->
+<!-- - [GitHub repository](https://github.com/) -->
+
+
+## Abstract
+
+We examine the impact of rural electrification on individuals and businesses within a community in order to test a resource-based theory of entrepreneurship. 
+We show that access to electricity increases average households’ income and entrepreneurial activities. 
+The impact of electricity on entrepreneurial activity has wide-ranging implications for development policy in countries where access to electricity is sparse. 
+Results show a significant difference in entrepreneurial opportunities with respect to firm formation, with the electrified site reporting more new micro-enterprises (33) than the control site (20) after implementation. 
+Electrification affects both households’ income, individuals’ perceptions of their social position, and opportunities for business development. 
+Individuals’ future expectations and entrepreneurial activities are enhanced in the community that receives electricity. 
+We also find evidence that women-led households benefit from electrification more than men-led ones, but this benefit does not eliminate the difference in income between women and men-led household. 
+We discuss implications of the study for entrepreneurship and community social development interventions.
+
+<!--
+## Important figures
+
+![Figure 2: fff](fdd.png)
+
+![Figure 4: ffff](fdd.png)
+
+-->
+
+## Citation
+
+<p class="buttons" style="text-align:center;">
+<a class="btn btn-danger" target="_blank" href="https://www.zotero.org/save?type=doi&q=10.1016/j.enpol.2018.11.012">{{< ai zotero >}}&emsp;Add to Zotero {{< fa square-arrow-up-right >}}</a>
+</p>
+
+```bibtex
+@article{vernetetal2019,
+title = {How does energy matter? Rural electrification, entrepreneurship, and community development in Kenya},
+author = {Antoine Vernet and Jane N.O. Khayesi and Vivian George and Gerard George and Abubakar S. Bahaj},
+journal = {Energy Policy},
+volume = {126},
+pages = {88-98},
+year = {2019},
+issn = {0301-4215},
+doi = {https://doi.org/10.1016/j.enpol.2018.11.012}}
+```
+
