@@ -1,0 +1,98 @@
+---
+title: "Variations in the Adoption of Healthcare Innovation? A Literature Review"
+date: 2019-04-19
+author:
+  - name: Marisa Miraldo
+    url: https://profiles.imperial.ac.uk/m.miraldo
+    orcid: 0000-0002-5772-7740
+    affiliation: Imperial College London
+  - name: Katharina Hauck
+    url: https://profiles.imperial.ac.uk/k.hauck
+    orcid: 0000-0003-3138-4169
+    affiliation: Imperial College London
+  - name: Antoine Vernet
+    url: https://antoinevernet.com
+    orcid: 0000-0002-7546-9829
+    affiliation: University College London
+  - name: Ana Wheelock
+    url: 
+    orcid: 0000-0003-0855-7252
+    affiliation: Imperial College London
+categories:
+  - innovation
+  - healthcare
+pub-info:
+  reference: >-
+    Marisa Miraldo, Katharina Hauck, <strong>Antoine Vernet</strong>, and Ana Wheelock, "Variations in the Adoption of Healthcare Innovation? A Literature Review," <em>Oxford Research Encyclopedia of Economics and Finance</em> (2019), doi: <a href="https://doi.org/10.1093/acrefore/9780190625979.013.76"><code>10.1093/acrefore/9780190625979.013.76</code></a>
+  links:
+    - name: Preprint
+      url: https://discovery.ucl.ac.uk/id/eprint/10073766/1/acrefore-9780190625979-e-76.pdf
+      icon: fa-solid fa-file-pdf
+      local: true
+    - name: Final version
+      url: https://doi.org/10.1093/acrefore/9780190625979.013.76
+      icon: fa-solid fa-scroll
+#    - name: Code
+#      url: https://github.com/vincentarelbundock/mfxplainer
+#      icon: fa-brands fa-github
+    - name: Add to Zotero
+      url: https://www.zotero.org/save?type=doi&q=10.1093/acrefore/9780190625979.013.76
+      icon: ai ai-zotero
+doi: 10.1093/acrefore/9780190625979.013.76
+# haiku:
+#   - Raw model results?
+#   - Stop! Hard to understand! Use
+#   - "{marginaleffects}."
+---
+
+## Important links
+
+- [Paper (preprint)](https://discovery.ucl.ac.uk/id/eprint/10157025/3/Vernet_GnS%20Manuscript_RnR2_210622_cut.pdf)
+<!-- - [GitHub repository](https://github.com/vincentarelbundock/mfxplainer) -->
+
+
+## Abstract
+
+Major medical innovations have greatly increased the efficacy of treatments, improved patient outcomes, and often reduced the cost of medical care. 
+However, innovations do not diffuse uniformly across and within health systems. 
+Due to the high complexity of medical treatment decisions, variations in clinical practice are inherent to healthcare delivery, regardless of technological advances, new ways of working, funding, and burden of disease. 
+In this chapter we conduct a narrative literature review to identify and discuss peer-reviewed articles presenting a theoretical framework or empirical evidence of the factors associated with the adoption of innovation and clinical practice.
+We find that variation in innovation adoption and medical practice is associated with multiple factors. 
+First, patients’ characteristics, including medical needs and genetic factors, can crucially affect clinical outcomes and the efficacy of treatments. Moreover,
+differences in patients’ preferences can be an important source of variation. 
+Medical treatments may need to take such patient characteristics into account if they are to deliver optimal outcomes, and consequently, resulting practice variations should be considered warranted and in the best interests of patients. 
+However, socioeconomic or demographic characteristics, such as ethnicity, income, or gender are often not considered legitimate grounds for differential treatment. 
+Second, physician characteristics—such as socioeconomic profile, training, and work-related characteristics---are equally an influential component of practice variation. 
+In particular, so-called “practice style” and physicians’ attitudes toward risk and innovation adoption are considered a major source of practice variation, but have proven difficult to investigate empirically. 
+Lastly, features of healthcare systems—notably, public coverage of healthcare expenditure, cost-based reimbursement of providers, and service-delivery organization,
+are generally associated with higher utilization rates and adoption of innovation.
+Research shows some successful strategies aimed at reducing variation in medical decision-making, such as the use of decision aids, data feedback, benchmarking, clinical practice guidelines, blinded report cards, and pay for performance. 
+But despite these advances, there is uneven diffusion of new technologies and procedures, with potentially severe adverse efficiency and equity implications.
+
+<!--
+## Important figures
+
+![Figure 2: Predicted probability of impartiality by levels of equality and democracy](mfxplainer-fig2.png)
+
+![Figure 4: Tangents to the prediction function at 25 and 50](mfxplainer-fig4.png)
+
+-->
+
+## Citation
+
+<p class="buttons" style="text-align:center;">
+<a class="btn btn-danger" target="_blank" href="https://www.zotero.org/save?type=doi&q=10.1093/acrefore/9780190625979.013.76">{{< ai zotero >}}&emsp;Add to Zotero {{< fa square-arrow-up-right >}}</a>
+</p>
+
+```bibtex
+@inbook{miraldoetal2019
+   author = {Miraldo, Marisa and Hauck, Katharina and Vernet, Antoine and Wheelock, Ana},
+   title = {Variations in the Adoption of Healthcare Innovation: A Literature Review},
+   booktitle = {Oxford Research Encyclopedia of Economics and Finance},
+   ISBN = {9780190625979},
+   DOI = {10.1093/acrefore/9780190625979.013.76},
+   year = {2019},
+   type = {Book Section}
+}
+```
+

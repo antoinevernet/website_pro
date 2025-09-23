@@ -18,7 +18,7 @@ listing:
     contents: "reviews/*/index.qmd"
     sort: "date desc"
     template: ../html/research/listing.ejs
-  - id: abandonned-working-papers
+  - id: abandonned
     contents: "abandonned/*/index.qmd"
     sort: "date desc"
     template: ../html/research/listing.ejs
