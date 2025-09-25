@@ -10,6 +10,18 @@ author:
     url: https://business.leeds.ac.uk/faculty/staff/1114/dr-jane-khayesi
     orcid: 0000-0002-1057-2294
     affiliation: University of Leeds
+  - name: George
+    url: 
+    orcid: 
+    affiliation: 
+  - name: George
+    url: 
+    orcid: 
+    affiliation: 
+  - name: Bahaj
+    url: 
+    orcid: 
+    affiliation:  
 categories:
   - energy
   - solar
