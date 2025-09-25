@@ -1,0 +1,79 @@
+---
+title: "Examining the generalizability of research findings from archival data"
+date: 2022-07-19
+author:
+  - name: Andrew Delios
+    url: 
+    orcid: 
+    affiliation: 
+  - name: 
+    url: 
+    orcid: 
+    affiliation: 
+  - name: Antoine Vernet
+    url: https://antoinevernet.com
+    orcid: 0000-0002-7546-9829
+    affiliation: University College London
+  - name: Eric Luis Uhlmann
+    url: 
+    orcid: 
+    affiliation: 
+categories:
+  - methodology
+  - generalizability
+  - reproducibility
+pub-info:
+  reference: >-
+    Andrew Delios, Elena Giulia Clemente, Tao Wu, Hongbin Tan, Yong Wang, Michael Gordonf, Domenico Viganola, Zhaowei Chen, Anna Dreber, Magnus Johannesson, Thomas Pfeiffer, <strong>Generalizability Tests Forecasting Collaboration</strong>, and Eric Luis Uhlmann, "Examining the generalizability of research findings from archival data," <em>PNAS</em> (2022), doi: <a href="https://doi.org/10.1073/pnas.2120377119"><code>10.1073/pnas.2120377119/</code></a>
+  links:
+    - name: Final version
+      url: https://doi.org/10.1073/pnas.2120377119
+      icon: fa-solid fa-scroll
+#    - name: Code
+#      url: https://github.com/vincentarelbundock/mfxplainer
+#      icon: fa-brands fa-github
+    - name: Add to Zotero
+      url: https://www.zotero.org/save?type=doi&q=10.1073/pnas.2120377119
+      icon: ai ai-zotero
+doi: 10.1073/pnas.2120377119
+# haiku:
+#   - sdfsdgf
+#   - fsfgfs
+#   - fgdfg
+
+---
+
+## Important links
+
+<!-- - [Paper (preprint)](https://discovery.ucl.ac.uk/id/eprint/10157025/3/Vernet_GnS%20Manuscript_RnR2_210622_cut.pdf) -->
+<!-- - [GitHub repository](https://github.com/vincentarelbundock/mfxplainer) -->
+
+
+## Abstract
+
+This initiative examined systematically the extent to which a large set of archival research findings generalizes across contexts.
+We repeated the key analyses for 29 original strategic management effects in the same context (direct reproduction) as well as in 52 novel time periods and geographies; 45% of the reproductions returned results matching the original reports together with 55% of tests in different spans of years and 40% of tests in novel geographies.
+Some original findings were associated with multiple new tests.
+Reproducibility was the best predictor of generalizability---for the findings that proved directly reproducible, 84% emerged in other available time periods and 57% emerged in other geographies.
+Overall, only limited empirical evidence emerged for context sensitivity.
+In a forecasting survey, independent scientists were able to anticipate which effects would find support in tests in new samples.
+
+
+## Citation
+
+<p class="buttons" style="text-align:center;">
+<a class="btn btn-danger" target="_blank" href="https://www.zotero.org/save?type=doi&q=10.1073/pnas.2120377119">{{< ai zotero >}}&emsp;Add to Zotero {{< fa square-arrow-up-right >}}</a>
+</p>
+
+```bibtex
+@article{deliosetal2022,
+   author = {Delios, A. and Clemente, E. G. and Wu, T. and Tan, H. and Wang, Y. and Gordon, M. and Viganola, D. and Chen, Z. and Dreber, A. and Johannesson, M. and Pfeiffer, T. and Generalizability Tests Forecasting, Collaboration and Uhlmann, E. L.},
+   title = {Examining the generalizability of research findings from archival data},
+   journal = {Proceedings of the National Academy of Science U S A},
+   volume = {119},
+   number = {30},
+   pages = {e2120377119},
+   year = {2022},
+   doi = {10.1073/pnas.2120377119}}
+```
+
