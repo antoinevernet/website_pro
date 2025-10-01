@@ -1,0 +1,80 @@
+---
+title: "Adoption readiness in service innovation: the case of digital money"
+date: 2019-03-01
+author:
+  - name: Llewellyn Thomas
+    url: https://www.sydney.edu.au/business/about/our-people/academic-staff/llewellyn-thomas.html
+    orcid: 0000-0002-2090-0490
+    affiliation: The University of Sydney
+  - name: Antoine Vernet
+    url: https://antoinevernet.com
+    orcid: 0000-0002-7546-9829
+    affiliation: University College London
+  - name: David Gann
+    url: https://profiles.imperial.ac.uk/d.gann
+    orcid: 0000-0002-8245-3948
+    affiliation: Imperial College London
+categories:
+  - money
+  - digital money
+  - innovation
+pub-info:
+  reference: >-
+    Llewellyn Thomas, <strong>Antoine Vernet</strong>, and David Gann, "Adoption readiness in service innovation: the case of digital money," <em>Industry and Innovation</em> (2016), doi: <a href="https://doi.org/10.1080/13662716.2016.1156519"><code>10.1080/13662716.2016.1156519/</code></a>
+  links:
+    # - name: Preprint
+    #   url: https://discovery.ucl.ac.uk/id/eprint/10062104/1/How_does_energy_matter_Energy_Policy.pdf
+    #   icon: fa-solid fa-file-pdf
+    #   local: true
+    - name: Final version
+      url: https://doi.org/10.1080/13662716.2016.1156519
+      icon: fa-solid fa-scroll
+#    - name: Code
+#      url: 
+#      icon: fa-brands fa-github
+    - name: Add to Zotero
+      url: https://www.zotero.org/save?type=doi&q=10.1080/13662716.2016.1156519
+      icon: ai ai-zotero
+doi: 10.1080/13662716.2016.1156519
+# haiku:
+#   - sdfsdgf
+#   - fsfgfs
+#   - fgdfg
+
+---
+
+
+
+## Abstract
+
+One challenge for firms seeking to develop new services is to understand the conditions likely to affect the rates of adoption. 
+Understanding relative degrees of ‘adoption readiness’ provides innovators with information to choose market segments and indicates opportunities to influence adoption environments. 
+However, there is a little research into the adoption readiness of countries upon which firms can base their new service development decisions. 
+This paper considers these issues through the case of digital money, a service innovation some claim to have the potential to provide major economic and social benefits. 
+Defined as ‘currency exchange by electronic means’, we conceptualise digital money as a socio-technical system, and propose a Digital Money Readiness Index. 
+This composite index integrates institutional, financial, technological, economic, industrial and social attributes to measure adoption readiness. 
+We identify four stages of readiness and systematically analyse the factors that drive under or over adoption of digital money technologies.
+
+
+
+## Citation
+
+<p class="buttons" style="text-align:center;">
+<a class="btn btn-danger" target="_blank" href="https://www.zotero.org/save?type=doi&q=10.1080/13662716.2016.1156519">{{< ai zotero >}}&emsp;Add to Zotero {{< fa square-arrow-up-right >}}</a>
+</p>
+
+```bibtex
+@article{thomasetal2016,
+   author = {Thomas, Llewellyn D. W. and Vernet, Antoine and Gann, David M.},
+   title = {Adoption readiness in service innovation: the case of digital money},
+   journal = {Industry and Innovation},
+   volume = {23},
+   number = {4},
+   pages = {353-381},
+   ISSN = {1366-2716
+1469-8390},
+   DOI = {10.1080/13662716.2016.1156519},
+   year = {2016},
+   type = {Journal Article}}
+```
+
