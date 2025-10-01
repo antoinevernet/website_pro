@@ -1,0 +1,71 @@
+---
+title: "Variations in the Adoption of Healthcare Innovation? A Literature Review"
+date: 2019-04-19
+author:
+  - name: Antoine Vernet
+    url: https://antoinevernet.com
+    orcid: 0000-0002-7546-9829
+    affiliation: University College London
+  - name: Martin Kilduff
+    url: https://www.mgmt.ucl.ac.uk/people/martinkilduff
+    orcid: 0000-0003-4004-8749
+    affiliation: University College London
+  - name: Ammon Salter
+    url: https://www.wbs.ac.uk/about/person/ammon-salter/
+    orcid: 0000-0003-2065-1268
+    affiliation: University of Warwick
+categories:
+  - networks
+  - bipartite
+  - 2-mode
+  - methodology
+pub-info:
+  reference: >-
+     <strong>Antoine Vernet</strong>, Martin Kilduff, and Ammon Salter, "The Two-Pipe Problem: Analysing and Theorizing about 2-Mode Networks," <em>Research in the Sociology of Organizations</em> (2014), doi: <a href="https://doi.org/10.1108/S0733-558X(2014)0000040017"><code>10.1108/S0733-558X(2014)0000040017</code></a>
+  links:
+    - name: Final version
+      url: https://doi.org/10.1093/acrefore/9780190625979.013.76
+      icon: fa-solid fa-scroll
+#    - name: Code
+#      url: https://github.com/
+#      icon: fa-brands fa-github
+    - name: Add to Zotero
+      url: https://www.zotero.org/save?type=doi&q=10.1108/S0733-558X(2014)0000040017
+      icon: ai ai-zotero
+doi: 10.1108/S0733-558X(2014)0000040017
+# haiku:
+#   - Raw model results?
+#   - Stop! Hard to understand! Use
+#   - "{marginaleffects}."
+---
+
+
+## Abstract
+
+Bipartite networks (e.g., software developers linked to open-source projects) are common in settings studied by organization scholars. 
+But the structure underlying bipartite networks tends to be overlooked. 
+Commonly, two modes are reduced to one mode for analysis, causing loss of information. 
+We review techniques for projecting 2-modes onto 1-mode and discuss 2-mode measures of clustering. 
+We also address the potential for 2-mode theory development concerning (a) how change in one mode influences change in the other, (b) the question of two types of agency, and (c) how diversity in one mode is a substitute for diversity in the other mode.
+
+
+## Citation
+
+<p class="buttons" style="text-align:center;">
+<a class="btn btn-danger" target="_blank" href="https://www.zotero.org/save?type=doi&q=10.1108/S0733-558X(2014)0000040017">{{< ai zotero >}}&emsp;Add to Zotero {{< fa square-arrow-up-right >}}</a>
+</p>
+
+```bibtex
+@inbook{VernetKilduffSalter2014
+author = {Vernet, Antoine and Kilduff, Martin and Salter, Ammon},
+   title = {The Two-Pipe Problem: Analysing and Theorizing about 2-Mode Networks},
+   booktitle = {Contemporary Perspectives on Organizational Social Networks},
+   series = {Research in the Sociology of Organizations},
+   pages = {337-354},
+   ISBN = {978-1-78350-751-1
+978-1-78350-752-8},
+   DOI = {10.1108/s0733-558x(2014)0000040017},
+   year = {2014},
+   type = {Book Section}
+}
+```
