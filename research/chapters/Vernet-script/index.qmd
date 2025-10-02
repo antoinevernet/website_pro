@@ -1,19 +1,11 @@
 ---
-title: "The Two-Pipe Problem: Analysing and Theorizing about 2-Mode Networks"
-date: 2014-04-01
+title: "Transformer le script en image : la lumière au cinéma"
+date: 2013-04-01
 author:
   - name: Antoine Vernet
     url: https://antoinevernet.com
     orcid: 0000-0002-7546-9829
     affiliation: University College London
-  - name: Martin Kilduff
-    url: https://www.mgmt.ucl.ac.uk/people/martinkilduff
-    orcid: 0000-0003-4004-8749
-    affiliation: University College London
-  - name: Ammon Salter
-    url: https://www.wbs.ac.uk/about/person/ammon-salter/
-    orcid: 0000-0003-2065-1268
-    affiliation: University of Warwick
 categories:
   - networks
   - bipartite
@@ -21,7 +13,7 @@ categories:
   - methodology
 pub-info:
   reference: >-
-     <strong>Antoine Vernet</strong>, Martin Kilduff, and Ammon Salter, "The Two-Pipe Problem: Analysing and Theorizing about 2-Mode Networks," <em>Research in the Sociology of Organizations</em> (2014), doi: <a href="https://doi.org/10.1108/S0733-558X(2014)0000040017"><code>10.1108/S0733-558X(2014)0000040017</code></a>
+     <strong>Antoine Vernet</strong>, "Transformer le script en image : la lumière au cinéma (Turning the screenplay into images: light in cinema)," in <em>Le cinéma. Travail et organisation</em> (2013), doi: <a href="https://doi.org/10.1108/S0733-558X(2014)0000040017"><code>10.1108/S0733-558X(2014)0000040017</code></a>
   links:
     - name: Final version
       url: https://doi.org/10.1093/acrefore/9780190625979.013.76
