@@ -2,5 +2,33 @@
 title: "Blog"
 pagetitle: "Blog"
 description-meta: ""
+page-layout: full
+toc-title: Year
+toc-location: right
+date-format: "D MMMM, YYYY"
+code-tools: false
+comments: false
+engine: knitr
+freeze: false
 title-block-banner: "#003249"
+listing:
+  - id: posts_2025
+    contents: "2025/**/index.qmd"
+    sort: "date desc"
+    template: ../html/blog/listing.ejs
+    categories: true
+  - id: posts_2024
+    contents: "2024/**/index.qmd"
+    sort: "date desc"
 ---
+
+
+## 2025
+
+:::{#posts_2025}
+:::
+
+## 2024
+
+:::{#posts_2024}
+:::
