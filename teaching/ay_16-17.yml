@@ -1,0 +1,32 @@
+
+- title: Mathematics and Statistics Foundations using R
+  description: "Learn concepts of probability, statistics and linear algebra. Summarise and analyse data using statistical concepts and understand linear algebra to represent and manipulate data. This module also serves as an introduction to R."
+  university: Imperial College London
+  number: 
+  url: 
+  logo: 
+  semester:
+  - name: Term 1
+    url:
+
+
+- title: Managing Innovation (BPES) (Undergraduate)
+  description: "An introduction to innovation management."
+  university: Imperial College London
+  number: 
+  url: 
+  logo: 
+  semester:
+  - name: Term 2
+    url:
+
+
+- title: Innovation Economics
+  description: "Learn about economics concept to understand innovation."
+  university: EPFL (École Polytechnique Fédérale de Lausanne)
+  number: 
+  url: 
+  logo: 
+  semester:
+  - name: Term 2
+    url:

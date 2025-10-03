@@ -31,10 +31,24 @@ listing:
     contents: ay_19-20.yml
     sort: "date desc"
     template: ../html/teaching/listing.ejs
-  - id: ay_17-19
-    contents: 
-      - ay_18-19.yml
-      - ay_17-18.yml
+  - id: ay_18-19
+    contents: ay_18-19.yml
+    sort: "date desc"
+    template: ../html/teaching/listing.ejs
+  - id: ay_17-18
+    contents: ay_17-18.yml
+    sort: "date desc"
+    template: ../html/teaching/listing.ejs
+  - id: ay_16-17
+    contents: ay_16-17.yml
+    sort: "date desc"
+    template: ../html/teaching/listing.ejs
+  - id: ay_15-16
+    contents: ay_15-16.yml
+    sort: "date desc"
+    template: ../html/teaching/listing.ejs
+  - id: ay_14-15
+    contents: ay_14-15.yml
     sort: "date desc"
     template: ../html/teaching/listing.ejs
   - id: ay_older
@@ -84,7 +98,31 @@ toc-title: Academic year
 :::{#ay_19-20}
 :::
 
-## 2017–19
 
-:::{#ay_17-19}
+## 2018–19
+
+:::{#ay_18-19}
+:::
+
+
+## 2017–18
+
+:::{#ay_17-18}
+:::
+
+
+## 2016–17
+
+:::{#ay_16-17}
+:::
+
+
+## 2015–16
+
+:::{#ay_15-16}
+:::
+
+## 2014–15
+
+:::{#ay_14-15}
 :::
