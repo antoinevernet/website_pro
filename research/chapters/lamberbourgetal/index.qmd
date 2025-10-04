@@ -1,5 +1,5 @@
 ---
-title: "Transformer le script en image : la lumière au cinéma"
+title: "La constitution des équipes techniques"
 date: 2013-04-01
 author:
   - name: Antoine Vernet
@@ -10,11 +10,11 @@ categories:
   - labour sociology
   - film industry
   - labour market
-
 pub-info:
   reference: >-
-     <strong>Antoine Vernet</strong>, "Transformer le script en image : la lumière au cinéma (Turning the screenplay into images: light in cinema)," in <em>Le cinéma. Travail et organisation</em> (2013), ed. Gwenaëlle Rot and Laure de Verdalle, La Dispute.
+      Adeline Lamberbourg, Gwenaële Rot, Laure de Verdalle, <strong>Antoine Vernet</strong>, "La constitution des équipes techniques (Making the technical team)," in <em>Le cinéma. Travail et organisation</em> (2013), ed. Gwenaëlle Rot and Laure de Verdalle, La Dispute.
 ---
+
 
 
 ## Citation
@@ -22,8 +22,8 @@ pub-info:
 
 ```bibtex
 @inbook{Vernet2013
-author = {Vernet, Antoine},
-   title = {Transformer le script en image : la lumière au cinéma},
+author = {Lamberbourg, Adeline and Rot, Gwenaële and de Verdalle, Laure and Vernet, Antoine},
+   title = {La constitution des équipes techniques},
    booktitle = {Le cinéma. Travail et organisation},
    editor = {Rot, Gwenaëlle and de Verdalle, Laure},
    pages = {},

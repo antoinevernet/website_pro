@@ -1,6 +1,6 @@
 ---
-title: "Transformer le script en image : la lumière au cinéma"
-date: 2013-04-01
+title: "Les mesures de l’employabilité"
+date: 2009-01-01
 author:
   - name: Antoine Vernet
     url: https://antoinevernet.com
@@ -10,10 +10,9 @@ categories:
   - labour sociology
   - film industry
   - labour market
-
 pub-info:
   reference: >-
-     <strong>Antoine Vernet</strong>, "Transformer le script en image : la lumière au cinéma (Turning the screenplay into images: light in cinema)," in <em>Le cinéma. Travail et organisation</em> (2013), ed. Gwenaëlle Rot and Laure de Verdalle, La Dispute.
+     Delphine Remillon, <strong>Antoine Vernet</strong>, "Les mesures de l’employabilité," in <em>Évaluer et Valoriser</em> (2013), ed. François Vatin, Presses Universitaires de Toulouse.
 ---
 
 
@@ -21,8 +20,8 @@ pub-info:
 
 
 ```bibtex
-@inbook{Vernet2013
-author = {Vernet, Antoine},
+@inbook{remillonvernet2009
+author = {Remillon, Delphine and Vernet, Antoine},
    title = {Transformer le script en image : la lumière au cinéma},
    booktitle = {Le cinéma. Travail et organisation},
    editor = {Rot, Gwenaëlle and de Verdalle, Laure},

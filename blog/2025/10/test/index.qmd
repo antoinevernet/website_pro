@@ -1,7 +1,7 @@
 ---
-title: "Test 2025"
-date: 2025-10-03
-description: "Test"
+title: "Auto-correlation and dual y axes: the 8th circle of hell"
+date: 2025-10-06
+description: "In which I spend some time thinking about why dual y axes are bad, and throws in some thoughts about time series auto-correlation."
 image: ""
 twitter-card:
   image: ""
@@ -9,18 +9,26 @@ open-graph:
   image: ""
 categories:
   - r
-  - tidyverse
-  - quarto
+  - shiny
+  - auto-correlation
+  - dual y axes
 resources:
   - "img/*"
 doi: ""
 citation: true
 ---
 
-::: {.callout-important}
+::: callout-important
 ## Complete tutorial and code
 
 What what
 :::
 
-This is a little test
+## Introduction
+
+Why should you care about dual y axes?
+
+Maybe use the data in the `TSstudio` package: coffee price, euro brent, etc.
+
+Also `timeSeriesDatasets`
+
