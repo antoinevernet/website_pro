@@ -3,7 +3,7 @@
   university: University College London
   number: BCPM0040
   url: 
-  logo: 
+  logo: logos/logo_teaching_ucl.png
   semester:
   - name: Term 2
     url:
@@ -13,7 +13,7 @@
   university: University College London
   number: BCPM0049
   url: 
-  logo: 
+  logo: logos/logo_teaching_ucl.png
   semester:
   - name: Term 2
     url:
@@ -24,7 +24,7 @@
   university: University College London
   number: 
   url: 
-  logo: 
+  logo: logos/logo_teaching_ucl.png
   semester:
   - name: Term 1
     url:
@@ -35,7 +35,7 @@
   university: University College London
   number: 
   url: 
-  logo: 
+  logo: logos/logo_teaching_ucl.png
   semester:
   - name: Term 1
     url:
@@ -45,7 +45,7 @@
   university: Imperial College London
   number: 
   url: 
-  logo: 
+  logo: logos/logo_teaching_imperial.png
   semester:
   - name: Term 1
     url:

@@ -3,7 +3,7 @@
   university: EPFL (École Polytechnique Fédérale de Lausanne)
   number: 
   url: 
-  logo: 
+  logo: logos/logo_teaching_epfl.png
   semester:
   - name: Term 2
     url:
@@ -13,7 +13,7 @@
   university: Imperial College London
   number: 
   url: 
-  logo: 
+  logo: logos/logo_teaching_imperial.png
   semester:
   - name: Term 2
     url:
@@ -23,7 +23,7 @@
   university: Imperial College London
   number: 
   url: 
-  logo: 
+  logo: logos/logo_teaching_imperial.png
   semester:
   - name: Summer
     url:

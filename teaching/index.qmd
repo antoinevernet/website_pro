@@ -52,7 +52,11 @@ listing:
     sort: "date desc"
     template: ../html/teaching/listing.ejs
   - id: ay_older
-    contents: ay_older.yml
+    contents: 
+      - ay_09-10.yml
+      - ay_08-09.yml
+      - ay_07-08.yml
+      - ay_06-07.yml
     sort: "date desc"
     template: ../html/teaching/listing.ejs
 title-block-banner: "#003249"
@@ -126,3 +130,9 @@ toc-title: Academic year
 
 :::{#ay_14-15}
 :::
+
+## 2013-14 and earlier
+
+:::{#ay_older}
+:::
+

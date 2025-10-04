@@ -527,6 +527,7 @@ pre.text, pre.sourceCode, .cell-output pre {
     .course-entry {
         display: flex;
         flex-direction: row;
+        align-items: center;
         font-family: $headings-font-family;
         line-height: 1.3;
         margin-bottom: 3em;
@@ -540,7 +541,9 @@ pre.text, pre.sourceCode, .cell-output pre {
             flex: 0 0 140px;
 
             img {
+                display: block;
                 width: 100%;
+                height: auto;
             }
         }
 
@@ -548,6 +551,7 @@ pre.text, pre.sourceCode, .cell-output pre {
             font-weight: 500;
             font-size: 1.25em;
             margin-bottom: 0.2em;
+            margin: 0;
         }
         
         .course-details {
@@ -555,12 +559,14 @@ pre.text, pre.sourceCode, .cell-output pre {
             font-size: 0.9em;
             margin-bottom: 0.5em;
             color: $gray-800;
+            margin: 0;
         }
 
         .course-description {
             font-weight: 300;
             font-size: 1.1em;
             margin-bottom: 0.5em;
+            margin: 0;
         }
 
         .course-role {
