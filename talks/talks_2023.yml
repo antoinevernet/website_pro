@@ -1,0 +1,29 @@
+- title: "Yo"
+  date: 2025-07-05
+  description: "thoh"
+  location: 
+  links:
+  - name: Slides
+    url: 
+    icon: fa-solid fa-chalkboard-user
+  - name: GitHub repository
+    url: 
+    icon: fa-brands fa-github
+
+- title: "Blahn"
+  date: 2025-04-09T17:30
+  description: "Bluh bluh"
+  location: 
+  links:
+  - name: Slides
+    url: 
+    icon: fa-solid fa-chalkboard-user
+  - name: Companion site and materials
+    url: 
+    icon: fa-solid fa-up-right-from-square
+  - name: "Bluh"
+    url: 
+    icon: fa-solid fa-up-right-from-square
+  - name: GitHub repository
+    url: 
+    icon: fa-brands fa-github

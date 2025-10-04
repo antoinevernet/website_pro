@@ -9,6 +9,10 @@ listing:
     contents: talks_2024.yml
     sort: "date desc"
     template: ../html/talks/listing.ejs
+  - id: talks_2023
+    contents: talks_2023.yml
+    sort: "date desc"
+    template: ../html/talks/listing.ejs
 title-block-banner: "#FB9E07"
 page-layout: full
 toc: true
@@ -30,3 +34,11 @@ This page contains information and sometimes the source code, links, and slides 
 
 :::{#talks_2024}
 :::
+
+
+## 2023
+
+:::{#talks_2023}
+:::
+
+

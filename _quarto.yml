@@ -1,6 +1,11 @@
 project:
   type: website
 
+  preview: 
+      port: 5555
+      browser: true
+      watch-inputs: true
+      navigate: true
 
 
 
