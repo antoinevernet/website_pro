@@ -1,29 +1,10 @@
-- title: "Yo"
-  date: 2025-07-05
-  description: "thoh"
-  location: 
-  links:
-  - name: Slides
-    url: 
-    icon: fa-solid fa-chalkboard-user
-  - name: GitHub repository
-    url: 
-    icon: fa-brands fa-github
+- title: "Over-Optimism in Estimation: Bias or Error?"
+  date: 2024-06-28
+  description: "Presentation at the EURAM 2024 conference"
+  location: Bath, UK
 
-- title: "Blahn"
-  date: 2025-04-09T17:30
-  description: "Bluh bluh"
-  location: 
-  links:
-  - name: Slides
-    url: 
-    icon: fa-solid fa-chalkboard-user
-  - name: Companion site and materials
-    url: 
-    icon: fa-solid fa-up-right-from-square
-  - name: "Bluh"
-    url: 
-    icon: fa-solid fa-up-right-from-square
-  - name: GitHub repository
-    url: 
-    icon: fa-brands fa-github
+
+- title: "AI in education"
+  date: 2024-05-02
+  description: "Panel discussion at The Future of Teaching and Learning, AI Appications in Project Management and Beyond"
+  location: WU Vienna, Austria
