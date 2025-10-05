@@ -1,7 +1,14 @@
-- title: "For Me or For Us: When Are Return to Brokerage Captured by Organizations?"
-  date: 2025-06-25
-  description: "Presentation at the Sunbelt Conference."
-  location: Paris, France
+- title: "Yo"
+  date: 2025-07-05
+  description: "thoh"
+  location: 
+  links:
+  - name: Slides
+    url: 
+    icon: fa-solid fa-chalkboard-user
+  - name: GitHub repository
+    url: 
+    icon: fa-brands fa-github
 
 - title: "Blahn"
   date: 2025-04-09T17:30
@@ -20,3 +27,4 @@
   - name: GitHub repository
     url: 
     icon: fa-brands fa-github
+    
