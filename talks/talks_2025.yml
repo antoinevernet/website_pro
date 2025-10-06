@@ -3,20 +3,7 @@
   description: "Presentation at the Sunbelt Conference."
   location: Paris, France
 
-- title: "Blahn"
-  date: 2025-04-09T17:30
-  description: "Bluh bluh"
-  location: 
-  links:
-  - name: Slides
-    url: 
-    icon: fa-solid fa-chalkboard-user
-  - name: Companion site and materials
-    url: 
-    icon: fa-solid fa-up-right-from-square
-  - name: "Bluh"
-    url: 
-    icon: fa-solid fa-up-right-from-square
-  - name: GitHub repository
-    url: 
-    icon: fa-brands fa-github
+- title: "Experimenting on the internal and external views in resources and time estimation"
+  date: 2025-07-03
+  description: "Presentation in the Advanced Project Management Research Centre (APROM) seminar"
+  location: Southampton, UK
