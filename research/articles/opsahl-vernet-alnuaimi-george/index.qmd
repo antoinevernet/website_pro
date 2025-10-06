@@ -25,7 +25,7 @@ categories:
   - methodology
 pub-info:
   reference: >-
-    Opsahl, Tore,<strong>Antoine Vernet</strong>, Alnuaimi, Tufool, and George, Gerard, "Revisiting the Small-World Phenomenon: Efficiency Variation and Classification of Small-World Networks," <em>Organizational Research Methods</em> (2017), doi: <a href="https://doi.org/10.1177/1094428116675032"><code>https://doi.org/10.1177/1094428116675032</code></a>
+    Tore Opsahl,<strong>Antoine Vernet</strong>, Tufool Alnuaimi, and Gerard George, "Revisiting the Small-World Phenomenon: Efficiency Variation and Classification of Small-World Networks," <em>Organizational Research Methods</em> (2017), doi: <a href="https://doi.org/10.1177/1094428116675032"><code>https://doi.org/10.1177/1094428116675032</code></a>
   links:
     - name: Preprint
       url: https://discovery.ucl.ac.uk/id/eprint/1569219/1/ORMNetworks.pdf

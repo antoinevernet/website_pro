@@ -1,6 +1,6 @@
 ---
 title: "Adoption readiness in service innovation: the case of digital money"
-date: 2019-03-01
+date: 2016-04-29
 author:
   - name: Llewellyn Thomas
     url: https://www.sydney.edu.au/business/about/our-people/academic-staff/llewellyn-thomas.html

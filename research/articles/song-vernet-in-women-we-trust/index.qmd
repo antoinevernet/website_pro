@@ -19,7 +19,7 @@ categories:
   - gender
 pub-info:
   reference: >-
-    Song, Eun Young, <strong>Antoine Vernet</strong>, and Stephen Pryke, "In Women we Trust? Gender-Status Mismatch and Trust in Professional Networks," <em>Gender and Society</em> (2022), doi: <a href="https://doi.org/10.1177/08912432221128548"><code>10.1177/08912432221128548/</code></a>
+    Eun Young Song, <strong>Antoine Vernet</strong>, and Stephen Pryke, "In Women we Trust? Gender-Status Mismatch and Trust in Professional Networks," <em>Gender and Society</em> (2022), doi: <a href="https://doi.org/10.1177/08912432221128548"><code>10.1177/08912432221128548/</code></a>
   links:
     - name: Preprint
       url: https://discovery.ucl.ac.uk/id/eprint/10157025/3/Vernet_GnS%20Manuscript_RnR2_210622_cut.pdf
