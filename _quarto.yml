@@ -74,8 +74,6 @@ website:
 format:
   html:
     theme:
-      - cosmo
-      - brand
       - html/ath.scss
     fontsize: 0.9em
     grid: 

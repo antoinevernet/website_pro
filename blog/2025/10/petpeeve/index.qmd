@@ -1,0 +1,29 @@
+---
+title: "Pet peeve: give me a bloody link"
+date: 2025-10-08
+description: "I can't stand it! Give me a link if you reference a study"
+image: ""
+twitter-card:
+  image: ""
+open-graph:
+  image: ""
+categories:
+  - journalism
+  - science communication
+resources:
+  - "img/*"
+doi: ""
+citation: true
+---
+
+
+## Introduction
+
+If a newspaper article talks about a study, it should provide a link.
+It should also mention the authors by name. 
+A study by Harvard and Yale means nothing.
+
+As a result of this article: https://www.theguardian.com/society/2025/oct/05/two-hours-exercise-week-reduces-joint-pain-gp-nhs?CMP=Share_iOSApp_Other
+
+And by reading Hate the Game in which the author keep doing the a study by the University of X...
+

@@ -1,0 +1,29 @@
+---
+title: "Airport Fascination"
+date: 2025-10-10
+description: "It is not what it looks like. I am fascinated by airports "
+image: ""
+twitter-card:
+  image: ""
+open-graph:
+  image: ""
+categories:
+  - r
+  - shiny
+  - auto-correlation
+  - dual y axes
+resources:
+  - "img/*"
+doi: ""
+citation: true
+---
+
+
+Because https://bsky.app/profile/econmaett.github.io said Hate the Game gave "airport vibes", I went down a rabbit hole of reflecting on my fascination with "airport books".
+
+
+I aspire to write airport business book.
+Comes from the comment from econmaett That the fairweather book I was reading had airport vibes
+
+I am a sucker for books that promise to reveal a big secret and inevitably fall short because the secret is either obvious or something I already know.
+What will probably keep me from ever writing one of these book is that I don't know how to pick the right level of argument... These book almost always come out as patronising or helplessly simplistic 
