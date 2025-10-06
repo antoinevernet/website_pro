@@ -4,20 +4,57 @@ date: 2022-07-19
 author:
   - name: Andrew Delios
     url: 
-    orcid: 
-    affiliation: 
-  - name: 
+    orcid: 0000-0002-6791-227X
+    affiliation: National University of Singapore
+  - name: Elena Giulia Clemente
+    url: 
+    orcid: 0000-0002-6833-6841
+    affiliation: Stockholm School of Economics
+  - name: Tao Wu
+    url: 
+    orcid: 0000-0001-8814-1753
+    affiliation: The Chinese University of Hong Kong
+  - name: Hongbin Tan
+    url: 
+    orcid: 0000-0002-9900-3230
+    affiliation: Tongji University
+  - name: Yong Wang
+    url: 
+    orcid: 0000-0002-7122-7611
+    affiliation: Xi'an Jiaotong University
+  - name: Michael Gordon
     url: 
     orcid: 
-    affiliation: 
-  - name: Antoine Vernet
+    affiliation: Massey University
+  - name: Domenico Viganola
+    url: 
+    orcid: 
+    affiliation: World Bank
+  - name: Zhaowei Chen
+    url: 
+    orcid: 0000-0002-0314-6756
+    affiliation: National University of Singapore
+  - name: Anna Dreber
+    url: 
+    orcid: 0000-0003-3989-9941
+    affiliation: Stockholm School of Economics
+  - name: Magnus Johannesson
+    url: 
+    orcid: 0000-0001-8759-6393
+    affiliation: Stockholm School of Economics
+  - name: Thomas Pfeiffer
+    url: 
+    orcid: 0000-0002-0592-577X
+    affiliation: Massey University
+  - name: Generalizability Tests Forecasting Collaboration
+  - name: Antoine Vernet (as part of the Generalizability Tests Forecasting Collaboration)
     url: https://antoinevernet.com
     orcid: 0000-0002-7546-9829
     affiliation: University College London
   - name: Eric Luis Uhlmann
     url: 
     orcid: 
-    affiliation: 
+    affiliation: INSEAD
 categories:
   - methodology
   - generalizability
