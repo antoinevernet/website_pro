@@ -1,6 +1,6 @@
 ---
 title: "Understanding challenges in stakeholder collaboration: facing the uncertainty in urban greenspace regeneration"
-date: 2025-01-02
+date: 2025-01-04
 author:
   - name: Yuhong Wang
     url: https://profiles.ucl.ac.uk/74049-yuhong-wang
