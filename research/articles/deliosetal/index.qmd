@@ -46,8 +46,8 @@ author:
     url: 
     orcid: 0000-0002-0592-577X
     affiliation: Massey University
-  - name: Generalizability Tests Forecasting Collaboration
-  - name: Antoine Vernet (as part of the Generalizability Tests Forecasting Collaboration)
+  - name: Generalizability Tests Forecasting Collaboration (GTFC)
+  - name: Antoine Vernet (part of the GTFC)
     url: https://antoinevernet.com
     orcid: 0000-0002-7546-9829
     affiliation: University College London

@@ -1,0 +1,90 @@
+---
+title: "Start-up Station: The Impact of Rail Access on Entrepreneurship (Self-Employment) in England and Wales"
+date: 2024-07-10
+author:
+  - name: Nikodem Szumilo
+    url: https://profiles.ucl.ac.uk/70793-nikodem-szumilo
+    orcid: 
+    affiliation: University College London
+  - name: Antoine Vernet
+    url: https://antoinevernet.com
+    orcid: 0000-0002-7546-9829
+    affiliation: University College London
+  - name: Rosa Sanchis-Guarner
+    url: https://sites.google.com/view/rosasanchisguarner
+    orcid: 0000-0003-2744-0551
+    affiliation: University of Barcelona
+categories:
+  - train station
+  - startups
+  - self-employment
+  - economics
+  - entrepreneurship
+  - transportation
+pub-info:
+  reference: >-
+    Nikodem Szumilo, <strong>Antoine Vernet</strong>, and Rosa Sanchis-Guarner, "Start-up Station: The Impact of Rail Access on Entrepreneurship (Self-Employment) in England and Wales," <em>Under review</em>, doi: <a href="https://dx.doi.org/10.2139/ssrn.4890413"><code>10.2139/ssrn.4890413</code></a>
+  links:
+    - name: Preprint
+      url: https://dx.doi.org/10.2139/ssrn.4890413
+      icon: fa-solid fa-file-pdf
+      local: true
+    # - name: Final version
+    #   url: https://doi.org/10.1177/1094428116675032
+    #   icon: fa-solid fa-scroll
+#    - name: Code
+#      url: https://github.com/vincentarelbundock/mfxplainer
+#      icon: fa-brands fa-github
+    - name: Add to Zotero
+      url: https://www.zotero.org/save?type=doi&q=10.2139/ssrn.4890413
+      icon: ai ai-zotero
+doi: 10.2139/ssrn.4890413
+# haiku:
+#   - sdfsdgf
+#   - fsfgfs
+#   - fgdfg
+
+---
+
+## Important links
+
+- [Paper (preprint)](https://dx.doi.org/10.2139/ssrn.4890413)
+<!-- - [GitHub repository](https://github.com/vincentarelbundock/mfxplainer) -->
+
+
+## Abstract
+
+We study the impact of improved rail access on entrepreneurship rates in England and Wales. 
+We use data from the Census spanning 2001, 2011, and 2021 to analyse self-employment rates in granular geographic areas of around 200 residents. 
+Specifically, we study how they respond to changes in the distance to the nearest train station occurring due to 56 new station openings. 
+We find that all else equal, moving 1 km further away from a station reduces self-employment rates by 0.12 percentage points, with the effect dissipating beyond 7 km. 
+Secondary results suggest that access to rail makes it easier to become self-employed while not making it more attractive compared to employment. 
+Our findings suggest that rail infrastructure improvements can support local entrepreneurship and economic activity, contributing to regional development and reducing economic inequality.
+
+<!--
+## Important figures
+
+![Figure 2: Predicted probability of impartiality by levels of equality and democracy](mfxplainer-fig2.png)
+
+![Figure 4: Tangents to the prediction function at 25 and 50](mfxplainer-fig4.png)
+
+-->
+
+## Citation
+
+<p class="buttons" style="text-align:center;">
+<a class="btn btn-danger" target="_blank" href="https://www.zotero.org/save?type=doi&q=10.2139/ssrn.4890413">{{< ai zotero >}}&emsp;Add to Zotero {{< fa square-arrow-up-right >}}</a>
+</p>
+
+```bibtex
+@article{szumiloetal2024,
+   author = {Szumilo, Nikodem and Vernet, Antoine and Sanchis-Guarner, Rosa},
+   title = {Start-up Station: The Impact of Rail Access on Entrepreneurship (Self-Employment) in England and Wales},
+   journal = {SSRN},
+   DOI = {10.2139/ssrn.4890413},
+   year = {2024},
+   type = {Journal Article}
+}
+```
+
+

@@ -1,59 +1,57 @@
 ---
-title: "Revisiting the Small-World Phenomenon: Efficiency Variation and Classification of Small-World Networks"
-date: 2016-10-02
+title: "Understanding challenges in stakeholder collaboration: facing the uncertainty in urban greenspace regeneration"
+date: 2025-01-02
 author:
-  - name: Tore Opsahl
-    url: https://toreopsahl.com
-    orcid: 0000-0003-0346-8082
-    affiliation: 
+  - name: Yuhong Wang
+    url: https://profiles.ucl.ac.uk/74049-yuhong-wang
+    orcid: 
+    affiliation: University College London
   - name: Antoine Vernet
     url: https://antoinevernet.com
     orcid: 0000-0002-7546-9829
     affiliation: University College London
-  - name: Tufool Alnuaimi
-    url: 
-    orcid: 
-    affiliation:
-  - name: Gerry George
-    url: https://gufaculty360.georgetown.edu/s/contact/0031Q00002CZF3eQAH/gerry-george
+  - name: Nici Zimmermann
+    url: https://profiles.ucl.ac.uk/44917-nici-zimmermann
+    orcid: 0000-0003-2344-7238
+    affiliation: University College London
+  - name: Tse-Hui Teh
+    url: https://profiles.ucl.ac.uk/28154-tsehui-teh
     orcid: 0000-0002-6963-5085
-    affiliation: Georgetown University
+    affiliation: University College London
+  - name: Irene Pluchinotta
+    url: https://profiles.ucl.ac.uk/73043-irene-pluchinotta
+    orcid: 0000-0002-1883-8675
+    affiliation: University College London
 categories:
   - networks
-  - small-world
-  - measurement
-  - methodology
+  - collaboration
+  - stakeholders
+  - urban greenspace
 pub-info:
   reference: >-
-    Tore Opsahl,<strong>Antoine Vernet</strong>, Tufool Alnuaimi, and Gerard George, "Revisiting the Small-World Phenomenon: Efficiency Variation and Classification of Small-World Networks," <em>Organizational Research Methods</em> (2017), doi: <a href="https://doi.org/10.1177/1094428116675032"><code>https://doi.org/10.1177/1094428116675032</code></a>
-  links:
-    - name: Preprint
-      url: https://discovery.ucl.ac.uk/id/eprint/1569219/1/ORMNetworks.pdf
-      icon: fa-solid fa-file-pdf
-      local: true
-    - name: Final version
-      url: https://doi.org/10.1177/1094428116675032
-      icon: fa-solid fa-scroll
-#    - name: Code
-#      url: https://github.com/vincentarelbundock/mfxplainer
-#      icon: fa-brands fa-github
-    - name: Add to Zotero
-      url: https://www.zotero.org/save?type=doi&q=10.1177/1094428116675032
-      icon: ai ai-zotero
-doi: 10.1177/1094428116675032
+    Yuhong Wang, <strong>Antoine Vernet</strong>, Nici Zimmermann, Tse-Hui Teh, and Irene Pluchinotta, "Understanding challenges in stakeholder collaboration: facing the uncertainty in urban greenspace regeneration," <em>Under review</em>.
+#   links:
+#     - name: Preprint
+#       url: https://discovery.ucl.ac.uk/id/eprint/1569219/1/ORMNetworks.pdf
+#       icon: fa-solid fa-file-pdf
+#       local: true
+#     - name: Final version
+#       url: https://doi.org/10.1177/1094428116675032
+#       icon: fa-solid fa-scroll
+# #    - name: Code
+# #      url: https://github.com/vincentarelbundock/mfxplainer
+# #      icon: fa-brands fa-github
+#     - name: Add to Zotero
+#       url: https://www.zotero.org/save?type=doi&q=10.1177/1094428116675032
+#       icon: ai ai-zotero
+# doi: 10.1177/1094428116675032
 # haiku:
 #   - sdfsdgf
 #   - fsfgfs
 #   - fgdfg
 
 ---
-
-## Important links
-
-- [Paper (preprint)](https://discovery.ucl.ac.uk/id/eprint/1569219/1/ORMNetworks.pdf)
-<!-- - [GitHub repository](https://github.com/vincentarelbundock/mfxplainer) -->
-
-
+<!-- 
 ## Abstract
 
 Research has explored how embeddedness in small-world networks influences individual and firm outcomes. 
@@ -63,7 +61,7 @@ A network is classified as a small-world network if it exhibits a distance betwe
 To assess how efficient a network is, there are two questions worth asking: (a) What is a compelling random network for baseline levels of distance and clustering? and (b) How proximal should an observed value be to the baseline to be deemed comparable? 
 Our framework tests properties of networks, using simulation, to further classify small-world networks according to their efficiency. 
 Our results suggest that small-world networks exhibit significant variation in efficiency. 
-We explore implications for the field of management and organization.
+We explore implications for the field of management and organization. -->
 
 <!--
 ## Important figures
@@ -72,24 +70,11 @@ We explore implications for the field of management and organization.
 
 ![Figure 4: Tangents to the prediction function at 25 and 50](mfxplainer-fig4.png)
 
--->
+<!-- 
 
 ## Citation
 
 <p class="buttons" style="text-align:center;">
 <a class="btn btn-danger" target="_blank" href="https://www.zotero.org/save?type=doi&q=10.1177/1094428116675032">{{< ai zotero >}}&emsp;Add to Zotero {{< fa square-arrow-up-right >}}</a>
 </p>
-
-```bibtex
-@article{@opsahletal2017,
-   author = {Opsahl, Tore and Vernet, Antoine and Alnuaimi, Tufool and George, Gerard},
-   title = {Revisiting the Small-World Phenomenon},
-   journal = {Organizational Research Methods},
-   volume = {20},
-   number = {1},
-   pages = {149-173},
-   ISSN = {1094-42811552-7425},
-   year = {2017},
-   doi = {10.1177/1094428116675032}}
-```
-
+-->
