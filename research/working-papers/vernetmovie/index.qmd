@@ -1,0 +1,60 @@
+---
+title: "Strengthening the Ties that Bind: Homophily, Status and Innovation in Film Production"
+date: 2024-09-26
+author:
+  - name: Antoine Vernet
+    url: https://antoinevernet.com
+    orcid: 0000-0002-7546-9829
+    affiliation: University College London
+categories:
+  - networks
+  - career
+  - movie industry
+pub-info:
+  reference: >-
+    <strong>Antoine Vernet</strong>, "Strengthening the Ties that Bind: Homophily, Status and Innovation in Film Production," <em>Working paper</em>
+#   links:
+#     - name: Preprint
+#       url: https://discovery.ucl.ac.uk/id/eprint/10062104/1/How_does_energy_matter_Energy_Policy.pdf
+#       icon: fa-solid fa-file-pdf
+#       local: true
+#     - name: Final version
+#       url: https://doi.org/10.1016/j.enpol.2018.11.012
+#       icon: fa-solid fa-scroll
+# #    - name: Code
+# #      url: 
+# #      icon: fa-brands fa-github
+#     - name: Add to Zotero
+#       url: https://www.zotero.org/save?type=doi&q=10.1016/j.enpol.2018.11.012
+#       icon: ai ai-zotero
+# doi: 10.1016/j.enpol.2018.11.012
+# haiku:
+#   - sdfsdgf
+#   - fsfgfs
+#   - fgdfg
+
+---
+
+## Important links
+
+<!-- - [Paper (preprint)](https://discovery.ucl.ac.uk/id/eprint/10157025/3/Vernet_GnS%20Manuscript_RnR2_210622_cut.pdf) -->
+<!-- - [GitHub repository](https://github.com/) -->
+<!-- 
+
+## Abstract -->
+
+
+<!--
+## Important figures
+
+![Figure 2: fff](fdd.png)
+
+![Figure 4: ffff](fdd.png)
+
+-->
+<!-- 
+## Citation
+
+<p class="buttons" style="text-align:center;">
+<a class="btn btn-danger" target="_blank" href="https://www.zotero.org/save?type=doi&q=10.1016/j.enpol.2018.11.012">{{< ai zotero >}}&emsp;Add to Zotero {{< fa square-arrow-up-right >}}</a>
+</p> -->

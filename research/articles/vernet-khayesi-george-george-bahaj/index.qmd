@@ -10,18 +10,18 @@ author:
     url: https://business.leeds.ac.uk/faculty/staff/1114/dr-jane-khayesi
     orcid: 0000-0002-1057-2294
     affiliation: University of Leeds
-  - name: George
+  - name: Vivian George
     url: 
     orcid: 
     affiliation: 
-  - name: George
-    url: 
-    orcid: 
-    affiliation: 
-  - name: Bahaj
-    url: 
-    orcid: 
-    affiliation:  
+  - name: Gerard George
+    url: https://gufaculty360.georgetown.edu/s/contact/0031Q00002CZF3eQAH/gerry-george
+    orcid: 0000-0002-6963-5085
+    affiliation: Georgetown University
+  - name: Abubakar Bahaj
+    url: https://www.southampton.ac.uk/people/5wydrj/professor-abubakr-bahaj
+    orcid: 0000-0002-0043-6045
+    affiliation: University of Southampton
 categories:
   - energy
   - solar
