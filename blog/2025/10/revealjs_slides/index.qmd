@@ -1,0 +1,23 @@
+---
+title: "A weird revealjs slides quasi-theme?"
+date: 2025-10-20
+description: "Ok, this might be a very bad idea, and niche, but this post describes a revealjs theme or modification of the default theme to make slides that I think work well for scholarly presentation."
+image: ""
+twitter-card:
+  image: ""
+open-graph:
+  image: ""
+categories:
+  - revealjs
+  - slides
+  - conference presentations
+resources:
+  - "img/*"
+doi: ""
+citation: true
+---
+
+
+## Introduction
+
+...

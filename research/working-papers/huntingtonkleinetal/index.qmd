@@ -1,0 +1,69 @@
+---
+title: "The Sources of Researcher Variation in Economics"
+date: 2025-02-24
+author:
+  - name: Nick Huntington-Klein
+    url: https://nickchk.com
+    orcid: 0000-0002-7352-3991
+    affiliation: Seattle University
+  - name: Claus C. Pörtner
+    url: https://clausportner.com
+    orcid: 
+    affiliation: Seattle University
+  - name: The Many Economists Collaborative on Researcher Variation
+    url: 
+    orcid: 
+    affiliation: 
+  - name: Antoine Vernet (part of the MECRV)
+    url: https://antoinevernet.com
+    orcid: 0000-0002-7546-9829
+    affiliation: University College London
+categories:
+  - metascience
+  - applied econometrics
+  - causal inference
+  - research methods
+pub-info:
+  reference: >-
+    Nick Huntington-Klein, Claus C. Pörtner, <strong>The Many Economists Collaborative on Researcher Variation</strong>, "The Sources of Researcher Variation in Economics," <em>Under review</em> (2022), doi: <a href="https://doi.org/10.2139/ssrn.5152665"><code>10.2139/ssrn.5152665/</code></a>
+  links:
+    - name: Preprint
+      url: https://doi.org/10.2139/ssrn.5152665
+      icon: fa-solid fa-file-pdf
+    - name: Add to Zotero
+      url: https://www.zotero.org/save?type=doi&q=10.2139/ssrn.5152665
+      icon: ai ai-zotero
+doi: 10.2139/ssrn.5152665
+# haiku:
+#   - sdfsdgf
+#   - fsfgfs
+#   - fgdfg
+
+---
+
+## Important links
+
+- [Paper (preprint)](https://doi.org/10.2139/ssrn.5152665)
+
+
+
+## Abstract
+
+We use a rigorous three-stage many-analysts design to assess how different researcher decisions—specifically data cleaning, research design, and the interpretation of a policy question—affect the variation in estimated treatment effects. A total of 146 research teams each completed the same causal inference task three times each: first with few constraints, then using a shared research design, and finally with pre-cleaned data in addition to a specified design. We find that even when analyzing the same data, teams reach different conclusions. In the first stage, the interquartile range (IQR) of the reported policy effect was 3.1 percentage points, with substantial outliers. Surprisingly, the second stage, which restricted research design choices, exhibited slightly higher IQR (4.0 percentage points), largely attributable to imperfect adherence to the prescribed protocol. By contrast, the final stage, featuring standardized data cleaning, narrowed variation in estimated effects, achieving an IQR of 2.4 percentage points. Reported sample sizes also displayed significant convergence under more restrictive conditions, with the IQR dropping from 295,187 in the first stage to 29,144 in the second, and effectively zero by the third. Our findings underscore the critical importance of data cleaning in shaping applied microeconomic results and highlight avenues for future replication efforts.
+
+## Citation
+
+<p class="buttons" style="text-align:center;">
+<a class="btn btn-danger" target="_blank" href="https://www.zotero.org/save?type=doi&q=10.2139/ssrn.5152665">{{< ai zotero >}}&emsp;Add to Zotero {{< fa square-arrow-up-right >}}</a>
+</p>
+
+```bibtex
+@article{huntingtonklein2025,
+   author = {Huntington-Klein, Nick and Pörtner, Claus C. and Acharya, Yubraj and Adamkovic, Matus and Adema, Joop and Agasa, Lameck Ondieki and Ahmad, Imtiaz and Akbulut-Yuksel, Mevlude and Andresen, Martin Eckhoff and Angenendt, David and Antón, José-Ignacio and Arenas, Andreu and Aslim, Erkmen Giray and Avdeev, Stanislav and Bacher-Hicks, Andrew and Baker, Bradley and Bandara, Imesh Nuwan and Bansal, Avijit and Bartram, David and Bech-Wysocka, Katarzyna and Bennett, Christopher and Berha, Andu and Berniell, Inés and Bhai, Moiz and Bhattacharya, Shreya and Bjoerkheim, Markus and Bloem, Jeffrey R. and Brehm, Margaret and Brun, Martín and Buisson, Florent and Burli, Pralhad H. and Camp, Andrew and Cerutti, Nicola and Chen, Weiwei and Clement, Jeffrey and Collins, Matthew and Crawfurd, Lee and Cullinan, John and Deer, Lachlan and Dorsey-Palmateer, Reid and Duquette, Nicolas and Marino Fages, Diego and Falken, Grace and Farquharson, Christine and Feld, Jan and Feyman, Yevgeniy and Fiala, Nathan and Fitzpatrick, Anne and Fradkin, Andrey and French, Evaewero and Fu, Wei and Fumarco, Luca and Gallegos, Sebastian and Gal and aacute and rraga, Julio and Gamino, Aaron and Gauriot, Romain and Gay, Victor and Gayaker, Savas and Gazeaud, Jules and de Gendre, Alexandra and Gilpin, Gregory and Girardi, Daniele and Goldhaber, Dan and Harris, Mark N. and Heller, Blake H. and Henderson, Daniel J. and Henningsen, Arne and Henry, Junita and Herman, Clément and Hernæs, Øystein and Hill, Andrew and Holzmeister, Felix and Huysmans, Martijn and Imtiaz, M. Saad and Jain, Anil and Jakobsson, Niklas and Kaire, José and Kameshwara, Kalyan Kumar and Karney, Daniel and Kim, Sie Won and Klotzbücher, Valentin and Kronenberg, Christoph and LaFave, Dan and Lang, David and Lee, Ryan and Liégey, Maxime and Long, Dede and Marcus, Jan and Mari, Gabriele and McCarthy, Ian M. and Meinzen-Dick, Laura and Merkus, Erik and Miller, Klaus and Mogge, Lukas and Murad, S. M. Woahid and Najam, Rafiuddin and Naumann, Elias and Nmadu, Job and others },
+   title = {The Sources of Researcher Variation in Economics},
+   journal = {SSRN},
+   DOI = {10.2139/ssrn.5152665},
+   year = {2025},
+   type = {Journal Article}
+}
+```
