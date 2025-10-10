@@ -1,0 +1,60 @@
+---
+title: "Review of How to Write a Paragraph"
+date: 2021-10-11
+description: "A short review of How to Write a Paragraph by Linda Elder and Richard Paul."
+# image: ""
+# twitter-card:
+#   image: ""
+# open-graph:
+#   image: ""
+categories:
+  - studying
+  - learning
+  - writing
+resources:
+  - "img/*"
+doi: ""
+citation: true
+bibliography: ../../../../files/references.bib
+csl: ../../../../files/amj.csl
+---
+
+Thriving in a degree programme (and I would argue—as Carmine Gallo does in [Five Stars](https://uk.bookshop.org/a/7155/9781509896783)—in most careers) especially at MSc level requires the ability to write clearly and convincingly. I have been thinking a lot about how to help my MSc and PhD students write better (it also helps me, which is no bad thing). Many are not native speakers (between 60-80% depending on the year and the programme), so explicit advice about how to use English effectively is likely to yield good returns (as a non-native speaker myself, brushing up on good English is time well spent too).
+
+I was interested in [How to Write a Parapgraph](https://uk.bookshop.org/a/7155/9780944583227) to find advice to pass on about paragraphs. While I give a lot of advice about writing sentences (more on that in a future article), I comparably have less to say about paragraphs. They are one of the key building blocks of any text, yet I can't remember receiving much advice about how to put them together. A lot comes down to feeling: does it click? If not, keep tweaking! Students have little time (they need to write better for their essay due next week, not in a year's time), so I need advice I can distill in a short presentation that will yield some results. In my wildest dream (I am not boring, you're boring), I was hoping to get rid of the broad generic statements that start many students essays: "This topic has been hotly debated since cavemen had access to fire". Please, someone bring me something strong to drink so I can finish that marking! All of these reasons and frustrations drew me to this book. I was eager to get started, excited by the perspective to learn something new.
+
+Reader, I did not find what I was looking for! The book has some useful advice, but both it's structure and some of the content make it hard to spot the interesting material. In addition, there is a lot of repetitions (which is not a compliment for a book which comes in at 53 pages including appendices).
+
+So what do the authors say about writing a paragraph? They suggest the following structure: State your point in a sentence. Elaborate your point more fully (in other words). Give an example. Make an analogy or a metaphor to help the reader grasp what you are saying. While this structure is probably fine in many cases and it certainly promotes clarity, it also has the downside of promoting repetition. 
+
+More interesting, they offer advice on how to structure a discussion of two related ideas. They suggest the following: introduce both ideas; express a potential conflict between them; make one important point about these ideas; elaborate this point; give an example; illustrate the thesis (they like analogies and metaphors); formulate one objection to the position; respond to that objection.
+
+While this structure is fine in principle, it also promotes repetition. This might lead to arguments appearing long-winded and dilute the strength of your argument.
+
+They offer two more structures that I found interesting. The first one is about analysing a concept. It goes: state the concept in a sentence; state why it is significant; give an example; give an analogy or metaphor (is this really necessary?); connect the idea to other ideas in the same domain;  give an example of this connection.
+
+The second structure is suggested as a way to analyse an article. It consist of a succession of prompts:
+
+- "The main purpose is...
+- The key question is...
+- The most important information is...
+- The main inferences are...
+- The key concepts we need to understand are...
+- The main assumptions are...
+- If we take this reasoning seriously, the implications are...
+- If we fail to take this reasoning seriously, the implications are...
+- The main point of view is..."
+
+I find both of these structure useful because they land themselves to be used as exercises in class to help students understand and engage with readings and other material that they might otherwise skim too superficially. I am not sure, however, that they make for great writing as they might feel too formulaic to the reader. But one could use it as a starting point and then craft something more elegant by introducing variations to the structure.
+
+Overall, while there are some interesting tidbits in the book, I found that it fell short of my expectations.
+
+## What did it make want to read next?
+
+I use [Economical Writing](https://uk.bookshop.org/a/7155/9780226448077) by Deirdre McCloskey ([my review](https://antoinevernet.medium.com/review-of-economical-writing-67c33bb7adc3)) as the source of a lot of the writing advice I give students, but I was looking for something with more explicit advice about structuring paragraphs. As this book wasn't it, I looked further. I am currently reading [How to Write a Sentence and How to Read One](https://uk.bookshop.org/a/7155/9780061840531) by Stanley Fish, which is very good so far. Next on my list is [The Reader over Your Shoulder](https://uk.bookshop.org/a/7155/9781609807337)  by Robert Graves and Alan Hodge (recommended by McCloskey). I am also reading [Writing for Social Scientists](https://uk.bookshop.org/a/7155/9780226643939) by Howard Becker, but it is much more about the process of writing than the craft itself. I am considering looking into books aimed at secondary school students to learn more about paragraphs. I hope to find in them what I am looking for there.
+
+In the meantime, through Jenny Richmond's very interesting Twitter [thread](https://twitter.com/JenRichmondPhD/status/1444155651093975043?s=09), I found this good blog post by Raul Pacheco-Vega on [strategies to craft paragraphs](http://www.raulpacheco.org/2020/08/a-few-structured-strategies-that-we-can-use-to-craft-paragraphs/). This points to a wealth of resources on writing and structuring paragraphs that is well worth exploring. I might not need a book on paragraphs after all! 
+
+
+
+Note: some of the links to books are affiliate links, this means that if you use them to make a purchase, I might receive a small commission.

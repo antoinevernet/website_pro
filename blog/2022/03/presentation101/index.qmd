@@ -1,0 +1,79 @@
+---
+title: "Presentation 101, How to Present Effectively"
+date: 2022-03-01
+description: "Tips to present effectively"
+# image: ""
+# twitter-card:
+#   image: ""
+# open-graph:
+#   image: ""
+categories:
+  - studying
+  - learning
+  - presentation
+resources:
+  - "img/*"
+doi: ""
+citation: true
+bibliography: ../../../../files/references.bib
+csl: ../../../../files/amj.csl
+---
+
+
+
+# Do not read
+
+This one is easy: you should not read from notes. It does not matter if you stutter, search for your words, nothing—NOTHING!—is worse than someone reading from notes instead of presenting. 
+
+Reading prevents you from connecting to your audience! If you read because your are unsure what you have planned to say, you need to move to the second piece of advice below: rehearsing.
+
+People who read from notes sometimes say that they are afraid to forget to say something. Let me put your mind at rest: it will happen (every time you present), but nobody will notice. Forgetting to cover one of your points is a lot less of a problem for your presentation than putting your audience to sleep because you are reading your notes and not connecting with them.
+
+Speak to your audience, look at them, if you are doing that, they will forgive a lot of the imperfections in your presentation.
+
+# Rehearse
+
+You have to rehearse your presentation. You do not need to know it by heart, but you need to be familiar with it. Running through your slides and what you will say a couple of times will greatly enhance your presentation: you will be more comfortable and this will show and make it easier for you to connect with your audience.
+
+# Define your audience
+
+Before you can speak effectively to your audience, you need to know your audience. It sounds obvious, but you will not address experts in the same way you do lay people. If you know your target audience, you can tailor your message so it addresses their needs.
+
+One way to connect to your audience is to find common ground: what interestes and experiences do you share with your audience? This is easier to do for audiences you know well (i.e. close colleagues) than for broader audiences, but finding things that both you and the audience can relate to, will help you keep your audience engaged.
+
+# What is the big idea? Why should we care?
+
+Again, this sounds obvious, but do not assume everyone in your audience knows what you are talking about, or why it is important. Even if the audience members are the ones who ask you to speak to them. Be more explicit than you think you need to be. This does not mean that you should repeat yourself again and again, but that you should make your main message very explicit, and tell the audience why they should care.
+
+Why they should care will depend on your audience, so be sure to know who you are addressing and why what you are talking about might help them solve real problems they face.
+
+# Keep time
+
+If you have rehearsed your presentation, keeping time should be easy. Nobody is going to be annoyed if you need an extra thirty seconds to finish your conclusion when you run out of time, but you seriously undermine your credibility if you are only halfway through when the clock runs out.
+
+Rehearsing is the best way to know whether you have too much or too little material. 
+
+# Build tension
+
+Use contrasting elements to build tension, your solution can then resolve this tension. For example, you can build tension between different approaches to a problem, then resolving that tension by offering a solution that combines both approaches.
+
+# Organise your thoughts
+
+Software for creating slides are great tools, but they also offer you many opportunities to stray from the message you are trying to convey. One way to help keep you on message is to focus first on the order of your ideas. One way to do this is to first only write titles for your slides and look at these titles in a sequence to check that they make sense in the order they are presented in. This will also lead you to write more precise titles. Specific titles are important because they are the only thing that most of your audience will read.
+
+# Make slides people can "get"
+
+Your slides should be short. Put as little text on them as you can get away with. Your goal is that your audience listens to you, not that they read your slides. The slides support the points you are making, they are not the main medium to transmit your message.
+
+# Think about your body and voice
+
+Face your audience, not your slides. Make gestures to emphasise important points. Use your voice to convey different emotions and to highlight key piece of your argument.
+
+## References
+
+Duarte, Nancy, 2012, [HBR Guide to Persuasive Presentations](https://uk.bookshop.org/a/7155/9781422187104)
+
+
+
+
+Note: some of the links to books are affiliate links, this means that if you use them to make a purchase, I might receive a small commission.

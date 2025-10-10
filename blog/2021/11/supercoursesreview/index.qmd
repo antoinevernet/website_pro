@@ -1,0 +1,73 @@
+---
+title: "Book Review of Super Courses"
+date: 2021-11-09
+description: "Review of Super Courses by Ken Bain"
+# image: ""
+# twitter-card:
+#   image: ""
+# open-graph:
+#   image: ""
+categories:
+  - studying
+  - learning
+  - book review
+resources:
+  - "img/*"
+doi: ""
+citation: true
+bibliography: ../../../../files/references.bib
+csl: ../../../../files/amj.csl
+---
+
+
+[Super courses](https://uk.bookshop.org/a/7155/9780691185460) by Ken Bain is a book aimed at University teachers and describing a new breed of courses in Universities. According to the author what sets these courses apart is the fact that they are designed using insights from learning science. I landed on this book after reading [Ultralearning](https://uk.bookshop.org/a/7155/9780008305703) by Scott Young ([my review](https://antoinevernet.medium.com/how-ultralearning-helps-you-learn-faster-better-and-remember-more-7c0e87eaeacd)) and [The Craft of College Teaching](https://uk.bookshop.org/a/7155/9780691183800) by Robert DiYanni and Anton Borst ([my review](https://antoinevernet.medium.com/review-of-the-craft-of-college-teaching-by-robert-diyanni-and-anton-borst-194f0c5d004d)). 
+
+What attracted me to the book was the promise of reading about many courses that used recent advances in our understanding of learning to improve the experience of students. I was hoping to identify some practices and exercises that I could use in my own courses. In this regard, the book did not disappoint. 
+
+The thing I like the least about the book is it's title... I struggle with overly bombastic titles, but I am ready to accept that in a world where the volume of publication is mind-boggling, they are a necessary evil.
+
+The book alludes in its prologue to a crisis in higher education (mostly US higher education, but the symptoms mentioned certainly exist in the UK, where I am based). Bain suggests that there are more and more calls for young people to skip college altogether and a growing sense that higher education (specifically undergraduate education) does not deliver the same benefits to students that it once did. Bain proposes that a wider adoption of the practices that are described in the book could help in averting the growing crisis. 
+
+I am doubtful that this will be the case, but this is a discussion for another time (possibly when I write a review for [Dark Academia, How Universities Die](https://uk.bookshop.org/a/7155/9780745341064) by Peter Fleming which I am currently reading). The fact that I do not think that the adoption of better pedagogical practices will be enough for higher education (especially in the US and Europe) to avert a crisis in the coming years does not mean that these practices cannot benefit students greatly.
+
+The book is broken down in 2 parts, the first part is about the definition and characteristics of super courses, and the second part is a collection of examples with each chapter focusing on a specific aspect of a critical learning environment.
+
+The notion of natural critical learning environment is introduced in the first chapter. Creating such an environment, suggests Bain, should be the goal of the instructor when designing classes. What he means by natural critical learning environment is a space where the students are engaging in activities that have a proven track record of enhancing learning, as well as creating the conditions in and outside of the classroom to foster learning for the students.
+
+There are two main challenges that we need to grapple with when trying to create such environments: motivating students, specifically trying to prevent a purely strategic approach to learning (with a focus on the final grade), and promoting deep learning that will lead the students to be able to mobilise and use the acquired knowledge in the future. This second point implies that a natural critical learning environment needs to foster quality encoding of information, retention, and the ability to transfer knowledge to related but not identical contexts (problem of transfer are particularly tricky and it is an area in which learning efforts often fall short).
+
+After the first 2 chapters, we enter the second part of the book (from chapter 3 to 17, so really most of the book), Bain uses examples of courses to explore in more details different aspects of natural critical learning environments. The first thing that is obvious when reading the chapters in part 2 of the book is the great diversity of approaches to creating a natural critical learning environment. However, there are a few things that all the courses describe share. 
+
+First, all these courses find ways to make the students care beyond them just wanting to pass the class to graduate. One way these courses achieve this is by finding "big" questions that the course offers element of answer to.
+
+Second, they find ways to challenge the mental models of the students. In order to do so, however, one needs to know what the students are struggling with, this implies a way to get feedback on what the students find challenging in the material of the class. A solution explored in the book are various collaborative reading tools that give insight into how the students have approached the material.
+
+There are other important aspects of natural critical learning environments that maybe harder to put into practice, such as team based-learning around ambitious projects, like redesigning a waste management plant; and aspects that a teacher can easily emphasise if they do not already do it, such as the importance of a growth mindset.
+
+The book closes with a chapter on grades which makes the important point that grades tend to lead to strategic learning, but that it is not an easy to solve problem. Indeed, getting rid of grades leads to all sorts of difficulties, in part because grades are used for further assessment of individuals, by recruiters for example. The most interesting thing about this chapter is probably the very short history of marking which highlights that it is a relatively recent phenomenon that mostly emerged in the 19th and 20th century (despite early example in Cambridge in the 18th century). This made me want to read more on the history of marking (believe me, I am great fun at parties).
+
+One thing that I found surprising in the last two chapters of the book is that, for someone so suspicious of grading, Bain seemed to take student evaluations at face value, despite considerable evidence that these evaluations are biased (against women and people of colour), and do not seem to predict higher learning (Chávez & Mitchell, 2020; Uttl, White & Gonzalez, 2017). 
+
+# What it made me want to read next
+
+Super Courses pointed me, either directly or indirectly, to a number of articles on learning science and a number of books on pedagogy which joined my long reading list (which grows faster than I can get through it, as all good reading lists do).
+
+It led me to get [Geeky Pedagogy](https://uk.bookshop.org/a/7155/9781949199062) by Jessamyn Neuhaus, [Make It Stick](https://uk.bookshop.org/a/7155/9780674729018) by Peter Brown, Henry Roedinger, and Mark McDaniel, both of which I plan to review in the future. 
+
+Bain mentions [Minds on Fire](https://uk.bookshop.org/a/7155/9780674984097) by Mark Carnes which presents an approach to learning based on role-playing activities. I am quite curious to learn more, but have not looked into it yet.
+
+In terms of more direct impact on my own practice, the book led me to adopt social annotation for the readings in my classes (the practice is discussed at length in chapter 9, and while I am using a different tool to the one described in the book, the principle is the same). My first classes using social annotation will be in the second term of this year, and I am looking forward to it. I am excited to see if that helps my students engage with the readings more, and if it gives me insight into what they find challenging so I can focus on this material during the class sessions.
+
+Overall, I found [Super courses](https://uk.bookshop.org/a/7155/9780691185460) insightful and stimulating. It is a good complement to [The Craft of College Teaching](https://uk.bookshop.org/a/7155/9780691183800). I highly recommend it.
+
+
+# References
+
+Chávez, K., & Mitchell, K. (2020). Exploring Bias in Student Evaluations: Gender, Race, and Ethnicity. *PS: Political Science & Politics*, 53(2), 270-274. doi:[10.1017/S1049096519001744](https://doi.org/10.1017/S1049096519001744)
+
+Uttl, B., White, C. A., Gonzalez, D. W. (2017). Meta-analysis of faculty's teaching effectiveness: Student evaluation of teaching ratings and student learning are not related. *Studies in Educational Evaluation*, 54, 22-42. doi:[10.1016/j.stueduc.2016.08.007](https://doi.org/10.1016/j.stueduc.2016.08.007).
+
+
+
+
+Note: some of the links to books are affiliate links, this means that if you use them to make a purchase, I might receive a small commission.

@@ -1,0 +1,50 @@
+---
+title: "Simple things to avoid in order to write better, tips for students (and others)"
+date: 2021-10-21
+description: "This is a short post about annoying writing habits that most students (and many faculty) fall into on a regular basis."
+# image: ""
+# twitter-card:
+#   image: ""
+# open-graph:
+#   image: ""
+categories:
+  - studying
+  - learning
+  - writing
+resources:
+  - "img/*"
+doi: ""
+citation: true
+bibliography: ../../../../files/references.bib
+csl: ../../../../files/amj.csl
+---
+
+I just finished what I call marking season a few weeks ago. It is the period from the last week of August to the end of the second or third week of September when we do most of our MSc dissertations marking. I have had the pleasure to read very interesting work on a broad range of topics during this period. While the overall quality of the work I read was high, there were a number of recurring writing habits that bugged me. So here is a short post about annoying writing habits that most students and most faculty fall into on a regular basis. Some of these examples come from my own drafts rather than those of my students; and while they are fine in first drafts, the trick is to remember to edit them out, or refine them before a draft leaves your desk.
+
+These bad habits fall in 4 categories that I will describe in turn with some examples.
+
+## Overly broad statements
+
+Overly broad statements are common in introductions and in the topic sentence of paragraphs. They are attractive to us when we are writing because they give us a way to get started. They give us something to prime the writing pump and get us going. However, very often it is better to edit them out, or make them precise and to the point during the revision process. Examples of such statements are sentences starting with "over the years", "in the 21st century", which usually do not add much but do little harm. Edit them out. 
+
+Even broader statement are less common, but worse. Statements like "since the dawn of time", or "as the world evolves rapidly"; these do not say anything. There are very few things so universal about the world that they would have been true since the dawn of time. Similarly, the world might be changing fast, but you are probably talking about a very specific facet of the world that is relevant to your essay or dissertation or article, then focus on this!
+
+Statements like "this happens because of a variety of causes" do not tell us anything. You should be able to describe at least some categories in which these causes fall.
+
+## Overly definitive statements
+
+Statements such as "X is a universal phenomenon", "society is X", "no one has done this before" prompt the reader to think of any counter example to prove you wrong. And often, whether the statement itself is true has little impact on your argument. A more nuanced view is often a better bet. Very few things are universal, but if something is truly widespread, you can just use the word "widespread", ideally accompanied with a qualifier such as a statistic that shows just how widespread the phenomenon is.
+
+## Inaccurate statements
+
+Beware of inaccurate or confusing statements, "In the last century" is too often used to speak of the 19th century when it refers to the 20th century (or at least has if you were writing at any point in the past 20 years). Other statement of the form "X and Y have dominated our thinking for the past Z years" better be ironclad. "X has become a hot topic" might be true, but you can probably write a more precise statement that does not rely on someone having to figure out what counts as "hot".
+
+## Plain annoying statements
+
+Just avoid statements that are doing nothing beyond annoying the reader: "Once upon a time", "It's no secret", "it is obvious". While the first of these three statements is seldom seen in essays and dissertations, the other two are far too commonly found in students prose. If you have to stipulate that something is obvious, it often indicates that it is not obvious to everyone.
+
+I hope this is useful in pointing out some of the things to keep an eye on while writing and editing your essays or dissertations.
+
+Check out the Purdue writing lab
+
+[https://owl.purdue.edu](https://owl.purdue.edu/)
