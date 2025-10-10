@@ -1,0 +1,24 @@
+---
+title: "Website"
+date: 2017-06-30
+description: "I redid my old and ugly wordpress website using blogdown and Hugo."
+# image: ""
+# twitter-card:
+#   image: ""
+# open-graph:
+#   image: ""
+categories:
+  - R
+  - Hugo
+  - blogdown
+resources:
+  - "img/*"
+doi: ""
+citation: true
+---
+
+
+I decided to redo my old and ugly wordpress website using [blogdown](https://github.com/rstudio/blogdown) and [Hugo](https://gohugo.io/). 
+Thanks to the great theme for academics by [George Cushen](https://georgecushen.com/) and the [blogdown book](https://bookdown.org/yihui/blogdown/) by Yihui Xie, Amber Thomas and Alison Presmanes Hill, it was a breeze.
+In a few hours, I have a better looking website than I thought possible, without having to do too much fiddling.
+Once more, I am amazed by what can be achieved thanks to the open source software community.

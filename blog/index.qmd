@@ -17,8 +17,8 @@ listing:
     sort: "date desc"
     template: ../html/blog/listing.ejs
     categories: true
-  - id: posts_2024
-    contents: "2024/**/index.qmd"
+  - id: posts_2017
+    contents: "2017/**/index.qmd"
     sort: "date desc"
     template: ../html/blog/listing.ejs
 
@@ -30,7 +30,7 @@ listing:
 :::{#posts_2025}
 :::
 
-## 2024
+## 2017
 
-:::{#posts_2024}
+:::{#posts_2017}
 :::
