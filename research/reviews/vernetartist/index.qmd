@@ -1,0 +1,50 @@
+---
+title: "Comptes rendus: L’artiste pluriel, Démultiplier l’activité pour vivre de son art, M.-C. Bureau, M. Perrenoud et R. Shapiro (Eds)"
+date: 2010-09-26
+author:
+  - name: Antoine Vernet
+    url: https://antoinevernet.com
+    orcid: 0000-0002-7546-9829
+    affiliation: University College London
+categories:
+  - networks
+  - career
+  - movie industry
+pub-info:
+  reference: >-
+    <strong>Antoine Vernet</strong>, "Comptes rendus: L’artiste pluriel, Démultiplier l’activité pour vivre de son art, M.-C. Bureau, M. Perrenoud et R. Shapiro (Eds)," <em>Sociologie du Travail</em> (2009), doi: <a href="https://doi.org/10.4000/sdt.14998"><code>https://doi.org/10.4000/sdt.14998</code></a>
+  links:
+#     - name: Preprint
+#       url: https://discovery.ucl.ac.uk/id/eprint/10062104/1/How_does_energy_matter_Energy_Policy.pdf
+#       icon: fa-solid fa-file-pdf
+#       local: true
+    - name: Final version
+      url: https://doi.org/10.4000/sdt.14998
+      icon: fa-solid fa-scroll
+    - name: Add to Zotero
+      url: https://www.zotero.org/save?type=doi&q=10.4000/sdt.14998
+      icon: ai ai-zotero
+doi: 10.4000/sdt.14998
+
+
+---
+
+
+## Citation
+
+<p class="buttons" style="text-align:center;">
+<a class="btn btn-danger" target="_blank" href="https://www.zotero.org/save?type=doi&q=10.4000/sdt.14998">{{< ai zotero >}}&emsp;Add to Zotero {{< fa square-arrow-up-right >}}</a>
+</p>
+
+```bibtex
+@article{@vernet2009,
+   author = {Vernet, Antoine},
+   title = {Comptes rendus: L’artiste pluriel, Démultiplier l’activité pour vivre de son art, M.-C. Bureau, M. Perrenoud et R. Shapiro (Eds)},
+   journal = {Sociologie du Travail},
+   volume = {52},
+   number = {3},
+   pages = {417-418},
+   year = {2010},
+   doi = {10.4000/sdt.14998}}
+```
+

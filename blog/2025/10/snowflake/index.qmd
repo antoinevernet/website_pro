@@ -1,0 +1,23 @@
+---
+title: "The Snowflake World Tour in London"
+date: 2025-10-10
+description: "I went to the Snowflake world tour in London."
+image: ""
+twitter-card:
+  image: ""
+open-graph:
+  image: ""
+categories:
+  - revealjs
+  - slides
+  - conference presentations
+resources:
+  - "img/*"
+doi: ""
+citation: true
+---
+
+
+## Introduction
+
+And I did not even take a single picture because I am dumb.
