@@ -1,0 +1,66 @@
+---
+title: "Students, classes are but the tip of the iceberg! How to manage your studying time better"
+date: 2021-10-05
+description: "This is the second installment in my learning to learn series; the first explored four tips to study better."
+# image: ""
+# twitter-card:
+#   image: ""
+# open-graph:
+#   image: ""
+categories:
+  - studying
+  - learning
+  - time management
+resources:
+  - "img/*"
+doi: ""
+citation: true
+bibliography: ../../../../files/references.bib
+csl: ../../../../files/amj.csl
+---
+
+There is an easy trap that too many of you fall into. It is a trap so common that some, if not most, of your professors (myself included) have at some point fallen into it. This trap comes from looking at your calendar, seeing a few classes here and there each week, let's say between 2 and 5 classes, and believe that your workload is totally manageable. After all, you are only in class for anywhere between 4 and 15 hours a week. But classes are only the tip of the studying iceberg. If you only show up for classes and cram when you need to submit an assignment, you will have a hard time succeeding and you will be more stressed out that you need to be. This will increase the risk of failure on any individual assignment and also reduce your ability to learn for long-term retention. If you believe that you are learning useful skills while at university, you should want to still remember them in 2, 5 or 10 years (and even more in 6 to 9 months, when, still a student, you take another class that builds on a class you have taken the previous term or year). So here are a 5 tips to organise your time better and get things done.
+
+## 1 - Chunk Your Time
+
+You probably need to plan 1 to 3 hours of independent work per hour you spend in the classroom. Depending on the class. Undergraduate classes often requires investment on the lower end of this, while graduate classes are on the higher end of this. PhD classes usually require even more preparation time per hour of classroom. So commit to a number of hours you will work on a class every week.
+
+## 2 - Block It On Your Calendar
+
+You have just committed to spending a certain number of hours a week on a class, block that time in your calendar. This will make it easier to remember when you had decided to do something, it will also make it less likely that you will accept other commitments that will crowd out your study time.
+
+It is often more effective to block smaller slots in your calendar rather than 1 large slot a week. We have limited cognitive capacity and few people can study intensely for 2 hours straight, but most people can do so for 20, 30 or 45 minutes. Take breaks often and repeat several shorter intense periods of study rather than trying to do one very long one.
+
+## 3 - Use Techniques Like Spaced Repetition and Plan These in Your Calendar as Well.
+
+Another reason why planning several smaller study periods rather than one long one yields results is because we know that spaced repetition increases long-term retention. This is essential in order for you to be able to mobilise your knowledge later, especially when it comes to understanding more advanced material that builds upon the material you are learning now. Spaced repetition is one of the most powerful way to enhance your learning, and while it requires planning, it is fairly easy to use. I wrote more about spaced repetition in [this article about studying tips](https://antoinevernet.medium.com/you-can-learn-better-four-cool-studying-tips-for-students-790b8e8499ae) and in my review of [Ultralearning](https://antoinevernet.medium.com/how-ultralearning-helps-you-learn-faster-better-and-remember-more-7c0e87eaeacd). You might want to [consider using flashcards](https://antoinevernet.medium.com/rote-memorising-or-more-can-using-flashcards-improve-learning-56b2fff527f3) to help with spaced repetition. 
+
+## 4 - Make Notes and Organise them.
+
+Making notes is only half the job. You also need to organise them. Experiment with the way you take notes to find what works for you, it might be that you prefer writing by hand, or on a device; it might be that structure, like the Cornell Notes method—you reserve space in a margin for keywords and questions and at the bottom of the page for a summary—works well for you. Books like [Take Great Notes](https://uk.bookshop.org/a/7155/9781526489418) ([my review](https://antoinevernet.medium.com/take-great-notes-book-review-6d4a2a2aff72)) can help you figure out what type of note taking method works for you. [Take Note](https://uk.bookshop.org/a/7155/9781782225515) by Roy Tabor is another good book on making notes.
+
+Once you have made notes, you need to organise them. Passive review is not very effective (Dunlosky et al., 2013), but reorganising and expanding on your notes is more fruitful. The Cornell Note method is an easy way to do this, but you should experiment with what works for you. Maybe you want to keep your notes in one of the numerous note taking apps available on the market, some are very good for organising your material.
+
+## 5 - Work in A Study Group
+
+Study groups promote active learning by promoting discussion around the class. You can use your study group to work side-by-side with others and keep yourself motivated, but you can also (and probably more effectively) use it to discuss and question the course material. This can easily be done in pairs. Select a specific concept, pick roles (explainer/questioner) and explain the concept, then try to answer the questions of your colleague. Then you both verify your understanding in the course material. After that, you can move on to another point of the course. 
+
+This approach combines several activities: it forces you to articulate what you know to explain it to someone, it also forces you to think on your feet to answer their questions and, finally, it prompts your brain for learning when you review the material, as we retain better when we do a closed book recall before reviewing material (Karpicke and Roediger, 2007). 
+
+A study group will also help you develop ties to your fellow students and stay connected to your cohort. Cooperative learning like the activities I just described has been showed to increase both achievement and enjoyment (Yamarik, 2007; Kyndt et al, 2013).
+
+Not all of these will work equally well for you, but experimenting with the way you work will offer you an opportunity to better understand how you learn and make you better at making the most of your learning.
+
+## References
+
+Dunlosky, J., Rawson, K.A., Marsh, E.J., Nathan, M.J. and Willingham, D.T., 2013. Improving students’ learning with effective learning techniques: Promising directions from cognitive and educational psychology. Psychological Science in the Public Interest, 14(1), pp.4-58.
+
+Karpicke, J.D. and Roediger III, H.L., 2007. Repeated retrieval during learning is the key to long-term retention. Journal of Memory and Language, 57(2), 151-162.
+
+Kyndt, E., Raes, E., Lismont, B., Timmers, F., Cascallar, E., Dochy, F., 2013. A meta-analysis of the effects of face-to-face cooperative learning. Do recent studies falsify or verify earlier findings?, Educational Research Review, 10, 133-149, [https://doi.org/10.1016/j.edurev.2013.02.002](https://doi.org/10.1016/j.edurev.2013.02.002).
+
+Yamarik, S.,2007. Does Cooperative Learning Improve Student Learning Outcomes?, The Journal of Economic Education, 38(3), 259-277, DOI: 10.3200/JECE.38.3.259-277
+
+
+
+Note: some of the links to books are affiliate links, this means that if you use them to make a purchase, I might receive a small commission.

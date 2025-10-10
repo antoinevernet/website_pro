@@ -17,11 +17,22 @@ listing:
     sort: "date desc"
     template: ../html/blog/listing.ejs
     categories: true
+  - id: posts_2022
+    contents: "2022/**/index.qmd"
+    sort: "date desc"
+    template: ../html/blog/listing.ejs
+  - id: posts_2021
+    contents: "2021/**/index.qmd"
+    sort: "date desc"
+    template: ../html/blog/listing.ejs
+  - id: posts_2018
+    contents: "2018/**/index.qmd"
+    sort: "date desc"
+    template: ../html/blog/listing.ejs
   - id: posts_2017
     contents: "2017/**/index.qmd"
     sort: "date desc"
     template: ../html/blog/listing.ejs
-
 ---
 
 
@@ -30,7 +41,24 @@ listing:
 :::{#posts_2025}
 :::
 
+## 2022
+
+:::{#posts_2022}
+:::
+
+## 2021
+
+:::{#posts_2021}
+:::
+
+## 2018
+
+:::{#posts_2018}
+:::
+
+
 ## 2017
 
 :::{#posts_2017}
 :::
+

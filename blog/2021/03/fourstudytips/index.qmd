@@ -1,0 +1,90 @@
+---
+title: "You can learn better! Four cool studying tips for students"
+date: 2021-03-29
+description: "I recently finished teaching three MSc classes online. Here is what I learned."
+# image: ""
+# twitter-card:
+#   image: ""
+# open-graph:
+#   image: ""
+categories:
+  - studying
+  - learning
+resources:
+  - "img/*"
+doi: ""
+citation: true
+bibliography: ../../../../files/references.bib
+csl: ../../../../files/amj.csl
+---
+
+
+Remembering what you learn is essential if your learning effort is to amount to anything. Ideally, you want to build both short-term and long-term retention in order to pass the class but also be able to use the knowledge in the future whenever required.
+
+We know that a lot of what feels like studying is inefficient in helping us retain information long term. For example, rereading notes and highlighting does not lead to retention ([Dunlosky et al., 2013](http://ses.enseigne.ac-lyon.fr/spip/IMG/pdf/dunloskyimprovinglearning.pdf)). We also know that practices that have some short-term effectiveness do not work well in building long-term memory. The greatest offender in this category is probably cramming, the practice of massing study just before a test ([Kornell, 2009](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.712.3459&rep=rep1&type=pdf)).
+
+However, there are plenty of effective techniques to increase the amount of information you retain from your studying. Below, I describe four techniques that are relatively easy to incorporate in your studying routine. They are presented from the easiest to the hardest to implement.
+
+## Spaced repetition
+
+One common practice for learning is cramming. Essentially, you are running out of time and working yourself into exhaustion to try to master some lessons or a specific skill before a test. 
+
+Cramming can work reasonably well for short-term retention. In other words, you might pass! But it is ineffective for long-term retention ([Cousins et al. 2019](https://core.ac.uk/download/pdf/237386196.pdf)). This is problematic for two reasons. First, you overestimate your mastery of the material and you might struggle to mobilise this knowledge in the next class, which requires you to have mastered it. This is made worse if the time between the two classes is greater, because our knowledge decays over time (unless we use it). For example, if you cram to pass a foundational probability class, you might not realise that you have not assimilated all the concepts and you might struggle in the econometrics class that follows.
+
+Spaced repetition is not rocket science. One way to achieve it, is to schedule review times throughout the duration of a class. Maybe 30 minutes for every 2-hour class session. 
+
+Now, what to do with that time? You could just re-read your notes and maybe highlight them, but we know that this is not very effective ([Dunlosky et al., 2013](http://ses.enseigne.ac-lyon.fr/spip/IMG/pdf/dunloskyimprovinglearning.pdf)).
+
+More effective are activities that force you to put the material into practice, test yourself and struggle through the points that you are less comfortable with. The following three tips, used in conjunction with spaced repetition, can make your studying very effective.
+
+## Cornell Note System
+
+The Cornell Note System was developed by [Walter Pauk in the 1940s](https://en.wikipedia.org/wiki/Cornell_Notes). The idea behind the Cornell Note System is simple. Separate the page you take notes on into different areas. Specifically, reserve a margin of about 1/3 of the width of the page for marginal notes. The other 2/3 are for your notes. You can also leave a bit of space at the bottom of the page for a summary.
+
+Write your notes during the class as you would usually do. After the class, while you review your notes, write questions about the notes in the margin. If you have left space at the bottom of the page for a summary, you can also write this the first time you review your note.
+
+Writing questions and a summary is enough to turn the ineffective passive reviewing of notes into an active exercise of reflecting on the material in order to produce both a summary and questions. It also prepares you to review the material more effectively in the future. To make future reviews more effective, you will cover the notes and use the questions you have generated to test yourself.
+
+This brings us to our next tip, which is an extension of covering your notes: closed book learning.
+
+## Closed book learning
+
+Trying to recall what you learned before reviewing any notes has been shown to increase retention (Karpicke and Roediger, 2007).
+
+You can practice closed book learning with your notes, by recalling what is in the assigned readings or trying to recall any material relevant to your learning. One way to do this is to try to write down a summary of the notes or the readings before allowing yourself to look at the notes or the text again.
+
+Trying to recall first prepares you to retain information more effectively once you review the material.
+
+The next tip builds on the idea that testing enhances your ability to retain information for longer and suggests that you design challenges for yourself.
+
+## Challenges
+
+Building challenges is one way to force yourself to use the material or practice the skill you are learning. 
+
+Challenges need to be adapted both to what you are learning, but also to your current level of mastery. In short, you want to struggle, but not so much that you give up.
+
+Challenges are particularly effective in classes with a practical element such as data analytics or programming. 
+
+Select a topic from the class and try to come up with an exercise as a challenge. You can, of course, find existing exercises, especially when you first get started; however, coming with the exercise yourself forces you to reflect on the material and helps you learn better.
+
+## Putting it into practice
+
+Those tips are more effective when you use them in combination.
+
+Spaced repetition is better than cramming even if you only do passive review. However, if you combine spaced repetition with the Cornell Note System and closed book learning, the amount of the material that you will retain will go up dramatically, you will retain it for longer, too.
+
+One practical way to do this is to review the material once a week. During the first review, you write the summary of your notes and questions in the margins. In the second week, you test yourself on the notes of the first week, using the question you have generated, before allowing yourself to review the notes to check your answers. Then you write a summary and margin questions for your notes from the second week. And so on and so forth.
+
+As you get closer to the time of the exam/assignment, you can increase the amount of time you spend doing trying to recall information through closed book learning and challenges.
+
+What other tricks do you use to study effectively?
+
+## References
+
+Cousins, J.N., Wong, K.F., Raghunath, B.L., Look, C., Chee, M.W.L., 2019. The long-term memory benefits of a daytime nap compared with cramming, Sleep, 42(1), [https://doi.org/10.1093/sleep/zsy207](https://doi.org/10.1093/sleep/zsy207)
+
+Dunlosky, J., Rawson, K.A., Marsh, E.J., Nathan, M.J. and Willingham, D.T., 2013. Improving students’ learning with effective learning techniques: Promising directions from cognitive and educational psychology. Psychological Science in the Public Interest, 14(1), pp.4-58.
+
+Karpicke, J.D. and Roediger III, H.L., 2007. Repeated retrieval during learning is the key to long-term retention. Journal of Memory and Language, 57(2), pp.151-162.
+
+Kornell, N., 2009. Optimising learning using flashcards: Spacing is more effective than cramming. Applied Cognitive Psychology, 23, pp.1297-1317. [https://doi.org/10.1002/acp.1537](https://doi.org/10.1002/acp.1537)

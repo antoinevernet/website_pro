@@ -1,0 +1,103 @@
+---
+title: "Review of The Craft of College Teaching by Robert DiYanni and Anton Borst"
+date: 2021-04-26
+description: "A review of The Craft of College Teaching by Robert DiYanni and Anton Borst"
+# image: ""
+# twitter-card:
+#   image: ""
+# open-graph:
+#   image: ""
+categories:
+  - studying
+  - learning
+  - book review
+  - teaching
+resources:
+  - "img/*"
+doi: ""
+citation: true
+bibliography: ../../../../files/references.bib
+csl: ../../../../files/amj.csl
+---
+
+
+## Summary
+
+[The Craft of College Teaching](https://uk.bookshop.org/a/7155/9780691183800) is primarily a guide for college teachers reviewing various aspects of college teaching and going over best practices in each of these aspects. 
+
+I first became aware of the book while reading [Ultralearning](https://uk.bookshop.org/a/7155/9780008305703) ([my review](https://antoinevernet.medium.com/how-ultralearning-helps-you-learn-faster-better-and-remember-more-7c0e87eaeacd)), which I was reading more for personal enjoyment than as part of an effort of reflection on my teaching practice. However, it sparked my interest in reading more on pedagogy and The Craft of College Teaching made it's way on top of the list of books that I drafted (more on the other books on this list below).
+
+The Craft of College Teaching is organised in 11 chapters and 10 interludes. The interludes are very short (2-3 pages) and often complement the chapter that precedes them. The introduction sets the scene by stating that the purpose of the book is to provide teaching recommendations based on sound research. 
+
+The first chapter explores how to motivate students to learn. It suggests 8 different approaches that can be combined, such as demonstrating care, emphasizing possibilities and arousing curiosity. 
+
+The first interlude covers what one can do in the first day of class. It offers ideas about how to move away from the old-fashioned custom of covering administrative matters (covering some of these in class is somewhat unavoidable, but can be reduced to a minimum).
+
+The second chapter covers course design, syllabus design and lesson design. While the chapter is not an exhaustive masterclass in developing a class, it gives a number of recommendations and a checklist of questions to ask yourself to help structure your design effort.
+
+The second interlude covers metaphors of teaching. The authors point out that the way we teach is influenced by metaphors about teaching and learning we have internalized and they offer a number of metaphors to revisit our perspective on learning, such as teaching as provocation (probably my favorite, but probably not the one I practice the most), or teaching and learning as a conversation.
+
+The third chapter covers strategies to promote active learning in the classroom. And is complemented by an interlude on science-led teaching.
+
+The fourth chapter suggests techniques to make learning last. This covers a number of strategies but is not an exhaustive coverage of retention (which would require a full book). I have covered some of these strategies in [my article on learning better](https://antoinevernet.medium.com/you-can-learn-better-four-cool-studying-tips-for-students-790b8e8499ae) and a book such as [Ultralearning](https://uk.bookshop.org/a/7155/9780008305703) is a good complement to the Craft of College Teaching in terms of retention techniques ([my review](https://antoinevernet.medium.com/how-ultralearning-helps-you-learn-faster-better-and-remember-more-7c0e87eaeacd)). 
+
+The fourth interlude covers what makes for a good explanation. It insists on how multiple explanations from different perspectives can make a concept progressively clearer for students.
+
+Chapter 5 focuses on discussion-based learning and offers some strategies about how to introduce more discussion-based learning in your classroom, as well as strategies to help your students realise the benefits they gain from discussion.
+
+Interlude 5 talks about embarrassment and learning. Embarrassment often arise from discussion-based learning, especially for students who encounter it for the first time. The interlude goes over a couple of strategies to help students overcome their possible embarrassment.
+
+Chapter 6 covers lecturing and powerpoint and presents a specific philosophy of slide preparation. This is followed by an interlude on group work, which covers advantages of working in a group. I have written about [group work](https://antoinevernet.medium.com/why-should-you-love-group-work-its-hard-but-it-works-wonders-bd4d032741b5) partially as a result of reading this interlude.
+
+Chapter 7 is on teaching and technology and offers some ways to decide when and how to incorporate new technologies (i.e. polling, gaming, etc.) into teaching. This is followed by an interlude on knowledge and information which grapples with the idea that in a world of high accessibility of information, the ability to recognise low-quality information is essential.
+
+Chapter 8 talks about experiential learning as a good way to enhance students' learning and enjoyment. Individual research and dissertations are often the main form of experiential learning found in undergraduate and graduate programmes. They suggest that most experiential learning falls under the following five categories: apprenticeships, clinical experiences, fieldwork, internships and research.
+
+Interlude 8 covers mentoring and teaching which seems to apply more directly to supervision relationships for dissertations and PhD students.
+
+Chapter 9 is called writing and learning, and explores ways in which various types of writing can be incorporated in teaching to support students learning.
+
+The following interlude is on interdisciplinary teaching and learning. The authors argue that interdisciplinarity leads to recombination, in other words interfaces between discipline are fertile grounds for innovation (they do not mention, however, the high transaction costs often associated with interdisciplinary work).
+
+Chapter 10, entitled critical thinking, goes over what is required of students to sharpen their critical thinking skills: observation, evaluation and interpretation. They also discuss some of the cognitive biases that undermine our ability to think critically, such as confirmation bias (our tendency to accept more readily information that reinforces our beliefs and dismiss information that challenges them) and anchor bias (how our decisions are influenced by a reference point) among others.
+
+The last interlude covers what to do on the last day of class, suggestions include a debrief, review or a presentation. The authors suggest that any activity leading students to mobilizing the material learned is good.
+
+The last chapter (11) covers assessment and grading. The authors insist on the importance of formative assessment and also give some suggestions for building grading rubrics.
+
+The book closes on an epilogue about teaching as creative problem solving. It covers a number of ways to approach problem solving and how this can be adapted as a way to structure a course or a class session.
+
+## What I liked
+
+The book is well rounded and the structure makes it easy to find information about a specific topic in the book. It gives a pretty complete overview of what goes into designing a class as well as a lot of advice for a successful delivery. 
+
+It is well written and generally as concise as one can wish (I hate it when books take 5 pages to say something that can be said in 1).
+
+The chapter on active learning and the one experiential learning are very helpful for those wanting to familiarize themselves with these concepts.
+
+## What I liked less
+
+A lot of the references provided are books. This is not a huge issue in itself, but it might make it more difficult for the intended audience to access sources. Indeed, faculty and PGTA might have good access to scientific papers through their institutions, but budgets for buying books will vary widely across seniority levels, institutions and countries. 
+
+Some of the interludes are very good complements to the chapter that precedes them, while others seem to come out of nowhere. They might be interesting in themselves (group work, knowledge and information), but they sometimes appear detached from the larger arch of the book.
+
+## How does it relate to other books that I have read
+
+Reading [Ultralearning](https://uk.bookshop.org/a/7155/9780008305703) by Scott Young ([my review](https://antoinevernet.medium.com/how-ultralearning-helps-you-learn-faster-better-and-remember-more-7c0e87eaeacd)) led me to create a short reading list about pedagogy that I am currently making my way through. The Craft of College Teaching is targeting a different audience and is more structured to appeal to college teachers, but there is some overlap in the topics covered.
+
+## What did it make me want to read next
+
+Next on my list are [Geeky Pedagogy](https://uk.bookshop.org/a/7155/9781949199062) by Jessamyn Neuhaus and two books mentioned in the epilogue of the book: [Mastermind: How to Think Like Sherlock Holmes](https://uk.bookshop.org/a/7155/9780857867278) by Maria Konnikova and [Learn Better](https://www.amazon.co.uk/Learn-Better-Mastering-Business-Anything/dp/0593135318/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1619173155&sr=8-2) by Ulrich Boser.
+
+## Conclusion
+
+The Craft of College Teaching is a useful resource for someone interested in reading about pedagogy or for someone preparing to deliver a new class. It is also a good resource for someone preparing a submission for a fellowship of the higher education academy^1.
+
+## Endnotes
+
+1. The fellowship of the higher education academy (FHEA) is a teaching certification that most lecturers in the UK have to obtain in as part of their probation.
+
+
+
+
+Note: some of the links to books are affiliate links, this means that if you use them to make a purchase, I might receive a small commission.

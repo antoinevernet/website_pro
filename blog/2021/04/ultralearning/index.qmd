@@ -1,0 +1,87 @@
+---
+title: "How Ultralearning helps you learn faster, better and remember more?"
+date: 2021-04-06
+description: "I recently finished reading Ultralearning by Scott H. Young."
+# image: ""
+# twitter-card:
+#   image: ""
+# open-graph:
+#   image: ""
+categories:
+  - studying
+  - learning
+resources:
+  - "img/*"
+doi: ""
+citation: true
+bibliography: ../../../../files/references.bib
+csl: ../../../../files/amj.csl
+---
+
+
+This is a review of the book [Ultralearning](https://uk.bookshop.org/a/7155/9780008305703) by Scott H. Young.
+
+## Summary
+
+The premise of the book is that one can learn vast amounts, and master subjects reputed difficult through intense practice. The book presents some of the principles, tools and techniques to achieve this. It is written in an accessible style and is well-paced.
+
+While the book might first appear as a charge against higher education, this is not the case. Rather, it is a celebration of learning and what makes learning fun and rewarding. What Young argues is important for successful self-directed learning efforts, is also important for structured learning efforts, for example when one is enrolled in a degree programme. This means the book should appeal to anyone who is either engaged in a learning project or interacts often with learners.
+
+I first picked up the book for myself as an entertaining read. I was also intrigued because, thanks to my job, I get to do a lot of individual independent learning and I hoped would give me a couple of ideas on how to organise some of my own learning (specifically to improve my skills in natural language processing). It turns out, however, that I found the book more relevant to educators than I expected. As a professor, I am always looking for ideas to help my students learn better. And there are quite a few things in the book that you can use to nudge students to practice.
+
+The book introduces the ultralearning framework (I guess mega-learning was already taken?). The first three chapters set the scene: chapter one suggests one can get a college education without going to college (and facing the huge cost this represents in the US). The second chapter explores why ultralearning matters. The third chapter covers what one needs to do to become an ultralearner.
+
+The rest of the book is then organised around 9 principles of ultralearning: metalearning, focus, directness, drill, retrieval, feedback, retention, intuition and experimentation. Each of the "principles" chapters are introduced with an anecdote. Some are very compelling (Ramanujan, chapter 8: Retrieval), some a lot less so, or even counter-productive (Richards, chapter 10: Retention). 
+
+The chapter on metalearning explores the importance of planning your learning project. The chapter on focus explores ways one can resist distractions and the temptation to procrastinate. The chapter on directness considers the difficulties with transfer: the fact that we are often not able to apply what we learned to problems that are only very slightly different from those we trained on. Drill insists on the importance of breaking down what you are learning to focus practice on specific areas of weakness. Retrieval suggests tricks to remember what you have learned effectively. Feedback is about getting feedback early and often, but also about when one should stop requesting feedback. Retention is focused on how memories decay over time and what we can do to stave off this decay. Intuition focuses on how we can build intuition for what we have learned. This chapter insists on the importance of difficulty and overcoming the difficulty. And finally, experimentation is concerned with how tweaking the way one learns can help refine one's ability to learn.
+
+## What I liked about the book
+
+Overall, I believe the value of ultralearning comes from the fact that in an increasing number of positions, people need to be able to learn and adapt. Therefore, one could argue that the capacity to learn and adapt is essential to stay relevant, whether you are an employee or an entrepreneur. In addition, in a world increasingly flooded with information, the ability to prioritize what one needs to know seem an obviously beneficial skill to have.
+
+The emphasis on meta-learning both before and throughout a learning effort is something that I believe is very important. And this is often a part that students in degree programmes overlook because the structure of the programme seems to be a substitute for individual meta-learning, but this is only partially true. The book made me realize that I could do a better job of emphasizing this to students; and I could find ways to encourage their meta-learning efforts. 
+
+The book is full of solid studying advice, helpfully split across the principle chapters, which makes it easy to find specific advice when you are looking for it. For this advice alone, the book is worth it.
+
+## What I liked less
+
+The first chapter is a collection of anecdotes about a number of ‘ultra learners’. While the chapter is entertaining, to me, it mostly illustrates the massive heterogeneity of this new category. And this is what makes it difficult for me to recognize it as a category: it has low coherence.
+
+In the second chapter, the author explores why ultralearning matters. I find this chapter mostly unconvincing. While I think that ultralearning does matter, I don't think it is for the reasons the author puts forward. The economic argument that being an ultralearner will help outcomes on the labor market, does not seem to hold much water as it assumes that if you learn hard enough, you will naturally come out in the group that benefits from changes in labor markets. There is little evidence of this being the case offered by the author. The education argument, which revolves around the cost of education, is incredibly US centric: there is a whole world where quality tuition is much cheaper than in the US. But even in the US, there is plenty of evidence there are good returns to education ([Tamborini, Kim, Sakamoto, 2015](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4534330/); [Hout, 2012](https://www.semanticscholar.org/paper/Social-and-Economic-Returns-to-College-Education-in-Hout/6739c18fd2f63f1b4c7f53571e1c630769ac6608?p2df)).
+Overall, I am not sure that I am convinced by the argument that ultralearning matters because of the economic returns that might be associated with it.
+
+But, overall, these issues are minor and I still recommend the book as an interesting read, especially if you are looking for ideas on how to structure your learning efforts.
+
+## How does it relate to other books I have read?
+
+[Ultralearning](https://uk.bookshop.org/a/7155/9780008305703) came back front of mind recently because I was reading [The Craft of College Teaching](https://uk.bookshop.org/a/7155/9780691183800) by Robert DiYanni and Anton Borst, which is structured like an how-to for various part of a university-level course. There is some overlap between the two books despite their apparently very different audiences.
+
+It also reminded me of some of the literature I read a few years ago while preparing my application for a FHEA^1.
+
+## What did it make me want to read next?
+
+The book made me read a number of scientific articles on various aspect of learning. I was particularly interested in how memory works.
+
+Ultralearning also led me to add a number of books on pedagogy to my reading list, either because they were cited or because I simply stumbled upon them browsing pedagogy titles. The first book I read from that list was [The Craft of College Teaching](https://uk.bookshop.org/a/7155/9780691183800) which I already mentioned, but it also made me order [Super Courses](https://uk.bookshop.org/a/7155/9780691185460) by Ken Bain, which I plan to read shortly.
+
+The other books I added to my reading list are [Geeky Pedagogy](https://uk.bookshop.org/a/7155/9781949199062) by Jessamyn Neuhaus and [Make it Stick](https://uk.bookshop.org/a/7155/9780674729018) by Peter C. Brown, Henry L. Roedinger III and Mark A. McDaniel.
+
+It also led me to start writing a short series of posts aimed at students on [learning tips and tricks](https://antoinevernet.medium.com/you-can-learn-better-four-cool-studying-tips-for-students-790b8e8499ae).
+
+## Conclusion
+
+While the book is quite entertaining and pretty good at relying on scientific evidence for the claims made, I found the over reliance on anecdotes at the beginning of each chapter unnecessary.
+
+Overall, I liked book for the plethora of good studying advice and some of the digression into cognition and how we learn. 
+
+# Endnotes
+
+1. FHEA stands for Fellowship of the Higher Education Academy. This is a certification that is required in most UK Universities as part of a lecturer's probation.
+
+# References
+
+Hout, M. [Social and Economic Returns to College Education in the United States](https://www.annualreviews.org/doi/abs/10.1146/annurev.soc.012809.102503). Annual Review of Sociology 38:1, 379-400 (2012).
+
+Tamborini, C.R., Kim, C. & Sakamoto, A. Education and Lifetime Earnings in the United States. Demography 52, 1383–1407 (2015). [https://doi.org/10.1007/s13524-015-0407-0](https://doi.org/10.1007/s13524-015-0407-0)
+
+Note: some of the links to books are affiliate links, this means that if you use them to make a purchase, I might receive a small commission.

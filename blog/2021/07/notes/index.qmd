@@ -1,0 +1,34 @@
+---
+title: "Review of Take Great Notes"
+date: 2021-07-26
+description: "A short review of Take Great Notes by Mal Leicester and Denise Taylor"
+# image: ""
+# twitter-card:
+#   image: ""
+# open-graph:
+#   image: ""
+categories:
+  - studying
+  - learning
+  - book review
+resources:
+  - "img/*"
+doi: ""
+citation: true
+bibliography: ../../../../files/references.bib
+csl: ../../../../files/amj.csl
+---
+
+[Take Great Notes](https://uk.bookshop.org/a/7155/9781526489418) is a very short book from the Sage Super Quick Skills series written by Mal Leicester and Denise Taylor. It is aimed at undergraduates who wonder how they can improve their note taking. The book is also relevant for primary and secondary school students. I picked it up as I am designing material to help MSc students learn. As a result, not only have I been reading about how we learn (I wrote about [studying tips](https://antoinevernet.medium.com/you-can-learn-better-four-cool-studying-tips-for-students-790b8e8499ae), [using flashcard](https://antoinevernet.medium.com/rote-memorising-or-more-can-using-flashcards-improve-learning-56b2fff527f3), and [group work](https://antoinevernet.medium.com/why-should-you-love-group-work-its-hard-but-it-works-wonders-bd4d032741b5)), I have also been searching for advice on reading, writing and taking notes. My hope is that I can provide an overview of useful study skills for students at the beginning of the year, it will not be new for everyone, but I see it as one way to help students that might not be using the best studying techniques. Back to the book.
+
+[Take Great Notes](https://uk.bookshop.org/a/7155/9781526489418) is split into three sections: the first explains why taking good notes is important to learning, the second describes a number of note-taking techniques, and the third reviews how to prepare for taking notes in a lecture or on a book.
+
+The core of the book is the second part, which presents four different approaches to note-taking: the outline method, the Cornell method, the charting method and, finally, graphical note-taking. If you are not familiar with these methods, they are described in detail and examples are provided. In addition, the authors suggest activities to help you try out each of the methods.
+
+It is likely that you will have a preference for one method over another, or that in the course of trying them out, you will realise that one method works better for you. 
+
+Overall, I like the book. Just don't set your expectations too high: the Super Quick Skills books are very short, so can only contain so much. I bought it to develop studying tips to help my MSc students on my programme and, while I like the approach of the book, it fell some way short of what I was hoping to learn. But it did spark my interest in discovering more about note taking and I will probably get a couple more books on the topic, such as *How to Take Smart Notes: One Simple Technique to Boost Writing, Learning and Thinking – for Students, Academics and Nonfiction Book Writers* by Sonke Ahrens (in [German](https://uk.bookshop.org/a/7155/9783743124981), or in [English](https://www.amazon.co.uk/How-Take-Smart-Notes-Nonfiction/dp/1542866502/ref=sr_1_1?dchild=1&keywords=take+smart+notes&qid=1626961631&sr=8-1)) or [Take Note: Note-taking skills and techniques for classroom and office](https://uk.bookshop.org/a/7155/9781782225515) by Roy B. Tabor.
+
+
+
+Note: some of the links to books are affiliate links, this means that if you use them to make a purchase, I might receive a small commission.

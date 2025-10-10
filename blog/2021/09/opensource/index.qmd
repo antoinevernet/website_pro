@@ -1,0 +1,65 @@
+---
+title: "You should use open-source software for teaching!"
+date: 2021-09-20
+description: "I have been teaching Data Analytics modules in various forms for the past five years. I started teaching class using R, because it was what I knew and what I used in my work. But over the years, I have spent a lot of time thinking about what software to teach."
+# image: ""
+# twitter-card:
+#   image: ""
+# open-graph:
+#   image: ""
+categories:
+  - studying
+  - learning
+  - teaching
+  - data analytics
+  - data science
+  - causal inference
+resources:
+  - "img/*"
+doi: ""
+citation: true
+bibliography: ../../../../files/references.bib
+csl: ../../../../files/amj.csl
+---
+
+I have been teaching Data Analytics modules in various forms for the past five years. I started teaching class using R, because it was what I knew and what I used in my work. But over the years, I have spent a lot of time thinking about what software to teach.
+
+I have given thought to replacing R with Stata, Python, Julia or SPSS. While I discuss software in the context of teaching data analytics, the broad principles that guided my decision apply for classes in other disciplines that require software, for example the software you might use to teach architectural design, video production, or game design.
+
+There are 3 things you need to consider to pick the most appropriate software for a class: what people in industry use; how accessible the software is; and what kind of community exists around the software. In addition and more importantly, you need to realise that you are not teaching software use, but teaching with software. 
+
+## Teach principles, not software
+
+Students need to be taught principles that apply whatever software they use. In the context of data analysis and scientific programming, this means teaching about data structures and programming concepts, such as loops or vectors. 
+
+These concepts will transfer to other contexts (such as other software and programming languages) and allow a student proficient with the concept to become proficient in another context much quicker. This is particularly important because which programming language or software platform dominate a specific application domain changes over time. The tool we will use in 5, 10 or 20 years will be different to the one we use today, but the principles will still apply. A student who makes a career in data analytics will have to retool several times over their career and a strong grasp of principles will make this easier.
+
+For these reasons, it is important to teach principles, however, the software you choose still matters, because switching costs still exist. It makes sense to attempt to use the tools that will minimise the switching costs to the students in their transition from education to their professional lives.
+
+## What is used in industry?
+
+One way to minimise switching costs is to teach using tools that are widespread in the industries your students go on to work in. In theory, this means students can directly use what they learned in the classroom in their first job.
+
+In addition, their ability to signal to an employer that they are already familiar with specific tools in use in the company has immediate benefits for their employability.
+
+I believe that using what the industry uses is important but less so than teaching general principles of data analysis, fortunately, one might be able to do both.
+
+## What does the user community look like?
+
+Considering the user community provides important information when deciding what tools to use.
+
+How large is the community? Bigger is not always better, but it often helps. A larger community means more opportunities for both permanent employment and freelance engagements. It often translates to easier access to training material and help, for example through Q&A sites and online courses providers. The bigger the community the most likely that someone has encountered and solved the most common issues that arise with the software or any module within it.
+
+How welcoming is the community? This is a difficult one as communities will not be similarly welcoming to everyone. As an instructor, it is important to think about where to direct the students for help. Some sub-communities within the larger community will be more welcoming and that is where one should direct students. 
+
+## How accessible is the software?
+
+The last thing to consider is accessibility. It is an easy one for instructors to overlook as we often have good access to software through our institutions. But this is not the case for many students, especially for those of us teaching diverse cohorts coming from a wide range of countries and diverse class backgrounds.
+
+Is the software proprietary? How costly is a licence? How long does the licence students obtain through the University last after they finish the course? Answering these questions help decide which tool is appropriate.  For example, Stata is a popular statistical software with a large user base. Stata also costs money. The cheapest plan as a student is $94 per year, but this only applies while enrolled at University. A single-user licence otherwise costs $765 per year (or more for the multicore version). While $94 might not be much for some students, it is a lot for others. And $765 is out of reach of the majority of students or unlikely to be worth the investment, unless data analysis is central to the positions they plan to apply to. This means that all but a few students will lose access to the software outside of the classroom, limiting their ability to practice and progress, and their ability to build a portfolio of work that they can showcase to potential employers.
+
+Software that is free, and, even better, open source allows students to have a copy of the software in perpetuity and use it as much as they need. This availability usually helps the community grow and, in many cases, leads to positive externalities: larger communities and more contributed libraries being the two most evident ones.
+
+Focusing on principles and on answering the three questions I described—what do people in industry use? How large is the community? How accessible is the software?—will help you decide what is the most appropriate software to use in your teaching. 
+
+While I weight accessibility (as in Free and Open Source) heavily, this might not be as relevant for you or your field and you might weigh the size of the community or use in industry more than I do.

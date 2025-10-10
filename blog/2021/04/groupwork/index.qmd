@@ -1,0 +1,78 @@
+---
+title: "Why should you love group work? It's hard, but it works wonders!"
+date: 2021-04-14
+description: "This is the second installment in my learning to learn series; the first explored four tips to study better."
+# image: ""
+# twitter-card:
+#   image: ""
+# open-graph:
+#   image: ""
+categories:
+  - studying
+  - learning
+resources:
+  - "img/*"
+doi: ""
+citation: true
+bibliography: ../../../../files/references.bib
+csl: ../../../../files/amj.csl
+---
+
+
+This is the second installment in my learning to learn series; the first explored [four tips to study better](https://antoinevernet.medium.com/you-can-learn-better-four-cool-studying-tips-for-students-790b8e8499ae) ([on this blog](../../03/fourstudytips/index.qmd)).
+
+When, as teachers, we assign group work, we often hear you grumble[^1]. Group work often gets a bad rap. And there are (some) good reasons for it. But there are also significant benefits arising from group work.
+
+So, why do we assign you to work in groups? 
+
+I will start with why you have good reasons to grumble and then will cover the advantages of working in groups. I hope to convince you that the benefits outweigh the downsides.
+
+## Free-riders
+
+Those not enthusiastic about group work often mention concerns about free-riding. In other words, you are worried about one or several member of the group being rewarded for the group's efforts to which they contributed less than their fair share. This sometimes leads to the sucker effect where members of the group respond to free-riding by others (real or perceived) by reducing their own effort ([Davies, 2009](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.261.2831&rep=rep1&type=pdf)).
+
+This obviously can lead to the group performing worse, as the overall effort goes down as a result on both the initial free-riding and the sucker effect.
+
+## Group composition
+
+Often group composition, or the way it is arrived at is a source of complaint. If groups are assigned, you might feel that you were unlucky in not being paired with your friends or in being paired with someone that you perceive as less well-performing.
+
+However, leaving you to come up with groups on your own can be unfair to the students that are less well socialized into the cohort. In addition, it often reduces diversity within groups. Group diversity is important, because it can increase creativity in work groups ([Vezzali et al., 2016](https://pure.aston.ac.uk/ws/files/20596332/Relationship_between_cultural_diversity_and_creativity_in_education.pdf)). However, diverse groups also need more time to reach consensus and develop routines, which might explain that you sometimes experience more frustration in a diverse group than in an homogenous one.
+
+## Better learning
+
+Groupwork is an active learning activity that forces you to use the material seen in class and mobilize it in the context of the group to produce some form of output. This implies discussing the material with the rest of the group and negotiating to reach consensus. 
+
+This helps you to engage with the material in an active way and there is evidence that active learning favors better learning and outcomes ([Freeman et al., 2014](https://www.pnas.org/content/pnas/early/2014/05/08/1319030111.full.pdf?utm_source=twitterfeed&utm_medium=twitter))
+
+## Developing teamwork skills
+
+One of the main benefits of group work is that it helps you to develop teamwork skills ([Burke, 2011](https://cpb-eu-w2.wpmucdn.com/blogs.ucl.ac.uk/dist/a/38/files/2020/06/burke.pdf)). Dealing with free-riding and its effects is part of the learning as well. There is some evidence that explicitly discussing rules of engagement within the team reduces free-riding and improves the functioning of the team ([Burke, 2011](https://cpb-eu-w2.wpmucdn.com/blogs.ucl.ac.uk/dist/a/38/files/2020/06/burke.pdf)).
+
+Teamwork skills are valued by employers and being able to evidence your experience working in teams is an advantage in the workplace.
+
+## In summary
+
+This was a very short introduction to why working in group is important even if it sometimes feels uncomfortable and leads to free-riding. I would argue that the two main complaints about group work: free-riding behavior and the composition of the group can be at the root of crucial skills arising from group work. Learning to manage free-riders and getting accustomed to working in diverse groups are two skills that will be very useful in the workplace. Group work while studying is a good way for you to start acquiring them in a controlled environment.
+
+Let me know which important aspects of group work I have not covered. What else do you like or dislike about working in a group?
+
+This article on group work was partially inspired by the Interlude 6 on group work in [The Craft of College Teaching](https://uk.bookshop.org/a/7155/9780691183800) by Robert DiYanni and Anton Borst.
+
+## Endnotes
+
+[^1]: This short article is about working in a group to achieve a specific outcome (often a presentation or report). It does not cover working as part of a study group.
+
+## References
+
+Burke, A. 2011. Group Work: How to Use Groups Effectively. The Journal of Effective Teaching, 11(2): 87-95.
+
+Davies, W. M. 2009. Groupwork as a form of assessment: common problems and recommended solutions. Higher Education, 58(4): 563-584.
+
+Freeman, S., Eddy, S. L., McDonough, M., Smith, M. K., Okoroafor, N., Jordt, H., & Wenderoth, M. P. 2014. Active learning increases student performance in science, engineering, and mathematics. Proc Natl Acad Sci U S A, 111(23): 8410-8415.
+
+Vezzali, L., Gocłowska, M. A., Crisp, R. J., & Stathi, S. 2016. On the relationship between cultural diversity and creativity in education: The moderating role of communal versus divisional mindset. Thinking Skills and Creativity, 21: 152-157.
+
+
+
+Note: some of the links to books are affiliate links, this means that if you use them to make a purchase, I might receive a small commission.

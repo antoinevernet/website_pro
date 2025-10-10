@@ -1,0 +1,55 @@
+---
+title: "Let's not abandon progress! How can we learn to love online learning?"
+date: 2021-03-22
+description: "I recently finished teaching three MSc classes online. Here is what I learned."
+# image: ""
+# twitter-card:
+#   image: ""
+# open-graph:
+#   image: ""
+categories:
+  - teaching
+resources:
+  - "img/*"
+doi: ""
+citation: true
+bibliography: ../../../../files/references.bib
+csl: ../../../../files/amj.csl
+---
+
+
+I recently finished teaching three MSc classes online. Here is what I learned.
+
+First, online can be as good as in person, and better in some cases. Second, getting there is challenging and it is to be expected that one does not achieve full proficiency on one’s first try.
+
+One of the main criticisms of online learning I have heard is the fact that students prefer in-person classes, and so do faculty. This is hardly surprising as both students and faculty have done in-person classes more or less their whole lives. Most people are suspicious of change, at least at first. There are also good reasons for both students and faculty to be cautious about online learning. For example, why should students believe that their university will be able to recreate a high quality experience online at relatively short notice? For faculty, the impact of the change of delivery mode on their workload is significant and not always well acknowledged. Faculty and teaching and learning teams in many universities have been working extra hard for more than a year and everyone is a bit worn out. But this is an effect of the pandemic and crisis planning and online teaching need not been synonym with over exhausted faculty and students.
+
+Despite this, I believe there is a way to make online learning as good if not better than in-person learning. One of the draw of online instruction (or partially online instruction), in my opinion, is that it might broaden access to graduate schools for students from poorer countries who are driven away by the ever increasing prices of degrees and the ever dwindling availability of financial support. Students only face the cost of tuition and not the cost of living in expensive cities in the UK or US.
+
+What are the advantages of teaching online? First, the mix of synchronous and asynchronous activities means that students have access to high quality material (both slides and pre-recorded lectures) that they can review as many times as needed. This is particularly important for students who are being taught in a second language, as their fluency probably needs to improve during their time at the university for them to be able to perform at their best.
+
+This also encourages instructors to adopt a flipped classroom, which we know has benefits for students learning (examples and cite). Tools, such as breakout rooms facilitate exercises such as think/pair/share in a way that is more efficient than in a classroom. The availability of tools through the internet and the possibility to switch between them quickly and seamlessly facilitate an interactive experience.
+
+A great bonus of the online setting, is the ability to invite guests. Others located on other continents can be invited and join the class seamlessly. This is a revolution for guests and one that most of us probably have not taken full advantage of yet. Back in the classroom, a remote guest might be less impactful because of the salience of their remoteness. While people's willingness to do this might lower somewhat as the pandemic recedes, this still remains a strong bonus of online learning. The guest can access the same tools as everyone else, rather than being somewhat impotent if they are the online remote attendee in an in-person classroom.
+
+However, all these potential advantages seem to have been overshadowed in many places by the challenges brought by what can only be thought of as a radical change.
+
+Creating a proper online experience requires a lot of thought and effort. For this reason, it is only possible if institutions put in place proper support for faculty and teaching and learning teams. In the panic of moving online in both Europe and the US, it seems that this has often been overlooked. Part of the negative feelings both students and faculty have about online learning are the results of poor experiences because of underestimation on the part of universities, but also faculty themselves, of how much work the change of mode of delivery would represent.
+
+One can't expect to get everything right the first time. A lot of what works in the classroom needs to be rethought and adapted. This takes several iterations to get right. Trial and error is key (just as it is in the classroom). Reaching the highest quality in an online setting is likely to take 2 or 3 iterations of the same class, just as it does in an in-person setting.
+
+The second challenge and one that cannot be solved by iteration alone is maintaining student engagement. In an in-person class, there is little question about whether students are there. Online there is more ambiguity: if no-one choose to turn their camera on, you are essentially alone. This can make case studies or related activities difficult or impossible. In breakout rooms, some students' experiences might be compromised by being paired with someone who is not engaged in the session. 
+
+Setting rules about engagement and enforcing them is crucial to maintaining engagement and delivering the best experience possible for students. While it might not always be possible, for example for students in places with less reliable internet, having a "cameras on" policy does help. 
+
+The next challenge for online delivery is striking the right balance between synchronous and asynchronous. The initial approach of many universities was to emphasise asynchronous teaching, often out of a concern for fairness for students who might have less reliable access to the internet. But it became obvious quickly that students need and want synchronous teaching to help them stay engaged in their studies.
+
+The quality of the experience depends more on variables out of the control of the university than in face-to-face teaching. For example, a lot depends on the quality of the environment of the student, be it availability of a quiet space, or of quiet time for study. This is in my view what makes the online study mode unsuitable for general adoption. However, I am convinced that more students than before will be attracted by online degrees over the coming decade. For example, mature students who might already be in employment and currently tend to do their degree part-time might welcome the opportunity to take a remote degree, or a hybrid one.
+
+I am not arguing that online tuition should replace in-person tuition. But I would be very surprised if the online degree market which was growing before the pandemic ([a forecast from December 2019 suggests that this market would grow to $350B worldwide by 2025](https://www.researchandmarkets.com/reports/4876815/online-education-market-and-global-forecast-by?utm_source=dynamic&utm_medium=BW&utm_code=nvzl68&utm_campaign=1334853+-+$350+Billion+Online+Education+Market:+Global+Forecast+to+2025+by+End+User,+Learning+Mode+(Self-Paced,+Instructor+Led),+Technology,+Country,+Company&utm_exec=chdo54bwd)) does not see its growth accelerated by the pandemic.
+
+In-person tuition quality will also benefit from our pandemic experience. Indeed, the pandemic has showed us the benefits of good asynchronous material for student learning (beyond readings, cases and exercises). I will certainly retain the habit of complementing my classes with asynchronous video material.
+
+The pandemic has also showed the limits of expecting that faculty will magically become proficient cinematographers, sound engineers and editors without support. Universities that invest in these new activities in the coming years will be in a better position to benefit from greater demand for online degrees.
+
+Traditional universities are much better placed to take advantage of the opportunities of online learning than they were a year ago. Will they dare to embrace it?

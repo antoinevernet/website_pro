@@ -1,0 +1,15 @@
+---
+title: "Antoine Vernet's blog"
+search: false
+listing:
+  sort: "date desc"
+  feed: 
+    title: "Antoine Vernet's blog"
+    description: "Antoine Vernet's blog"
+    items: 60
+    type: full
+    language: en
+  contents:
+    - "blog/**/index.qmd"
+    - "!blog/index.qmd"
+---

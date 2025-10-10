@@ -1,0 +1,68 @@
+---
+title: "Reproducibility in Management Scholarship"
+date: 2017-11-04
+description: "Reproducibility in management and literate programming"
+# image: ""
+# twitter-card:
+#   image: ""
+# open-graph:
+#   image: ""
+categories:
+  - management
+  - reproducibility
+  - smj
+  - literate programming
+  - r
+resources:
+  - "img/*"
+doi: ""
+citation: true
+bibliography: ../../../../files/references.bib
+csl: ../../../../files/amj.csl
+---
+
+
+
+In the November issue of the _Strategic Management Journal_, the editors write about a new initiative, which aims to increase the availability of management data [[@Ethiraj2017]](http://doi.wiley.com/10.1002/smj.2690)[^1]. 
+As part of this initiative, the editors will contact authors of impactful papers in _SMJ_ to suggest they contribute the data.
+Additionally, _SMJ_ will adopt a badge system to identify articles that make their data available.
+The editors' goal is to both facilitate replications and, crucially, increase the ability of researchers to build on previously collected data; therefore increasing the cumulativeness of management research.
+The editors highlight that the [FIVESProject](http://five.dartmouth.edu/) is a potential home for the contributed data (FIVES stands for Firm and Industry Evolution, Entrepreneurship and Strategy)[^2].
+
+This is a great initiative and I hope many authors will want to take advantage of it.
+It highlights how far we still have to go, however, to make reproducibility part of management research.
+Data availability is great but, without the code used to produced the analyses, it is of limited value.
+Indeed, it can be hard to reproduce an analysis without knowledge of all the steps taken by the authors, and papers usually describe only some of these steps.
+
+Part of the answer lies in the tools we use to report research: how can we, as scientists, limit errors and ensure reproducibility when text, data and analyses are separated?
+Some of the tools we use are not fit for purpose!
+The tools we use need to enable reproducibility, and we need to train PhD students to use them. 
+Only then, can we hope to drive the field towards a paradigm in which reproducibility is achievable.
+
+One obviously flawed tool in the researcher's toolbox is the one we use every day: Word. 
+While great to write letters, it is woefully inadequate for research.
+If a researcher uses Word, she cannot link text and analyses: figures and tables are produced separately and their dead bodies are pasted into the Word document.
+Over time, as the text is edited, it becomes increasingly likely that there is a mismatch between text and tables and figures.
+As a result, the likelihood of errors in the reporting of results increases; and reproducibility efforts are undermined.
+
+There are better tools out there, however, and we should be writing and shouting about them, until they are widely adopted.
+For a long time, tools for literate programming had limited features and were overly constraining for the user, but this is but a distant memory now.
+Two frameworks---at least, likely several more---are fit for most cases encountered by social scientists: R/LaTeX with Sweave and RMarkdown/knitr.
+The second framework, despite its name, also works with Python and Stata and therefore is useful for researchers who do not use R as their language of choice for analyses.
+
+What value does literate programming provide the researcher with?
+It allows them to locate text and code in the same file, making it easy to track the files in which the up-to-date analyses live. 
+This cuts down on housekeeping tasks in the writing of a paper.
+In addition, it also simplifies finding and fixing mistakes.
+It also enables reproducibility, even in cases where the data cannot be shared.
+
+PhD programmes in management that have not already started teaching modern tools for analysis and reporting of research should start teaching these quickly.
+Management journals should start accepting papers written using these frameworks. 
+You can create pdf and Word documents using Rmarkdown and knitr; therefore, you can already submit to most journals using these frameworks. 
+However, journals should recognise the benefits of receiving the raw Rmarkdown file and, in time, release these files as supplements to the articles.
+This would benefit the field tremendously in the long run.
+
+### References
+
+[^1]: The editorial is paywalled, unfortunately.
+[^2]: the FIVESProject website does not seem to use https. This means that the login and password you use for this website are transmitted unencrypted; keep this in mind when you choose your password. Hopefully, the website will be upgraded to https soon.

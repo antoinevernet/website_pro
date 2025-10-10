@@ -1,0 +1,65 @@
+---
+title: "Rote memorising or more? Can using flashcards improve learning?"
+date: 2021-07-19
+description: "Flashcards are a well known studying technique and are widely used in language learning and medicine to help memorise large amount of information. They are less widely used in social sciences, which raises the question: is this because they are less useful here or because we are collectively missing a trick?"
+# image: ""
+# twitter-card:
+#   image: ""
+# open-graph:
+#   image: ""
+categories:
+  - studying
+  - learning
+resources:
+  - "img/*"
+doi: ""
+citation: true
+bibliography: ../../../../files/references.bib
+csl: ../../../../files/amj.csl
+---
+
+
+Flashcards are a well known studying technique and are widely used in language learning and medicine to help memorise large amount of information. They are less widely used in social sciences, which raises the question: is this because they are less useful here or because we are collectively missing a trick?
+
+So, what are flashcards good for? Can they be used effectively in contexts where memorisation is not central to learning?
+
+## What are flashcards good for?
+
+Flashcards are a simple and effective tool to help memorise information. However, they are often used to memorise simple relationships, such as pairs of words, or concept definitions. This makes them well suited in cases where this is what is likely to be tested.
+
+How can one use flashcards effectively? There are two important things to keep in mind: how you practice, and the type of cards that you use.
+
+### Practice makes perfect, or is it spaced-repetition?
+
+Kornell (2009), however, found that students felt they had learned more when cramming their use of flashcards for review of materials, as opposed to spacing use over several shorter sessions. Similarly, it appears that studying larger decks of flashcards, by spacing the repetition between reviews of the same card, leads to increased retention when compared to smaller decks. This is somewhat unintuitive to many people (myself included) and suggests that we are not always the best judges of what leads to good memorisation.
+
+Wissman, Rawson and Pyc (2012) showed that students who use flashcards usually understand the benefits of increasing the practice time to achieve better retention. However, they find that students do not have the same awareness of the benefits of spaced repetition. Kornell and Bjork (2008) found that students who dropped flashcards after successful retrieval learned less well. To fully realise the benefits of using flashcards you need to focus not only on sufficient practice time but on spacing the practice over the course of your learning journey. 
+
+### Using flashcards to favour deeper learning
+
+These effects are about how one uses flashcards, but the type of cards one uses also influences how well we learn from them.
+
+Lin et al. (2018) showed that factual flashcards did not improve students' performance on a test. But conceptual flashcards improved the performance of some of the students. Specifically, it helped students less able to build structure but not those more able to do so. This suggests that flashcards work better for some students than others. These results need to be nuanced as students were tested immediately after viewing the flashcards. As I said earlier, it seems that most of the benefits one can get from flashcards come as a result of spaced repetition.
+
+In a similar fashion, Sensaki et al. (2017) explored one way to use flashcards to favour deeper learning. In addition to the traditional definition on the back of the card, they suggested students write the definition again in their own words. Then the students also generated an example from their own lives. This process led to increased retention.
+
+While the traditional flashcard focuses on a definition, or more broadly a description of a concept, there seem to be some benefits in trying to use them to start reflecting on the material (by reformulating it in ones words) but also by drawing links to other related topics.
+
+## How to make the most of flashcards
+
+In summary, it seems that to make the most of flashcards, one should do the following:
+
+- Make conceptual cards rather than factual ones. These cards should draw links between the different concepts that are being learned. While traditionally used for learning facts, the best way to use flashcards is by focusing on concepts and relationships between these concepts.
+- Spaced repetition and successful recall are both essential. Using a tool that will keep presenting a card until successful recall is achieved and will then present it again after a short while has passed can be an effective way of maximising the return to using flashcards (for example [Anki](https://apps.ankiweb.net), a free and open-source tool). In addition, you should schedule flashcards recall sessions several days apart over a period of several weeks to take full advantage of the benefits of spaced repetition.
+
+How have you used flashcards? What has worked for you?
+
+## References
+
+Kornell, N. 2009. Optimising learning using flashcards: Spacing is more effective than cramming. Applied Cognitive Psychology, 23(9): 1297-1317.
+
+Kornell, N., & Bjork, R. A. 2008. Optimising self-regulated study: the benefits - and costs - of dropping flashcards. Memory, 16(2): 125-136.
+
+Lin, C., McDaniel, M. A., & Miyatsu, T. 2018. Effects of Flashcards on Learning Authentic Materials: The Role of Detailed Versus Conceptual Flashcards and Individual Differences in Structure-Building Ability. Journal of Applied Research in Memory and Cognition, 7(4): 529-539.
+
+Wissman, K. T., Rawson, K. A., & Pyc, M. A. 2012. How and when do students use flashcards? Memory, 20(6): 568-579.

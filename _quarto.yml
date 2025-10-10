@@ -14,14 +14,31 @@ pagetitle: "{{< meta title >}} | Antoine Vernet"
 author-meta: "Antoine Vernet"
 
 
+bibliography: files/references.bib
+csl: files/amj.csl
+
+
+
 website:
   title: "Antoine Vernet"
   description: "Antoine Vernet is an associate professor at the Bartlett School of Sustainable Construction at UCL, researching organizational design and ."
   # favicon: "/files/"
-  # site-url: "https://www.antoinevernet.com"
+  site-url: "https://www.antoinevernet.com"
  # repo-url: "https://github.com/antoinevernet/website_pro"
 
   # google-analytics:
+
+
+  # twitter-card: 
+  #   image: "/files/profiles/twitter-card-large.png"
+  #   card-style: summary_large_image
+  #   creator: "@andrewheiss"
+  #   site: "@andrewheiss"
+
+  # open-graph: 
+  #   image: "/files/profiles/twitter-card-large.png"
+  #   locale: en_US
+  
 
   navbar:
     pinned: true
@@ -35,6 +52,8 @@ website:
         text: Research
       - href: teaching/index.qmd
         text: Teaching
+      - text: Talks
+        href: talks/index.qmd
       - href: blog/index.qmd
         text: Blog
       # - href: games/index.qmd
@@ -42,15 +61,12 @@ website:
 
 
     right:
-      # - text: "{{< iconify bi rss size=1.1em title='RSS' >}}"
-      #   href: atom.xml
+      - text: "{{< iconify bi rss size=1.1em title='RSS' >}}"
+        href: atom.xml
       - href: "mailto:a.vernet@ucl.ac.uk"
         icon: bi-envelope
-      # - text: "{{< iconify fa6-brands bluesky size=1.1em title='Bluesky' >}}"
-      #   href: https://bsky.app/profile/antoinevernet.bsky.social
       - text: '{{< fa brands bluesky size=sm >}}' 
         href: https://bsky.app/profile/antoinevernet.bsky.social
-
       - icon: youtube
         href: https://www.youtube.com/@antoinevernet
         rel: me
@@ -79,12 +95,8 @@ format:
     grid: 
       body-width: 900px
     # css: styles.css
-    toc: true
+    toc: false
     icons: iconify
 
-
-
-# bibliography: files/bib/references.bib
-# csl: files/bib/amj.csl
 
 

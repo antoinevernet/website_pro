@@ -1,0 +1,56 @@
+---
+title: "Review of Economical Writing"
+date: 2021-09-28
+description: "This is the second installment in my learning to learn series; the first explored four tips to study better."
+# image: ""
+# twitter-card:
+#   image: ""
+# open-graph:
+#   image: ""
+categories:
+  - studying
+  - learning
+  - writing
+  - book review
+resources:
+  - "img/*"
+doi: ""
+citation: true
+bibliography: ../../../../files/references.bib
+csl: ../../../../files/amj.csl
+---
+
+
+This little book makes for delightful and terrifying reading. Delightful because it is very well written, and hilarious at times. Terrifying because many of the rules expose flaws in one's writing. 
+
+The book packs a lot of very useful tips in a small format. It is a very good complement to the often recommended Strunk and White [Elements of Style](https://uk.bookshop.org/a/7155/9781292026640), with advice that is particularly useful to the social scientist.
+
+I picked up the book for my personal edification as much as to help me put together material to advise my students on how to improve their writing. It is interesting that as a non-native speaker, I find myself in a position to offer advice on my students' writing in English. Their writing can often be improved (as can mine), however it is not always obvious how to give constructive feedback on writing. It is easiest with PhD students where you can track change on documents and put as many comments and straighten as many sentences as you want, and do this over a period of time. This approach somewhat works with MSc of UG dissertations if you can see a draft early enough. There is less time for iteration, but great progress can be achieved in a couple of rounds of editing. But, for most other assignments completed by undergraduates or MSc students, the first time you see the text is in the final submission needing to be marked. By that time, it is too late. While one can still comment on the writing, it feels like a missed opportunity not to have tackled this at an earlier stage. So I started looking around for sources to create some bespoke material for my students. This led me, surprisingly quickly, to [Economical Writing](https://uk.bookshop.org/a/7155/9780226448077).  
+
+The book is organised as a series of short rules about various aspects of writing. The rules are preceded by a short introduction and followed by the transcript of an interview with the author, some sample teaching material from her course and a chapter written by Stephen T. Ziliak about a technique to use the book to edit one's manuscript or give feedback to one's students on their writing.
+
+The introduction and the first two rules emphasize that writing is a learnable skill and that if you are in an occupation which requires writing, possibly a lot, it would be foolish not to try to improve. McCloskey also points to the fact that to write is to think, meaning that one should write in order to know what one thinks. This is certainly useful advice for me, as I tend to delay writing often because I believe I need to clarify my thoughts first. In fact, clarification often happens automatically while writing, and more so while editing.
+
+Another important lesson from the book, is the fact that clarity is the most important quality writing can have, especially if you are writing technical documents. But McCloskey also insist that writing should be a source of joy, you should write well for yourself and in the hope that others will notice and enjoy it. Throughout the book, her enthusiasm for writing as a form of intellectual work is obvious and contagious. If this book does not make you like writing, nothing will.
+
+Let me delve into some of the rules I find the most useful. Rule 10 is about keeping on writing. Important advice to give to students, but also ourselves. Writing needs to be prioritised and consistency is important. This is partly the reason behind my writing here, I need an outlet for more casual writing that helps me to keep writing and practicing when, for whatever reasons, things are going slowly on the paper front.
+
+Rule 14 is about paragraphs and their having a point. McCloskey suggests that paragraphs are punctuation. They need a point and they need to be neither too long nor too short. I have always found paragraphs difficult. Especially in English, which is not my mother tongue. This rule left me wanting more and I went to look for something specifically about paragraphs. I found [How to Write a Paragraph: The Art of Substantive Writing](https://uk.bookshop.org/a/7155/9780944583227) by Richard Paul and Linda Elder (review coming up). This didn't really help much, so as of now, I am still looking.
+
+Rule 17 is about coherent writing and how to make things fit together. It is important to recognize that some repetition is needed in this case. It is in this rule that McCloskey gives what is probably the most well known advice from her book as an example for a sequence of sentences: (AB) (BC) (CD).
+
+Rule 20 is related to rule 17 because to achieve coherence some repetition is needed. This means avoiding elegant variation as this might lead to confusion.
+
+Rule 24 suggests to read out loud. This is reminiscent of the stories about Flaubert's *gueuloir* (the room in which he wrote, yelling his sentences to try them out). A mentor of mine, Mark Kennedy, got me into the habit of using a digital *gueuloir:* the reader on your mac.
+
+This rules are but a small overview of what the book has to offer, but they give a sense of the kind of advice you will find. 
+
+## What else did it make me want to read?
+
+McCloskey recommends her 3 favourite books on writing in one of the rules. I have already read and used Strunk and White, *The Elements of Style.* I will  get a copy of Graves and Hodge, [The Reader Over Your Shoulder: A Handbook for Writers of English Prose](https://uk.bookshop.org/a/7155/9781609807337); and of Williams, [Style: Lessons in Clarity and Grace](https://www.amazon.co.uk/Style-Lessons-Clarity-Joseph-Williams/dp/0134080416/ref=sr_1_1?crid=2HET4HIJYBLUG&dchild=1&keywords=style+lessons+in+clarity+and+grace&qid=1629282819&sprefix=style%3A+lessons+in+cla%2Caps%2C161&sr=8-1).
+
+She also mentions Becker's [Writing for Social Scientists](https://uk.bookshop.org/a/7155/9780226643939) which I read a long time ago in the French translation and started rereading in English.
+
+
+
+Note: some of the links to books are affiliate links, this means that if you use them to make a purchase, I might receive a small commission.

@@ -1,0 +1,56 @@
+---
+title: "Writing: the proverbial struggle"
+date: 2018-07-26
+description: "Why is writing so difficult?"
+# image: ""
+# twitter-card:
+#   image: ""
+# open-graph:
+#   image: ""
+categories:
+  - writing
+  - workflow
+resources:
+  - "img/*"
+doi: ""
+citation: true
+bibliography: ../../../../files/references.bib
+csl: ../../../../files/amj.csl
+---
+
+
+I read Helen Sword's _Stylish Academic Writing_ [@Sword2012] on a recent flight. 
+The book surveys major style quirks plaguing academic writing. 
+It is both entertaining and concerning: some of the examples are hilarious, but a look at one's own writing yields many sentences as wonky as the examples in the book.
+For me, writing is the single most difficult part of being an academic: I am a slow writer and need heavy editing to get my first draft into shape. 
+I regularly indulge in reading writing guides like Sword's book in the hope that it will help me become a better writer.
+
+With its focus on crafting sentences (chapter 5), being deliberate in selecting titles (chapter 6) and hooks (chapter 7); as well as paying attention to narration (chapter 8) and using jargon carefully (chapter 10), the book is a good complement to _Eats, Shoots and Leaves_ by Lynne Truss [@Truss2009].
+
+Reading Sword's _Stylish Academic Writing_ made me want to read her recent book _Air & Light & Time & Space_ [@Sword2017].
+While _Stylish Academic Writing_ is mostly concerned with style, _Air & Light & Time & Space_ focuses on habits of successful and less successful writers.
+
+In this sense it is reminiscent of books like _How to Write a Lot_ [@Silvia2007] and Howard Becker's _Writing for Social Scientists_ [@Becker2007]. 
+Sword, however, is less formulaic than Silvia, and doesn't have the focus on social sciences of Becker.
+She does not only focuses on successful writers and, in this sense, her work suffers less survivor bias than many of the writing books aimed at academics.
+To do this, she pairs data collected through interviews with surveys whose respondents are academics who attended her writing workshops.
+This means that a lot of the survey respondents would describe themselves as struggling writers while many of the interviewees are individuals identified by their peers as successful writers.
+This provides a nice balance of perspectives. Maybe predictably, though, a lot of "successful writers" still see themselves as struggling writers.
+
+The book reviews many of the habits of writers.
+One important point she makes that resonates particularly with me is the fact that writing schedule do not work for everyone.
+Writing to a schedule is probably the number one advice one can find in writing guides.
+After years of trying to stick to one and failing, however, it is a relief for me to learn that many productive writers do not write on a schedule.
+Finally, I can let go of my guilt of not managing to stick to a schedule.
+
+Among the other interesting topics covered by Sword's are writing as a social activity and writing as a non-native speaker.
+
+The last part of the book, focusing emotional habits and the pleasure of writing, is particularly welcome.
+In this part, Sword debunks the idea---paddled by many a writing manual---that successful writers are those who reduce writing to a mundane activity that they do routinely day in and day out. 
+While she acknowledges that writing often is essential, a lot of the academics in her survey sample and among her interviewees are not routine writers and they have strong feelings about writing, both positive and negative.
+This again provided some form of relief to me as I certainly do not find writing routine.
+
+She also describes the fact that academics need to be resilient to face colleagues, editors and reviewers and offer advice on how to build this resilience.
+
+Overall, it is an entertaining book that is well worth reading for PhD students and more advanced writers alike.
+
