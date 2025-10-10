@@ -1,0 +1,57 @@
+---
+title: "Bruno Latour and Social Network Theory"
+date: 2021-03-21
+description: ""
+image: "img/sky-1.jpg"
+# twitter-card:
+#   image: ""
+# open-graph:
+#   image: ""
+categories:
+  - latour
+  - social networks
+  - innovation
+  - brokerage
+resources:
+  - "img/*"
+doi: ""
+citation: true
+bibliography: ../../../../files/references.bib
+csl: ../../../../files/amj.csl
+---
+
+LINKS NEED TO BE FIXED
+
+This article was first published on LinkedIn on 15th June 2020.
+
+Last Saturday (06/06/2020), the Guardian published an interview with Bruno Latour. This article was of great interest to me as Latour's work on science has had a significant impact on many researchers. Laboratory Life (publisher's website) was a real eye opener when I read it as a graduate student. The book contributed to my becoming an open-minded positivist. I know countless others who have been similarly influenced.
+
+The interview is food for thought for those of us who believe that, at our humble level, we can steer the world in a more sustainable and meritocratic direction.
+
+However, it contains a dig at sociologists that I thought was mildly unfair. In answer to the question "Can an idea go viral like a disease?", Latour responded:
+
+> "Covid has given us a model of contamination. It has shown how quickly something can become global just by going from one mouth to another. That's an incredible demonstration of network theory. I've been trying to persuade sociologists of this for 40 years. I'm sorry to have been so right. It shows that we must not think of the personal and the collective as two distinct levels."
+
+This answer implies that we do not know much about how ideas spread in social networks. Thankfully, this is not the case. Below, I go over three of social networks' big ideas relevant for understanding how ideas spread in social networks (full disclosure, some have been proposed by sociologists): the strength of weak ties, the small-world phenomenon and network brokerage.
+
+## The strength of weak ties (Granovetter, 1973, 56508 citations on google scholar as of 7/06/2020)
+
+Weak ties are those we have with acquaintances. They are activated less often than strong ties, or we might not be close to the person at the other end. But because these ties are less often mobilised, they tend to provide novel information when compared with strong ties that are activated several times a week (like family, work colleagues, close friends). For example, they might provide information about job opportunities that we were not already aware of.
+
+How can one take advantage of weak ties? Think about who are relevant acquaintances and when you interact with them, make sure that you have your ear pricked for relevant information. Do not hesitate to ask questions, but be mindful to ask for something reasonable by asking yourself this question: what am I ready to do for an acquaintance without feeling like I am doing them a big favour? This probably includes passing on information about your area of expertise, giving a referral, or something similar that might get you closer to achieving your goal.
+
+## Small World (Watts & Strogatz, 1998, 42604 citations on google scholar as of 7/06/2020)
+
+The idea of a small world is that of a network where dense communities are connected to one another through sparse "long-distance" ties. In small worlds, information diffuses through the long-distance ties and then pollinates the dense communities through the many ties between the community members. If a network is a small world, information diffusion will be fast and efficient. It seems that many human networks exhibit small-world properties, but measuring small world properties in the wild is not straightforward.
+
+It is hard for individuals to know if they are in a small-world without engaging in costly and difficult data collection. Organisations, on the other hand, collect most of the necessary data in the course of doing business (such as email metadata or event attendance). You can create value for your firm by better understanding how your employees communicate with one another or which business units are more or less siloed. Obviously, not everyone needs to communicate across communities (or business units) but identifying who is might help you design better way to spread information across your business.
+
+## Brokerage (Burt, 1995, 27652 citations on google scholar as of 7/06/2020)
+
+Brokers are individuals who connect otherwise unconnected others. This gives brokers an information advantage. They can recombine information they obtain from their contacts in a way that is not accessible to these contacts. They also gain some control over that information as they can choose to transmit the information or not.
+
+If you are a broker, you probably know already. But if you are not, you can ask yourself two questions. Who are the brokers around me? And, should I be a broker? Being aware of who in your network links across communities can be useful as we have some evidence that the benefits that brokers gain from their position spill over to their contacts. Second, actively engaging with different communities as a broker might benefit you and you might be able to benefit these communities too.
+
+## How to tie it all together?
+
+These three concepts give us clues as to how ideas spread in social networks and more importantly, what individuals and organisations can do to benefit from the social networks they are embedded in. There is still a lot more for us to learn about how social networks influence idea diffusion, but we have already made major discoveries (some over 45 years ago) that we can build on in years to come.

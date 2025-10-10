@@ -2,7 +2,8 @@
 date-format: "D MMMM, YYYY"
 
 # Enable banner style title blocks
-title-block-banner: "#170C3A"
+# title-block-banner: "#170C3A"
+title-block-banner: "#003249"
 
 # Add blog-post class to the banner header area
 format: 
