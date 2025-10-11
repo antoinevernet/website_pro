@@ -1,0 +1,64 @@
+---
+title: "Book Review of Deep Work by Cal Newport"
+date: 2022-03-16
+description: "A review of Deep Work by Cal Newport"
+image: "/img/deepwork.jpg"
+# twitter-card:
+#   image: ""
+# open-graph:
+#   image: ""
+categories:
+  - book review
+  - productivity
+  - time management
+resources:
+  - "img/*"
+doi: ""
+citation: true
+bibliography: ../../../../files/references.bib
+csl: ../../../../files/amj.csl
+---
+
+
+[Deep Work](https://uk.bookshop.org/p/books/deep-work-rules-for-focused-success-in-a-distracted-world-cal-newport/3448003?ean=9780349411903&next=t&affiliate=7155) by Cal Newport is a book about getting more done.
+For once, I like the title, it both summarises the book well and is more or less unforgettable.
+
+In the introduction, Newport suggests that to do important work, you need to find the time to focus deeply. He says that this has gotten harder with the advent of the internet and social media.
+
+In the first chapter, he goes on to advance that deep work is valuable and necessary in order to be successful in today’s world; to succeed, you need to both master hard things quickly and perform at a high level both in terms of quality of work and speed of execution, which can only be achieved with the ability to do deep work.
+In the second chapter, he suggests that deep work is rare and that we are pulled away from deep work by the attraction of shallow work, or outright distraction, things like emails, instant messaging, and social media. His point is that as an individual, resisting the attraction of shallow work, of busyness, should give you an edge over time.
+
+In the third chapter, Newport extolls the intrinsic benefits of Deep Work: deep work that it is satisfying in itself. He also makes the argument for approaching deep work as a craft which I quite liked. I think that this is an idea that will be particularly attractive to academics: you cannot really control what happen once your work leaves your desk, but focusing on the craft, as in reading, writing, building arguments, is a good way to keep yourself working towards distant goals.
+
+The second part of the book focuses on the rules of deep work. The first rule is the injunction to develop habits and rituals to enable deep work. It is very easy to let oneself be constantly distracted by all sorts of things such as emails, etc. Routines and habits can help us overcome this. He suggest a number of ways this can be achieved such as focusing on 2–3 things that need to be done within a timeframe, however, progress towards long-term goals are difficult to measure on a day-to-day basis. Therefore he suggests focusing on the number of deep work hours you can get in and focus on increasing this. Another important things that this structure enables is bounding work, he suggests that downtime is essential to sustaining the ability to do deep work over years.
+
+The second rule is to embrace boredom. Scheduled downtime with no distractions allowed, such as a walk is useful to help you recharge but also to develop the ability to think deeply.
+
+The third rule is about quitting social media, Newport argues that often the costs of using social media outweighs the benefits you get from it. His recommendation is, in my view, very interesting, that you need to be purposeful in terms of entertainment. It seems that setting a goal about how you spend your time off can make you more satisfied with it (Giuffre & Bohns, 2021), but be careful not to turn your time off in another slug through a to-do list or these benefits will disappear and you’ll enjoy it less than if you had not scheduled anything at all.
+
+The last rule is about finding ways to reduce the amount of shallow work. He suggests that scheduling oneself is one way to prioritise deep work. Becoming hard to reach is another way to reduce the amount of shallow work one has to do. The overarching advice in this rule is to be process oriented: develop processes that allows you to cut as much shallow work out of your day as you can afford to.
+
+Overall, I really enjoyed the book, and it offers useful advice to help reclaim some time to do high value work when there are constant demand on your time to do less valuable work. Newport’s argument, however, has a couple of limitations and some definitional imprecisions in the first chapter that I think I worth going over.
+
+## Some limitations of Newport’s argument
+
+While the idea of deep work is attractive, there is also a certain naïveté in Newport’s presentation. He makes the assumption that deep work is rewarded because it is valuable. For some valuable activity to be rewarded, it needs first to be valued. While the intrinsic value of deep work is not in question, whether your deep work is rewarded will depend heavily on whether is is valued by the right people (organisations, managers, etc.). In other words, there are plenty of valuable work that is devalued and badly rewarded or not rewarded at all — childcare and early years education comes to mind.
+
+Another mildly annoying passage — this will be particularly funny for the economists among you — has Newport quoting from a Stata marketing document as if it was impressive to be able to use this software: “Stata 13 adds many new features such as treatment effects, multilevel GLM, power and sample size […]”. Newport is a Computer Science professor, he knows that most of what he is quoting is not difficult to master, nor is it complex to use in a software like Stata.
+
+Finally, Newport sometimes exhibits conceptual fuzziness. For example, the first chapter ends with a story about Jack Dorsey (the former CEO of Twitter) as a counter example, someone who does not do deep work but is still successful. Jack Dorsey might not do deep work in Newport’s sense, but he is also not doing shallow work. Going back to my earlier critique, this example also illustrate the fact that what is valued is not always valued because it is “valuable”. The rewards given to Jack Dorsey comes from his ownership of part of the company, he is not compensated for the value of his work, but for his ownership of capital. While I do not think that this example invalidates Newport’s thesis, it is an example of fuzziness that does not help his point.
+
+## What it made me want to read next
+
+There is always scope to get better at organising oneself, two of the books that I added to my reading list while reading Deep Work, were [Atomic Habits](https://uk.bookshop.org/p/books/atomic-habits-the-life-changing-million-copy-1-bestseller-james-clear/2458373?ean=9781847941831&next=t&affiliate=7155) by James Clear, and [How to Change](https://uk.bookshop.org/a/7155/9781785043734) by Katy Milkman.
+
+I also found a [video about the book](https://youtu.be/yGYh_6WdAjA?si=cqVMhFzaZVkHv_HI) by Ali Abdaal, which is worth checking out. He suggests that blocking full day rather than 2–3 hours blocks might be the best way to go to achieve the maximum amount of deep work. While this might be the case for you, for me, I find that there are diminishing return to productivity/focus, and that I cannot do much more than a few hours of consecutive deep work. It is quite possible that we cannot focus adequately on deep work past the 4 hour mark in a single day (Ericsson, Krampe, & Tesch-Römer, 1993). Both Ali in his video, and Newport in the book, acknowledge this limit to how much time we can spend focusing.
+
+## References
+
+Ericsson, K. A., Krampe, R. T., & Tesch-Römer, C. 1993. The role of deliberate practice in the acquisition of expert performance. Psychological Review, 100(3): 363–406.
+
+Giurge, L. M., & Bohns, V. 2021. Be Intentional About How You Spend Your Time Off, Harvard Business Review.
+
+Tonietto, G. N., & Malkoc, S. A. 2016. The Calendar Mindset: Scheduling Takes the Fun Out and Puts the Work In. Journal of Marketing Research, 53(6): 922–936.
+Note: some of the links to books are affiliate links, this means that if you use them to make a purchase, I might receive a small commission.

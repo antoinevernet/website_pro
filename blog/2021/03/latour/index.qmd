@@ -18,13 +18,16 @@ doi: ""
 citation: true
 bibliography: ../../../../files/references.bib
 csl: ../../../../files/amj.csl
+css: figurecap.css
 ---
 
-LINKS NEED TO BE FIXED
 
-This article was first published on LinkedIn on 15th June 2020.
+*This article was first published on LinkedIn on 15th June 2020.*
 
-Last Saturday (06/06/2020), the Guardian published an interview with Bruno Latour. This article was of great interest to me as Latour's work on science has had a significant impact on many researchers. Laboratory Life (publisher's website) was a real eye opener when I read it as a graduate student. The book contributed to my becoming an open-minded positivist. I know countless others who have been similarly influenced.
+![*English sky* by Serge Michel](img/sky-1.jpg){width=80% fig-alt="A photo of sundown in the English countryside."}
+
+
+Last Saturday (06/06/2020), the Guardian published [an interview with Bruno Latour](https://www.theguardian.com/world/2020/jun/06/bruno-latour-coronavirus-gaia-hypothesis-climate-crisis). This article was of great interest to me as Latour's work on science has had a significant impact on many researchers. Laboratory Life ([publisher's website](https://press.princeton.edu/books/paperback/9780691028323/laboratory-life)) was a real eye opener when I read it as a graduate student. The book contributed to my becoming an open-minded positivist. I know countless others who have been similarly influenced.
 
 The interview is food for thought for those of us who believe that, at our humble level, we can steer the world in a more sustainable and meritocratic direction.
 
@@ -42,7 +45,7 @@ How can one take advantage of weak ties? Think about who are relevant acquaintan
 
 ## Small World (Watts & Strogatz, 1998, 42604 citations on google scholar as of 7/06/2020)
 
-The idea of a small world is that of a network where dense communities are connected to one another through sparse "long-distance" ties. In small worlds, information diffuses through the long-distance ties and then pollinates the dense communities through the many ties between the community members. If a network is a small world, information diffusion will be fast and efficient. It seems that many human networks exhibit small-world properties, but measuring small world properties in the wild is not straightforward.
+The idea of a small world is that of a network where dense communities are connected to one another through sparse "long-distance" ties. In small worlds, information diffuses through the long-distance ties and then pollinates the dense communities through the many ties between the community members. If a network is a small world, information diffusion will be fast and efficient. It seems that many human networks exhibit small-world properties, but [measuring small world properties in the wild is not straightforward](https://journals.sagepub.com/doi/abs/10.1177/1094428116675032).
 
 It is hard for individuals to know if they are in a small-world without engaging in costly and difficult data collection. Organisations, on the other hand, collect most of the necessary data in the course of doing business (such as email metadata or event attendance). You can create value for your firm by better understanding how your employees communicate with one another or which business units are more or less siloed. Obviously, not everyone needs to communicate across communities (or business units) but identifying who is might help you design better way to spread information across your business.
 
@@ -50,7 +53,7 @@ It is hard for individuals to know if they are in a small-world without engaging
 
 Brokers are individuals who connect otherwise unconnected others. This gives brokers an information advantage. They can recombine information they obtain from their contacts in a way that is not accessible to these contacts. They also gain some control over that information as they can choose to transmit the information or not.
 
-If you are a broker, you probably know already. But if you are not, you can ask yourself two questions. Who are the brokers around me? And, should I be a broker? Being aware of who in your network links across communities can be useful as we have some evidence that the benefits that brokers gain from their position spill over to their contacts. Second, actively engaging with different communities as a broker might benefit you and you might be able to benefit these communities too.
+If you are a broker, you probably know already. But if you are not, you can ask yourself two questions. Who are the brokers around me? And, should I be a broker? Being aware of who in your network links across communities can be useful as we have some evidence that [the benefits that brokers gain from their position spill over to their contacts](https://journals.aom.org/doi/abs/10.5465/amj.2010.0827). Second, actively engaging with different communities as a broker might benefit you and you might be able to benefit these communities too.
 
 ## How to tie it all together?
 

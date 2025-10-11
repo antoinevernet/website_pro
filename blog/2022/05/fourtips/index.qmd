@@ -1,0 +1,51 @@
+---
+title: "Four tips to make your writing four times better"
+date: 2022-05-17
+description: ""
+# image: ""
+# twitter-card:
+#   image: ""
+# open-graph:
+#   image: ""
+categories:
+  - studying
+  - learning
+  - writing
+resources:
+  - "img/*"
+doi: ""
+citation: true
+bibliography: ../../../../files/references.bib
+csl: ../../../../files/amj.csl
+---
+
+> “We know that verbs have more vigor than nouns, that active verbs are better than passive verbs, that short words and sentences are easier to read than long ones, that concrete details are easier to process than vague abstractions.”
+
+In this sentence from [On Writing Well](https://uk.bookshop.org/p/books/on-writing-well-the-classic-guide-to-writing-nonfiction-william-zinsser/3014152?ean=9780060891541&next=t&affiliate=7155), William Zinsser gives us four important pieces of advice to write better: use good verbs, prefer the active voice, simplify, and, finally, be concrete.
+
+## Use good verbs
+
+One of the best advice on verbs is found in McCloskey’s [Economical Writing](https://uk.bookshop.org/p/books/economical-writing-third-edition-thirty-five-rules-for-clear-and-persuasive-prose-deirdre-n-mccloskey/2482610?ean=9780226448077&next=t&affiliate=7155). McCloskey warns against feeble verbs such as implement, or comprise for include, analyze for discuss or examine, the list goes on, and on. The mistaken belief that repetition is bad leads to too much elegant variation, which, in turn, leaves one with no choice but to use verbs that are less clear, or worse, pretentious.
+
+## The active voice is better
+
+Zinsser prefers using active verbs. He further suggests to avoid concept nouns which lead to the passive voice, instead “get people doing stuff.” McCloskey agrees: you should write with verbs and nouns and the verbs you use should be active verbs. It is not that the passive voice is wrong (it isn’t), but it hides the subject who is acting, this makes it harder for the reader to visualise what is going on and risk reducing comprehension. Her advice is to circle every “is” on the page and replace them with a different verb that describe the action.
+
+## Simplicity is key
+
+Both Zinsser and McCloskey agree that simplicity is key. This means avoiding jargon, and generally getting rid of clutter. One can see here the influence of Strunk and White [The Elements of Style](https://uk.bookshop.org/p/books/elements-of-style-the-pearson-new-international-edition-william-strunk/4676191?ean=9781292026640&next=t&affiliate=7155)’s famous rule 17: “Omit needless words.” McCloskey suggests to avoid using words of Latin origin when simpler Anglo-Saxon words will do. Overall, we should always avoid jargon as much as is possible.
+
+## Concrete details help comprehension
+
+McCloskey suggests that being specific helps comprehension. You want to make it easy for your reader to parse your text. According to her, too much of social science requires its readers to be “code breakers”.
+Overall, both Zinsser and McCloskey advocate clarity above all: your role as a writer is to make sure your audience can understand you and follow your reasoning.
+
+## References
+
+McCloskey, D. N. 2019. Economical writing: thirty-five rules for clear and persuasive prose. Chicago: University of Chicago Press.
+
+Strunk, W., & White, E. B. 2000. The Elements of Style (Fourth Edition ed.): Pearson.
+
+Zinsser, W. 2006. On writing well: the classic guide to writing nonfiction [30th anniversary ed.]. New York: HarperCollins.
+
+Note: some of the links to books are affiliate links, this means that if you use them to make a purchase, I might receive a small commission.
