@@ -1,0 +1,36 @@
+---
+title: "Three amazing facts about measurements"
+date: 2022-05-24
+description: "Adopting a historical perspective on things we take for granted is often fascinating. For example, measurement is not something one usually spends a lot of time questioning."
+# image: ""
+# twitter-card:
+#   image: ""
+# open-graph:
+#   image: ""
+categories:
+  - measurements
+resources:
+  - "img/*"
+doi: ""
+citation: true
+bibliography: ../../../../files/references.bib
+csl: ../../../../files/amj.csl
+---
+
+
+
+Adopting a historical perspective on things we take for granted is often fascinating. For example, measurement is not something one usually spends a lot of time questioning. But did you know that the meter was last redefined in 1983, only 39 years ago?
+
+It was defined as “The length of the path travelled by light in a vacuum during a time interval of 1/299,792,458 of a second”. The previous definition, was from 1791, when the French Academy of sciences defined it as 1/10,000,000 of the distance from the north pole to the equator. They did not get it quite right, however, and measurement error mean that instead of 40 million meters, the circumference of the earth is 40,007,863 meters.
+
+Historically, a lot of units of measurement were based on biological objects and were tied to the object rather than to the physical property being measured. Hand suggest in [Measurement](https://uk.bookshop.org/p/books/measurement-a-very-short-introduction-david-j-hand/1830969?ean=9780198779568&next=t&affiliate=7155) that this is because it is not obvious that volume is the same for different substance: grain can be heaped while liquids cannot.
+
+
+For our final fact, did you know that to this day, a pint is 473 milliliters in the US, but 569 milliliters in the UK? So, American friends, be careful when you visit the UK. 😉
+
+
+## References
+
+Hand, D. J. 2016. Measurement : a very short introduction. Oxford, United Kingdom: Oxford University Press.
+
+Note: some of the links to books are affiliate links, this means that if you use them to make a purchase, I might receive a small commission.

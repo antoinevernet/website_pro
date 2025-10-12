@@ -17,11 +17,14 @@ doi: ""
 citation: true
 bibliography: ../../../../files/references.bib
 csl: ../../../../files/amj.csl
+css: ../../../figurecap.css
 ---
 
 
 [Deep Work](https://uk.bookshop.org/p/books/deep-work-rules-for-focused-success-in-a-distracted-world-cal-newport/3448003?ean=9780349411903&next=t&affiliate=7155) by Cal Newport is a book about getting more done.
 For once, I like the title, it both summarises the book well and is more or less unforgettable.
+
+![The cover of Deep Work by Cal Newport](img/deepwork.jpg){width=80% fig-alt="The cover of Deep Work by Cal Newport."}
 
 In the introduction, Newport suggests that to do important work, you need to find the time to focus deeply. He says that this has gotten harder with the advent of the internet and social media.
 

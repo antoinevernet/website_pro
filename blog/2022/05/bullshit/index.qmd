@@ -1,7 +1,7 @@
 ---
 title: "One simple tip to avoid falling for fake news and bullshit"
 date: 2022-05-20
-description: ""
+description: "In a recent column, Tim Harford argued that in the information war, the scarce resources are curiosity, patience, persistence and judgment. I believe that there is something fundamental in this claim."
 # image: ""
 # twitter-card:
 #   image: ""

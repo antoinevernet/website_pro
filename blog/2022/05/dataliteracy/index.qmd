@@ -1,0 +1,64 @@
+---
+title: "The power of data literacy in the data age"
+date: 2022-05-27
+description: "Is data literacy more important than data analytics? I think it is true for most people that learning data analytics is less important than learning the fundamentals of data literacy."
+# image: ""
+# twitter-card:
+#   image: ""
+# open-graph:
+#   image: ""
+categories:
+  - measurements
+resources:
+  - "img/*"
+doi: ""
+citation: true
+bibliography: ../../../../files/references.bib
+csl: ../../../../files/amj.csl
+css: ../../../figurecap.css
+---
+
+Is data literacy more important than data analytics? I think it is true for most people that learning data analytics is less important than learning the fundamentals of data literacy. This is why after teaching data analytics for about 6 years, I am now creating a data literacy class. My aim is to equip learners with the tools to evaluate claims that are made with data. There is a wealth of material available on this topic, but a lot of it is either aimed at current university students (textbooks, for example), or it is about debunking claims directly but without the aim to teach the audience how to do it themselves (an excellent programme like [More or Less](https://www.bbc.co.uk/programmes/b006qshd) is an example).
+
+Through teaching data analytics, I have experience of taking students without a strong quantitative background through the fundamentals of quantitative research. I teach them the principles of causal inference and the building blocks of programming for data analysis. While I love teaching such classes, I also realise that they are overkill for many people. Over the years, my focus has shifted from the technical (maths and programming) to focusing more and more on critical thinking with data. I believe that training people in data literacy is the way I resolve the tension between the conviction that people benefit from access to tools that allow you to think critically about data, and the fact that the mention of programming and regression puts off a good chunk of this target audience. I am currently working on a class that should be available online later this year.
+
+My conviction is that we can teach people to evaluate claims made with data without needing them to become data scientists. I am convinced that everyone benefits from being less likely to fall for misleading claims. Since the world is awash with Bullshit, the ability to identify it is essential if one does not want to be taken advantage of; in addition, I would argue, as others have, that there are positive spillovers which benefits all of us if more people are data savvy ([Bergstrom and West, 2021](https://uk.bookshop.org/p/books/calling-bullshit-west-and-bergstrom/7201619?ean=9780141987057&next=t&affiliate=7155)).
+
+Tim Harford argues that we already know and use a lot of the [tools that are necessary to identify dodgy claims](https://www.ft.com/content/106da62a-f2aa-4a38-9ed3-008996cf4697):
+
+> “For most of us, the scarce resources in this information war aren’t years of study or intellectual brilliance. They are softer assets: curiosity, patience, persistence and judgment. It is not too late to bring them to the battle.”
+
+If we take Harford’s idea seriously, we can build on curiosity, patience, persistence, and judgment to get people to think critically about data. The addition of a few tools, such as causal graphs can help us cover a lot of ground in gaining an understanding of the robustness of many data claims ([Pearl & Mackenzie, 2018](https://uk.bookshop.org/p/books/the-book-of-why-pearl-and-mackenzie/7004642?ean=9780141982410&next=t&affiliate=7155)).
+
+Using causal graphs allows to intuitively ask a few important questions such as what other variables should one consider? What assumptions are embedded in the claim about the direction of causality and its mechanisms? It helps that most people intuitively grasp quickly how to draw these graphs graphs allowing them to visualise the claim and start evaluating it.
+
+I am excited about developing this material and will endeavour to write a couple of updates on my thinking about data literacy as I get further into designing this new course. In working on this, I benefit greatly from the fact that there is a growing movement of people promoting critical thinking with data and that many of these people have written in depth about it.
+
+In this vein, Tim Harford’s [*How to Make the World Add Up*](https://uk.bookshop.org/p/books/how-to-make-the-world-add-up-ten-rules-for-thinking-differently-about-numbers-tim-harford/1844077?ean=9780349143866&next=t&affiliate=7155) provides a great non-technical introduction to evaluating claims made with data.
+
+![The cover of how to make the world add up by Tim Harford](img/howtomaketheworldaddup.jpg){width=80% fig-alt="The cover of how to make the world add up by Tim Harford"}
+
+[*Calling Bullshit*](https://uk.bookshop.org/p/books/calling-bullshit-west-and-bergstrom/7201619?ean=9780141987057&next=t&affiliate=7155) by Bergstrom and West provides a slightly more technical introduction to detecting bullshit.
+
+![The cover of Calling Bullshit by Carl Bergstrom and Jevin West](img/callingbullshit.jpg){width=80% fig-alt="The cover of Calling Bullshit by Carl Bergstrom and Jevin West."}
+
+Finally, both [*The Effect*](https://uk.bookshop.org/a/7155/9781032580227) by Nick Huntington-Klein, and [*Causal Inference, the Mixtape*](https://uk.bookshop.org/a/7155/9780300251685) provide material at the more technical end of the spectrum for data literacy.
+
+![The cover of Causal Inference: the mixtape by Scott Cunningham](img/causalinferencethemixtape.jpg){width=80% fig-alt="The cover of Causal Inference: the mixtape by Scott Cunningham."}
+
+
+## References
+
+Bergstrom, C. T., & West, J. D. 2021. Calling bullshit : the art of scepticism in a data-driven world. London: Penguin Books.
+
+Cunningham, S. 2021. Causal inference : the mixtape. New Haven, Connecticut: Yale University Press.
+
+Harford, T. 2020. How to make the world add up: ten rules for thinking differently about numbers. London: The Bridge Street Press.
+
+Huntington-Klein, N. 2022. The effect : an introduction to research design and causality. Boca Raton: CRC Press.
+
+Pearl, J., & Mackenzie, D. 2018. The book of why : the new science of cause and effect. London: Allen Lane.
+
+I generated the title of this article in part with GPT-3, OpenAI’s large-scale language-generation model. Upon generating draft language, I reviewed, edited, and revised the language and I take ultimate responsibility for the content of this publication.
+
+Note: some of the links to books are affiliate links, this means that if you use them to make a purchase, I might receive a small commission.

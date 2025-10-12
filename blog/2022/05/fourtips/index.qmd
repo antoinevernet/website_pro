@@ -1,7 +1,7 @@
 ---
 title: "Four tips to make your writing four times better"
 date: 2022-05-17
-description: ""
+description: "In his classic book On Writing Well, William Zinsser gives four important pieces of advice to write better: use good verbs, prefer the active voice, simplify, and, finally, be concrete."
 # image: ""
 # twitter-card:
 #   image: ""

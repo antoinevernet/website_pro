@@ -18,7 +18,7 @@ doi: ""
 citation: true
 bibliography: ../../../../files/references.bib
 csl: ../../../../files/amj.csl
-css: figurecap.css
+css: ../../../figurecap.css
 ---
 
 

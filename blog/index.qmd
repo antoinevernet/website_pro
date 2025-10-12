@@ -17,6 +17,10 @@ listing:
     sort: "date desc"
     template: ../html/blog/listing.ejs
     categories: true
+  - id: posts_2023
+    contents: "2023/**/index.qmd"
+    sort: "date desc"
+    template: ../html/blog/listing.ejs
   - id: posts_2022
     contents: "2022/**/index.qmd"
     sort: "date desc"
