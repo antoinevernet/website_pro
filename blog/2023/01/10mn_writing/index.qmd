@@ -1,0 +1,114 @@
+---
+title: "Ten minutes to better writing"
+date: 2023-01-04
+description: "Writing is a key skill for academics, but it is often neglected. Here are some tips to improve your writing in just ten minutes."
+# image: ""
+# twitter-card:
+#   image: ""
+# open-graph:
+#   image: ""
+categories:
+  - measurements
+resources:
+  - "img/*"
+doi: ""
+citation: true
+bibliography: ../../../../files/references.bib
+csl: ../../../../files/amj.csl
+---
+
+
+Welcome to ten minute to better writing.
+
+If, like me, you find yourself writing a lot in English as a non-native speaker, I hope that you will find some of the tips I share in the videos below useful.
+I have broken down the material into 10 videos each about 1 minute long, this should help you find what you need quickly.
+
+My own difficulties in writing in English, as well as the challenges that I see my students struggle with led me to put this short series together. It is not meant as a complete guide to writing but I hope you find enough there to whet your appetite, as well as useful pointers to what to read next.
+
+## Introduction
+
+
+{{< video https://youtu.be/Dd8UEUyAfSg >}}
+
+
+## 1. Do not sit down to write
+
+
+{{< video https://youtu.be/ybHvglGpAZg >}}
+
+
+
+## 2. Writing is not about writing
+
+{{< video https://youtu.be/5PAjYZuUQL8 >}}
+
+In this video, I mention advice from Stephen King and Deirdre McCloskey.
+You can get these books there:
+
+Stephen King’s [*On Writing*](https://uk.bookshop.org/a/7155/9781444723250).
+
+Deirdre McCloskey’s [*Economical Writing*](https://uk.bookshop.org/a/7155/9780226448077).
+
+## 3. 2 tips about simplicity
+
+{{< video https://youtu.be/bpQIUriM5uM >}}
+
+In this video, I mention advice from Mortimer Adler and Charles Van Doren How to read a book.
+You can get the book there:
+
+Mortimer Adler and Charles Van Doren [*How to read a book*](https://uk.bookshop.org/a/7155/9780671212094).
+
+## 4. 3 Tricks to help with your writing
+
+{{< video https://youtu.be/3zFi2GEF58w >}}
+
+## 5. How to outline
+
+{{< video https://youtu.be/-0jO7QTvOsc >}}
+
+## 6. Transform your writing with these simple but powerful paragraph hacks
+
+{{< video https://youtu.be/vvp2LLXvS7Q >}}
+
+## 7. Engage you audience
+
+{{< video https://youtu.be/erKNVYLEZ_c >}}
+
+In this video, I mention advice from Mortimer Adler and Charles Van Doren *How to read a book*.
+
+You can get the book there:
+
+Mortimer Adler and Charles Van Doren [*How to read a book*](https://uk.bookshop.org/a/7155/9780671212094).
+
+## 8. Crafting a Strong Argument: The Three Layers of Effective Writing
+
+{{< video https://youtu.be/CwA3cr4p04Q >}}
+
+## 9. The Importance of a Strong Lead: Writing Advice for Beginnings
+
+{{< video https://youtu.be/VOWOIlu9es4 >}}
+
+## 10. Writing Hacks: How Reading Aloud Can Help You Edit Your Work
+
+{{< video https://youtu.be/sQyiIxbgEA4 >}}
+
+In this video, I mention advice from Deirdre McCloskey’s *Economical Writing* and from William Zinsser’s *On Writing Well*.
+You can get the books there:
+
+Deirdre McCloskey’s [*Economical Writing*](https://uk.bookshop.org/a/7155/9780226448077).
+
+William Zinsser’s [*On Writing Well*](https://uk.bookshop.org/a/7155/9780060891541).
+
+Thank you for watching. I hope that you find these tips useful.
+
+## References
+
+Adler, M. J., Van Doren, C. L. 2014 [1972]. *How to read a book*. New York: Touchstone, A Division of Simon & Schuster.
+
+King, S. 2012. *On writing: a memoir of the craft*. London: Hodder.
+
+McCloskey, D. N. 2019. *Economical writing: thirty-five rules for clear and persuasive prose*. Chicago: University of Chicago Press.
+
+Zinsser, W. 2006. *On writing well: the classic guide to writing nonfiction* [30th anniversary ed.]. New York: HarperCollins.
+
+Note: Some of the links on this page are affiliate links, which means that, at no extra cost to you, I might get a small commission if you click them and make a qualifying purchase.

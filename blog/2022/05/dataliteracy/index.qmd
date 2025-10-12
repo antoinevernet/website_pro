@@ -8,7 +8,9 @@ description: "Is data literacy more important than data analytics? I think it is
 # open-graph:
 #   image: ""
 categories:
-  - measurements
+  - data literacy
+  - data analytics
+  - causal inference
 resources:
   - "img/*"
 doi: ""

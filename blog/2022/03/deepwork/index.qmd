@@ -2,7 +2,7 @@
 title: "Book Review of Deep Work by Cal Newport"
 date: 2022-03-16
 description: "A review of Deep Work by Cal Newport"
-image: "/img/deepwork.jpg"
+image: "img/deepwork.jpg"
 # twitter-card:
 #   image: ""
 # open-graph:
