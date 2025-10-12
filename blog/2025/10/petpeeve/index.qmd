@@ -1,6 +1,6 @@
 ---
 title: "Pet peeve: give me a bloody link"
-date: 2025-10-08
+date: 2025-10-12
 description: "I can't stand it! Give me a link if you reference a study"
 image: ""
 twitter-card:
@@ -17,13 +17,15 @@ citation: true
 ---
 
 
-## Introduction
+I was reading [this article](https://www.theguardian.com/society/2025/oct/05/two-hours-exercise-week-reduces-joint-pain-gp-nhs) in the Guardian. 
+The study it refers too looks like it was written by Confounding et al. but there is no link to the study for the reader to check this intuition.
+It feels like a basic requirement for any journalist writing about science to provide a link to the study they are writing about.
+Scientists do not give you anonymous tips! 
+This feels particularly egregious given how rife misinformation is in the current media ecosystem.
 
-If a newspaper article talks about a study, it should provide a link.
-It should also mention the authors by name. 
-A study by Harvard and Yale means nothing.
+As a corollary, I hate it when articles (or books) refer to "a study by Harvard" or "a study by Yale".
+Mention the authors by name: institutions do not have ideas.
+The additional benefit is that for an informed reader, the name actually carries signal. 
+A Harvard study, and a study by Francesca Gino from Harvard convey very different information.
 
-As a result of this article: https://www.theguardian.com/society/2025/oct/05/two-hours-exercise-week-reduces-joint-pain-gp-nhs?CMP=Share_iOSApp_Other
-
-And by reading Hate the Game in which the author keep doing the a study by the University of X...
-
+Anyways, rant over.
