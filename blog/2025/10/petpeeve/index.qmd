@@ -2,11 +2,11 @@
 title: "Pet peeve: give me a bloody link"
 date: 2025-10-12
 description: "I can't stand it! Give me a link if you reference a study"
-image: ""
-twitter-card:
-  image: ""
-open-graph:
-  image: ""
+# image: ""
+# twitter-card:
+#   image: ""
+# open-graph:
+#   image: ""
 categories:
   - journalism
   - science communication
