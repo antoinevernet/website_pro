@@ -1,5 +1,5 @@
 ---
-title: "Talks"
+title: " Recent Talks"
 listing:
   - id: talks_2025
     contents: talks_2025.yml
