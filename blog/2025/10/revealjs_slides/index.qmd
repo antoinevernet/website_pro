@@ -1,7 +1,7 @@
 ---
 title: "A weird revealjs slides quasi-theme?"
 date: 2025-10-20
-description: "Ok, this might be a very bad idea, and niche, but this post describes a revealjs theme or modification of the default theme to make slides that I think work well for scholarly presentation."
+description: "Ok, this might be a very bad idea, and niche. This post describes a revealjs customisation of the default theme to make slides that I think work well for scholarly presentation, and---maybe---for teaching."
 image: ""
 twitter-card:
   image: ""
@@ -11,6 +11,7 @@ categories:
   - revealjs
   - slides
   - conference presentations
+  - teaching
 resources:
   - "img/*"
 doi: ""
@@ -19,6 +20,35 @@ draft: true
 ---
 
 
-## Introduction
+I am currently preparing for the courses I teach in term 2 and one of my objectives this year is to create course websites with course material that the students can access but that can also be made available publicly in the hope that they might be useful to someone.
+It was also an opportunity to move away from a workflow that discouraged improvement and made editing material cumbersome.
+Let's back up to see why things are as bad as they are.
 
-...
+# The problem: the slide tech stack from hell
+
+A few years ago, in a bid to improve student engagement in the classroom, I started using Mentimeter to ask in-class questions from my students. 
+This is all well and good, but Mentimeter has a terribly limited interface to design slides.
+Using it means giving up a lot of control.
+At the time I first started using Mentimeter for the classroom (2020), my experiment with linking mentimeter questions from within Powerpoint were very disappointing and I could not get mentimeter questions to behave how I was hoping within powerpoint. 
+This is when I made a terrible mistake.
+Having concluded that making slides on Mentimeter directly was as attractive as playing a level 1 character in D&D, and that embedding Mentimeter questions directly into Powerpoint exposed me to technical failures in the classroom, I decided to make my slides in Powerpoint as usual, upload them to Mentimeter as images (you do not get a choice), and interleave Mentimeter questions in between these slides.
+It worked.
+Kind of.
+Until it did not.
+It wasn't a sudden and decisive break, it was a slow rot that at first went unnoticed.
+
+The obvious problem is that once your slides are converted into images, you cannot edit them easily.
+You have to go back to Powerpoint, make the changes, export the slides as images again, and re-upload them to Mentimeter.
+Then you have to move the Mentimeter questions back to where they are supposed to go.
+Needless to say, this is way more faff than I can bear, and it means that for small things, like a typo, I would not go through the process to fix it.
+For larger changes, I would eventually get around to them, but it would make me grumpy.
+In short, it made it too hard to iterate on the slides, and I am old enough to know that consistent small improvements is the only way things get better (maybe you are a better, smarter person, but I am not).
+
+
+## The solution: revealjs slides
+
+I decided that 
+
+In the process of doing that, I took inspiration---I shamelessly stole---from people I think make nice course websites. Two of these people are [Andrew Heiss](https://www.andrewheiss.com) and [Kieran Healy](https://www.kieranhealy.org). 
+
+

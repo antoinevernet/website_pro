@@ -23,9 +23,12 @@ $indigo:  #6610f2 !default;
 // $purple:  #170C3A !default;
 $purple:  #003249 !default; // Modified so not purple anymore... triadic color scheme #490032 and #324900; analogous color scheme #000D49, #00493C; monochromatic: #00283A, #003C58
 $pink:    #A52C60 !default;
-$red:     #CF4446 !default;
-$orange:  #EE6A24 !default;
-$light-orange:  #FB9E07 !default;
+//$red:     #CF4446 !default; //12 times including links hover
+$red:     #003249 !default;
+//$orange:  #EE6A24 !default; // 7 times including links. If I change this, I need the red to be linked to this (a more vivid) and light-orange to be linked as less vivid
+$orange:  #00493C !default;
+//$light-orange:  #FB9E07 !default; // 4 times 
+$light-orange:  #00cca7 !default;
 $yellow:  #F6D645 !default;
 $green:   #118230 !default;
 $teal:    #20c997 !default;

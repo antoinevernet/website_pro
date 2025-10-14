@@ -26,7 +26,8 @@ date-format: "D MMMM, YYYY"
 ---
 
 
-This page contains information and sometimes the source code, links, and slides for workshops, talks, lectures, and presentations I've given. 
+This page contains information about some recent workshops, talks, lectures, and presentations I've given. 
+When available/possible, I will link to slides, source code, or other materials.
 
 
 ## 2025
