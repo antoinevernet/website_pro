@@ -26,7 +26,8 @@ $pink:    #A52C60 !default;
 //$red:     #CF4446 !default; //12 times including links hover
 $red:     #003249 !default;
 //$orange:  #EE6A24 !default; // 7 times including links. If I change this, I need the red to be linked to this (a more vivid) and light-orange to be linked as less vivid
-$orange:  #00493C !default;
+//$orange:  #491700  !default; // Try with a complementary #491700, otherwise revert to: #00493C
+$orange:  #00493C  !default;
 //$light-orange:  #FB9E07 !default; // 4 times 
 $light-orange:  #00cca7 !default;
 $yellow:  #F6D645 !default;
@@ -66,9 +67,9 @@ $footer-font-family: "Jost" !default;
 $body-color: $gray-900 !default;
 
 // Links
-$link-color: $orange !default;
+$link-color: $light-orange !default;
 $link-decoration: none !default;
-$link-hover-color: $red !default;
+$link-hover-color: $orange !default;
 $link-hover-decoration: underline !default;
 
 // Inline code
