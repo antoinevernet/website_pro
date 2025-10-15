@@ -20,9 +20,13 @@ draft: true
 ---
 
 
-I am currently preparing for the courses I teach in term 2 and one of my objectives this year is to create course websites with course material that the students can access but that can also be made available publicly in the hope that they might be useful to someone.
+I am currently preparing for the courses I teach in term 2 and one of my objectives this year is to create course websites with course material that the students can access but that can also be made available publicly in the hope that they might be useful to someone[^note].
 It was also an opportunity to move away from a workflow that discouraged improvement and made editing material cumbersome.
 Let's back up to see why things are as bad as they are.
+
+[^note]: In the process of doing that, I took inspiration---I shamelessly stole---from people I think make nice course websites. Two of these people are [Andrew Heiss](https://www.andrewheiss.com) and [Kieran Healy](https://www.kieranhealy.org). 
+
+
 
 
 # The problem: the slide tech stack from hell
@@ -51,17 +55,7 @@ In short, it made it too hard to iterate on the slides, and I am old enough to k
 I decided that I needed to take the slides out of Mentimeter. 
 It was time to think about what technology to use to avoid being in the same place in 5 years or so.
 Enters Quarto.
-
-
-```{r, echo=TRUE}
-
-1+1
-
-# This is just a test to see how code blocks look.
-
-```
-
-
-In the process of doing that, I took inspiration---I shamelessly stole---from people I think make nice course websites. Two of these people are [Andrew Heiss](https://www.andrewheiss.com) and [Kieran Healy](https://www.kieranhealy.org). 
+I use quarto all the time to write documents, and while working on research to document my work from cleaning the data to analysis.
+And I used R Markdown before that. 
 
 
