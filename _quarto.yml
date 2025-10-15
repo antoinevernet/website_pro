@@ -17,7 +17,8 @@ author-meta: "Antoine Vernet"
 bibliography: files/references.bib
 csl: files/amj.csl
 
-
+execute:
+  freeze: auto
 
 website:
   title: "Antoine Vernet"
