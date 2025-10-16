@@ -2,7 +2,7 @@
 title: ""
 pagetitle: "Antoine Vernet"
 description-meta: "Antoine Vernet is an associate professor in management at UCL Bartlett School of Sustainable Construction. His research interests include social networks, organizational design, strategy, and organisational behaviour."
-main-photo: /files/antoine_vernet_2021.jpg
+main-photo: files/antoine_vernet_2021.jpg
 
 ---
 

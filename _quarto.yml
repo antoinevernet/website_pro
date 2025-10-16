@@ -7,6 +7,8 @@ project:
       watch-inputs: true
       navigate: true
 
+  resources:
+      - "files/**"
 
 
 # Metadata stuff
@@ -20,9 +22,10 @@ csl: files/amj.csl
 execute:
   freeze: auto
 
+
 website:
   title: "Antoine Vernet"
-  description: "Antoine Vernet is an associate professor at the Bartlett School of Sustainable Construction at UCL, researching organizational design and ."
+  description: "Antoine Vernet is an associate professor at the Bartlett School of Sustainable Construction at UCL, researching organizational design and social networks."
   # favicon: "/files/"
   site-url: "https://www.antoinevernet.com"
  # repo-url: "https://github.com/antoinevernet/website_pro"
@@ -33,12 +36,12 @@ website:
   # twitter-card: 
   #   image: "/files/profiles/twitter-card-large.png"
   #   card-style: summary_large_image
-  #   creator: "@andrewheiss"
-  #   site: "@andrewheiss"
+  #   creator: ""
+  #   site: ""
 
   # open-graph: 
   #   image: "/files/profiles/twitter-card-large.png"
-  #   locale: en_US
+  #   locale: en_UK
   
 
   navbar:

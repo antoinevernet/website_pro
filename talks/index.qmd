@@ -9,14 +9,14 @@ listing:
     contents: talks_2024.yml
     sort: "date desc"
     template: ../html/talks/listing.ejs
-  - id: talks_2018
-    contents: talks_2018.yml
-    sort: "date desc"
-    template: ../html/talks/listing.ejs
-  - id: talks_2017
-    contents: talks_2017.yml
-    sort: "date desc"
-    template: ../html/talks/listing.ejs
+  # - id: talks_2018
+  #   contents: talks_2018.yml
+  #   sort: "date desc"
+  #   template: ../html/talks/listing.ejs
+  # - id: talks_2017
+  #   contents: talks_2017.yml
+  #   sort: "date desc"
+  #   template: ../html/talks/listing.ejs
 title-block-banner: "#003249"
 page-layout: full
 toc: true
@@ -41,7 +41,7 @@ When available/possible, I will link to slides, source code, or other materials.
 :::
 
 
-## 2018
+<!-- ## 2018
 
 :::{#talks_2018}
 :::
@@ -51,4 +51,4 @@ When available/possible, I will link to slides, source code, or other materials.
 
 :::{#talks_2017}
 :::
-
+ -->
