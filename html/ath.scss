@@ -25,6 +25,7 @@ $purple:  #003249 !default; // Modified so not purple anymore... triadic color s
 $pink:    #A52C60 !default;
 //$red:     #CF4446 !default; //12 times including links hover
 $red:     #003249 !default;
+$complement: #490032 !default; // Complementary color to $red #003249
 //$orange:  #EE6A24 !default; // 7 times including links. If I change this, I need the red to be linked to this (a more vivid) and light-orange to be linked as less vivid
 //$orange:  #491700  !default; // Try with a complementary #491700, otherwise revert to: #00493C
 $orange:  #00493C  !default;
@@ -507,7 +508,7 @@ pre.text, pre.sourceCode, .cell-output pre {
 
     .project-details-listing {
         margin-top: 0.8em;
-        background-color: shift-color($red, -90%);
+        background-color: shift-color($complement, -20%); //background-color: shift-color($red, -90%);
         font-size: 0.9rem;
 
         @media (max-width: map-get($grid-breakpoints, md)) {
