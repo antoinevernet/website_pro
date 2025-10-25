@@ -9,7 +9,7 @@ date-format: "D MMMM, YYYY"
 code-tools: false
 comments: false
 engine: knitr
-freeze: false
+freeze: auto
 title-block-banner: "#003249"
 listing:
   - id: posts_2025
