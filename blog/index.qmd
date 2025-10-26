@@ -37,15 +37,6 @@ listing:
     contents: "2017/**/index.qmd"
     sort: "date desc"
     template: ../html/blog/listing.ejs
-page-footer:
-  left: |
-    <span class="faux-block">{{< fa brands creative-commons >}} {{< var years >}} Antoine Vernet</span>
-    <span class="faux-block">All blog content licensed under<br>[{{< fa brands creative-commons >}} {{< fa brands creative-commons-by >}} Creative Commons CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)</span>      
-  center: |
-    <span class="faux-block">{{< fa brands orcid >}} <strong>ORCID</strong> [{{< var orcid >}}](https://orcid.org/{{< var orcid >}})</span>
-  right: |
-    <span class="faux-block">Made with {{< fa brands r-project >}} and [Quarto](https://quarto.org/)</span>
-    <span class="faux-block">[View the source at {{< fa brands github >}} GitHub]({{< var github-url >}})</span>
 ---
 
 
