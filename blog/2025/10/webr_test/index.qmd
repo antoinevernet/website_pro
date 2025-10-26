@@ -16,7 +16,9 @@ resources:
 doi: ""
 citation: true
 draft: true
-format: live-html
+format: 
+  live-html:
+    output-file: index-live.html
 # engine: knitr
 ---
 
@@ -28,7 +30,7 @@ and webR can do. It's never been easier to publish interactive examples, reprodu
 
 
 ```{webr}
-
+#| autorun: false
 2+2
 
 ```
