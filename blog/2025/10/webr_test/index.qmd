@@ -1,0 +1,35 @@
+---
+title: "We live in magical times"
+date: 2025-10-26
+description: "What one can do with a static website these days is pretty amazing!"
+image: ""
+twitter-card:
+  image: ""
+open-graph:
+  image: ""
+categories:
+  - webR
+  - R
+  - teaching
+resources:
+  - "img/*"
+doi: ""
+citation: true
+draft: true
+format: live-html
+engine: knitr
+---
+
+{{< include ../../../../_extensions/r-wasm/live/_knitr.qmd >}}
+
+A lot of things are less than ideal in the world at the moment, but I can't help but be anazed at what one can do with a static website. 
+WebR 
+and webR can do. It's never been easier to publish interactive examples, reproducible analyses, and teaching materials that run right in the browser — tiny experiments that still feel a little like magic.
+
+
+```{webr}
+
+2+2
+
+```
+
