@@ -94,7 +94,7 @@ website:
 format:
   html:
     theme:
-      - html/ath.scss
+      - html/custom.scss
     fontsize: 0.9em
     grid: 
       body-width: 900px
