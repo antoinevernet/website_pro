@@ -28,20 +28,20 @@ website:
   description: "Antoine Vernet is an associate professor at the Bartlett School of Sustainable Construction at UCL, researching organizational design and social networks."
   favicon: "/files/favicon.png"
   site-url: "https://www.antoinevernet.com"
- # repo-url: "https://github.com/antoinevernet/website_pro"
+  repo-url: "https://github.com/antoinevernet/website_pro"
 
   google-analytics: "G-FR1LQ5LD0Y"
 
 
-  # twitter-card: 
-  #   image: "/files/profiles/twitter-card-large.png"
-  #   card-style: summary_large_image
-  #   creator: ""
-  #   site: ""
+  twitter-card: 
+    # image: "/files/twitter-card-large.png"
+    card-style: summary_large_image
+    creator: "@antoine__V"
+    site: "@antoinevernet"
 
-  # open-graph: 
-  #   image: "/files/profiles/twitter-card-large.png"
-  #   locale: en_UK
+  open-graph: 
+    # image: "/files/twitter-card-large.png"
+    locale: en_UK
   
 
   navbar:
