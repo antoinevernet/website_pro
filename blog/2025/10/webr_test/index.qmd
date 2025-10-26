@@ -15,7 +15,6 @@ resources:
   - "img/*"
 doi: ""
 citation: true
-draft: true
 format: 
   live-html:
     output-file: index-live.html
