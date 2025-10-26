@@ -30,7 +30,7 @@ website:
   site-url: "https://www.antoinevernet.com"
  # repo-url: "https://github.com/antoinevernet/website_pro"
 
-  # google-analytics:
+  google-analytics: "G-FR1LQ5LD0Y"
 
 
   # twitter-card: 
