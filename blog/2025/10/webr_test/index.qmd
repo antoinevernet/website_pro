@@ -17,10 +17,10 @@ doi: ""
 citation: true
 draft: true
 format: live-html
-engine: knitr
+# engine: knitr
 ---
 
-{{< include ../../../../_extensions/r-wasm/live/_knitr.qmd >}}
+<!-- {{< include /_extensions/r-wasm/live/_knitr.qmd >}} -->
 
 A lot of things are less than ideal in the world at the moment, but I can't help but be anazed at what one can do with a static website. 
 WebR 
@@ -33,3 +33,4 @@ and webR can do. It's never been easier to publish interactive examples, reprodu
 
 ```
 
+This is puzzling.
