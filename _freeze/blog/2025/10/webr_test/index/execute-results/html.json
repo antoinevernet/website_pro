@@ -1,8 +1,8 @@
 {
-  "hash": "5534d77562f1de3b915f0b0e54d5374c",
+  "hash": "ffb84f09bbaac1cdde9d8cb0e39b76da",
   "result": {
     "engine": "jupyter",
-    "markdown": "---\ntitle: \"We live in magical times\"\ndate: 2025-10-26\ndescription: \"What one can do with a static website these days is pretty amazing!\"\nimage: \"\"\ntwitter-card:\n  image: \"\"\nopen-graph:\n  image: \"\"\ncategories:\n  - webR\n  - R\n  - teaching\nresources:\n  - \"img/*\"\ndoi: \"\"\ncitation: true\nformat: \n  live-html:\n    output-file: index-live.html\n# engine: knitr\nengine: jupyter\n---\n\n<!-- {{< include /_extensions/r-wasm/live/_knitr.qmd >}} -->\n\nA lot of things are less than ideal in the world at the moment, but I can't help but be anazed at what one can do with a static website. \nWebR \nand webR can do. It's never been easier to publish interactive examples, reproducible analyses, and teaching materials that run right in the browser — tiny experiments that still feel a little like magic.\n\n\n```{webr}\n#| autorun: false\n2+2\n\n```\n\nThis is puzzling.\n\n",
+    "markdown": "---\ntitle: \"We live in magical times\"\ndate: 2025-10-26\ndescription: \"What one can do with a static website these days is pretty amazing!\"\nimage: \"\"\ntwitter-card:\n  image: \"\"\nopen-graph:\n  image: \"\"\ncategories:\n  - webR\n  - R\n  - teaching\n# resources:\n#   - \"img/*\"\ndoi: \"\"\ncitation: true\nformat: \n  live-html:\n    output-file: index-live.html\n# engine: knitr\nengine: jupyter\n---\n\n<!-- {{< include /_extensions/r-wasm/live/_knitr.qmd >}} -->\n\nA lot of things are less than ideal in the world at the moment, but I can't help but be anazed at what one can do with a static website. \nWebR \nand webR can do. It's never been easier to publish interactive examples, reproducible analyses, and teaching materials that run right in the browser — tiny experiments that still feel a little like magic.\n\n\n```{webr}\n#| autorun: false\n2+2\n\n```\n\nThis is puzzling.\n\n",
     "supporting": [
       "index_files/figure-html"
     ],

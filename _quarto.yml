@@ -98,7 +98,14 @@ format:
     fontsize: 0.9em
     grid: 
       body-width: 900px
-    # css: styles.css
+    toc: false
+    icons: iconify
+  live-html:
+    theme:
+      - html/custom.scss
+    fontsize: 0.9em
+    grid: 
+      body-width: 900px
     toc: false
     icons: iconify
 

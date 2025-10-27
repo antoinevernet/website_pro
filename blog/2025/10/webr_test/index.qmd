@@ -11,8 +11,8 @@ categories:
   - webR
   - R
   - teaching
-resources:
-  - "img/*"
+# resources:
+#   - "img/*"
 doi: ""
 citation: true
 format: 
