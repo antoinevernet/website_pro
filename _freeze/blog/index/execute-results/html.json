@@ -3,9 +3,7 @@
   "result": {
     "engine": "knitr",
     "markdown": "---\ntitle: \"Blog\"\npagetitle: \"Blog\"\ndescription-meta: \"\"\npage-layout: full\ntoc-title: Year\ntoc-location: right\ndate-format: \"D MMMM, YYYY\"\ncode-tools: false\ncomments: false\nengine: knitr\nfreeze: auto\ntitle-block-banner: \"#003249\"\nlisting:\n  - id: posts_2025\n    contents: \"2025/**/index.qmd\"\n    sort: \"date desc\"\n    template: ../html/blog/listing.ejs\n    categories: true\n  - id: posts_2023\n    contents: \"2023/**/index.qmd\"\n    sort: \"date desc\"\n    template: ../html/blog/listing.ejs\n  - id: posts_2022\n    contents: \"2022/**/index.qmd\"\n    sort: \"date desc\"\n    template: ../html/blog/listing.ejs\n  - id: posts_2021\n    contents: \"2021/**/index.qmd\"\n    sort: \"date desc\"\n    template: ../html/blog/listing.ejs\n  - id: posts_2018\n    contents: \"2018/**/index.qmd\"\n    sort: \"date desc\"\n    template: ../html/blog/listing.ejs\n  - id: posts_2017\n    contents: \"2017/**/index.qmd\"\n    sort: \"date desc\"\n    template: ../html/blog/listing.ejs\n---\n\n\n## 2025\n\n:::{#posts_2025}\n:::\n\n## 2023\n\n:::{#posts_2023}\n:::\n\n## 2022\n\n:::{#posts_2022}\n:::\n\n## 2021\n\n:::{#posts_2021}\n:::\n\n## 2018\n\n:::{#posts_2018}\n:::\n\n\n## 2017\n\n:::{#posts_2017}\n:::\n\n",
-    "supporting": [
-      "index_files"
-    ],
+    "supporting": [],
     "filters": [
       "rmarkdown/pagebreak.lua"
     ],
