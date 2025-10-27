@@ -2,7 +2,7 @@
 title: "We live in magical times"
 date: 2025-10-27
 description: "What one can do with a static website these days is pretty amazing!"
-image: ""
+image: "texas.png"
 twitter-card:
   image: ""
 open-graph:
