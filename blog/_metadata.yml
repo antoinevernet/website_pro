@@ -19,14 +19,14 @@ format:
       banner-header-class: "blog-post"
   # html-live:
   #   code-tools: true
-  #   # comments:
-  #   #   giscus: 
-  #   #     repo: 
-  #   #     category: Blog comments
-  #   #     category-id: 
-  #   #     mapping: pathname
-  #   quarto-template-params:
-  #     banner-header-class: "blog-post"
+    # comments:
+    #   giscus: 
+    #     repo: 
+    #     category: Blog comments
+    #     category-id: 
+    #     mapping: pathname
+    # quarto-template-params:
+    #   banner-header-class: "blog-post"
 
 # Default for table of contents
 toc: true
