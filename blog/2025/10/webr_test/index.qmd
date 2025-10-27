@@ -18,9 +18,9 @@ citation: true
 # formats: [live-html]
 # format:
 #   html: {}
-format:
-  live-html:
-    output-file: index-live.html
+# format:
+  # live-html:
+    # output-file: index-live.html
 engine: knitr
 # engine: jupyter
 ---

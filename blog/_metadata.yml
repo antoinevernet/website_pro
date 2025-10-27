@@ -7,16 +7,16 @@ title-block-banner: "#003249"
 
 # Add blog-post class to the banner header area
 format: 
-  html:
-    code-tools: true
-    # comments:
-    #   giscus: 
-    #     repo: 
-    #     category: Blog comments
-    #     category-id: 
-    #     mapping: pathname
-    quarto-template-params:
-      banner-header-class: "blog-post"
+  # html:
+  #   code-tools: true
+  #   # comments:
+  #   #   giscus: 
+  #   #     repo: 
+  #   #     category: Blog comments
+  #   #     category-id: 
+  #   #     mapping: pathname
+  #   quarto-template-params:
+  #     banner-header-class: "blog-post"
   live-html:
     code-tools: true
     # comments:
