@@ -29,6 +29,7 @@ webr:
     # output-file: index-live.html
 engine: knitr
 # engine: jupyter
+freeze: auto
 ---
 
 {{< include /_extensions/r-wasm/live/_knitr.qmd >}}
