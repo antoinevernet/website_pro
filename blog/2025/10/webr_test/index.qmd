@@ -15,6 +15,12 @@ categories:
 #   - "img/*"
 doi: ""
 citation: true
+draft: true
+# resources:
+#   - data
+webr:
+  packages:
+    - dplyr
 # formats: [live-html]
 # format:
 #   html: {}
@@ -28,14 +34,62 @@ engine: knitr
 {{< include /_extensions/r-wasm/live/_knitr.qmd >}}
 
 A lot of things are less than ideal in the world at the moment, but I can't help but be amazed at what one can do with a static website. 
-WebR 
-and webR can do. It's never been easier to publish interactive examples, reproducible analyses, and teaching materials that run right in the browser — tiny experiments that still feel a little like magic.
+WebR through quarto-live allows you to run R (you can also run Python with pyodide) in the browser. 
+No server required.
+Like below:
 
 ```{webr}
 2+2
 
 ```
 
-This is puzzling.
+
+I can't help but feel this is a little like magic.
+
+::: {.callout-note}
+Full disclosure, while this works out of the box on a local machine, I had to tweak a few things for it to render with `quarto render` as I had all sort of yaml issues. 
+I think there was 16 commits between me starting the blog post with the demo code chunk and it working as intended with quarto render.
+:::
+
+Of course, you can do more useful things that this. 
+For example create a visualisation that the reader can interact with to better understand the data.
+
+First, we can get a peak at the data:
+
+```{webr}
+library(ggplot2)
+data("txhousing")
+summary(txhousing)
+head(txhousing)
+
+```
+
+The data contains 1 row per city per time period.
+Armed with this knowledge, we can make a simple plot.
+It is obvious that we will need to use some sort of summary of the data to draw our plot
+
+::: {.callout-warning}
+The below code chunk only works if you have run the previous one. Specifically, if you have run `data("txhousing")`. 
+If you want to run the below code chunk independently, you will need to add that line to it.
+:::
+
+
+```{webr}
+txhousing_summary <- txhousing |> 
+  group_by(date) |> 
+  summarise(sales = sum(sales, na.rm = TRUE))
+
+ggplot(txhousing_summary, aes(x = date, y = sales)) +
+  geom_line() +
+  theme_minimal() +
+  labs(title = "Texas Housing Sales Over Time",
+       x = "Date",
+       y = "Number of Sales")
+```
+
+This is hardly a masterpiece, and in many cases, you only want the reader to see the final plot, but for teaching, this can be used to engage the reader so they can build the plot themselves step by steps.
+
+Anyway, I am pretty amazed this works, and excited to see how to use it in teaching
+
 
 
