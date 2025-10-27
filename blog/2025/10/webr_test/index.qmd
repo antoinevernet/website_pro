@@ -15,23 +15,26 @@ categories:
 #   - "img/*"
 doi: ""
 citation: true
-# formats: [html]
+# formats: [live-html]
 # format:
 #   html: {}
-# format:
-#   live-html:
-#     output-file: index.html
-# engine: knitr
+format:
+  live-html:
+    output-file: index-live.html
+engine: knitr
 # engine: jupyter
 ---
 
-<!-- {{< include /_extensions/r-wasm/live/_knitr.qmd >}} -->
+{{< include /_extensions/r-wasm/live/_knitr.qmd >}}
 
 A lot of things are less than ideal in the world at the moment, but I can't help but be amazed at what one can do with a static website. 
 WebR 
 and webR can do. It's never been easier to publish interactive examples, reproducible analyses, and teaching materials that run right in the browser — tiny experiments that still feel a little like magic.
 
+```{webr}
+2+2
 
+```
 
 This is puzzling.
 
