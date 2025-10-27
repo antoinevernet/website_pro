@@ -1,6 +1,6 @@
 ---
 title: "We live in magical times"
-date: 2025-10-26
+date: 2025-10-27
 description: "What one can do with a static website these days is pretty amazing!"
 image: ""
 twitter-card:
@@ -15,7 +15,6 @@ categories:
 #   - "img/*"
 doi: ""
 citation: true
-draft: true
 # resources:
 #   - data
 webr:
