@@ -13,7 +13,7 @@ categories:
   - writing
 resources:
   - "img/*"
-doi: ""
+doi: "10.59350/gdffx-k2z78"
 citation: true
 bibliography: ../../../../files/references.bib
 csl: ../../../../files/amj.csl

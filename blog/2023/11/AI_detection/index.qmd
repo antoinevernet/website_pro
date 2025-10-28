@@ -11,7 +11,7 @@ categories:
   - measurements
 resources:
   - "img/*"
-doi: ""
+doi: "10.59350/6mmde-fdx43"
 citation: true
 bibliography: ../../../../files/references.bib
 csl: ../../../../files/amj.csl

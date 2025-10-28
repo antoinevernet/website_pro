@@ -13,7 +13,7 @@ categories:
   - causal inference
 resources:
   - "img/*"
-doi: ""
+doi: "10.59350/kpz74-awb11"
 citation: true
 bibliography: ../../../../files/references.bib
 csl: ../../../../files/amj.csl

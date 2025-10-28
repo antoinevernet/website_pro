@@ -11,7 +11,7 @@ categories:
   - measurements
 resources:
   - "img/*"
-doi: ""
+doi: "10.59350/crm4h-nma37"
 citation: true
 bibliography: ../../../../files/references.bib
 csl: ../../../../files/amj.csl

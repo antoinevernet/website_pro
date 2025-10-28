@@ -12,7 +12,7 @@ categories:
   - learning
 resources:
   - "img/*"
-doi: ""
+doi: "10.59350/n368n-d9h51"
 citation: true
 bibliography: ../../../../files/references.bib
 csl: ../../../../files/amj.csl

@@ -13,7 +13,7 @@ categories:
   - presentation
 resources:
   - "img/*"
-doi: ""
+doi: "10.59350/a3v95-zk539"
 citation: true
 bibliography: ../../../../files/references.bib
 csl: ../../../../files/amj.csl

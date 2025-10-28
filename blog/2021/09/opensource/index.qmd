@@ -16,7 +16,7 @@ categories:
   - causal inference
 resources:
   - "img/*"
-doi: ""
+doi: "10.59350/xyxv0-p4z37"
 citation: true
 bibliography: ../../../../files/references.bib
 csl: ../../../../files/amj.csl

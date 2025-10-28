@@ -13,7 +13,7 @@ categories:
   - writing
 resources:
   - "img/*"
-doi: ""
+doi: "10.59350/7g2pt-mt043"
 citation: true
 bibliography: ../../../../files/references.bib
 csl: ../../../../files/amj.csl

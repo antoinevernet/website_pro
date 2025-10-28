@@ -13,7 +13,7 @@ categories:
   - blogdown
 resources:
   - "img/*"
-doi: ""
+doi: "10.59350/dbf5d-x1h48"
 citation: true
 ---
 

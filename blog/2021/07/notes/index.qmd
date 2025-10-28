@@ -13,7 +13,7 @@ categories:
   - book review
 resources:
   - "img/*"
-doi: ""
+doi: "10.59350/2f48e-yf678"
 citation: true
 bibliography: ../../../../files/references.bib
 csl: ../../../../files/amj.csl

@@ -12,7 +12,7 @@ categories:
   - workflow
 resources:
   - "img/*"
-doi: ""
+doi: "10.59350/qxa9v-40052"
 citation: true
 bibliography: ../../../../files/references.bib
 csl: ../../../../files/amj.csl

@@ -14,7 +14,7 @@ categories:
   - brokerage
 resources:
   - "img/*"
-doi: ""
+doi: "10.59350/ymd0y-acd32"
 citation: true
 bibliography: ../../../../files/references.bib
 csl: ../../../../files/amj.csl

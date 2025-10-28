@@ -14,7 +14,7 @@ categories:
   - teaching
 resources:
   - "img/*"
-doi: ""
+doi: "10.59350/2hqwg-69n87"
 citation: true
 bibliography: ../../../../files/references.bib
 csl: ../../../../files/amj.csl

@@ -15,7 +15,7 @@ categories:
   - r
 resources:
   - "img/*"
-doi: ""
+doi: "10.59350/kk442-4aw25"
 citation: true
 bibliography: ../../../../files/references.bib
 csl: ../../../../files/amj.csl

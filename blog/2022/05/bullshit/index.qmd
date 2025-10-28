@@ -12,7 +12,7 @@ categories:
   - data visualization
 resources:
   - "img/*"
-doi: ""
+doi: "10.59350/tzgwv-wag86"
 citation: true
 bibliography: ../../../../files/references.bib
 csl: ../../../../files/amj.csl
