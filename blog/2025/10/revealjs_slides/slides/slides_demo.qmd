@@ -1,0 +1,50 @@
+---
+title: Now your slides can be as ugly as mine!
+author: Antoine Vernet
+date: today
+format:
+  revealjs:
+    theme: [default, dark, slides.scss]
+    slide-number: true
+    toc: false
+    toc-depth: 2
+    overview: true
+    footer: Demo | Antoine Vernet
+    code-overflow: wrap
+    chalkboard: true
+    controls: true
+    progress: true
+    execute:
+      echo: false
+    view-distance: 2
+    preload-iframes: false
+    navigation-mode: vertical
+---
+
+## This is a standard content slides
+
+
+# This is a standard section slide
+
+
+# This is a section slide that looks like a content slide {.alt-section}
+
+A you can see it has content.
+
+- A list
+- A list
+
+## This is a standard content slide
+
+This appears underneath the section slides so you can chose to drill down or not
+
+## Of course
+
+You can have as many content slides below each sections as you wish
+
+# This is a new section
+
+# And a new section slide that looks like a content one {.alt-section}
+
+## With a normal content slide below it.
+

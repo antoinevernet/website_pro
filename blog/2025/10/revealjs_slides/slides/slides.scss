@@ -1,0 +1,85 @@
+/*-- scss:defaults --*/
+/* none */
+
+/*-- scss:rules --*/
+
+/* ========== CASE A: .alt-section is on the INNER slide ========== */
+/* <section class="slide alt-section"> ... </section> */
+.reveal .slides section.slide.alt-section {
+  /* Keep reveal's absolute positioning model; just top-anchor it */
+  position: absolute !important;
+  top: 0 !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important; /* remove vertical centering only */
+  /* Do NOT set display:flex/block here—leave it as a reveal slide */
+  height: auto !important; /* harmless, avoids odd min-heights */
+
+  /* Content-slide spacing handled on children below */
+}
+
+/* Children width/centering (content-slide feel) */
+.reveal .slides section.slide.alt-section > *,
+.reveal .slides section.slide.alt-section .slide-content {
+  max-width: var(--r-main-width, 960px);
+  margin-left: auto;
+  margin-right: auto;
+  /* put the normal content top-padding on the content itself */
+  padding-top: var(--r-block-margin);
+}
+
+/* Make the H1 look like a content H2 on THIS slide only */
+.reveal .slides section.slide.alt-section h1 {
+  font-size: var(--r-heading2-size);
+  line-height: var(--r-heading2-line-height, 1.1);
+  font-weight: var(--r-heading2-weight, 700);
+  margin: 0 0 var(--r-block-margin) 0;
+  text-transform: none;
+  letter-spacing: 0;
+  border: 0 !important;         /* some themes underline via border */
+}
+.reveal .slides section.slide.alt-section h1::after { content: none !important; }
+
+/* ========== CASE B: .alt-section is on the OUTER level-1 stack ========== */
+/* <section class="level1 alt-section"> <section>…(title)…</section> … </section> */
+
+/* DO NOT style the stack itself (prevents bleed to following ## slides) */
+/* .reveal .slides section.level1.alt-section { } */
+
+/* Target ONLY the first inner slide (the section-title) */
+.reveal .slides section.level1.alt-section > section:first-of-type {
+  position: absolute !important;
+  top: 0 !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important; /* no vertical translate */
+  height: auto !important;
+}
+
+/* Children width/centering for that title slide only */
+.reveal .slides section.level1.alt-section > section:first-of-type > *,
+.reveal .slides section.level1.alt-section > section:first-of-type .slide-content {
+  max-width: var(--r-main-width, 960px);
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: var(--r-block-margin);
+}
+
+/* H1 on that first inner slide should look like a content H2 */
+.reveal .slides section.level1.alt-section > section:first-of-type h1 {
+  font-size: var(--r-heading2-size);
+  line-height: var(--r-heading2-line-height, 1.1);
+  font-weight: var(--r-heading2-weight, 700);
+  margin: 0 0 var(--r-block-margin) 0;
+  text-transform: none;
+  letter-spacing: 0;
+  border: 0 !important;
+}
+.reveal .slides section.level1.alt-section > section:first-of-type h1::after { content: none !important; }
+
+/* Defensive reset: explicitly ensure non-title slides in that stack remain default */
+.reveal .slides section.level1.alt-section > section:not(:first-of-type) {
+  position: absolute;       /* normal reveal positioning */
+  /* don't touch top/left/transform—reveal controls them per state (.present, etc.) */
+  max-width: none;          /* let theme handle */
+  margin: 0;                /* let theme handle */
+  padding: 0;               /* let theme handle */
+}
