@@ -1,0 +1,54 @@
+---
+title: "Two things to keep in mind when preparing or delivering teaching"
+date: 2025-11-20
+description: "It took me longer than I care to admit to realise this, maybe I can save you some time."
+image: ""
+twitter-card:
+  image: ""
+open-graph:
+  image: ""
+categories:
+  - xkcd
+  - teaching
+# resources:
+#   - "img/*"
+doi: ""
+citation: true
+draft: true
+---
+
+There are two things are try to keep in mind when preparing or delivering teaching.
+Helpfully, they are both [xkcd](https://xkcd.com) comics.
+
+::::{.columns}
+
+:::{.column width="71%"}
+![](https://imgs.xkcd.com/comics/ten_thousand.png)
+
+Ten Thousand
+:::
+
+:::{.column width="1%"}
+:::
+
+:::{.column width="28%"}
+![](https://imgs.xkcd.com/comics/average_familiarity.png)
+
+Average Familiarity
+:::
+
+::::
+
+
+The first comic (Ten Thousand) is a reminder that as teachers, we are privileged to teach a topic we know well to people who are new to it.
+It is important to do two things as a result of this: 
+- First, learn to enjoy that feeling of taking someone through a process of discovery. And think carefully about how to drive that discovery in a way that create excitement and favours learning.
+- Second, remembering that there are always many more people who still don't know what we just taught someone should be strong motivation to keep on going. Especially in a world increasingly governed by idiots that embrace misinformation, it matters!
+
+The second comic (Average Familiarity) helps me remember that what I have seen labeled the "expert's curse" is real.
+It is important to not assume that what is obvious to us is obvious to students, providing scaffolding is particularly important. 
+The real difficulty is that we find ourselves in front of heterogenous audiences, and scaffolding necessary for some, is boring repetition for others.
+Sometimes there are ways to mitigate this, such as having the scaffolding as preparatory material that students can review before class if they need it.
+Other times, it implies a trade-off and one has to choose a primary audience.
+
+I find that keeping both of these things in mind helps me keep in mind that I get to guide students to discover something they do not know that I think is worth knowing and genuinely can make their lives better, but also that I need to keep in mind that if I show them only part of the puzzle, I can't assume that they can fill in the blanks.

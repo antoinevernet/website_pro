@@ -13,19 +13,19 @@ categories:
   - conference presentations
   - teaching
 resources:
-  - "img/*"
+  - "slides/*"
 doi: ""
 citation: true
 draft: true
 ---
 
 
-I am currently preparing for the courses I teach in term 2 and one of my objectives this year is to create course websites with course material that the students can access but that can also be made available publicly in the hope that they might be useful to someone[^note].
-It was also an opportunity to move away from a workflow that discouraged improvement and made editing material cumbersome.
-Let's back up to see why things are as bad as they are.
+I am currently preparing for the courses I teach in term 2 and one of my objectives this year is to create course websites[^oups] with course material that the students can access but that can also be made available publicly in the hope that they might be useful to someone[^note].
+It is also an opportunity to move away from a workflow that discourages improvement and makes editing material cumbersome.
+Let's back up to see why things are as bad as they are and how I walk myself into a corner.
 
-[^note]: In the process of doing that, I took inspiration---I shamelessly stole---from people I think make nice course websites. Two of these people are [Andrew Heiss](https://www.andrewheiss.com) and [Kieran Healy](https://www.kieranhealy.org). 
-
+[^note]: In the process of doing that, I took inspiration---I shamelessly stole---from people I think make nice course websites. Two of those people are [Andrew Heiss](https://www.andrewheiss.com) and [Kieran Healy](https://www.kieranhealy.org). 
+[^oups]: With seven weeks to go before Christmas, I am already way behind: I have only started one of the websites, and still have slides to make for most sessions, and I have not shot any of the videos I want to prepare for them.  
 
 
 
@@ -34,28 +34,85 @@ Let's back up to see why things are as bad as they are.
 A few years ago, in a bid to improve student engagement in the classroom, I started using Mentimeter to ask in-class questions from my students. 
 This is all well and good, but Mentimeter has a terribly limited interface to design slides.
 Using it means giving up a lot of control.
-At the time I first started using Mentimeter for the classroom (2020), my experiment with linking mentimeter questions from within Powerpoint were very disappointing and I could not get mentimeter questions to behave how I was hoping within powerpoint. 
+At the time I first started using Mentimeter for the classroom (2020), my experiment with linking mentimeter questions from within Powerpoint were very disappointing and I could not get mentimeter questions to behave how I was hoping them to within powerpoint. 
 This is when I made a terrible mistake.
-Having concluded that making slides on Mentimeter directly was as attractive as playing a level 1 character in D&D, and that embedding Mentimeter questions directly into Powerpoint exposed me to technical failures in the classroom, I decided to make my slides in Powerpoint as usual, upload them to Mentimeter as images (you do not get a choice), and interleave Mentimeter questions in between these slides.
+Having concluded that making slides directly on Mentimeter was as attractive as playing a level 1 character in D&D[^nerd], and that embedding Mentimeter questions directly into Powerpoint exposed me to technical failures in the classroom, I decided to make my slides in Powerpoint as usual, upload them to Mentimeter as images (you do not get a choice), and interleave Mentimeter questions in between these slides.
 It worked.
 Kind of.
 Until it did not.
 It wasn't a sudden and decisive break, it was a slow rot that at first went unnoticed.
 
+[^nerd]: In case you wonder, D&D at level 1 is not the most exciting because your character is still very weak. Starting at level 3 seems to be pretty common in the community. I like playing at level 5 and above.
+
 The obvious problem is that once your slides are converted into images, you cannot edit them easily.
-You have to go back to Powerpoint, make the changes, export the slides as images again, and re-upload them to Mentimeter.
+You have to go back to Powerpoint, make the changes, and re-upload them to Mentimeter (who turns them into images in the process).
 Then you have to move the Mentimeter questions back to where they are supposed to go.
 Needless to say, this is way more faff than I can bear, and it means that for small things, like a typo, I would not go through the process to fix it.
 For larger changes, I would eventually get around to them, but it would make me grumpy.
-In short, it made it too hard to iterate on the slides, and I am old enough to know that consistent small improvements is the only way things get better (maybe you are a better, smarter person, but I am not).
+In short, it made it too hard to iterate on the slides. 
+
+This would be just unfortunate if I was not so unable to let go and therefore getting increasingly frustrated over time.
+In addition, I am old enough to know that consistent small improvements is the only way things get better[^smarter]. 
+
+[^smarter]: Maybe you are a better, smarter person, don't rub it in my face.
 
 
-## The solution: revealjs slides
+# The solution: revealjs slides
 
-I decided that I needed to take the slides out of Mentimeter. 
-It was time to think about what technology to use to avoid being in the same place in 5 years or so.
+So, after a few years of frustration, I decided that I needed to take the slides out of Mentimeter. 
+It was time to think about what technology to use to avoid being in the same place in 5 years or so[^tbf].
 Enters Quarto.
 I use quarto all the time to write documents, and while working on research to document my work from cleaning the data to analysis.
 And I used R Markdown before that. 
+Quarto has a revealjs format for slides, and the more I experimented with it, the more I thought that it would be suitable.
 
+Of course, I could not live with the defaults.[^sad][^sheldon][^not][^onemore]
+I had the idea after reading the docs that using the vertical navigation would be a good idea to be able to have a main narrative and arbitrary numbers of extra slides drilling down into specific details[^roubaud].
+So I poked around, and also asked silly questions (see below), which lead me to figure out that I could probably get what I was hoping to achieve with a bit of scss.
+With the help of chatGPT, I managed to put together a new style for section slides that gives them the appearance of content slides.
 
+Th
+
+<!-- Insert slides as iframe here -->
+```{=html}
+<div>
+<script type="application/javascript">
+
+function resizeIFrameToFitContent( iFrame ) {
+
+   iFrame.width  = (document.getElementById("quarto-document-content").clientWidth *0.9);
+   iFrame.height  = (document.getElementById("quarto-document-content").clientWidth * 0.5)
+}
+
+window.addEventListener('DOMContentLoaded', function(e) {
+
+    var iFrame = document.getElementById( 'quartoframe' );
+    resizeIFrameToFitContent( iFrame );
+    } );
+
+</script>
+
+<iframe class="slide-deck" id="quartoframe" src=""></iframe
+</div>
+```
+
+```{r show-slide-tabs, echo=FALSE, results="asis"}
+slide_buttons <- function(slide_id) {
+  glue::glue('<p class="text-center buttons"><a class="btn btn-danger" target="_blank" href="{slide_id}.html"><i class="fa-solid fa-arrow-up-right-from-square"></i> View all slides in new window</a></p>')
+}
+
+slide_buttons("/slides/01-slides")
+
+```
+
+[^tbf]: To be fair, I had thought about making my slides in RMarkdown with Xaringan in 2020, but a friend who can let go told me back then to just do my slides in Powerpoint, do a good enough job of teaching and focus on my research. I managed to neither follow my instinct, nor their advice. For obvious reasons, they are way more successful than I am.
+
+[^sad]: In fact, I am now back using the defaults for slides for class, so you know... whatever... as Sheldon would say: "My mum had me tested."
+
+[^sheldon]: She did not.[^not]
+
+[^not]: But maybe she should have.
+
+[^onemore]: I wanted to have these footnotes nested within one another, but this seems to be a silly way to spend my time to figure out how to do this, even for me.
+
+[^roubaud]: I read Roubaud's *Le Grand Incendie de Londres* about 20 years ago and it broke me. Checking the spelling of his name for this footnote, I learned today that he passed away last year. RIP! I wonder if he ever owned a car. He is part of the reason why I do not own one.
