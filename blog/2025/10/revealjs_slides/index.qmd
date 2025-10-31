@@ -71,7 +71,22 @@ I had the idea after reading the docs that using the vertical navigation would b
 So I poked around, and also asked silly questions (see below), which lead me to figure out that I could probably get what I was hoping to achieve with a bit of scss.
 With the help of chatGPT, I managed to put together a new style for section slides that gives them the appearance of content slides.
 
-Th
+
+[^tbf]: To be fair, I had thought about making my slides in RMarkdown with Xaringan in 2020, but a friend who can let go told me back then to just do my slides in Powerpoint, do a good enough job of teaching and focus on my research. I managed to neither follow my instinct, nor their advice. For obvious reasons, they are way more successful than I am.
+
+[^sad]: In fact, I am now back using the defaults for slides for class, so you know... whatever... as Sheldon would say: "My mum had me tested."
+
+[^sheldon]: She did not.
+
+[^not]: But maybe she should have.
+
+[^onemore]: I wanted to have these footnotes nested within one another, but figuring out how to do this seems to be a silly way to use my time, even for me.
+
+[^roubaud]: I read Roubaud's *Le Grand Incendie de Londres* about 20 years ago and it broke me. Checking the spelling of his name for this footnote, I learned today that he passed away last year. RIP! I wonder if he ever owned a car. He is part of the reason why I do not own one.
+
+
+The style exploits the fact that revealjs organises content slides as vertical stacks under section slides that organised horizontally.
+If you set `navigation-mode: vertical` in the yaml, you will not only get the usual vertical stacks (you can visualise them by pressing {{< kbd o >}}), but also navigating down the stack will require a {{< kbd &downarrow; >}} press.
 
 <!-- Insert slides as iframe here -->
 ```{=html}
@@ -92,27 +107,15 @@ window.addEventListener('DOMContentLoaded', function(e) {
 
 </script>
 
-<iframe class="slide-deck" id="quartoframe" src=""></iframe
+<iframe class="slide-deck" id="quartoframe" src="./slides/slides_demo.html"></iframe
 </div>
 ```
 
 ```{r show-slide-tabs, echo=FALSE, results="asis"}
 slide_buttons <- function(slide_id) {
-  glue::glue('<p class="text-center buttons"><a class="btn btn-danger" target="_blank" href="{slide_id}.html"><i class="fa-solid fa-arrow-up-right-from-square"></i> View all slides in new window</a></p>')
+  glue::glue('<p class="text-center buttons"><a class="btn btn-danger" target="_blank" href="./slides/slides_demo.html"><i class="fa-solid fa-arrow-up-right-from-square"></i> View all slides in new window</a></p>')
 }
 
 slide_buttons("/slides/01-slides")
 
 ```
-
-[^tbf]: To be fair, I had thought about making my slides in RMarkdown with Xaringan in 2020, but a friend who can let go told me back then to just do my slides in Powerpoint, do a good enough job of teaching and focus on my research. I managed to neither follow my instinct, nor their advice. For obvious reasons, they are way more successful than I am.
-
-[^sad]: In fact, I am now back using the defaults for slides for class, so you know... whatever... as Sheldon would say: "My mum had me tested."
-
-[^sheldon]: She did not.[^not]
-
-[^not]: But maybe she should have.
-
-[^onemore]: I wanted to have these footnotes nested within one another, but this seems to be a silly way to spend my time to figure out how to do this, even for me.
-
-[^roubaud]: I read Roubaud's *Le Grand Incendie de Londres* about 20 years ago and it broke me. Checking the spelling of his name for this footnote, I learned today that he passed away last year. RIP! I wonder if he ever owned a car. He is part of the reason why I do not own one.
