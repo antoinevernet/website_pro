@@ -85,8 +85,17 @@ With the help of chatGPT, I managed to put together a new style for section slid
 [^roubaud]: I read Roubaud's *Le Grand Incendie de Londres* about 20 years ago and it broke me. Checking the spelling of his name for this footnote, I learned today that he passed away last year. RIP! I wonder if he ever owned a car. He is part of the reason why I do not own one.
 
 
-The style exploits the fact that revealjs organises content slides as vertical stacks under section slides that organised horizontally.
-If you set `navigation-mode: vertical` in the yaml, you will not only get the usual vertical stacks (you can visualise them by pressing {{< kbd o >}}), but also navigating down the stack will require a {{< kbd &downarrow; >}} press.
+The style exploits the fact that revealjs organises content slides as vertical stacks under section slides that are organised horizontally.
+You can visualise this by pressing {{< kbd o >}}.
+With no option set in your yaml for navigation, you go through your rendered deck linearly by pressing either {{< kbd &downarrow; >}} or {{< kbd &rightarrow; >}}.
+If you set `navigation-mode: vertical` in the yaml, you will navigate between section slides with {{< kbd &rightarrow; >}}, but also navigating down each content slide underneath each section with a {{< kbd &downarrow; >}} press.
+
+So with the modify section slides that look like content slides, you can have a main story unfolding linearly within your section slides, and then have an arbitrary number of drill-down slides to add details with standard content slides.
+For teaching, it would allow you to manage your time better by having slids with extra information that you can cover or not depending on time, and interest from the audience.
+While presenting a paper, you could have your main results on a section slides, and details about the results, such as your full regression table, on content slides underneath. 
+Giving you the option to cover these in case the audience asks.
+
+Below is a short demo of what the slides look like.
 
 <!-- Insert slides as iframe here -->
 ```{=html}
@@ -119,3 +128,7 @@ slide_buttons <- function(slide_id) {
 slide_buttons("/slides/01-slides")
 
 ```
+
+You can find the code for the slides in the [slides_demo.qmd](./slides/slides_demo.qmd) file.
+The custom scss is in the [slides.scss](./slides/slides.scss) file.
+
