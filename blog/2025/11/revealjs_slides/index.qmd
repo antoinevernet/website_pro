@@ -1,12 +1,12 @@
 ---
 title: "Changing tech to teach or how to end up with a weird revealjs slides quasi-theme?"
-date: 2025-10-20
+date: 2025-11-06
 description: "Ok, this might be a very bad idea, and niche. This post describes a revealjs customisation of the default theme to make slides that work well for scholarly presentation, and---maybe---for teaching."
-image: ""
+image: "./img/title_slide.png"
 twitter-card:
-  image: ""
+  image: "./img/title_slide.png"
 open-graph:
-  image: ""
+  image: "./img/title_slide.png"
 categories:
   - revealjs
   - slides
@@ -22,7 +22,7 @@ draft: true
 
 I am currently preparing for the courses I teach in term 2 and one of my objectives this year is to create course websites[^oups] with course material that the students can access but that can also be made available publicly in the hope that they might be useful to someone[^note].
 It is also an opportunity to move away from a workflow that discourages improvement and makes editing material cumbersome.
-Let's back up to see why things are as bad as they are and how I walk myself into a corner.
+Let's back up to see why things are as bad as they are and how I walked myself into a corner.
 
 [^note]: In the process of doing that, I took inspiration---I shamelessly stole---from people I think make nice course websites. Two of those people are [Andrew Heiss](https://www.andrewheiss.com) and [Kieran Healy](https://www.kieranhealy.org). 
 [^oups]: With seven weeks to go before Christmas, I am already way behind: I have only started one of the websites, and still have slides to make for most sessions, and I have not shot any of the videos I want to prepare for them.  
@@ -32,17 +32,17 @@ Let's back up to see why things are as bad as they are and how I walk myself int
 # The problem: the slide tech stack from hell
 
 A few years ago, in a bid to improve student engagement in the classroom, I started using Mentimeter to ask in-class questions from my students. 
-This is all well and good, but Mentimeter has a terribly limited interface to design slides.
+This is all well and good, but Mentimeter has limited options when it comes to slide design.
 Using it means giving up a lot of control.
-At the time I first started using Mentimeter for the classroom (2020), my experiment with linking mentimeter questions from within Powerpoint were very disappointing and I could not get mentimeter questions to behave how I was hoping them to within powerpoint. 
-This is when I made a terrible mistake.
-Having concluded that making slides directly on Mentimeter was as attractive as playing a level 1 character in D&D[^nerd], and that embedding Mentimeter questions directly into Powerpoint exposed me to technical failures in the classroom, I decided to make my slides in Powerpoint as usual, upload them to Mentimeter as images (you do not get a choice), and interleave Mentimeter questions in between these slides.
+At the time I first started using Mentimeter for the classroom (2020), my experiment with linking mentimeter questions from within Powerpoint were disappointing and I could not get mentimeter questions to behave how I was hoping them to within powerpoint. 
+Then I made a terrible mistake.
+Having concluded that making slides directly on Mentimeter was as attractive as playing a level 1 character in D&D,[^nerd] and that embedding Mentimeter questions directly into Powerpoint exposed me to technical failures in the classroom, I decided to make my slides in Powerpoint as usual, upload them to Mentimeter as images (you do not get a choice), and interleave Mentimeter questions in between these slides.
 It worked.
 Kind of.
 Until it did not.
-It wasn't a sudden and decisive break, it was a slow rot that at first went unnoticed.
+Things did not break suddenly, rather, it was a slow rot that at first went unnoticed.
 
-[^nerd]: In case you wonder, D&D at level 1 is not the most exciting because your character is still very weak. Starting at level 3 seems to be pretty common in the community. I like playing at level 5 and above.
+[^nerd]: In case you wonder, D&D at level 1 can be underwhelming because your character is very weak. Starting at level 3 seems to be pretty common in the community. I like playing at level 5 and above.
 
 The obvious problem is that once your slides are converted into images, you cannot edit them easily.
 You have to go back to Powerpoint, make the changes, and re-upload them to Mentimeter (who turns them into images in the process).
@@ -51,8 +51,8 @@ Needless to say, this is way more faff than I can bear, and it means that for sm
 For larger changes, I would eventually get around to them, but it would make me grumpy.
 In short, it made it too hard to iterate on the slides. 
 
-This would be just unfortunate if I was not so unable to let go and therefore getting increasingly frustrated over time.
-In addition, I am old enough to know that consistent small improvements is the only way things get better[^smarter]. 
+This would just be unfortunate if I was not so unable to let go and therefore not getting increasingly frustrated by my slides over time.
+In addition, I am old enough to know that consistent small improvements is the only way things get better.[^smarter]
 
 [^smarter]: Maybe you are a better, smarter person, don't rub it in my face.
 
