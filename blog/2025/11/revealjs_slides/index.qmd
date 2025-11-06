@@ -125,7 +125,7 @@ window.addEventListener('DOMContentLoaded', function(e) {
 
 ```{r show-slide-tabs, echo=FALSE, results="asis"}
 slide_buttons <- function(slide_id) {
-  glue::glue('<p class="text-center buttons"><a class="btn btn-danger" target="_blank" href="./slides/slides_demo.html"><i class="fa-solid fa-arrow-up-right-from-square"></i> View all slides in new window</a></p>')
+  glue::glue('<p class="text-center buttons"><a class="btn btn-danger" target="_blank" href="./slides/slides_demo2.html"><i class="fa-solid fa-arrow-up-right-from-square"></i> View all slides in new window</a></p>')
 }
 
 slide_buttons("/slides/slides_demo2.html")
