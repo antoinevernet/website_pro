@@ -9,7 +9,7 @@ project:
 
   resources:
       - "files/**"
-
+      - "blog/2025/11/revealjs_slides/slides"
 
 # Metadata stuff
 pagetitle: "{{< meta title >}} | Antoine Vernet"
