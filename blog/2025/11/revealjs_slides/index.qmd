@@ -16,7 +16,6 @@ resources:
   - "slides/*"
 doi: ""
 citation: true
-draft: true
 ---
 
 
@@ -59,10 +58,10 @@ In addition, I am old enough to know that consistent small improvements is the o
 
 # The solution: revealjs slides
 
-So, after a few years of frustration, I decided that I needed to take the slides out of Mentimeter. 
-It was time to think about what technology to use to avoid being in the same place in 5 years or so[^tbf].
+Fast forward to now, and after years of frustration, I decided to take the slides out of Mentimeter. 
+It was time to think about what technology to use to avoid being in the same place in 5 years or so.[^tbf]
 Enters Quarto.
-I use quarto all the time to write documents, and while working on research to document my work from cleaning the data to analysis.
+I use quarto all the time to write documents, and while working on research to document my work from cleaning the data to reporting.
 And I used R Markdown before that. 
 Quarto has a revealjs format for slides, and the more I experimented with it, the more I thought that it would be suitable.
 
@@ -84,16 +83,20 @@ With the help of chatGPT, I managed to put together a new style for section slid
 
 [^roubaud]: I read Roubaud's *Le Grand Incendie de Londres* about 20 years ago and it broke me. Checking the spelling of his name for this footnote, I learned today that he passed away last year. RIP! I wonder if he ever owned a car. He is part of the reason why I do not own one.
 
+![](./img/canouil_bluesky.png){fig-alt="A screenshot of a bluesky conversation"}
+
 
 The style exploits the fact that revealjs organises content slides as vertical stacks under section slides that are organised horizontally.
 You can visualise this by pressing {{< kbd o >}}.
 With no option set in your yaml for navigation, you go through your rendered deck linearly by pressing either {{< kbd &downarrow; >}} or {{< kbd &rightarrow; >}}.
-If you set `navigation-mode: vertical` in the yaml, you will navigate between section slides with {{< kbd &rightarrow; >}}, but also navigating down each content slide underneath each section with a {{< kbd &downarrow; >}} press.
+If you set `navigation-mode: vertical` in the yaml, you will navigate between section slides with {{< kbd &rightarrow; >}}, but also be able to navigate down each content slide underneath each section with a {{< kbd &downarrow; >}} press.
 
-So with the modify section slides that look like content slides, you can have a main story unfolding linearly within your section slides, and then have an arbitrary number of drill-down slides to add details with standard content slides.
-For teaching, it would allow you to manage your time better by having slids with extra information that you can cover or not depending on time, and interest from the audience.
-While presenting a paper, you could have your main results on a section slides, and details about the results, such as your full regression table, on content slides underneath. 
+With the modified section slides that look like content slides, you can have a main story unfold linearly within your section slides, and then have an arbitrary number of drill-down slides to add details with standard content slides.
+For teaching, it allows you to manage your time better by having slides with extra information that you can chose to cover or not depending on time and interest from the audience.
+While presenting a paper, you could have your main results on a section slide, and details about the results, such as your full regression table, on content slides underneath. 
 Giving you the option to cover these in case the audience asks.
+
+One thing I have not solved is what presentation clicker to use with this, as most of them only have two buttons for navigating the slides.
 
 Below is a short demo of what the slides look like.
 
@@ -129,6 +132,6 @@ slide_buttons("/slides/slides_demo2.html")
 
 ```
 
-You can find the code for the slides in the [slides_demo.qmd](./slides/slides_demo.qmd) file.
+<!-- You can find the code for the slides in the [slides_demo.qmd](./slides/slides_demo.qmd) file. -->
 The custom scss is in the [slides.scss](./slides/slides.scss) file.
 
