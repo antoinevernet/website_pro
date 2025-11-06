@@ -116,7 +116,7 @@ window.addEventListener('DOMContentLoaded', function(e) {
 
 </script>
 
-<iframe class="slide-deck" id="quartoframe" src="./slides/slides_demo.html"></iframe
+<iframe class="slide-deck" id="quartoframe" src="./slides/slides_demo2.html"></iframe
 </div>
 ```
 
@@ -125,7 +125,7 @@ slide_buttons <- function(slide_id) {
   glue::glue('<p class="text-center buttons"><a class="btn btn-danger" target="_blank" href="./slides/slides_demo.html"><i class="fa-solid fa-arrow-up-right-from-square"></i> View all slides in new window</a></p>')
 }
 
-slide_buttons("/slides/01-slides")
+slide_buttons("/slides/slides_demo2.html")
 
 ```
 

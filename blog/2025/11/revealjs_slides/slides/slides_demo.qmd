@@ -19,6 +19,7 @@ format:
     view-distance: 2
     preload-iframes: false
     navigation-mode: vertical
+    output-file: slides_demo2.html
 ---
 
 ## This is a standard content slides
@@ -48,3 +49,4 @@ You can have as many content slides below each sections as you wish
 
 ## With a normal content slide below it.
 
+# The end
