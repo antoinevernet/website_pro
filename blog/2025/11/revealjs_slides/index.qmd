@@ -14,7 +14,7 @@ categories:
   - teaching
 resources:
   - "slides/*"
-doi: ""
+doi: "10.59350/yzgbn-9ms60"
 citation: true
 ---
 
