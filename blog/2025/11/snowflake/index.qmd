@@ -1,6 +1,6 @@
 ---
 title: "The Snowflake World Tour in London"
-date: 2025-10-10
+date: 2025-11-10
 description: "I went to the Snowflake world tour in London."
 image: ""
 twitter-card:
@@ -19,7 +19,26 @@ draft: true
 ---
 
 
-## Introduction
+On the 9^th of October,[^fast] I attended the Snowflake World Tour event in London. 
+I was curious to learn more about Snowflake as more of the industry people I talk to seemed to be using it, and it got me curious about why I might use it, but also why would company use it and how.
+I was also wondering if I should talk to my data analytics students about it, as something they should be aware of.
+I went there and had an enjoyable day, but what did I learn?
 
-And I did not even take a single picture because I am dumb.
+[^fast]: I am not a fast writer.
+
+## Keynote
+
+I arrived on time, but there was a queue to get in and so by the time I got in, the keynote had already started.
+I made my way there and sat through the rest of the keynote.
+I made some notes, but in broad strokes, it was a pretty well put together "hey, look here at the cool stuff we do", including a pre-recorded conversation between the CEO and Satya Nadella, the CEO of Microsoft.
+Then an interview with a VP at Astra Zeneca about how they plan to port all of their data infrastructure to Snowflake, which sounds like a very large, pretty scary project to be in charge of, exciting too.
+This was followed by a talk by one of the founders of Snowflake talking about the fact that despite it being 2025, many organisations still struggle to benefit from the data they collect in the course of doing business because of siloes, quality issues in the data collection, or legacy architecture that make using the data difficult.
+Not all these things are easy to solve: if you data is trash, you're done... 
+But, at least, the potential of Snowflake to reduce siloes and dependence on legacy architecture is appealing.
+
+
+## Breakout sessions
+
+## Posit
+
 
