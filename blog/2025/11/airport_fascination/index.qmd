@@ -8,10 +8,9 @@ twitter-card:
 open-graph:
   image: ""
 categories:
-  - r
-  - shiny
-  - auto-correlation
-  - dual y axes
+  - book
+  - writing
+  - science communication
 resources:
   - "img/*"
 doi: ""

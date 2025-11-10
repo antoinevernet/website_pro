@@ -1,0 +1,28 @@
+---
+title: "The Sadest Comparative Advantage"
+date: 2025-11-10
+description: "How reliance on AI create advantage for those who don't rely on it"
+image: ""
+twitter-card:
+  image: ""
+open-graph:
+  image: ""
+categories:
+  - ai
+  - comparative advantage
+resources:
+  - "img/*"
+doi: ""
+citation: true
+draft: true
+---
+
+In a world in which a large proportion of people rely on AI, especially during their education, those who put in the work might be gaining a comparative advantage.
+Not because we should expect AI tools to go dark in the future, but because if one does not have the expertise that allow them to check the results from AI, they are at the mercy of an unreliable tool.
+
+It might be difficult to demonstrate that superior knowledge to be rewarded for it, at least in the short-term. 
+How would you prove to an employer that, despite having the same degree as another candidate, you have acquired the skills and they have only partially done so.
+
+It could be that widespread use of AI leads to too much convergent thinking and that being able to think originally becomes more valuable as a result.
+
+What else?

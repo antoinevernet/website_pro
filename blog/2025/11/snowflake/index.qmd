@@ -8,9 +8,9 @@ twitter-card:
 open-graph:
   image: ""
 categories:
-  - revealjs
-  - slides
-  - conference presentations
+  - data analytics
+  - snowflake
+  - conference
 resources:
   - "img/*"
 doi: ""
