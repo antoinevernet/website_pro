@@ -1,0 +1,256 @@
+---
+title: "Byron"
+date: 2025-10-12
+description: "I like burgers!"
+image: ""
+twitter-card:
+  image: ""
+open-graph:
+  image: ""
+categories:
+  - map
+  - restaurants
+  - industry dynamics
+resources:
+  - "img/*"
+doi: ""
+citation: true
+draft: true
+---
+
+I was having lunch at Honest Burgers near campus with a few people and the conversation somehow turned to Byron, the burger chain, and I found myself telling the story of its rise and downfall.
+Or, at least, a very simplistic version of it based on my limited knowledge of what happened.
+But that led me to wonder if it would be possible to map the fortunes of Byron.
+The following is an attempt at doing so.
+
+# Finding data
+
+In order to find the data, I will use OpenStreetMap data, using the `osmdata` package in R.
+
+```{r getting data}
+
+library(osmdata)
+london <- getbb("London, UK")
+
+london_restaurants <- london |> 
+  opq() |> 
+  add_osm_feature(key = "amenity", value = "restaurant") |> 
+  osmdata_sf()
+
+london_admin <- london |> 
+  opq() |> 
+  add_osm_feature(key = 'admin_level', 
+                  value = "8") |> 
+  osmdata_sf() |> 
+  with(osm_multipolygons)
+
+library(ggplot2)
+
+ggplot() +
+  geom_sf(data = london_admin) +
+    geom_sf(data = london_restaurants$osm_polygons)
+
+
+# You can then select by brand... i.e. Byron, Gourmet Burger Kitchen, etc.
+# Also by type of food.
+
+london_burgers <- london_restaurants |>
+  dplyr::filter(grepl("Byron|Gourmet Burger|Five Guys|Honest Burger|GBK", osmpolygons$name, ignore.case = TRUE))
+
+# This highlights some data issues. Of the 3 Byrons in London, this only catches 2. Of the 9 GBK in London, it only catches 3.
+
+# Let's try to build the subset in the call to data
+
+london_b <- london |> 
+  opq() |> 
+  add_osm_feature(key = "amenity", value = "restaurant") |> 
+  add_osm_feature(key = "name", 
+                  value = c("Byron", "Gourmet Burger Kitchen", "Five Guys", "Honest Burger", "GBK"),
+                  match_case = FALSE, value_exact = FALSE) |>
+  osmdata_sf()
+
+# One would think that using the brand variable would make more sense than the name, but there is a lot of restaurant missing brand info that are the correct restaurants...
+
+# It looks like for dplyr to work correctly with this object, you need ggspatial loaded... I need to investigate.
+
+london_b_points <- london_b$osm_points |> 
+    dplyr::filter(!is.na(name))
+
+ggplot() +
+  geom_sf(data = london_admin) +
+    geom_sf(data = london_b_points, size = 1.5, aes(colour = name), na.rm = TRUE) +
+    theme_void()
+
+
+
+
+```
+
+
+
+This highlights some data issues. Of the 3 Byrons in London, this only catches 2. Of the 9 GBK in London, it only catches 3.
+I also catch none of the Five Guys...
+Maybe there is some vagueness in the classification and some of these get classified as fast food rather than restaurants?
+Let's see.
+
+
+```{r widening_net}
+
+london_b2 <- london |> 
+  opq() |> 
+  add_osm_feature(key = "amenity", value = c("restaurant", "fast_food")) |> 
+  add_osm_feature(key = "name", 
+                  value = c("Byron", "Gourmet Burger Kitchen", "Five Guys", "Honest Burger", "GBK"),
+                  match_case = FALSE, value_exact = FALSE) |>
+  osmdata_sf()
+
+london_b2_points <- london_b2$osm_points |> 
+    dplyr::filter(!is.na(name))
+
+ggplot() +
+  geom_sf(data = london_admin) +
+    geom_sf(data = london_b2_points, size = 1.5, aes(colour = name), na.rm = TRUE) +
+    theme_void()
+
+
+```
+
+This is better, we now catch Five Guys, and more of the Gourmet Burger Kitchen (7/9), but still only 2 out of 3 Byrons.
+Let's try widening the net one last time.
+
+```{r widening_net_2}
+
+london_b3 <- london |> 
+  opq() |> 
+  add_osm_feature(key = "amenity", value = c("restaurant", "fast_food", "food_court", "bar", "cafe", "pub")) |> 
+  add_osm_feature(key = "name", 
+                  value = c("Byron", "Gourmet Burger Kitchen", "Five Guys", "Honest Burger", "GBK"),
+                  match_case = FALSE, value_exact = FALSE) |>
+  osmdata_sf()
+
+london_b3_points <- london_b3$osm_points |> 
+    dplyr::filter(!is.na(name))
+
+london_b3_points <- london_b3_points |>
+  dplyr::mutate(
+    name = dplyr::case_when(
+      grepl("five guys", name, ignore.case = TRUE) ~ "Five Guys",
+      grepl("gourmet burger kitchen|\\bgbk\\b", name, ignore.case = TRUE) ~ "GBK",
+      grepl("honest burger", name, ignore.case = TRUE) ~ "Honest Burgers",
+      grepl("byron", name, ignore.case = TRUE) ~ "Byron",
+      TRUE ~ NA_character_
+    )
+  )
+
+ggplot() +
+  geom_sf(data = london_admin) +
+    geom_sf(data = london_b3_points, size = 1.5, aes(colour = name), na.rm = TRUE) +
+    theme_void()
+
+
+```
+
+No, this does not yield anything further.
+
+# Making a base map
+
+So now that we have the data (however imperfect it might be), let's try to make a nice base map. 
+The very rapid one we did is ok, but not particularly clear.
+It is also not very easy to distinguish the different restaurants, and it appears there is some overplotting.
+Switching the mapping of brand from colour to shape, and using an alpha value below one should help a bit.
+We can also change the title of the legend. 
+We can also add a scale using the `ggspatial` package.
+
+```{r base_map}
+library(ggspatial)
+
+ggplot() +
+  geom_sf(data = london_admin) +
+    geom_sf(data = london_b3_points, size = 1.5, aes(shape = name), na.rm = TRUE, alpha = 0.5) +
+    annotation_scale() +
+      labs(
+      x = NULL,
+      y = NULL,
+      title = "Burger chains in London", 
+      subtitle = "", 
+      caption = "Source: OpenStreetMap",
+      shape = "Chain"
+      ) +
+    theme_void()
+
+
+```
+
+
+Ok, so this gives a a basic map of what things look like now. 
+But can we go back in time and get historical data for these restaurants?
+
+# Finding "historical" data
+
+With OpenStreetMap, it is possible to get data from the state of OpenStreetMap going back to sometime in 2012 when the licence of the data changed.
+This is done using the `datetime` argument in the `osmdata` package.
+
+```{r historical data}
+london_2020 <- london |> 
+    # opq() |>
+  opq(datetime = "2020-01-01T00:00:00Z", timeout = 200) |> 
+  add_osm_feature(key = "amenity", value = c("restaurant", "fast_food", "food_court", "bar", "cafe", "pub")) |> 
+  add_osm_feature(key = "name", 
+                  value = c("Byron", "Gourmet Burger Kitchen", "Five Guys", "Honest Burger", "GBK"),
+                  match_case = FALSE, value_exact = FALSE) |>
+  osmdata_sf()
+
+
+# london_2020_points <- london_2020$osm_points |> 
+    # dplyr::filter(!is.na(name))
+london_2020_points <- london_2020$osm_points[!is.na(london_2020$osm_points$name), ]
+# recoding
+london_2020_points <- london_2020_points |>
+  dplyr::mutate(
+    name = dplyr::case_when(
+      grepl("five guys", name, ignore.case = TRUE) ~ "Five Guys",
+      grepl("gourmet burger kitchen|\\bgbk\\b", name, ignore.case = TRUE) ~ "GBK",
+      grepl("honest burger", name, ignore.case = TRUE) ~ "Honest Burgers",
+      grepl("byron", name, ignore.case = TRUE) ~ "Byron",
+      TRUE ~ NA_character_
+    )
+  )
+
+ggplot() +
+  geom_sf(data = london_admin) +
+    geom_sf(data = london_2020_points, size = 1.5, aes(shape = name), na.rm = TRUE, alpha = 0.5) +
+    annotation_scale() +
+      labs(
+      x = NULL,
+      y = NULL,
+      title = "Burger chains in London (2020)", 
+      subtitle = "", 
+      caption = "Source: OpenStreetMap",
+      shape = "Chain"
+      ) +
+    theme_void()
+```
+
+So this demonstrate getting data from one specific point in the past. 
+Now, we want to do this for several point in times as far back as we can go with OpenStreetMap data, which is 12 September 2012.
+Let build a series of dates to query from that time to today. 
+At first, I will try to do this roughly every six months.
+
+```{r time}
+
+time_points <- seq(
+  from = as.POSIXct("2012-09-13T00:00:00Z", tz = "UTC"),
+  to = Sys.time(),
+  by = "6 months"
+)
+
+```
+
+# Using gganimate
+
+You can use the datetime argument in osmdata to get data up to a specific date.
+So we can write a series of queries to store our data at different points in time.
+
+to animate through time.
+
+# Conclusion
