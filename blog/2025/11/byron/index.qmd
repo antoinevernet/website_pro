@@ -27,9 +27,12 @@ The following is an attempt at doing so.
 
 In order to find the data, I will use OpenStreetMap data, using the `osmdata` package in R.
 
-```{r getting data}
+```{r getting data, eval= FALSE}
 
 library(osmdata)
+library(dplyr)
+library(ggspatial)
+
 london <- getbb("London, UK")
 
 london_restaurants <- london |> 
@@ -94,7 +97,7 @@ Maybe there is some vagueness in the classification and some of these get classi
 Let's see.
 
 
-```{r widening_net}
+```{r widening_net, eval= FALSE}
 
 london_b2 <- london |> 
   opq() |> 
@@ -118,7 +121,7 @@ ggplot() +
 This is better, we now catch Five Guys, and more of the Gourmet Burger Kitchen (7/9), but still only 2 out of 3 Byrons.
 Let's try widening the net one last time.
 
-```{r widening_net_2}
+```{r widening_net_2, eval= FALSE}
 
 london_b3 <- london |> 
   opq() |> 
@@ -161,7 +164,7 @@ Switching the mapping of brand from colour to shape, and using an alpha value be
 We can also change the title of the legend. 
 We can also add a scale using the `ggspatial` package.
 
-```{r base_map}
+```{r base_map, eval= FALSE}
 library(ggspatial)
 
 ggplot() +
@@ -190,7 +193,7 @@ But can we go back in time and get historical data for these restaurants?
 With OpenStreetMap, it is possible to get data from the state of OpenStreetMap going back to sometime in 2012 when the licence of the data changed.
 This is done using the `datetime` argument in the `osmdata` package.
 
-```{r historical data}
+```{r historical data, eval= FALSE}
 london_2020 <- london |> 
     # opq() |>
   opq(datetime = "2020-01-01T00:00:00Z", timeout = 200) |> 
@@ -236,13 +239,15 @@ Now, we want to do this for several point in times as far back as we can go with
 Let build a series of dates to query from that time to today. 
 At first, I will try to do this roughly every six months.
 
-```{r time}
+```{r time, eval= FALSE}
 
 time_points <- seq(
   from = as.POSIXct("2012-09-13T00:00:00Z", tz = "UTC"),
   to = Sys.time(),
   by = "6 months"
 )
+
+
 
 ```
 

@@ -20,8 +20,8 @@ draft: true
 
 
 On the 9^th of October,[^fast] I attended the Snowflake World Tour event in London. 
-I was curious to learn more about Snowflake as more of the industry people I talk to seemed to be using it, and it got me curious about why I might use it, but also why would company use it and how.
-I was also wondering if I should talk to my data analytics students about it, as something they should be aware of.
+I was curious to learn more about Snowflake as more of the industry people I talk to seemed to be using it, and it got me curious about why they were using it, but also why I might want to use it myself.
+I was also wondering if I should talk to my data analytics students about it.
 I went there and had an enjoyable day, but what did I learn?
 
 [^fast]: I am not a fast writer.

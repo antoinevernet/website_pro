@@ -1,12 +1,12 @@
 ---
 title: "Two things to keep in mind when preparing or delivering teaching"
-date: 2025-11-20
+date: 2025-11-23
 description: "It took me longer than I care to admit to realise this, maybe I can save you some time."
-image: ""
+image: "https://imgs.xkcd.com/comics/ten_thousand.png"
 twitter-card:
-  image: ""
+  image: "https://imgs.xkcd.com/comics/ten_thousand.png"
 open-graph:
-  image: ""
+  image: "https://imgs.xkcd.com/comics/ten_thousand.png"
 categories:
   - xkcd
   - teaching
@@ -14,11 +14,10 @@ categories:
 #   - "img/*"
 doi: ""
 citation: true
-draft: true
 ---
 
-There are two things are try to keep in mind when preparing or delivering teaching.
-Helpfully, they are both [xkcd](https://xkcd.com) comics.
+There are two things I try to keep in mind when preparing or delivering teaching.
+Helpfully, they are both described in [xkcd](https://xkcd.com) comics.
 
 ::::{.columns}
 
@@ -41,19 +40,20 @@ Average Familiarity
 
 
 The first comic (Ten Thousand) is a reminder that, as teachers, we are privileged to teach a topic we know well to people who are new to it.
-To me, this suggests two things for us to do: 
+To me, this suggests two things for us to do:
+
 - First, learn to enjoy that feeling of taking someone through a process of discovery. And think carefully about how to drive that discovery in a way that create excitement and favours learning.
-- Second, remember that there are always many more people who still don't know what we just taught. This should be strong motivation to keep on going. Especially in a world increasingly governed by idiots that embrace misinformation, it matters!
+- Second, remember that there are always many more people who still don't know what we just taught. We might be repeating ourselves but repetition for us is not repetition for an audience that is constantly renewed. This should be strong motivation to keep on going. Especially in a world increasingly governed by idiots that embrace misinformation: it matters!
 
 The second comic (Average Familiarity) helps me remember that what I have seen labeled the "expert's curse" is real.
-It is important not to assume that what is obvious to us is obvious to students, providing scaffolding is particularly important. 
+It is important not to assume that what is obvious to us is obvious to students, for this reason, providing scaffolding is particularly important. 
 The real difficulty is that we find ourselves in front of heterogenous audiences, and scaffolding necessary for some is boring repetition for others.
 Sometimes we can mitigate this, for example by having the scaffolding as preparatory material that students can review before class if they need it.
-Other times, it implies a trade-off: one has to choose a primary audience, and accept that people that do not fit with our primary audience might find us difficult to follow (or feel we are blabing on things obvious to them for way longer than they can bear).
+Other times, it implies a trade-off: one has to choose a primary audience, and accept that people that are not part of our primary audience might find us difficult to follow (or feel we are blabbing on about things obvious to them for way longer than they can bear).
 
 I find that thinking about teaching in this way helps me find the right approach when developing material and avoid pitching way off for my audience.
-Overall, I feel very lucky to get to guide students in discovering something that I think is worth knowing and can genuinely make their lives better.
+Overall, I feel very lucky to get to guide students in discovering something that I think is worth knowing and can genuinely help them.
 Despite all of that, I still sometimes find myself assuming too much knowledge on the part of the students and having to adjust from one session to the next. 
-This is also why I always find prepping a new course challenging as only the feedback from the students during and after delivery tells me whether I have hit the mark. 
+This is also why I always find prepping a new course challenging as it is only with the feedback from the students during and after delivery that I know if I have hit the mark. 
 The first time giving a course is always a bit of an experiment.
-I find that only after the first year of teaching a new course am I in possession of enough information to make the second year of teaching that course successful.
+Only after the first year of teaching a new course am I in possession of enough information to make the delivery of that course successful.
