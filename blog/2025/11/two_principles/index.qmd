@@ -12,7 +12,7 @@ categories:
   - teaching
 # resources:
 #   - "img/*"
-doi: ""
+doi: "10.59350/ax7zz-3ae40"
 citation: true
 ---
 
