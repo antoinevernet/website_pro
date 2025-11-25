@@ -39,6 +39,23 @@ But, at least, the potential of Snowflake to reduce siloes and dependence on leg
 
 ## Breakout sessions
 
+After the keynote, there were breakout sessions.
+I did pick which sessions I attended purely on their titles, so there was a fair bit of randomness in the process.
+
+I went to a session on no code agents which was interesting but very introductory. 
+Then I attended a presentation on Launch Darkly that enables experiments from within Snowflake. 
+I think this has a lot of potential but it was unclear how that would integrate with your deployed code or application (fair enough, there is only so much one can cover in 30 minutes).
+I then went to a session about how Hargreaves Lansdown used Snowflake to move some of its reporting out of excel spreadsheets.
+This highlighted the fact that while everyone is raving about AI changing everything, many companies just struggle finding the data they need because it is hidden somewhere on an employee's laptop or in someone's email attachments.
+I then attended another session on clean rooms which is a feature that enables secure data sharing to allow a third party to run analysis on your data without them actually seeing the data, removing the risk that they would be able to copy the data itself.
+
 ## Posit
 
+During one of the break, I had time to go visit the Posit booth, which allowed me to get a nice selection of stickers that I am very pleased about.
+
+
+Overall, it was very interesting and it hammered home that there seem to be a lot more work in data engineering than in data analytics, as it seems that many organisations are struggling to just make their data available to their employees and that this is the first pain point to resolve before they can hope to gain value from sophisticated analytics.
+It highlighted to me that Snowflake, by promising to make data more accessible has a lot of potential to help organisations move from the step at which data engineering is what they need, to a position where they can start deploying analytics effectively.
+
+Reflecting on that day, I think that one of the most interesting thing for me is to realise that if a lot of organisations are on Snowflake (or a similar platform) and tools like clean room become widespread, providing data analytics services to an organisations might become a lot easier and faster. 
 
