@@ -1,12 +1,12 @@
 ---
 title: "The Snowflake World Tour in London"
-date: 2025-11-10
+date: 2025-11-27
 description: "I went to the Snowflake world tour in London."
-image: ""
+image: "./img/hex_stickers.jpg"
 twitter-card:
-  image: ""
+  image: "./img/hex_stickers.jpg"
 open-graph:
-  image: ""
+  image: "./img/hex_stickers.jpg"
 categories:
   - data analytics
   - snowflake
@@ -15,13 +15,13 @@ resources:
   - "img/*"
 doi: ""
 citation: true
-draft: true
 ---
 
 
-On the 9^th of October,[^fast] I attended the Snowflake World Tour event in London. 
-I was curious to learn more about Snowflake as more of the industry people I talk to seemed to be using it, and it got me curious about why they were using it, but also why I might want to use it myself.
-I was also wondering if I should talk to my data analytics students about it.
+On the 9^th^ of October,[^fast] I attended the Snowflake World Tour event in London. 
+I was curious to learn more about Snowflake as more and more of the industry people I talk to seems to be using it. 
+I also wondered if there was a use case for it for myself.
+Finally, I wanted to figure out if I should talk to my data analytics students about it.
 I went there and had an enjoyable day, but what did I learn?
 
 [^fast]: I am not a fast writer.
@@ -32,8 +32,8 @@ I arrived on time, but there was a queue to get in and so by the time I got in, 
 I made my way there and sat through the rest of the keynote.
 I made some notes, but in broad strokes, it was a pretty well put together "hey, look here at the cool stuff we do", including a pre-recorded conversation between the CEO and Satya Nadella, the CEO of Microsoft.
 Then an interview with a VP at Astra Zeneca about how they plan to port all of their data infrastructure to Snowflake, which sounds like a very large, pretty scary project to be in charge of, exciting too.
-This was followed by a talk by one of the founders of Snowflake talking about the fact that despite it being 2025, many organisations still struggle to benefit from the data they collect in the course of doing business because of siloes, quality issues in the data collection, or legacy architecture that make using the data difficult.
-Not all these things are easy to solve: if you data is trash, you're done... 
+This was followed by a talk by one of the founders of Snowflake talking about the fact that despite it being 2025, many organisations still struggle to benefit from the data they collect in the course of doing business because of siloes, quality issues in the data collection, or legacy architecture that makes using the data difficult.
+Not all these things are easy to solve: if your data is trash, you're done... 
 But, at least, the potential of Snowflake to reduce siloes and dependence on legacy architecture is appealing.
 
 
@@ -46,16 +46,18 @@ I went to a session on no code agents which was interesting but very introductor
 Then I attended a presentation on Launch Darkly that enables experiments from within Snowflake. 
 I think this has a lot of potential but it was unclear how that would integrate with your deployed code or application (fair enough, there is only so much one can cover in 30 minutes).
 I then went to a session about how Hargreaves Lansdown used Snowflake to move some of its reporting out of excel spreadsheets.
-This highlighted the fact that while everyone is raving about AI changing everything, many companies just struggle finding the data they need because it is hidden somewhere on an employee's laptop or in someone's email attachments.
-I then attended another session on clean rooms which is a feature that enables secure data sharing to allow a third party to run analysis on your data without them actually seeing the data, removing the risk that they would be able to copy the data itself.
+This highlighted the fact that while everyone is raving about AI changing everything, many companies just struggle finding the data they need because it is hidden somewhere on an employee's laptop or in someone's email as an attachment.
+Finally, I attended another session on clean rooms which is a feature that enables secure data sharing to allow a third party to run analysis on your data without them actually seeing the data, removing the risk that they would be able to copy the data itself.
 
 ## Posit
 
 During one of the break, I had time to go visit the Posit booth, which allowed me to get a nice selection of stickers that I am very pleased about.
 
+![Posit stickers](./img/hex_stickers.jpg)
 
-Overall, it was very interesting and it hammered home that there seem to be a lot more work in data engineering than in data analytics, as it seems that many organisations are struggling to just make their data available to their employees and that this is the first pain point to resolve before they can hope to gain value from sophisticated analytics.
-It highlighted to me that Snowflake, by promising to make data more accessible has a lot of potential to help organisations move from the step at which data engineering is what they need, to a position where they can start deploying analytics effectively.
+Overall, it was very interesting and it hammered home that there seem to be a lot more work in data engineering than in data analytics, as many organisations are struggling to just make their data available to their employees and that this is the first pain point to resolve before they can hope to gain value from sophisticated analyses.
+It highlighted to me that Snowflake, by promising to make data more accessible has a lot of potential to help organisations move from the step at which data engineering provides most of the value, to a position where they can start deploying analytics effectively.
 
-Reflecting on that day, I think that one of the most interesting thing for me is to realise that if a lot of organisations are on Snowflake (or a similar platform) and tools like clean room become widespread, providing data analytics services to an organisations might become a lot easier and faster. 
+Reflecting on that day, the most interesting thing was to realise that if a lot of organisations are on Snowflake (or a similar platform) and tools like clean rooms become widespread, providing data analytics services to an organisation might become a lot easier and faster.
+An analytics team would just need access to the clients data through an appropriate clean room to be able to get started. 
 
