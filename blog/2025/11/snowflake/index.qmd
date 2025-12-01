@@ -13,7 +13,7 @@ categories:
   - conference
 resources:
   - "img/*"
-doi: ""
+doi: "10.59350/atgf1-d7873"
 citation: true
 ---
 
