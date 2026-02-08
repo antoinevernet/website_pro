@@ -1,12 +1,12 @@
 ---
-title: "Byron"
+title: "The rise and fall of Byron, in maps"
 date: 2025-10-12
-description: "I like burgers!"
-image: ""
+description: "Using OpenStreetMap historical data to map the rise and fall of burger chains in London."
+image: "img/byron_animation.gif"
 twitter-card:
-  image: ""
+  image: "img/byron_animation.gif"
 open-graph:
-  image: ""
+  image: "img/byron_animation.gif"
 categories:
   - map
   - restaurants
@@ -26,236 +26,236 @@ The following is an attempt at doing so.
 # Finding data
 
 In order to find the data, I will use OpenStreetMap data, using the `osmdata` package in R.
+The idea is simple: query the Overpass API for restaurants matching our burger chain names within the London bounding box.
 
-```{r getting data, eval= FALSE}
-
+```{r setup, message=FALSE, warning=FALSE}
 library(osmdata)
+library(sf)
 library(dplyr)
+library(ggplot2)
 library(ggspatial)
+library(rmapshaper)
+library(ragg)
+library(future)
+library(furrr)
+library(gifski)
+```
 
+My first attempt was to search for restaurants by name:
+
+```{r first_attempt, eval=FALSE}
 london <- getbb("London, UK")
 
-london_restaurants <- london |> 
-  opq() |> 
-  add_osm_feature(key = "amenity", value = "restaurant") |> 
-  osmdata_sf()
-
-london_admin <- london |> 
-  opq() |> 
-  add_osm_feature(key = 'admin_level', 
-                  value = "8") |> 
-  osmdata_sf() |> 
-  with(osm_multipolygons)
-
-library(ggplot2)
-
-ggplot() +
-  geom_sf(data = london_admin) +
-    geom_sf(data = london_restaurants$osm_polygons)
-
-
-# You can then select by brand... i.e. Byron, Gourmet Burger Kitchen, etc.
-# Also by type of food.
-
-london_burgers <- london_restaurants |>
-  dplyr::filter(grepl("Byron|Gourmet Burger|Five Guys|Honest Burger|GBK", osmpolygons$name, ignore.case = TRUE))
-
-# This highlights some data issues. Of the 3 Byrons in London, this only catches 2. Of the 9 GBK in London, it only catches 3.
-
-# Let's try to build the subset in the call to data
-
-london_b <- london |> 
-  opq() |> 
-  add_osm_feature(key = "amenity", value = "restaurant") |> 
-  add_osm_feature(key = "name", 
-                  value = c("Byron", "Gourmet Burger Kitchen", "Five Guys", "Honest Burger", "GBK"),
+london_b <- london |>
+  opq() |>
+  add_osm_feature(key = "amenity", value = "restaurant") |>
+  add_osm_feature(key = "name",
+                  value = c("Byron", "Gourmet Burger Kitchen", "Five Guys",
+                            "Honest Burger", "GBK"),
                   match_case = FALSE, value_exact = FALSE) |>
   osmdata_sf()
-
-# One would think that using the brand variable would make more sense than the name, but there is a lot of restaurant missing brand info that are the correct restaurants...
-
-# It looks like for dplyr to work correctly with this object, you need ggspatial loaded... I need to investigate.
-
-london_b_points <- london_b$osm_points |> 
-    dplyr::filter(!is.na(name))
-
-ggplot() +
-  geom_sf(data = london_admin) +
-    geom_sf(data = london_b_points, size = 1.5, aes(colour = name), na.rm = TRUE) +
-    theme_void()
-
-
-
-
 ```
 
+This highlights some data issues. Of the 3 Byrons in London, this only catches 2. Of the 9 GBK in London, it only catches 3. And I catch none of the Five Guys!
 
+Maybe there is some vagueness in the classification and some of these get classified as fast food rather than restaurants? Let's widen the net:
 
-This highlights some data issues. Of the 3 Byrons in London, this only catches 2. Of the 9 GBK in London, it only catches 3.
-I also catch none of the Five Guys...
-Maybe there is some vagueness in the classification and some of these get classified as fast food rather than restaurants?
-Let's see.
-
-
-```{r widening_net, eval= FALSE}
-
-london_b2 <- london |> 
-  opq() |> 
-  add_osm_feature(key = "amenity", value = c("restaurant", "fast_food")) |> 
-  add_osm_feature(key = "name", 
-                  value = c("Byron", "Gourmet Burger Kitchen", "Five Guys", "Honest Burger", "GBK"),
+```{r second_attempt, eval=FALSE}
+london_b2 <- london |>
+  opq() |>
+  add_osm_feature(key = "amenity", value = c("restaurant", "fast_food")) |>
+  add_osm_feature(key = "name",
+                  value = c("Byron", "Gourmet Burger Kitchen", "Five Guys",
+                            "Honest Burger", "GBK"),
                   match_case = FALSE, value_exact = FALSE) |>
   osmdata_sf()
-
-london_b2_points <- london_b2$osm_points |> 
-    dplyr::filter(!is.na(name))
-
-ggplot() +
-  geom_sf(data = london_admin) +
-    geom_sf(data = london_b2_points, size = 1.5, aes(colour = name), na.rm = TRUE) +
-    theme_void()
-
-
 ```
 
-This is better, we now catch Five Guys, and more of the Gourmet Burger Kitchen (7/9), but still only 2 out of 3 Byrons.
-Let's try widening the net one last time.
+This is better --- we now catch Five Guys, and more of the Gourmet Burger Kitchen (7/9), but still only 2 out of 3 Byrons.
+Let's go even wider and include food courts, bars, cafes and pubs:
 
-```{r widening_net_2, eval= FALSE}
-
-london_b3 <- london |> 
-  opq() |> 
-  add_osm_feature(key = "amenity", value = c("restaurant", "fast_food", "food_court", "bar", "cafe", "pub")) |> 
-  add_osm_feature(key = "name", 
-                  value = c("Byron", "Gourmet Burger Kitchen", "Five Guys", "Honest Burger", "GBK"),
+```{r third_attempt, eval=FALSE}
+london_b3 <- london |>
+  opq() |>
+  add_osm_feature(key = "amenity",
+                  value = c("restaurant", "fast_food", "food_court",
+                            "bar", "cafe", "pub")) |>
+  add_osm_feature(key = "name",
+                  value = c("Byron", "Gourmet Burger Kitchen", "Five Guys",
+                            "Honest Burger", "GBK"),
                   match_case = FALSE, value_exact = FALSE) |>
   osmdata_sf()
-
-london_b3_points <- london_b3$osm_points |> 
-    dplyr::filter(!is.na(name))
-
-london_b3_points <- london_b3_points |>
-  dplyr::mutate(
-    name = dplyr::case_when(
-      grepl("five guys", name, ignore.case = TRUE) ~ "Five Guys",
-      grepl("gourmet burger kitchen|\\bgbk\\b", name, ignore.case = TRUE) ~ "GBK",
-      grepl("honest burger", name, ignore.case = TRUE) ~ "Honest Burgers",
-      grepl("byron", name, ignore.case = TRUE) ~ "Byron",
-      TRUE ~ NA_character_
-    )
-  )
-
-ggplot() +
-  geom_sf(data = london_admin) +
-    geom_sf(data = london_b3_points, size = 1.5, aes(colour = name), na.rm = TRUE) +
-    theme_void()
-
-
 ```
 
-No, this does not yield anything further.
+This doesn't yield anything further, but it doesn't hurt to cast the wider net --- it makes the query more robust across time periods when amenity classifications may have been different. I'll stick with this broader set of amenity types.
 
-# Making a base map
+I also need to standardize the chain names. The raw `name` field from OpenStreetMap can vary (e.g., "GBK" vs "Gourmet Burger Kitchen", or "Byron Hamburgers" vs "Byron"). A `case_when` mapping handles this.
 
-So now that we have the data (however imperfect it might be), let's try to make a nice base map. 
-The very rapid one we did is ok, but not particularly clear.
-It is also not very easy to distinguish the different restaurants, and it appears there is some overplotting.
-Switching the mapping of brand from colour to shape, and using an alpha value below one should help a bit.
-We can also change the title of the legend. 
-We can also add a scale using the `ggspatial` package.
+# Building a reusable query function
 
-```{r base_map, eval= FALSE}
-library(ggspatial)
+Since we'll need to run this query many times across different dates, let's wrap it in a function:
 
-ggplot() +
-  geom_sf(data = london_admin) +
-    geom_sf(data = london_b3_points, size = 1.5, aes(shape = name), na.rm = TRUE, alpha = 0.5) +
-    annotation_scale() +
-      labs(
-      x = NULL,
-      y = NULL,
-      title = "Burger chains in London", 
-      subtitle = "", 
-      caption = "Source: OpenStreetMap",
-      shape = "Chain"
-      ) +
-    theme_void()
+```{r query_function}
+query_burger_chains <- function(bbox, datetime = NULL, timeout = 300) {
+  q <- bbox |>
+    opq(datetime = datetime, timeout = timeout) |>
+    add_osm_feature(
+      key = "amenity",
+      value = c("restaurant", "fast_food", "food_court", "bar", "cafe", "pub")
+    ) |>
+    add_osm_feature(
+      key = "name",
+      value = c("Byron", "Gourmet Burger Kitchen", "Five Guys",
+                "Honest Burger", "GBK"),
+      match_case = FALSE, value_exact = FALSE
+    ) |>
+    osmdata_sf()
 
+  pts <- q$osm_points[!is.na(q$osm_points$name), ]
 
+  pts |>
+    dplyr::mutate(
+      chain = dplyr::case_when(
+        grepl("five guys", name, ignore.case = TRUE) ~ "Five Guys",
+        grepl("gourmet burger kitchen|\\bgbk\\b", name, ignore.case = TRUE) ~ "GBK",
+        grepl("honest burger", name, ignore.case = TRUE) ~ "Honest Burgers",
+        grepl("byron", name, ignore.case = TRUE) ~ "Byron",
+        TRUE ~ NA_character_
+      )
+    ) |>
+    dplyr::filter(!is.na(chain))
+}
 ```
 
+# Going back in time
 
-Ok, so this gives a a basic map of what things look like now. 
-But can we go back in time and get historical data for these restaurants?
+With OpenStreetMap, it is possible to query the state of the database at any point going back to 12 September 2012, when the licence of the data changed.
+This is done using the `datetime` argument in `opq()`.
 
-# Finding "historical" data
+**An important caveat:** OSM historical data reflects the state of the OSM *database* at that time, not ground truth. If a restaurant existed but nobody had mapped it yet, it won't appear. Early snapshots (2012--2014) will likely have sparse data as OSM coverage of commercial establishments was less complete. What we're mapping is really the intersection of "this restaurant existed" and "someone added it to OpenStreetMap".
 
-With OpenStreetMap, it is possible to get data from the state of OpenStreetMap going back to sometime in 2012 when the licence of the data changed.
-This is done using the `datetime` argument in the `osmdata` package.
+I built a series of dates from September 2012 to today, querying roughly every six months, and collected the data using a [standalone script](collect_data.R) that saves each snapshot incrementally. This approach is necessary because the Overpass API can be slow for historical queries and occasionally times out --- saving after each successful query means we never lose progress.
 
-```{r historical data, eval= FALSE}
-london_2020 <- london |> 
-    # opq() |>
-  opq(datetime = "2020-01-01T00:00:00Z", timeout = 200) |> 
-  add_osm_feature(key = "amenity", value = c("restaurant", "fast_food", "food_court", "bar", "cafe", "pub")) |> 
-  add_osm_feature(key = "name", 
-                  value = c("Byron", "Gourmet Burger Kitchen", "Five Guys", "Honest Burger", "GBK"),
-                  match_case = FALSE, value_exact = FALSE) |>
-  osmdata_sf()
+```{r load_data}
+london_admin <- readRDS("data/london_admin.rds")
+london_admin_simple <- ms_simplify(london_admin, keep = 0.15)
+all_data <- readRDS("data/all_data.rds")
 
-
-# london_2020_points <- london_2020$osm_points |> 
-    # dplyr::filter(!is.na(name))
-london_2020_points <- london_2020$osm_points[!is.na(london_2020$osm_points$name), ]
-# recoding
-london_2020_points <- london_2020_points |>
-  dplyr::mutate(
-    name = dplyr::case_when(
-      grepl("five guys", name, ignore.case = TRUE) ~ "Five Guys",
-      grepl("gourmet burger kitchen|\\bgbk\\b", name, ignore.case = TRUE) ~ "GBK",
-      grepl("honest burger", name, ignore.case = TRUE) ~ "Honest Burgers",
-      grepl("byron", name, ignore.case = TRUE) ~ "Byron",
-      TRUE ~ NA_character_
-    )
-  )
-
-ggplot() +
-  geom_sf(data = london_admin) +
-    geom_sf(data = london_2020_points, size = 1.5, aes(shape = name), na.rm = TRUE, alpha = 0.5) +
-    annotation_scale() +
-      labs(
-      x = NULL,
-      y = NULL,
-      title = "Burger chains in London (2020)", 
-      subtitle = "", 
-      caption = "Source: OpenStreetMap",
-      shape = "Chain"
-      ) +
-    theme_void()
+all_data |> sf::st_drop_geometry() |> count(chain)
 ```
 
-So this demonstrate getting data from one specific point in the past. 
-Now, we want to do this for several point in times as far back as we can go with OpenStreetMap data, which is 12 September 2012.
-Let build a series of dates to query from that time to today. 
-At first, I will try to do this roughly every six months.
+```{r snapshot_summary}
+n_snapshots <- length(unique(all_data$snapshot_date))
+date_range <- range(all_data$snapshot_date)
+message("Loaded ", nrow(all_data), " records across ", n_snapshots,
+        " snapshots from ", format(date_range[1], "%b %Y"),
+        " to ", format(date_range[2], "%b %Y"))
+```
 
-```{r time, eval= FALSE}
+# A first look at the data
 
-time_points <- seq(
-  from = as.POSIXct("2012-09-13T00:00:00Z", tz = "UTC"),
-  to = Sys.time(),
-  by = "6 months"
+Before jumping to maps, let's look at the count of locations for each chain over time. This gives us a quick overview of the dynamics:
+
+```{r count_plot, fig.width=8, fig.height=5}
+count_data <- all_data |>
+  sf::st_drop_geometry() |>
+  dplyr::count(snapshot_date, chain)
+
+ggplot(count_data, aes(x = snapshot_date, y = n, colour = chain)) +
+  geom_line(linewidth = 0.8) +
+  geom_point(size = 1.5) +
+  labs(
+    title = "Burger chains in London over time",
+    subtitle = "Number of locations in OpenStreetMap",
+    x = NULL, y = "Number of locations", colour = "Chain"
+  ) +
+  theme_minimal()
+```
+
+Remember the OSM data quality caveat: the early part of the series likely underestimates the true number of locations, as many restaurants hadn't been mapped yet. The trends from ~2015 onwards are more reliable.
+
+# Mapping the data
+
+Let's start with a static faceted view, selecting a snapshot roughly every two years to see the broad spatial patterns:
+
+```{r faceted_maps, fig.width=10, fig.height=8}
+time_points <- sort(unique(all_data$snapshot_date))
+selected_dates <- time_points[seq(1, length(time_points), by = 4)]
+
+facet_data <- all_data |>
+  dplyr::filter(snapshot_date %in% selected_dates) |>
+  dplyr::mutate(date_label = format(snapshot_date, "%b %Y"))
+
+# Order date labels chronologically
+facet_data$date_label <- factor(
+  facet_data$date_label,
+  levels = format(sort(selected_dates), "%b %Y")
 )
 
-
-
+ggplot() +
+  geom_sf(data = london_admin, fill = "grey95", colour = "grey70") +
+  geom_sf(data = facet_data, aes(colour = chain), size = 1.5, alpha = 0.7) +
+  facet_wrap(~ date_label) +
+  labs(
+    title = "Burger chains in London",
+    colour = "Chain",
+    caption = "Source: OpenStreetMap"
+  ) +
+  theme_void() +
+  theme(strip.text = element_text(face = "bold"))
 ```
 
-# Using gganimate
+# Animating the maps
 
-You can use the datetime argument in osmdata to get data up to a specific date.
-So we can write a series of queries to store our data at different points in time.
+Now for the fun part. We render each snapshot as a separate frame in parallel using `furrr` and `ragg`, then stitch them into a GIF with `gifski`. Each frame shows the actual state of the data at that snapshot date --- no interpolation between dates.
 
-to animate through time.
+```{r animation}
+dir.create("img/frames", showWarnings = FALSE, recursive = TRUE)
+
+unique_dates <- sort(unique(all_data$snapshot_date))
+
+plan(multisession, workers = parallelly::availableCores())
+
+furrr::future_walk(seq_along(unique_dates), function(i) {
+  frame_data <- all_data |> dplyr::filter(snapshot_date == unique_dates[i])
+
+  p <- ggplot() +
+    geom_sf(data = london_admin_simple, fill = "grey95", colour = "grey70") +
+    geom_sf(data = frame_data, aes(colour = chain), size = 2, alpha = 0.7) +
+    labs(
+      title = "Burger chains in London",
+      subtitle = format(unique_dates[i], "%B %Y"),
+      colour = "Chain",
+      caption = "Source: OpenStreetMap"
+    ) +
+    theme_void() +
+    theme(
+      plot.title = element_text(size = 16, face = "bold"),
+      plot.subtitle = element_text(size = 12)
+    )
+
+  ggsave(
+    sprintf("img/frames/frame_%03d.png", i), p,
+    width = 8, height = 7, dpi = 200, device = agg_png
+  )
+}, .options = furrr_options(seed = TRUE))
+
+frame_files <- sort(list.files("img/frames", pattern = "frame_.*png$",
+                               full.names = TRUE))
+gifski(frame_files, gif_file = "img/byron_animation.gif",
+       width = 1600, height = 1400, delay = 1/3)
+
+unlink("img/frames", recursive = TRUE)
+```
+
+![Burger chains in London over time](img/byron_animation.gif)
 
 # Conclusion
+
+The animated map tells a story --- though one that needs to be read with care given the limitations of OSM historical data.
+
+Byron's trajectory is visible: a handful of locations appearing in the mid-2010s, then gradually disappearing as the chain contracted and eventually entered administration. Meanwhile, Five Guys and Honest Burgers have been steadily expanding, filling the gaps that Byron and others left behind.
+
+The data also highlights the challenge of using crowd-sourced geographic data as a historical record. OpenStreetMap is fantastic for current data, but its historical coverage depends on when volunteer mappers got around to adding or updating entries. The early years of our time series almost certainly undercount all the chains.
+
+Despite these limitations, the combination of `osmdata`, `sf`, and `ggplot2` provides a compelling way to visualize the spatial dynamics of business competition. The same approach could be applied to any category of point-of-interest data in OpenStreetMap --- coffee shops, bookstores, banks, or any other business with a distinctive name.
