@@ -1,0 +1,4 @@
+format:
+  live-html:
+    quarto-template-params:
+      banner-header-class: "research"
