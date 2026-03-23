@@ -30,7 +30,6 @@ pub-info:
     - name: Preprint
       url: https://discovery.ucl.ac.uk/id/eprint/1569219/1/ORMNetworks.pdf
       icon: fa-solid fa-file-pdf
-      local: true
     - name: Final version
       url: https://doi.org/10.1177/1094428116675032
       icon: fa-solid fa-scroll

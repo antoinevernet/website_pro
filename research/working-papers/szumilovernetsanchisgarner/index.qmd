@@ -28,7 +28,6 @@ pub-info:
     - name: Preprint
       url: https://dx.doi.org/10.2139/ssrn.4890413
       icon: fa-solid fa-file-pdf
-      local: true
     # - name: Final version
     #   url: https://doi.org/10.1177/1094428116675032
     #   icon: fa-solid fa-scroll

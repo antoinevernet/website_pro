@@ -28,7 +28,6 @@ pub-info:
     - name: Preprint
       url: https://discovery.ucl.ac.uk/id/eprint/10073766/1/acrefore-9780190625979-e-76.pdf
       icon: fa-solid fa-file-pdf
-      local: true
     - name: Final version
       url: https://doi.org/10.1093/acrefore/9780190625979.013.76
       icon: fa-solid fa-scroll

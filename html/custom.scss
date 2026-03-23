@@ -469,7 +469,9 @@ pre.text, pre.sourceCode, .cell-output pre {
 
         li.project {
             margin-bottom: 2.5em;
-            border-left: 6px solid shift-color($red, -90%);
+            border: 1px solid $gray-300;
+            border-left: 6px solid $primary;
+            overflow: hidden;
 
             p {
                 margin: 0;
@@ -508,7 +510,7 @@ pre.text, pre.sourceCode, .cell-output pre {
 
     .project-details-listing {
         margin-top: 0.8em;
-        background-color: shift-color($complement, -20%); //background-color: shift-color($red, -90%);
+        background-color: shift-color($primary, -90%);
         font-size: 0.9rem;
 
         @media (max-width: map-get($grid-breakpoints, md)) {

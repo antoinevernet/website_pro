@@ -35,7 +35,6 @@ pub-info:
     - name: Preprint
       url: https://discovery.ucl.ac.uk/id/eprint/10062104/1/How_does_energy_matter_Energy_Policy.pdf
       icon: fa-solid fa-file-pdf
-      local: true
     - name: Final version
       url: https://doi.org/10.1016/j.enpol.2018.11.012
       icon: fa-solid fa-scroll

@@ -24,7 +24,6 @@ pub-info:
     - name: Preprint
       url: https://discovery.ucl.ac.uk/id/eprint/10157025/3/Vernet_GnS%20Manuscript_RnR2_210622_cut.pdf
       icon: fa-solid fa-file-pdf
-      local: true
     - name: Final version
       url: https://doi.org/10.1177/08912432221128548
       icon: fa-solid fa-scroll
