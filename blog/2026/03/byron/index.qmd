@@ -16,6 +16,7 @@ resources:
 doi: ""
 citation: true
 draft: true
+freeze: true
 ---
 
 
@@ -72,7 +73,7 @@ london_b2 <- london |>
   osmdata_sf()
 ```
 
-This is better --- we now catch Five Guys, and more of the Gourmet Burger Kitchen (7/9), but still only 2 out of 3 Byrons.
+This is better---we now catch Five Guys, and more of the Gourmet Burger Kitchen (7/9), but still only 2 out of 3 Byrons.
 Let's go even wider and include food courts, bars, cafes and pubs:
 
 ```{r third_attempt, eval=TRUE}
@@ -88,9 +89,9 @@ london_b3 <- london |>
   osmdata_sf()
 ```
 
-This doesn't yield anything further, but it doesn't hurt to cast the wider net --- it makes the query more robust across time periods when amenity classifications may have been different. I'll stick with this broader set of amenity types.
+This doesn't yield anything further, but it doesn't hurt to cast the wider net---it makes the query more robust across time periods when amenity classifications may have been different. So let's stick with this broader set of amenity types.
 
-I also need to standardize the chain names. The raw `name` field from OpenStreetMap can vary (e.g., "GBK" vs "Gourmet Burger Kitchen", or "Byron Hamburgers" vs "Byron"). A `case_when` mapping handles this.
+I also need to standardize the chain names. The raw `name` field from OpenStreetMap can vary (e.g., "GBK" vs "Gourmet Burger Kitchen", or "Byron Burgers" vs "Byron"). A `case_when` mapping handles this.
 
 # Building a reusable query function
 
