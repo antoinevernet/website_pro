@@ -27,7 +27,7 @@ The following is an attempt at doing so.
 
 # Finding data
 
-In order to find the data, I will use OpenStreetMap data, using the `osmdata` package in R.
+In order to find the data, I use OpenStreetMap data, using the `osmdata` package in R.
 The idea is simple: query the Overpass API for restaurants matching our burger chain names within the London bounding box.
 
 ```{r setup, message=FALSE, warning=FALSE}
@@ -64,6 +64,7 @@ if (file.exists("data/london_b.rds")) {
 ```
 
 This highlights some data issues. Of the 3 Byrons in London, this only catches 2. Of the 9 GBK in London, it only catches 3. And I catch none of the Five Guys!
+You will also notice that I saved the query results to a file, because the API is fairly slow and I do not have the patience to wait for it everytime I update the text of the post (it only times out on a regular basis if you send too many requests in close succession, so this takes care of that too).
 
 Maybe there is some vagueness in the classification and some of these get classified as fast food rather than restaurants? Let's widen the net:
 
@@ -83,7 +84,7 @@ if (file.exists("data/london_b2.rds")) {
 }
 ```
 
-This is better---we now catch Five Guys, and more of the Gourmet Burger Kitchen (7/9), but still only 2 out of 3 Byrons.
+This is better! I now catch Five Guys, and more of the Gourmet Burger Kitchen (7/9), but still only 2 out of 3 Byrons.
 Let's go even wider and include food courts, bars, cafes and pubs:
 
 ```{r third_attempt, eval=TRUE}
@@ -104,13 +105,14 @@ if (file.exists("data/london_b3.rds")) {
 }
 ```
 
-This doesn't yield anything further, but it doesn't hurt to cast the wider net---it makes the query more robust across time periods when amenity classifications may have been different. So let's stick with this broader set of amenity types.
+This doesn't yield anything further, but it doesn't hurt to cast the wider net, so I will keep using this query. 
+This is in part because I hope that it makes the query more robust across time periods when amenity classifications may have been different.
 
 I also need to standardize the chain names. The raw `name` field from OpenStreetMap can vary (e.g., "GBK" vs "Gourmet Burger Kitchen", or "Byron Burgers" vs "Byron"). A `case_when` mapping handles this.
 
 # Building a reusable query function
 
-Since we'll need to run this query many times across different dates, let's wrap it in a function:
+Since I'll need to run this query many times across different dates, let's wrap it in a function:
 
 ```{r query_function}
 query_burger_chains <- function(bbox, datetime = NULL, timeout = 300) {
@@ -149,9 +151,15 @@ query_burger_chains <- function(bbox, datetime = NULL, timeout = 300) {
 With OpenStreetMap, it is possible to query the state of the database at any point going back to 12 September 2012, when the licence of the data changed.
 This is done using the `datetime` argument in `opq()`.
 
-**An important caveat:** OSM historical data reflects the state of the OSM *database* at that time, not ground truth. If a restaurant existed but nobody had mapped it yet, it won't appear. Early snapshots (2012--2014) will likely have sparse data as OSM coverage of commercial establishments was less complete. What we're mapping is really the intersection of "this restaurant existed" and "someone added it to OpenStreetMap".
+::: {.callout-note title="A caveat"}
+OSM historical data reflects the state of the OSM *database* at that time. 
+If a restaurant existed but nobody had mapped it yet, it won't appear. 
+Early snapshots (2012--2014) might have coverage of commercial establishments that is less complete. 
+What we're mapping is the intersection of "this restaurant existed" and "someone added it to OpenStreetMap".
+:::
 
-I built a series of dates from September 2012 to today, querying roughly every six months, and collected the data using a [standalone script](collect_data.R) that saves each snapshot incrementally. This approach is necessary because the Overpass API can be slow for historical queries and occasionally times out --- saving after each successful query means we never lose progress.
+I built a series of dates from September 2012 to today, querying roughly every six months, and collected the data using a [standalone script](collect_data.R) that saves each snapshot incrementally. 
+This approach is necessary because the Overpass API can be slow for historical queries and occasionally times out---saving after each successful query means that I only had to run this a bazillion times before having data for all the snapshots.
 
 ```{r load_data}
 london_admin <- readRDS("data/london_admin.rds")
@@ -171,7 +179,7 @@ message("Loaded ", nrow(all_data), " records across ", n_snapshots,
 
 # A first look at the data
 
-Before jumping to maps, let's look at the count of locations for each chain over time. This gives us a quick overview of the dynamics:
+Before jumping to maps, let's look at the count of locations for each chain over time. This gives us a quick overview of what happened:
 
 ```{r count_plot, fig.width=8, fig.height=5}
 count_data <- all_data |>
@@ -189,7 +197,7 @@ ggplot(count_data, aes(x = snapshot_date, y = n, colour = chain)) +
   theme_minimal()
 ```
 
-Remember the OSM data quality caveat: the early part of the series likely underestimates the true number of locations, as many restaurants hadn't been mapped yet. The trends from ~2015 onwards are more reliable.
+Keeping in mind the OSM data quality caveat from earlier, I suspect that in the first couple of years, the data is likely to underestimates the number of locations.
 
 # Mapping the data
 
@@ -224,7 +232,9 @@ ggplot() +
 
 # Animating the maps
 
-Now for the fun part. We render each snapshot as a separate frame in parallel using `furrr` and `ragg`, then stitch them into a GIF with `gifski`. Each frame shows the actual state of the data at that snapshot date --- no interpolation between dates.
+Now, the thing I really had in mind when starting this was to create an animated map. 
+In order to do that, I render each snapshot as a separate frame using `furrr` and `ragg`, then stitch them into a GIF with `gifski`. 
+Each frame shows the location of the various burger restaurants at that snapshot date.
 
 ```{r animation}
 dir.create("img/frames", showWarnings = FALSE, recursive = TRUE)
@@ -260,7 +270,7 @@ furrr::future_walk(seq_along(unique_dates), function(i) {
 frame_files <- sort(list.files("img/frames", pattern = "frame_.*png$",
                                full.names = TRUE))
 gifski(frame_files, gif_file = "img/byron_animation.gif",
-       width = 1600, height = 1400, delay = 4/3)
+       width = 1600, height = 1400, delay = 4/3, progress = FALSE)
 
 unlink("img/frames", recursive = TRUE)
 ```
@@ -269,10 +279,13 @@ unlink("img/frames", recursive = TRUE)
 
 # Conclusion
 
-The animated map tells a story --- though one that needs to be read with care given the limitations of OSM historical data.
+The animated map tells a story, though I am not clear exactly which one. Starting this, I had the vision that the map would very clearly show---with more glitter---what the line plot does a pretty good job of illustrating.
 
-Byron's trajectory is visible: a handful of locations appearing in the mid-2010s, then gradually disappearing as the chain contracted and eventually entered administration. Meanwhile, Five Guys and Honest Burgers have been steadily expanding, filling the gaps that Byron and others left behind.
+Byron's trajectory is visible: a handful of locations appearing in the mid-2010s, then gradually disappearing as the chain contracted.
+Meanwhile, Five Guys and Honest Burgers have been steadily expanding, filling the gaps that Byron and others left behind.
 
-The data also highlights the challenge of using crowd-sourced geographic data as a historical record. OpenStreetMap is fantastic for current data, but its historical coverage depends on when volunteer mappers got around to adding or updating entries. The early years of our time series almost certainly undercount all the chains.
+But all of this you can already get from the line plot. 
+The one thing that I think is visible on the map but not in the line plot is that for a lot of the restaurants location, it seems that they tend to appear close to where there is already another burger place.
+Now, there is probably a better way to bring this out of the data, but I need to think more about how to do that.
 
-Despite these limitations, the combination of `osmdata`, `sf`, and `ggplot2` provides a compelling way to visualize the spatial dynamics of business competition. The same approach could be applied to any category of point-of-interest data in OpenStreetMap --- coffee shops, bookstores, banks, or any other business with a distinctive name.
+Overall, I am impressed by what one can do using OpenStreetMap data with `osmdata`, `sf`, and `ggplot2` in R.
