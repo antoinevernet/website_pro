@@ -15,7 +15,7 @@ resources:
   - "img/*"
 doi: ""
 citation: true
-draft: true
+draft: false
 freeze: auto
 ---
 
@@ -48,14 +48,19 @@ My first attempt was to search for restaurants by name:
 ```{r first_attempt, eval=TRUE}
 london <- getbb("London, UK")
 
-london_b <- london |>
-  opq() |>
-  add_osm_feature(key = "amenity", value = "restaurant") |>
-  add_osm_feature(key = "name",
-                  value = c("Byron", "Gourmet Burger Kitchen", "Five Guys",
-                            "Honest Burger", "GBK"),
-                  match_case = FALSE, value_exact = FALSE) |>
-  osmdata_sf()
+if (file.exists("data/london_b.rds")) {
+  london_b <- readRDS("data/london_b.rds")
+} else {
+  london_b <- london |>
+    opq(timeout = 120) |>
+    add_osm_feature(key = "amenity", value = "restaurant") |>
+    add_osm_feature(key = "name",
+                    value = c("Byron", "Gourmet Burger Kitchen", "Five Guys",
+                              "Honest Burger", "GBK"),
+                    match_case = FALSE, value_exact = FALSE) |>
+    osmdata_sf()
+  saveRDS(london_b, "data/london_b.rds")
+}
 ```
 
 This highlights some data issues. Of the 3 Byrons in London, this only catches 2. Of the 9 GBK in London, it only catches 3. And I catch none of the Five Guys!
@@ -63,30 +68,40 @@ This highlights some data issues. Of the 3 Byrons in London, this only catches 2
 Maybe there is some vagueness in the classification and some of these get classified as fast food rather than restaurants? Let's widen the net:
 
 ```{r second_attempt, eval=TRUE}
-london_b2 <- london |>
-  opq() |>
-  add_osm_feature(key = "amenity", value = c("restaurant", "fast_food")) |>
-  add_osm_feature(key = "name",
-                  value = c("Byron", "Gourmet Burger Kitchen", "Five Guys",
-                            "Honest Burger", "GBK"),
-                  match_case = FALSE, value_exact = FALSE) |>
-  osmdata_sf()
+if (file.exists("data/london_b2.rds")) {
+  london_b2 <- readRDS("data/london_b2.rds")
+} else {
+  london_b2 <- london |>
+    opq(timeout = 120) |>
+    add_osm_feature(key = "amenity", value = c("restaurant", "fast_food")) |>
+    add_osm_feature(key = "name",
+                    value = c("Byron", "Gourmet Burger Kitchen", "Five Guys",
+                              "Honest Burger", "GBK"),
+                    match_case = FALSE, value_exact = FALSE) |>
+    osmdata_sf()
+  saveRDS(london_b2, "data/london_b2.rds")
+}
 ```
 
 This is better---we now catch Five Guys, and more of the Gourmet Burger Kitchen (7/9), but still only 2 out of 3 Byrons.
 Let's go even wider and include food courts, bars, cafes and pubs:
 
 ```{r third_attempt, eval=TRUE}
-london_b3 <- london |>
-  opq() |>
-  add_osm_feature(key = "amenity",
-                  value = c("restaurant", "fast_food", "food_court",
-                            "bar", "cafe", "pub")) |>
-  add_osm_feature(key = "name",
-                  value = c("Byron", "Gourmet Burger Kitchen", "Five Guys",
-                            "Honest Burger", "GBK"),
-                  match_case = FALSE, value_exact = FALSE) |>
-  osmdata_sf()
+if (file.exists("data/london_b3.rds")) {
+  london_b3 <- readRDS("data/london_b3.rds")
+} else {
+  london_b3 <- london |>
+    opq(timeout = 120) |>
+    add_osm_feature(key = "amenity",
+                    value = c("restaurant", "fast_food", "food_court",
+                              "bar", "cafe", "pub")) |>
+    add_osm_feature(key = "name",
+                    value = c("Byron", "Gourmet Burger Kitchen", "Five Guys",
+                              "Honest Burger", "GBK"),
+                    match_case = FALSE, value_exact = FALSE) |>
+    osmdata_sf()
+  saveRDS(london_b3, "data/london_b3.rds")
+}
 ```
 
 This doesn't yield anything further, but it doesn't hurt to cast the wider net---it makes the query more robust across time periods when amenity classifications may have been different. So let's stick with this broader set of amenity types.
