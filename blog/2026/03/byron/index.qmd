@@ -16,7 +16,7 @@ resources:
 doi: ""
 citation: true
 draft: true
-freeze: true
+freeze: auto
 ---
 
 
