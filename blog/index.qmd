@@ -12,6 +12,11 @@ engine: knitr
 freeze: auto
 title-block-banner: "#003249"
 listing:
+  - id: posts_2026
+    contents: "2026/**/index.qmd"
+    sort: "date desc"
+    template: ../html/blog/listing.ejs
+    categories: true
   - id: posts_2025
     contents: "2025/**/index.qmd"
     sort: "date desc"
@@ -39,6 +44,10 @@ listing:
     template: ../html/blog/listing.ejs
 ---
 
+## 2026
+
+:::{#posts_2026}
+:::
 
 ## 2025
 
