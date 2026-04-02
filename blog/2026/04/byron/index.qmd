@@ -15,7 +15,6 @@ resources:
   - "img/*"
 doi: ""
 citation: true
-draft: false
 freeze: auto
 ---
 
