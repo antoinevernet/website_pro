@@ -1,6 +1,6 @@
 ---
 title: "The rise and fall of Byron, in maps"
-date: 2026-03-24
+date: 2026-04-02
 description: "Using OpenStreetMap historical data to map the rise and fall of burger chains in London."
 image: "img/byron_animation.gif"
 twitter-card:
@@ -237,6 +237,7 @@ In order to do that, I render each snapshot as a separate frame using `furrr` an
 Each frame shows the location of the various burger restaurants at that snapshot date.
 
 ```{r animation}
+#| message: false
 dir.create("img/frames", showWarnings = FALSE, recursive = TRUE)
 
 unique_dates <- sort(unique(all_data$snapshot_date))
@@ -269,10 +270,11 @@ furrr::future_walk(seq_along(unique_dates), function(i) {
 
 frame_files <- sort(list.files("img/frames", pattern = "frame_.*png$",
                                full.names = TRUE))
-gifski(frame_files, gif_file = "img/byron_animation.gif",
+gif_rest <- gifski(frame_files, gif_file = "img/byron_animation.gif",
        width = 1600, height = 1400, delay = 4/3, progress = FALSE)
 
 unlink("img/frames", recursive = TRUE)
+
 ```
 
 ![Burger chains in London over time](img/byron_animation.gif)
