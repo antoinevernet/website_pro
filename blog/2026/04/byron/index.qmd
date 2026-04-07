@@ -13,7 +13,7 @@ categories:
   - industry dynamics
 resources:
   - "img/*"
-doi: ""
+doi: "10.59350/hjr0m-03b71"
 citation: true
 freeze: auto
 ---
