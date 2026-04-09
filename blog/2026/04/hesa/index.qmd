@@ -1,0 +1,25 @@
+---
+title: "HESA Open Data: A look at UK Higher Education"
+date: 2026-04-15
+description: "I had a look at the HESA open data"
+image: ""
+twitter-card:
+  image: ""
+open-graph:
+  image: ""
+categories:
+  - social science
+  - UKHE
+  - open data
+resources:
+  - "img/*"
+doi: ""
+citation: true
+draft: true
+---
+
+Last year, with a colleague from France, I started thinking about a project looking at data on students in higher education in the UK and France.
+It turns out that some of the data we wanted is only available in the UK for a fee. 
+So we applied for funding and did not get it. 
+As we are figuring out where next to apply for funding, I thought I would look at the data that is openly accessible about UK universities.
+

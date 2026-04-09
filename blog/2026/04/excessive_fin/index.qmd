@@ -1,0 +1,259 @@
+---
+title: "Do Universities Really Take Excessive Financial Risks?"
+date: 2026-04-15
+description: "I am not mad, please do not put in the paper that I was mad."
+image: ""
+twitter-card:
+  image: ""
+open-graph:
+  image: ""
+categories:
+  - social science
+  - UKHE
+  - open data
+resources:
+  - "img/*"
+doi: ""
+citation: true
+freeze: true
+draft: true
+---
+
+
+On april 9th 2026, _The Guardian_ published an article titled ["'Excessive' financial risks threaten survival of many English universities, report warns."](https://www.theguardian.com/education/2026/apr/09/english-universities-excessive-financial-risks-survival-warns-thinktank)
+This follows the publication of a report by the Higher Education Policy Institute (HEPI) titled ["A degree of regulation: Building a more financially sustainable and resilient higher education sector"](https://www.hepi.ac.uk/reports/a-degree-of-regulation-building-a-more-financially-sustainable-and-resilient-higher-education-sector/).
+In typical _Guardian_ fashion, they did not include the link to the report in their article, so, you're welcome!
+
+The article included two graphs and I am attempting to remake them using the publicly available HESA data.
+Both graphs come from the report, but the article makes no mention of that (they have been restyled to fit the guardian style).
+
+The first graph looks at external borrowing levels as a percentage of income.
+
+```{r}
+#| label: setup
+#| message: false
+#| warning: false
+
+library(dplyr)
+library(ggplot2)
+library(ggrepel)
+library(scales)
+library(tidyr)
+
+extB <- read.csv("data/extB.csv")
+
+fte <- read.csv("data/fte.csv")
+```
+
+
+
+```{r}
+#| label: Figure3
+
+focus_providers <- c(
+  "The University of Northampton",
+  "The University of Surrey",
+  "Cranfield University",
+  "Oxford Brookes University",
+  "The University of Chichester",
+  "Cardiff University",
+  "The University of Winchester",
+  "University of Derby",
+  "Coventry University",
+  "The Arts University Bournemouth"
+)
+
+focus <- extB |>
+  filter(he_provider %in% focus_providers)
+
+ggplot(focus, aes(x = value, y = reorder(he_provider, value))) +
+  geom_bar(stat = "identity") +
+  geom_text(aes(label = paste0(round(value, 1), "%")),
+            hjust = 1.1, colour = "white", size = 3.5, fontface = "bold") +
+  labs(
+    title    = "Universities with the highest external borrowing levels as a percentage\nof their total income in 2023/24",
+    caption  = "Source: HESA Finance Table 14 (Open Data).",
+    x        = "% of total income",
+    y        = NULL
+  ) +
+  theme_minimal(base_size = 12) +
+  theme(
+    plot.title        = element_text(face = "bold", size = 14),
+    plot.subtitle     = element_text(colour = "grey40", size = 10),
+    plot.caption      = element_text(colour = "grey50", size = 8, hjust = 0),
+    axis.text.x       = element_text(angle = 30, hjust = 1),
+    panel.grid.minor  = element_blank(),
+    panel.grid.major.x = element_blank()
+  )
+```
+
+
+
+# Student growth
+
+```{r}
+#| label: Figure1
+#| message: false
+#| warning: false
+
+fte_wide <- fte |>
+  pivot_wider(names_from = academic_year, values_from = number) |>
+  rename(fte_2015 = `2015/16`, fte_2024 = `2024/25`) |>
+  filter(!is.na(fte_2015), !is.na(fte_2024)) |>
+  mutate(abs_growth = fte_2024 - fte_2015)
+
+top10_abs <- fte_wide |>
+  slice_max(abs_growth, n = 10)
+
+ggplot(top10_abs, aes(x = abs_growth, y = reorder(he_provider, abs_growth))) +
+  geom_bar(stat = "identity", fill = "#1d6996") +
+  geom_text(aes(label = scales::comma(round(abs_growth))),
+            hjust = 1.1, colour = "white", size = 3.5, fontface = "bold") +
+  labs(
+    title    = "10 fastest growing higher education providers, 2015/16 to 2024/25",
+    subtitle = "By additional FTE students",
+    caption  = "Source: HESA Student Table 2 (Open Data).",
+    x        = "Additional FTE students",
+    y        = NULL
+  ) +
+  scale_x_continuous(labels = scales::comma) +
+  theme_minimal(base_size = 12) +
+  theme(
+    plot.title        = element_text(face = "bold", size = 14),
+    plot.subtitle     = element_text(colour = "grey40", size = 10),
+    plot.caption      = element_text(colour = "grey50", size = 8, hjust = 0),
+    panel.grid.minor  = element_blank(),
+    panel.grid.major.y = element_blank()
+  )
+```
+
+
+But this table shows only the growth in FTE students, not the proportion of students. This seems like an odd choice if you are trying to argue that some providers are growing too fast.
+Surely, in this case, you want to look at growth rate, not just number of students.
+
+In addition, there is some differences in the institutions that are represented in my graph when I select the top 10 in my graph. Possibly because I am using a more recent release of the data.
+Below I redo the graph selecting the same institutions as in the report.
+
+```{r}
+#| label: Figure1_report
+#| message: false
+#| warning: false
+
+top10_report <- fte_wide |>
+  filter(he_provider %in% c(
+    "Arden University",
+    "Canterbury Christ Church University",
+    "Bath Spa University",
+    "BPP University",
+    "University College London",
+    "The University of Law",
+    "Anglia Ruskin University",
+    "King's College London",
+    "University of Manchester",
+    "Buckinghamshire New University",
+    "The University of Bristol"
+  )) |>
+  arrange(abs_growth)
+
+ggplot(top10_report, aes(x = abs_growth, y = reorder(he_provider, abs_growth))) +
+  geom_bar(stat = "identity", fill = "#1d6996") +
+  geom_text(aes(label = scales::comma(round(abs_growth))),
+            hjust = 1.1, colour = "white", size = 3.5, fontface = "bold") +
+  labs(
+    title    = "10 fastest growing higher education providers, 2015/16 to 2024/25",
+    subtitle = "By additional FTE students",
+    caption  = "Source: HESA Student Table 2 (Open Data).",
+    x        = "Additional FTE students",
+    y        = NULL
+  ) +
+  scale_x_continuous(labels = scales::comma) +
+  theme_minimal(base_size = 12) +
+  theme(
+    plot.title        = element_text(face = "bold", size = 14),
+    plot.subtitle     = element_text(colour = "grey40", size = 10),
+    plot.caption      = element_text(colour = "grey50", size = 8, hjust = 0),
+    panel.grid.minor  = element_blank(),
+    panel.grid.major.y = element_blank()
+  )
+```
+
+
+This reassures me that my data is correct as I am able to replicate the graph from the report.
+
+
+```{r}
+#| label: Figure1_redux
+#| message: false
+#| warning: false
+
+top10_report_pct <- top10_report |>
+  mutate(pct_growth = (fte_2024 - fte_2015) / fte_2015 * 100)
+
+ggplot(top10_report_pct, aes(x = pct_growth, y = reorder(he_provider, abs_growth))) +
+  geom_bar(stat = "identity", fill = "#1d6996") +
+  geom_text(aes(label = paste0(round(pct_growth, 1), "%")),
+            hjust = -0.1, colour = "black", size = 3.5, fontface = "bold") +
+  labs(
+    title    = "10 fastest growing higher education providers, 2015/16 to 2024/25",
+    subtitle = "Proportional growth — same providers as above, ordered by absolute growth",
+    caption  = "Source: HESA Student Table 2 (Open Data).",
+    x        = "% change in FTE students",
+    y        = NULL
+  ) +
+  scale_x_continuous(labels = function(x) paste0(x, "%")) +
+  xlim(0, 3300) +
+  theme_minimal(base_size = 12) +
+  theme(
+    plot.title        = element_text(face = "bold", size = 14),
+    plot.subtitle     = element_text(colour = "grey40", size = 10),
+    plot.caption      = element_text(colour = "grey50", size = 8, hjust = 0),
+    panel.grid.minor  = element_blank(),
+    panel.grid.major.y = element_blank()
+  )
+```
+
+
+Indeed, the expected pattern arises: UCL, King's College, and the University of Glasgow are growing at much more realistic paces than some of the other providers in this table, respectively, at `r round((1.451^(1/10) - 1) * 100, 2)`%, `r round((1.448^(1/10) - 1) * 100, 2)`, and `r round((1.432^(1/10) - 1) * 100, 2)` percent per year.
+Hardly a breakneck pace!
+
+So yes, when you look at growth in number of students, the initial size of the provider matters a lot.
+
+This plot now highlights that Arden and The University of Law are not really like the other providers on this list.
+
+
+
+What if we instead look at the 10 providers that grew the fastest in proportional terms?
+The list may well be different: smaller providers that doubled or tripled in size would show up, while they do not when looking at raw numbers.
+
+```{r}
+#| label: Figure1_redux2
+#| message: false
+#| warning: false
+
+top10_pct <- fte_wide |>
+  mutate(pct_growth = (fte_2024 - fte_2015) / fte_2015 * 100) |>
+  slice_max(pct_growth, n = 10)
+
+ggplot(top10_pct, aes(x = pct_growth, y = reorder(he_provider, pct_growth))) +
+  geom_bar(stat = "identity", fill = "#994e95") +
+  geom_text(aes(label = paste0(round(pct_growth, 1), "%")),
+            hjust = 1.1, colour = "white", size = 3.5, fontface = "bold") +
+  labs(
+    title    = "10 fastest growing higher education providers, 2015/16 to 2024/25",
+    subtitle = "By proportional growth in FTE students",
+    caption  = "Source: HESA Student Table 2 (Open Data).",
+    x        = "% change in FTE students",
+    y        = NULL
+  ) +
+  scale_x_continuous(labels = function(x) paste0(x, "%")) +
+  theme_minimal(base_size = 12) +
+  theme(
+    plot.title        = element_text(face = "bold", size = 14),
+    plot.subtitle     = element_text(colour = "grey40", size = 10),
+    plot.caption      = element_text(colour = "grey50", size = 8, hjust = 0),
+    panel.grid.minor  = element_blank(),
+    panel.grid.major.y = element_blank()
+  )
+```
+
+Only Arden, The University of Law, and BPP University show up in both lists.
