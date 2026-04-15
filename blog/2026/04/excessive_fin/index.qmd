@@ -2,11 +2,11 @@
 title: "Do Universities Really Take Excessive Financial Risks?"
 date: 2026-04-15
 description: "I am not mad, please do not put in the paper that I was mad."
-image: ""
+image: "img/fig1.png"
 twitter-card:
-  image: ""
+  image: "img/fig1.png"
 open-graph:
-  image: ""
+  image: "img/fig1.png"
 categories:
   - social science
   - UKHE
@@ -115,7 +115,7 @@ fte_wide <- fte |>
 top10_abs <- fte_wide |>
   slice_max(abs_growth, n = 10)
 
-ggplot(top10_abs, aes(x = abs_growth, y = reorder(he_provider, abs_growth))) +
+fig1 <- ggplot(top10_abs, aes(x = abs_growth, y = reorder(he_provider, abs_growth))) +
   geom_bar(stat = "identity", fill = "#1d6996") +
   geom_text(aes(label = scales::comma(round(abs_growth))),
             hjust = 1.1, colour = "white", size = 3.5, fontface = "bold") +
@@ -134,6 +134,11 @@ ggplot(top10_abs, aes(x = abs_growth, y = reorder(he_provider, abs_growth))) +
     plot.caption      = element_text(colour = "grey50", size = 8, hjust = 0),
     panel.grid.minor  = element_blank(),
     panel.grid.major.y = element_blank()
+  )
+
+ggsave(
+    "img/fig1.png", fig1,
+    width = 8, height = 7, dpi = 300
   )
 ```
 
