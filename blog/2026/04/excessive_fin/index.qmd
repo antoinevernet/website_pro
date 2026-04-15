@@ -16,7 +16,6 @@ resources:
 doi: ""
 citation: true
 freeze: true
-draft: true
 ---
 
 
@@ -272,8 +271,7 @@ top10_pct <- fte_wide |>
 ggplot(top10_pct, aes(x = pct_growth, y = reorder(he_provider, pct_growth))) +
   geom_bar(stat = "identity", fill = "#994e95") +
   geom_text(aes(label = paste0(round(pct_growth, 1), "%")),
-            hjust = 0, colour = "black", size = 3.5, fontface = "bold") +
-  xlim(0, 4000) +
+            hjust = -0.1, colour = "black", size = 3.5, fontface = "bold") +
   labs(
     title    = "10 fastest growing higher education providers,\n2015/16 to 2024/25",
     subtitle = "By proportional growth in FTE students",
@@ -282,6 +280,7 @@ ggplot(top10_pct, aes(x = pct_growth, y = reorder(he_provider, pct_growth))) +
     y        = NULL
   ) +
   scale_x_continuous(labels = function(x) paste0(x, "%")) +
+  xlim(0, 4000) +
   theme_minimal(base_size = 12) +
   theme(
     plot.title        = element_text(face = "bold", size = 14),
@@ -294,7 +293,7 @@ ggplot(top10_pct, aes(x = pct_growth, y = reorder(he_provider, pct_growth))) +
 
 Only Arden, The University of Law, and BPP University show up in both lists.
 
-Most of these providers are relatively small, and are private (the only non private ones are the Univerisity of London, West Dean College, and Markfield Institute of Higher Education).
+Most of these providers are relatively small, and are private (the only non private ones are the University of London, West Dean College, and Markfield Institute of Higher Education).
 
 
 # In conclusion
