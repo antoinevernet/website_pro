@@ -138,7 +138,7 @@ fig1 <- ggplot(top10_abs, aes(x = abs_growth, y = reorder(he_provider, abs_growt
 
 ggsave(
     "img/fig1.png", fig1,
-    width = 8, height = 7, dpi = 300
+    width = 8, height = 4, dpi = 300
   )
 ```
 
