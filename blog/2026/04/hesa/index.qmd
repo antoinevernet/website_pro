@@ -23,5 +23,5 @@ It turns out that some of the data we wanted is only available in the UK for a f
 So we applied for funding and did not get it. 
 As we are figuring out where next to apply for funding, I thought I would look at the data that is openly accessible about UK universities.
 
-I already talked about the HESA open data in a (previous post)[../excessive_fin/index.qmd], but I thought I could do a little bit of descriptive statistics on the data and share some of the things I found interesting about it.
+I already talked about the HESA open data in a [previous post](/blog/2026/04/excessive_fin/index.qmd), but I thought I could do a little bit of descriptive statistics on the data and share some of the things I found interesting about it.
 

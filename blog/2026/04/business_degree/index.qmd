@@ -1,0 +1,33 @@
+---
+title: "Business degree"
+date: 2026-04-30
+description: "The FT had a piece about business degrees and earnings. It made me think about categories"
+image: ""
+twitter-card:
+  image: ""
+open-graph:
+  image: ""
+categories:
+  - social science
+  - UKHE
+  - Business
+  - Categories
+resources:
+  - "img/*"
+doi: ""
+citation: true
+draft: true
+---
+
+On the FT Business degree
+
+https://www.ft.com/content/e199ae71-f4a2-4abd-9444-de47c456b7ae?syn-25a6b1a6=1
+
+It made me reflect on the fact that business degree is a loose category with a lot of heterogeneity like car or phone, or watch, not like banana.
+
+So the issue is not business degrees per se, but the low quality providers that caught on to the fact that they were popular and relatively cheap to deliver.
+
+So the big heterogeneity in returns to a business degree is probably true for other degrees as well, but it is more visible in business degrees because of the large number of providers and students and the fact that the growth in the number of business students at a number of providers is recent.
+
+To be fair to the FT article, this is something that is acknowledged in the article.
+

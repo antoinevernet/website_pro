@@ -1,0 +1,22 @@
+---
+title: "Personal software"
+date: 2026-04-15
+description: "Ok, I thought my mind had been blown before, this is different"
+image: ""
+twitter-card:
+  image: ""
+open-graph:
+  image: ""
+categories:
+  - software
+  - Organisation design
+  - AI
+resources:
+  - "img/*"
+doi: ""
+citation: true
+draft: true
+---
+
+
+https://mikkelmalmberg.com/notes/01KPDNG8AM723KW4YJXRS890C1

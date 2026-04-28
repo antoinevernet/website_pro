@@ -1,0 +1,30 @@
+---
+title: "Agents and Design"
+date: 2026-04-15
+description: "It is all an org design problem... Always has been"
+image: ""
+twitter-card:
+  image: ""
+open-graph:
+  image: ""
+categories:
+  - social science
+  - Organisation design
+  - AI
+resources:
+  - "img/*"
+doi: ""
+citation: true
+draft: true
+---
+
+Reading why you can't sell an agent
+https://substack.com/home/post/p-194628481
+
+https://fortune.com/article/why-do-thousands-of-ceos-believe-ai-not-having-impact-productivity-employment-study/
+
+https://substack.com/home/post/p-193648478
+
+And response to Kellogg
+https://muninn.austegard.com/blog/the-90-percent-is-moving.html
+
