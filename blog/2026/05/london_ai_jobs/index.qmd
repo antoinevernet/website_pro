@@ -1,0 +1,27 @@
+---
+title: "London AI job report"
+date: 2026-05-03
+description: ""
+image: ""
+twitter-card:
+  image: ""
+open-graph:
+  image: ""
+categories:
+  - social science
+  - Organisation design
+  - AI
+  - London
+resources:
+  - "img/*"
+doi: ""
+citation: true
+draft: true
+---
+
+Let's explore this report.
+
+
+
+London’s workforce exposure to generative artificial intelligence
+
