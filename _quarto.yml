@@ -7,9 +7,14 @@ project:
       watch-inputs: true
       navigate: true
 
+  render:
+      - "*.qmd"
+      - "!CLAUDE.md"
+
   resources:
       - "files/**"
       - "blog/2025/11/revealjs_slides/slides"
+      - "llms.txt"
 
 # Metadata stuff
 pagetitle: "{{< meta title >}} | Antoine Vernet"
@@ -27,20 +32,20 @@ website:
   title: "Antoine Vernet"
   description: "Antoine Vernet is an associate professor at the Bartlett School of Sustainable Construction at UCL, researching organizational design and social networks."
   favicon: "/files/favicon.png"
-  site-url: "https://www.antoinevernet.com"
+  site-url: "https://antoinevernet.com"
   repo-url: "https://github.com/antoinevernet/website_pro"
 
   google-analytics: "G-FR1LQ5LD0Y"
 
 
   twitter-card: 
-    # image: "/files/twitter-card-large.png"
+    image: "/files/social-card.jpg"
     card-style: summary_large_image
     creator: "@antoine__V"
     site: "@antoinevernet"
 
   open-graph: 
-    # image: "/files/twitter-card-large.png"
+    image: "/files/social-card.jpg"
     locale: en_UK
   
 
