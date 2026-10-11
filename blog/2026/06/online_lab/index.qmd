@@ -1,0 +1,29 @@
+---
+title: "Online Lab"
+date: 2025-12-05
+description: "The wave lasted almost 20 years and I still missed it."
+image: ""
+twitter-card:
+  image: ""
+open-graph:
+  image: ""
+categories:
+  - social science
+  - online experiments
+resources:
+  - "img/*"
+doi: ""
+citation: true
+draft: true
+---
+
+
+It is very interesting that we went from the eureka moment of being able to get data collected while we slept as recounted by Salganik in Bit by Bit, to a place where it is increasingly hard to tell if your online participants are real humans.
+
+Find the Bit by Bit relevant piece (it is the beginning of the preface).
+Then the recent papers on the topic.
+
+https://www.ft.com/content/1298a2cd-5623-480c-b30e-ff81fc5c788d
+
+https://sites.stat.columbia.edu/gelman/research/published/STS226.pdf
+

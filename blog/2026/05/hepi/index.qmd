@@ -1,0 +1,26 @@
+---
+title: "An opinionated view on the HEPI report \"A degree of regulation\""
+date: 2026-05-30
+description: "In short, I am not convinced"
+image: ""
+twitter-card:
+  image: ""
+open-graph:
+  image: ""
+categories:
+  - social science
+  - UKHE
+  - HEPI
+  - regulation
+resources:
+  - "img/*"
+doi: ""
+citation: true
+draft: true
+---
+
+
+On the HEPI report that is already mentioned in [Do Universities Really Take Excessive Financial Risks?](/blog/2026/04/excessive_fin/index.qmd).
+
+I thought the graph was misleading... I also dislike many of the recommendations of the report.
+

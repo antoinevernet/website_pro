@@ -1,0 +1,35 @@
+---
+title: "So you are a software developer now?"
+date: 2026-05-15
+description: "Oups"
+image: ""
+twitter-card:
+  image: ""
+open-graph:
+  image: ""
+categories:
+  - software
+  - future
+  - AI
+resources:
+  - "img/*"
+doi: ""
+citation: true
+draft: true
+---
+
+Reviewing the development of writing buddy and of jobsearch
+
+Basically going over the fact that I am now able to develop relatively cool software in a time that is very short.
+
+What does that mean for me?
+
+- Can make my own tools
+- Can make tools for others
+
+What does that mean more generally once everyone wakes up and starts doing it?
+
+- Software development becomes more accessible
+- Lots of startups are worthless
+- Lots of software is worthless
+
