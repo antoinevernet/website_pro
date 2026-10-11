@@ -11,7 +11,7 @@ toc-location: left
 include-back-link: true
 
 format:
-  live-html:
+  html:
     template-partials:
       - ../html/research/title-block.html
     quarto-template-params:

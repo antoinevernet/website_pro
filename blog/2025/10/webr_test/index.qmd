@@ -20,12 +20,16 @@ citation: true
 webr:
   packages:
     - dplyr
-# formats: [live-html]
-# format:
-#   html: {}
-# format:
-  # live-html:
-    # output-file: index-live.html
+# The rest of the site uses plain html; only this post needs the
+# live-html (webR) runtime, so its format options are repeated here.
+format:
+  live-html:
+    theme:
+      - ../../../../html/custom.scss
+    fontsize: 0.9em
+    grid:
+      body-width: 900px
+    icons: iconify
 engine: knitr
 # engine: jupyter
 freeze: auto
