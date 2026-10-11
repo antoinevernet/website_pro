@@ -61,7 +61,7 @@ categories:
   - reproducibility
 pub-info:
   reference: >-
-    Andrew Delios, Elena Giulia Clemente, Tao Wu, Hongbin Tan, Yong Wang, Michael Gordonf, Domenico Viganola, Zhaowei Chen, Anna Dreber, Magnus Johannesson, Thomas Pfeiffer, <strong>Generalizability Tests Forecasting Collaboration</strong>, and Eric Luis Uhlmann, "Examining the generalizability of research findings from archival data," <em>PNAS</em> (2022), doi: <a href="https://doi.org/10.1073/pnas.2120377119"><code>10.1073/pnas.2120377119/</code></a>
+    Andrew Delios, Elena Giulia Clemente, Tao Wu, Hongbin Tan, Yong Wang, Michael Gordon, Domenico Viganola, Zhaowei Chen, Anna Dreber, Magnus Johannesson, Thomas Pfeiffer, <strong>Generalizability Tests Forecasting Collaboration</strong>, and Eric Luis Uhlmann, "Examining the generalizability of research findings from archival data," <em>PNAS</em> (2022), doi: <a href="https://doi.org/10.1073/pnas.2120377119"><code>10.1073/pnas.2120377119</code></a>
   links:
     - name: Final version
       url: https://doi.org/10.1073/pnas.2120377119
