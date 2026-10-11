@@ -1,9 +1,72 @@
 ---
 title: ""
 pagetitle: "Antoine Vernet"
-description-meta: "Antoine Vernet is an associate professor in management at UCL Bartlett School of Sustainable Construction. His research interests include social networks, organizational design, strategy, and organisational behaviour."
+description-meta: "Antoine Vernet is an associate professor in management at the UCL Bartlett School of Sustainable Construction. His research interests include social networks, organizational design, strategy, and organisational behaviour."
 main-photo: files/antoine_vernet_2021.jpg
-
+include-in-header:
+  - text: |
+      <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebSite",
+            "@id": "https://antoinevernet.com/#website",
+            "url": "https://antoinevernet.com/",
+            "name": "Antoine Vernet",
+            "inLanguage": "en-GB",
+            "publisher": { "@id": "https://antoinevernet.com/#person" }
+          },
+          {
+            "@type": "Person",
+            "@id": "https://antoinevernet.com/#person",
+            "name": "Antoine Vernet",
+            "url": "https://antoinevernet.com/",
+            "image": "https://antoinevernet.com/files/antoine_vernet_2021.jpg",
+            "jobTitle": "Associate Professor in Management",
+            "email": "mailto:a.vernet@ucl.ac.uk",
+            "worksFor": {
+              "@type": "Organization",
+              "name": "Bartlett School of Sustainable Construction, University College London",
+              "url": "https://www.ucl.ac.uk/bartlett/construction/",
+              "parentOrganization": {
+                "@type": "CollegeOrUniversity",
+                "name": "University College London",
+                "url": "https://www.ucl.ac.uk/"
+              }
+            },
+            "alumniOf": {
+              "@type": "CollegeOrUniversity",
+              "name": "Université Paris Nanterre",
+              "url": "https://www.parisnanterre.fr"
+            },
+            "knowsAbout": [
+              "Social networks",
+              "Organizational design",
+              "Strategy",
+              "Organizational behavior",
+              "Hybrid work",
+              "AI adoption in organizations",
+              "Project management and estimation",
+              "Computational social science"
+            ],
+            "identifier": {
+              "@type": "PropertyValue",
+              "propertyID": "ORCID",
+              "value": "0000-0002-7546-9829"
+            },
+            "sameAs": [
+              "https://orcid.org/0000-0002-7546-9829",
+              "https://scholar.google.com/citations?user=l2NNi8sAAAAJ",
+              "https://www.linkedin.com/in/antoine-vernet-6ba2462/",
+              "https://github.com/antoinevernet",
+              "https://bsky.app/profile/antoinevernet.bsky.social",
+              "https://www.youtube.com/@antoinevernet"
+            ]
+          }
+        ]
+      }
+      </script>
 ---
 
 
@@ -37,7 +100,7 @@ Before joining UCL, I was a research associate at Imperial Business Analytics, p
 
 I received a PhD in Sociology from the [Université Paris Nanterre](https://www.parisnanterre.fr) in 2010.
 
-I study the interplay betwween the formal and informal structures of organizations, and how these structures affect individual and organizational outcomes. My current focus includes the impact of hybrid working on collaboration and knowledge sharing, the role of network structures in innovation, and the dynamics of organizational change, and the mapping of organizational knowledge.
+I study the interplay between the formal and informal structures of organizations, and how these structures affect individual and organizational outcomes. My current focus includes the impact of hybrid working on collaboration and knowledge sharing, the role of network structures in innovation, and the dynamics of organizational change, and the mapping of organizational knowledge.
 
 I currently lead the project [*From Hybrid Work to Hybrid Workforces: Rethinking Organisational Design for an AI-Augmented Future*](https://www.ucl.ac.uk/grand-challenges/case-studies/2025/nov/hybrid-work-hybrid-workforces-rethinking-organisational-design-ai-augmented) funded by [UCL Grand Challenge in Data Empowered Society](https://www.ucl.ac.uk/grand-challenges/). The project investigates how hybrid working is influencing the adoption of AI-powered tools, and ultimately reshaping organisations. Through interviews, organisational digital twins, and simulated AI teams, we study how these changes affect not just efficiency but also learning, mentoring, career development, and the social fabric of organisations. Our goal is to help organisations adopt AI while preserving the human connections that underpin long-term resilience and innovation.
 
