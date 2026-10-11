@@ -12,15 +12,28 @@ This is Antoine Vernet's personal academic website, built with [Quarto](https://
 - **Render full site:** `quarto render`
 - **Render a single page:** `quarto render path/to/file.qmd`
 
-The site uses `execute: freeze: auto` — computations are cached in `_freeze/` and only re-run when source changes. Output goes to `_site/`.
+The site uses `execute: freeze: auto` — computations are cached in `_freeze/` and only re-run when source changes. Output goes to `_site/` (gitignored).
+
+Deployment: pushing to GitHub triggers a Netlify build, where `@quarto/netlify-plugin-quarto` runs `quarto render`. Netlify has no R, so **commit any changed `_freeze/` files** alongside source changes. Netlify's primary domain is the apex `antoinevernet.com` (www redirects to it).
+
+## SEO & AI discoverability
+
+- Default social card: `files/social-card.jpg` (1200×630), set in `_quarto.yml` `twitter-card`/`open-graph`. Pages with their own `image:` override it.
+- Homepage (`index.qmd`) has `Person` + `WebSite` JSON-LD in `include-in-header` (affiliation, ORCID, Google Scholar, social `sameAs` links). Update it if the job title or affiliation changes.
+- `llms.txt` (site root, listed under `resources`) — curated summary for AI tools. **Update it when adding papers or notable posts.**
+- `robots.txt` is Quarto's default (all crawlers allowed, including AI crawlers — deliberate). The abandoned paper stays indexed on purpose.
+- The CV page (`cv/index.qmd`) has an HTML "At a glance" summary above the embedded PDF, written from the CV dated July 2025 — update it when the PDF changes.
 
 ## Architecture
 
 ### Quarto Configuration
 
 - `_quarto.yml` — Main site config: navbar, footer, metadata, format settings
-- `_variables.yml` — Site-wide variables (orcid, github-url, years) referenced via `{{< var name >}}`
-- The site uses `live-html` format (via the `r-wasm/live` extension) instead of plain `html`
+- `_variables.yml` — Site-wide variables (orcid, github-url, years) referenced via `{{< var name >}}`. Update `years` each January.
+- `site-url` is `https://antoinevernet.com` (no www) — keep all absolute URLs on the apex domain.
+- `project.render` is `["*.qmd", "!CLAUDE.md"]` so this file is never published. Only `.qmd` files are rendered.
+- Site-wide format is plain `html`. **Only `blog/2025/10/webr_test/` uses `live-html`** (r-wasm/live, ~1.5 MB of webR/OJS JS), declared in its own frontmatter with the theme options repeated (project `html` options don't carry over to `live-html`). For any new interactive post, copy that frontmatter. Do not put `format: html:` in a directory `_metadata.yml` (e.g. `blog/_metadata.yml`) — a post with its own `live-html` would then render twice and the build fails with a rename error; put directory-level format options at the top level instead.
+- Page titles: Quarto appends ` – Antoine Vernet` to every `<title>` automatically — don't add the name in `pagetitle`. The homepage opts out with `title-prefix: ""` and sets its full title.
 - Custom theme: `html/custom.scss` (adapted from Andrew Heiss's theme, uses Jost + Libre Franklin fonts, primary color `#003249`)
 
 ### Content Sections
@@ -34,7 +47,7 @@ Each section uses Quarto [listings](https://quarto.org/docs/websites/website-lis
 | **Teaching** | `teaching/ay_{YY-YY}.yml` | YAML data files | `html/teaching/listing.ejs` |
 | **Talks** | `talks/talks_{YYYY}.yml` | YAML data files | `html/talks/listing.ejs` |
 
-Research articles also use a custom Pandoc title block template: `html/research/title-block.html`.
+Research articles also use a custom Pandoc title block template: `html/research/title-block.html`, wired up in `research/_metadata.yml` (under `format: html: template-partials`), which also sets `google-scholar: true` (emits `citation_*` meta tags).
 
 ### Blog Post Frontmatter
 
@@ -54,6 +67,8 @@ Default blog metadata (author, format, TOC settings) is inherited from `blog/_me
 Research articles use a `pub-info` object in frontmatter:
 - `pub-info.reference` — HTML-formatted citation string
 - `pub-info.links` — array of `{name, url, icon, local?}` for PDF/preprint/code links
+- `description` — 1–2 sentence summary (~150–200 chars) used for meta/OG description and shown in the banner. Every research page should have one.
+- `author` (with `orcid`), `date`, `doi` — feed the Google Scholar `citation_*` tags
 - `haiku` — optional array of lines displayed as an italicized epigraph
 
 ### Teaching & Talks Data
@@ -75,7 +90,7 @@ Installed in `_extensions/`:
 - `quarto-ext/fontawesome` — Font Awesome icons (`{{< fa ... >}}`)
 - `schochastics/academicons` — Academic icons (`{{< ai ... >}}`)
 - `mcanouil/iconify` — Iconify icons (`{{< iconify ... >}}`)
-- `r-wasm/live` — WebR/live-html support for interactive R code in browser
+- `r-wasm/live` — WebR/live-html support for interactive R code in browser (only used by `blog/2025/10/webr_test/`)
 
 ### Key Files
 
