@@ -1,0 +1,62 @@
+# Antoine Vernet
+
+> Antoine Vernet is an Associate Professor in Management at the Bartlett School of Sustainable Construction, University College London (UCL). He studies the interplay between formal and informal structures of organizations — social networks, organizational design, strategy, and organizational behaviour — and how these affect individual and organizational outcomes. He holds a PhD in Sociology from Université Paris Nanterre (2010) and was previously a research associate at Imperial College Business School. ORCID: 0000-0002-7546-9829.
+
+Current work includes the impact of hybrid working on collaboration and knowledge sharing, the role of network structures in innovation, organizational change, mapping organizational knowledge, and over-optimism and cognitive biases in project estimation. He leads the UCL Grand Challenges project "From Hybrid Work to Hybrid Workforces: Rethinking Organisational Design for an AI-Augmented Future". He teaches organizational design, data analytics, and social network analysis.
+
+## Main pages
+
+- [About](https://antoinevernet.com/): Biography, research interests, and current projects
+- [CV](https://antoinevernet.com/cv/): Curriculum vitae (PDF embedded)
+- [Research](https://antoinevernet.com/research/): Journal articles, working papers, book chapters, and reviews, each with abstract and citation
+- [Teaching](https://antoinevernet.com/teaching/): Courses taught by academic year
+- [Talks](https://antoinevernet.com/talks/): Conference presentations and invited talks
+- [Blog](https://antoinevernet.com/blog/): Posts on research, higher education, teaching, writing, and data analysis
+- [Atom feed](https://antoinevernet.com/atom.xml): Full-text feed of blog posts
+
+## Journal articles
+
+- [Revisiting the Small-World Phenomenon: Efficiency Variation and Classification of Small-World Networks](https://antoinevernet.com/research/articles/opsahl-vernet-alnuaimi-george/)
+- [In Women we Trust? Gender-Status Mismatch and Trust in Professional Networks](https://antoinevernet.com/research/articles/song-vernet-in-women-we-trust/)
+- [How does energy matter? Rural electrification, entrepreneurship, and community development in Kenya](https://antoinevernet.com/research/articles/vernet-khayesi-george-george-bahaj/)
+- [Adoption readiness in service innovation: the case of digital money](https://antoinevernet.com/research/articles/thomas-vernet-gann/)
+- [Examining the generalizability of research findings from archival data](https://antoinevernet.com/research/articles/deliosetal/): PNAS (2022), multi-team reproducibility study
+
+## Working papers
+
+- [Over-optimism in estimation: bias or error?](https://antoinevernet.com/research/working-papers/sassanovernet-exp1/)
+- [The Company You Keep: Effects of Leader and Teams Network Position on Performance](https://antoinevernet.com/research/working-papers/vernetmoserdeichmann/)
+- [Strengthening the Ties that Bind: Homophily, Status and Innovation in Film Production](https://antoinevernet.com/research/working-papers/vernetmovie/)
+- [Picking People: A Social Motivation Model of Network Structure](https://antoinevernet.com/research/working-papers/kennedyetal/)
+- [The Sources of Researcher Variation in Economics](https://antoinevernet.com/research/working-papers/huntingtonkleinetal/)
+- [Start-up Station: The Impact of Rail Access on Entrepreneurship (Self-Employment) in England and Wales](https://antoinevernet.com/research/working-papers/szumilovernetsanchisgarner/)
+- [From Plaques to Actions: How Employee Green Behaviours Can Contribute to the Substantive Implementations of Voluntary Sustainability Standards](https://antoinevernet.com/research/working-papers/xiaomurtaghvernet/)
+- [Understanding challenges in stakeholder collaboration: facing the uncertainty in urban greenspace regeneration](https://antoinevernet.com/research/working-papers/yuhongetal_challenges/)
+
+## Book chapters
+
+- [The Two-Pipe Problem: Analysing and Theorizing about 2-Mode Networks](https://antoinevernet.com/research/chapters/vernet-2-modes/)
+- [Variations in the Adoption of Healthcare Innovation? A Literature Review](https://antoinevernet.com/research/chapters/haucketal-variations_adoption/)
+- [Les mesures de l'employabilité](https://antoinevernet.com/research/chapters/remillon-vernet/) (in French)
+- [La constitution des équipes techniques](https://antoinevernet.com/research/chapters/lamberbourgetal/) (in French)
+- [Transformer le script en image : la lumière au cinéma](https://antoinevernet.com/research/chapters/Vernet-script/) (in French)
+
+## Selected blog posts
+
+- [Do Universities Really Take Excessive Financial Risks?](https://antoinevernet.com/blog/2026/04/excessive_fin/)
+- [The rise and fall of Byron, in maps](https://antoinevernet.com/blog/2026/04/byron/): Mapping London burger chains with historical OpenStreetMap data
+- [AI Detection in Science: A Step Forward or a Misstep?](https://antoinevernet.com/blog/2023/11/AI_detection/)
+- [Reproducibility in Management Scholarship](https://antoinevernet.com/blog/2017/11/reproducibility/)
+- [Bruno Latour and Social Network Theory](https://antoinevernet.com/blog/2021/03/latour/)
+- [The power of data literacy in the data age](https://antoinevernet.com/blog/2022/05/dataliteracy/)
+- [You should use open-source software for teaching!](https://antoinevernet.com/blog/2021/09/opensource/)
+- [Ten minutes to better writing](https://antoinevernet.com/blog/2023/01/10mn_writing/)
+
+## Optional
+
+- [Brokerage and Small Worlds: Interplay of Individuals' Position and Global Network Structure](https://antoinevernet.com/research/abandonned/vernetsalterkilduff/): Abandoned working paper
+- [Review of L'artiste pluriel](https://antoinevernet.com/research/reviews/vernetartist/) (in French)
+- [ORCID](https://orcid.org/0000-0002-7546-9829)
+- [Google Scholar](https://scholar.google.com/citations?user=l2NNi8sAAAAJ)
+- [GitHub](https://github.com/antoinevernet)
+- [LinkedIn](https://www.linkedin.com/in/antoine-vernet-6ba2462/)
