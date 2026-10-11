@@ -1,6 +1,18 @@
 google-scholar: true
 
+# Enable banner style title blocks
+title-block-banner: "#003249"
+
+# Default for table of contents
+toc: true
+toc-title: Contents
+toc-location: left
+
+include-back-link: true
+
 format:
   live-html:
+    template-partials:
+      - ../html/research/title-block.html
     quarto-template-params:
       banner-header-class: "research"
