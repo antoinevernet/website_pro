@@ -1,7 +1,7 @@
 ---
 title: "Curriculum Vitae"
-pagetitle: "Antoine Vernet's CV"
-description-meta: "Antoine Vernet's Curriculum Vitae"
+pagetitle: "CV"
+description-meta: "Curriculum vitae of Antoine Vernet, Associate Professor in Management at UCL: positions, education, publications, grants, teaching, and service."
 engine: knitr
 cv:
   pdf: "antoine-vernet-cv.pdf"
@@ -35,6 +35,53 @@ title-block-banner: "#003249"
     height: 100%;
 }
 ```
+
+Antoine Vernet is an Associate Professor in Management at the [Bartlett School of Sustainable Construction](https://www.ucl.ac.uk/bartlett/construction/), University College London. He studies social networks, organizational design, and strategy. The full CV is available to download and view below.
+
+## At a glance
+
+**Current position**
+
+- Associate Professor in Management, Bartlett School of Sustainable Construction, UCL (2020–present)
+- Director, Centre for Organisational Network Analysis (CONA)
+- Deputy Research Director, Bartlett School of Sustainable Construction (from 2023)
+
+**Previous positions**
+
+- Lecturer in Management, Bartlett School of Sustainable Construction, UCL (2017–2020); Director of the MSc Strategic Management of Projects (2019–2024)
+- Research Associate, Imperial College Business School (2010–2017)
+
+**Education**
+
+- PhD in Sociology, Université Paris-Ouest (Paris Nanterre), 2010
+- MA in Sociology (2005) and BA in Sociology and Economics (2004), Université Paris-Ouest
+- Senior Fellow of the Higher Education Academy (2022)
+
+**Selected publications**
+
+- [In women we trust? Gender-status mismatch and trust in professional networks](/research/articles/song-vernet-in-women-we-trust/), *Gender & Society* (2022)
+- [Examining the generalizability of research findings from archival data](/research/articles/deliosetal/), *PNAS* (2022)
+- [How does energy matter? Rural electrification, entrepreneurship, and community development in Kenya](/research/articles/vernet-khayesi-george-george-bahaj/), *Energy Policy* (2019)
+- [Revisiting the small-world phenomenon: Efficiency variation and classification of small-world networks](/research/articles/opsahl-vernet-alnuaimi-george/), *Organizational Research Methods* (2017)
+- [Adoption readiness in service innovation: The case of digital money](/research/articles/thomas-vernet-gann/), *Industry and Innovation* (2016)
+
+See the [research page](/research/) for all publications and working papers.
+
+**Selected grants and awards**
+
+- Best Reviewer Award, Academy of Management, Strategic Management division (2022)
+- Nominated for the Best Paper Award, Academy of Management, OMT division (2023)
+- Collaborator, *Network and competition effects in the diffusion of innovation in the NHS*, funded by the Health Foundation (£450,000, 2015–2018)
+
+**Teaching**
+
+Data analytics, social network analysis, and organisational design on UCL's MSc programmes in project and enterprise management. See the [teaching page](/teaching/) for details.
+
+**Service**
+
+Editorial board member, *Project Management Journal*. Ad hoc reviewer for journals including *Academy of Management Journal*, *Organization Science*, *Research Policy*, and *Social Networks*.
+
+## Full CV
 
 ```{=html}
 <p class="text-center">
