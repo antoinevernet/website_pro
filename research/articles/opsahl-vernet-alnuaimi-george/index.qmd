@@ -1,5 +1,6 @@
 ---
 title: "Revisiting the Small-World Phenomenon: Efficiency Variation and Classification of Small-World Networks"
+description: "Not all small-world networks are alike. We develop simulation-based measures of network efficiency to classify small-world networks more precisely. Published in Organizational Research Methods (2017)."
 date: 2016-10-02
 author:
   - name: Tore Opsahl

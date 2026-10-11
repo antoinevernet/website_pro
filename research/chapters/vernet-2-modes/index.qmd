@@ -1,5 +1,6 @@
 ---
 title: "The Two-Pipe Problem: Analysing and Theorizing about 2-Mode Networks"
+description: "Bipartite (2-mode) networks are common in organizational research but often reduced to one mode. We review projection techniques, 2-mode clustering measures, and avenues for 2-mode theory."
 date: 2014-04-01
 author:
   - name: Antoine Vernet

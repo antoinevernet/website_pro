@@ -1,5 +1,6 @@
 ---
 title: "Picking People: A Social Motivation Model of Network Structure"
+description: "Working paper by Mark Kennedy, Antoine Vernet, Sankalp Chaturvedi and Sarah Otner proposing a social motivation model of how people choose contacts and shape network structure."
 date: 2024-03-01
 author:
   - name: Mark T. Kennedy

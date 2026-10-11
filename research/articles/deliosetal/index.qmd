@@ -1,5 +1,6 @@
 ---
 title: "Examining the generalizability of research findings from archival data"
+description: "A large-scale test of whether 29 strategic management findings from archival data reproduce and generalize to new time periods and geographies. Published in PNAS (2022)."
 date: 2022-07-19
 author:
   - name: Andrew Delios

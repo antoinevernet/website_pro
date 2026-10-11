@@ -1,5 +1,6 @@
 ---
 title: "Les mesures de l’employabilité"
+description: "Book chapter (in French) on how employability is measured, in Évaluer et Valoriser (Presses Universitaires de Toulouse)."
 date: 2009-01-01
 author:
   - name: Antoine Vernet
@@ -8,11 +9,12 @@ author:
     affiliation: University College London
 categories:
   - labour sociology
-  - film industry
+  - employability
+  - measurement
   - labour market
 pub-info:
   reference: >-
-     Delphine Remillon, <strong>Antoine Vernet</strong>, "Les mesures de l’employabilité," in <em>Évaluer et Valoriser</em> (2013), ed. François Vatin, Presses Universitaires de Toulouse.
+     Delphine Remillon, <strong>Antoine Vernet</strong>, "Les mesures de l’employabilité," in <em>Évaluer et Valoriser</em> (2009), ed. François Vatin, Presses Universitaires de Toulouse.
 ---
 
 
@@ -20,15 +22,16 @@ pub-info:
 
 
 ```bibtex
-@inbook{remillonvernet2009
-author = {Remillon, Delphine and Vernet, Antoine},
-   title = {Transformer le script en image : la lumière au cinéma},
-   booktitle = {Le cinéma. Travail et organisation},
-   editor = {Rot, Gwenaëlle and de Verdalle, Laure},
+@inbook{remillonvernet2009,
+   author = {Remillon, Delphine and Vernet, Antoine},
+   title = {Les mesures de l’employabilité},
+   booktitle = {Évaluer et Valoriser},
+   editor = {Vatin, François},
+   publisher = {Presses Universitaires de Toulouse},
    pages = {},
    ISBN = {},
    DOI = {},
-   year = {2013},
+   year = {2009},
    type = {Book Section}
 }
 ```

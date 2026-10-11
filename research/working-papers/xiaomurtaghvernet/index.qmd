@@ -1,5 +1,6 @@
 ---
 title: "From Plaques to Actions: How Employee Green Behaviours Can Contribute to the Substantive Implementations of Voluntary Sustainability Standards"
+description: "Working paper by Dongdong Xiao, Niamh Murtagh and Antoine Vernet on how employee green behaviours help organizations implement voluntary sustainability standards in substance, not just on paper."
 date: 2024-03-01
 author:
   - name: Dongdong Xiao

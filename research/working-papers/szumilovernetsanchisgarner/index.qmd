@@ -1,5 +1,6 @@
 ---
 title: "Start-up Station: The Impact of Rail Access on Entrepreneurship (Self-Employment) in England and Wales"
+description: "Using Census data and 56 new railway station openings in England and Wales, we show that better rail access increases local self-employment rates."
 date: 2024-07-10
 author:
   - name: Nikodem Szumilo

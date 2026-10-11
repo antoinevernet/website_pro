@@ -1,5 +1,6 @@
 ---
 title: "Transformer le script en image : la lumière au cinéma"
+description: "Book chapter (in French) on turning the screenplay into images through lighting in film, in Le cinéma. Travail et organisation (La Dispute, 2013)."
 date: 2013-04-01
 author:
   - name: Antoine Vernet

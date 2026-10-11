@@ -1,5 +1,6 @@
 ---
 title: "The Company You Keep: Effects of Leader and Teams Network Position on Performance"
+description: "Working paper by Antoine Vernet, Christine Moser and Dirk Deichmann on how the network positions of leaders and their teams affect team performance."
 date: 2024-03-01
 author:
   - name: Antoine Vernet

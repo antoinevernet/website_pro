@@ -1,5 +1,6 @@
 ---
 title: "Comptes rendus: L’artiste pluriel, Démultiplier l’activité pour vivre de son art, M.-C. Bureau, M. Perrenoud et R. Shapiro (Eds)"
+description: "Book review (in French) of L'artiste pluriel, on how artists multiply activities to make a living from their art. Published in Sociologie du Travail."
 date: 2010-09-26
 author:
   - name: Antoine Vernet

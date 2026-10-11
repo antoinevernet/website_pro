@@ -1,5 +1,6 @@
 ---
-title: "Understanding challenges in stakeholder collaboration: facing the uncertainty in urban greenspace regeneration"
+title: "Collaborative network dynamics in a community-garden urban greenspace regeneration: Stakeholders, their network pattern, and network genesis"
+description: "Working paper on the stakeholders, network patterns and network genesis of collaboration in a community-garden urban greenspace regeneration project."
 date: 2025-01-04
 author:
   - name: Yuhong Wang
@@ -52,16 +53,7 @@ pub-info:
 
 ---
 <!-- 
-## Abstract
-
-Research has explored how embeddedness in small-world networks influences individual and firm outcomes. 
-We show that there remains significant heterogeneity among networks classified as small-world networks. 
-We develop measures of the efficiency of a network, which allow us to refine predictions associated with small-world networks. 
-A network is classified as a small-world network if it exhibits a distance between nodes that is comparable to the distance found in random networks of similar sizes---with ties randomly allocated among nodes---in addition to containing dense clusters. 
-To assess how efficient a network is, there are two questions worth asking: (a) What is a compelling random network for baseline levels of distance and clustering? and (b) How proximal should an observed value be to the baseline to be deemed comparable? 
-Our framework tests properties of networks, using simulation, to further classify small-world networks according to their efficiency. 
-Our results suggest that small-world networks exhibit significant variation in efficiency. 
-We explore implications for the field of management and organization. -->
+## Abstract -->
 
 <!--
 ## Important figures

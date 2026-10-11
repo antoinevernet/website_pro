@@ -1,5 +1,6 @@
 ---
 title: "In Women we Trust? Gender-Status Mismatch and Trust in Professional Networks"
+description: "Using 3,842 dyads from a UK railway construction project, we show that information from high-status women is trusted less, reflecting a gender-status mismatch. Published in Gender & Society (2022)."
 date: 2022-10-05
 author:
   - name: Eun Young Song

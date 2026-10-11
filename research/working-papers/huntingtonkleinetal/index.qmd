@@ -1,5 +1,6 @@
 ---
 title: "The Sources of Researcher Variation in Economics"
+description: "A many-analysts study in which 146 research teams answered the same causal question three times, showing that data cleaning choices drive much of the variation in estimated effects."
 date: 2025-02-24
 author:
   - name: Nick Huntington-Klein

@@ -1,5 +1,6 @@
 ---
 title: "How does energy matter? Rural electrification, entrepreneurship, and community development in Kenya"
+description: "A field study in Kenya showing that rural electrification increases household income and entrepreneurial activity, with larger gains for women-led households. Published in Energy Policy (2019)."
 date: 2019-03-01
 author:
   - name: Antoine Vernet

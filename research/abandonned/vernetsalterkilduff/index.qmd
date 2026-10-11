@@ -1,5 +1,6 @@
 ---
 title: "Brokerage and Small Worlds: Interplay of Individuals’ Position and Global Network Structure"
+description: "Abandoned working paper by Antoine Vernet, Ammon Salter and Martin Kilduff on how individuals' brokerage positions interact with global small-world network structure."
 date: 2024-03-01
 author:
   - name: Antoine Vernet

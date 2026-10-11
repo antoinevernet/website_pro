@@ -1,5 +1,6 @@
 ---
 title: "La constitution des équipes techniques"
+description: "Book chapter (in French) on how technical crews are put together in film production, in Le cinéma. Travail et organisation (La Dispute, 2013)."
 date: 2013-04-01
 author:
   - name: Antoine Vernet

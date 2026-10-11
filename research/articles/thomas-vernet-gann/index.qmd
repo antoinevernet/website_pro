@@ -1,5 +1,6 @@
 ---
 title: "Adoption readiness in service innovation: the case of digital money"
+description: "We conceptualise digital money as a socio-technical system and propose a Digital Money Readiness Index measuring countries' readiness to adopt service innovations. Published in Industry and Innovation (2016)."
 date: 2016-04-29
 author:
   - name: Llewellyn Thomas

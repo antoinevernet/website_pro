@@ -1,5 +1,6 @@
 ---
 title: "Strengthening the Ties that Bind: Homophily, Status and Innovation in Film Production"
+description: "Working paper by Antoine Vernet on homophily, status and innovation in the collaboration networks of film production."
 date: 2024-09-26
 author:
   - name: Antoine Vernet

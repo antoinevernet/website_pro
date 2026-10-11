@@ -1,5 +1,6 @@
 ---
 title: "Variations in the Adoption of Healthcare Innovation? A Literature Review"
+description: "A narrative literature review of why the adoption of healthcare innovations and clinical practices varies across and within health systems. Oxford Research Encyclopedia of Economics and Finance (2019)."
 date: 2019-04-19
 author:
   - name: Marisa Miraldo
