@@ -61,7 +61,7 @@ I also do research on project management, specifically on project estimations an
 :::
 
 
-## Abandonned working papers
+## Abandoned working papers
 
 :::{#abandonned}
 :::
