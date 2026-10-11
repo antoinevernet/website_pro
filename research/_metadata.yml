@@ -1,3 +1,5 @@
+google-scholar: true
+
 format:
   live-html:
     quarto-template-params:
