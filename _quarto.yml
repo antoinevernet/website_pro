@@ -17,7 +17,6 @@ project:
       - "llms.txt"
 
 # Metadata stuff
-pagetitle: "{{< meta title >}} | Antoine Vernet"
 author-meta: "Antoine Vernet"
 
 
