@@ -1,7 +1,7 @@
 ---
 title: "Blog"
 pagetitle: "Blog"
-description-meta: ""
+description-meta: "Antoine Vernet's blog on higher education, organisations, AI and work, data analysis, teaching, and academic writing."
 page-layout: full
 toc-title: Year
 toc-location: right
