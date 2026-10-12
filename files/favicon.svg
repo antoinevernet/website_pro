@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <style>
+    .n { fill: #0a4466; } .b { fill: #7d1650; } .o { fill: #5b7a2e; } .t { fill: #2fbca1; }
+    @media (prefers-color-scheme: dark) {
+      .n { fill: #2f7bab; } .b { fill: #b03a7a; } .o { fill: #86a84a; }
+    }
+  </style>
+  <polygon class="n" points="32,0 4.29,16 32,32"/>
+  <polygon class="b" points="4.29,16 4.29,48 32,32"/>
+  <polygon class="o" points="4.29,48 32,64 32,32"/>
+  <polygon class="t" points="32,0 59.71,16 59.71,48 32,64"/>
+</svg>

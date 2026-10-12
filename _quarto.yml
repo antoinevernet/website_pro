@@ -15,10 +15,18 @@ project:
       - "files/**"
       - "blog/2025/11/revealjs_slides/slides"
       - "llms.txt"
+      - "favicon.ico"
 
 # Metadata stuff
 author-meta: "Antoine Vernet"
 
+
+# Favicon fallbacks (favicon.svg is set under website:). Top-level so it also
+# applies to live-html pages.
+include-in-header:
+  - text: |
+      <link rel="icon" href="/favicon.ico" sizes="48x48">
+      <link rel="apple-touch-icon" href="/files/apple-touch-icon.png">
 
 bibliography: files/references.bib
 csl: files/amj.csl
@@ -30,7 +38,7 @@ execute:
 website:
   title: "Antoine Vernet"
   description: "Antoine Vernet is an associate professor at the Bartlett School of Sustainable Construction at UCL, researching organizational design and social networks."
-  favicon: "/files/favicon.png"
+  favicon: "files/favicon.svg"
   site-url: "https://antoinevernet.com"
   repo-url: "https://github.com/antoinevernet/website_pro"
 
