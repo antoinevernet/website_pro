@@ -47,7 +47,9 @@ Each section uses Quarto [listings](https://quarto.org/docs/websites/website-lis
 | **Teaching** | `teaching/ay_{YY-YY}.yml` | YAML data files | `html/teaching/listing.ejs` |
 | **Talks** | `talks/talks_{YYYY}.yml` | YAML data files | `html/talks/listing.ejs` |
 
-Research articles also use a custom Pandoc title block template: `html/research/title-block.html`, wired up in `research/_metadata.yml` (under `format: html: template-partials`), which also sets `google-scholar: true` (emits `citation_*` meta tags).
+Research articles also use a custom Pandoc title block template: `html/research/title-block.html`, wired up in `research/_metadata.yml` (under `format: html: template-partials`), which also sets `google-scholar: true` (emits `citation_*` meta tags), `appendix-cite-as: false`, and runs the Lua filter `html/research/scholarly-jsonld.lua` (emits schema.org `ScholarlyArticle`/`Chapter` JSON-LD from the same frontmatter, only on pages with `pub-info`).
+
+There is no site-wide `bibliography:` — with `google-scholar: true`, Quarto emits every entry of the bibliography as `citation_reference` tags, so posts that cite set their own `bibliography`/`csl` (see `blog/2018/07/writing/`).
 
 ### Blog Post Frontmatter
 
@@ -69,6 +71,7 @@ Research articles use a `pub-info` object in frontmatter:
 - `pub-info.links` — array of `{name, url, icon, local?}` for PDF/preprint/code links
 - `description` — 1–2 sentence summary (~150–200 chars) used for meta/OG description and shown in the banner. Every research page should have one.
 - `author` (with `orcid`), `date`, `doi` — feed the Google Scholar `citation_*` tags
+- `citation` — publication details for Scholar tags and JSON-LD (not displayed): `type` (`article-journal`/`chapter`/`entry-encyclopedia`), `container-title`, `volume`, `issue`, `page`, `issued` (print date; `date` is the online date), `publisher`, `issn`/`isbn` (quote them), `pdf-url` (open-access/UCL Discovery PDF), and for chapters `collection-title`, `editor`. Take values from Crossref (`https://api.crossref.org/works/<doi>`). Quarto double-escapes `&` in these fields, so write "and".
 - `haiku` — optional array of lines displayed as an italicized epigraph
 
 ### Teaching & Talks Data
