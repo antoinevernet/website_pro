@@ -28,9 +28,6 @@ include-in-header:
       <link rel="icon" href="/favicon.ico" sizes="48x48">
       <link rel="apple-touch-icon" href="/files/apple-touch-icon.png">
 
-bibliography: files/references.bib
-csl: files/amj.csl
-
 execute:
   freeze: auto
 
