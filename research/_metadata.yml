@@ -1,4 +1,6 @@
 google-scholar: true
+# Keep the citation: metadata for Scholar tags only, no "Cite as" appendix.
+appendix-cite-as: false
 
 # Enable banner style title blocks
 title-block-banner: "#003249"
@@ -16,3 +18,7 @@ format:
       - ../html/research/title-block.html
     quarto-template-params:
       banner-header-class: "research"
+
+# schema.org ScholarlyArticle/Chapter JSON-LD from the frontmatter
+filters:
+  - ../html/research/scholarly-jsonld.lua
