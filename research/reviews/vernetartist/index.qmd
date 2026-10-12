@@ -29,6 +29,7 @@ doi: 10.4000/sdt.14998
 
 
 citation:
+  language: fr
   type: article-journal
   container-title: "Sociologie du travail"
   volume: 52

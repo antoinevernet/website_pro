@@ -114,6 +114,9 @@ function Meta(meta)
   local date = iso_date(issued) or iso_date(str(meta.date))
   if date then doc.datePublished = date end
 
+  -- publication language (citation.language); the pages themselves are in English
+  doc.inLanguage = str(cit.language) or "en"
+
   local desc = str(meta.description)
   if desc then doc.description = desc end
 

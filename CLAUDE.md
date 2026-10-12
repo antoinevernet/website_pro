@@ -74,7 +74,7 @@ Research articles use a `pub-info` object in frontmatter:
 - `pub-info.links` — array of `{name, url, icon, local?}` for PDF/preprint/code links
 - `description` — 1–2 sentence summary (~150–200 chars) used for meta/OG description and shown in the banner. Every research page should have one.
 - `author` (with `orcid`), `date`, `doi` — feed the Google Scholar `citation_*` tags
-- `citation` — publication details for Scholar tags and JSON-LD (not displayed): `type` (`article-journal`/`chapter`/`entry-encyclopedia`), `container-title`, `volume`, `issue`, `page`, `issued` (print date; `date` is the online date), `publisher`, `issn`/`isbn` (quote them), `pdf-url` (open-access/UCL Discovery PDF), and for chapters `collection-title`, `editor`. Take values from Crossref (`https://api.crossref.org/works/<doi>`). Quarto double-escapes `&` in these fields, so write "and".
+- `citation` — publication details for Scholar tags and JSON-LD (not displayed): `type` (`article-journal`/`chapter`/`entry-encyclopedia`), `container-title`, `volume`, `issue`, `page`, `issued` (print date; `date` is the online date), `publisher`, `issn`/`isbn` (quote them), `pdf-url` (open-access/UCL Discovery PDF), `language: fr` for French publications (sets `citation_language` and JSON-LD `inLanguage`; don't use page-level `lang: fr`, the page text is English), and for chapters `collection-title`, `editor`. Take values from Crossref (`https://api.crossref.org/works/<doi>`). Quarto double-escapes `&` in these fields, so write "and".
 - `haiku` — optional array of lines displayed as an italicized epigraph
 
 ### Teaching & Talks Data

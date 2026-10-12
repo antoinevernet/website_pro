@@ -18,6 +18,7 @@ pub-info:
   reference: >-
       Adeline Lamberbourg, Gwenaële Rot, Laure de Verdalle, <strong>Antoine Vernet</strong>, "La constitution des équipes techniques (Making the technical team)," in <em>Le cinéma. Travail et organisation</em> (2013), ed. Gwenaële Rot and Laure de Verdalle, La Dispute.
 citation:
+  language: fr
   type: chapter
   container-title: "Le cinéma. Travail et organisation"
   editor:

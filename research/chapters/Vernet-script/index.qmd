@@ -16,6 +16,7 @@ pub-info:
   reference: >-
      <strong>Antoine Vernet</strong>, "Transformer le script en image : la lumière au cinéma (Turning the screenplay into images: light in cinema)," in <em>Le cinéma. Travail et organisation</em> (2013), ed. Gwenaële Rot and Laure de Verdalle, La Dispute.
 citation:
+  language: fr
   type: chapter
   container-title: "Le cinéma. Travail et organisation"
   editor:

@@ -17,6 +17,7 @@ pub-info:
   reference: >-
      Delphine Remillon, <strong>Antoine Vernet</strong>, "Les mesures de l’employabilité," in <em>Évaluer et Valoriser</em> (2009), ed. François Vatin, Presses Universitaires du Mirail.
 citation:
+  language: fr
   type: chapter
   container-title: "Évaluer et valoriser"
   editor: François Vatin
