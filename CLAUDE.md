@@ -34,6 +34,7 @@ Deployment: pushing to GitHub triggers a Netlify build, where `@quarto/netlify-p
 - `project.render` is `["*.qmd", "!CLAUDE.md"]` so this file is never published. Only `.qmd` files are rendered.
 - Site-wide format is plain `html`. **Only `blog/2025/10/webr_test/` uses `live-html`** (r-wasm/live, ~1.5 MB of webR/OJS JS), declared in its own frontmatter with the theme options repeated (project `html` options don't carry over to `live-html`). For any new interactive post, copy that frontmatter. Do not put `format: html:` in a directory `_metadata.yml` (e.g. `blog/_metadata.yml`) — a post with its own `live-html` would then render twice and the build fails with a rename error; put directory-level format options at the top level instead.
 - Page titles: Quarto appends ` – Antoine Vernet` to every `<title>` automatically — don't add the name in `pagetitle`. The homepage opts out with `title-prefix: ""` and sets its full title.
+- `html/partials/_title-meta-author.html` — Quarto's author partial with alt text added to the ORCID badge. Wired in via `template-partials` under `format: html` in `_quarto.yml`, again in `research/_metadata.yml` (its own list replaces the project one), and in the live-html post's frontmatter. Not top-level: revealjs rejects it. Re-copy from Quarto's `share/formats/html/templates/` if a Quarto upgrade changes it.
 - Custom theme: `html/custom.scss` (adapted from Andrew Heiss's theme, uses Jost + Libre Franklin fonts, primary color `#003249`)
 
 ### Content Sections
@@ -55,7 +56,7 @@ There is no site-wide `bibliography:` — with `google-scholar: true`, Quarto em
 
 Blog posts live in `blog/{year}/{month}/{slug}/index.qmd`. Key frontmatter fields:
 - `title`, `date`, `description`, `categories`
-- `image` — thumbnail shown in listing
+- `image` — thumbnail shown in listing; `image-alt` — its alt text (also emitted as `og:image:alt`/`twitter:image:alt`)
 - `twitter-card.image`, `open-graph.image` — social sharing images
 - `doi` — optional DOI displayed in listing
 - `citation: true` — enables Quarto citation metadata
@@ -63,6 +64,8 @@ Blog posts live in `blog/{year}/{month}/{slug}/index.qmd`. Key frontmatter field
 - `resources: ["img/*"]` — include image assets
 
 Default blog metadata (author, format, TOC settings) is inherited from `blog/_metadata.yml`.
+
+Every image needs alt text: `![Caption](img.png){fig-alt="..."}` for markdown images (the caption alone is not used as alt), `#| fig-alt: "..."` in R plot chunks. Editing a post with R code re-executes it (freeze hashes the whole file), so commit the changed `_freeze/` files.
 
 ### Research Article Frontmatter
 

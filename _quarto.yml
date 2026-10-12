@@ -110,6 +110,10 @@ format:
       body-width: 900px
     toc: false
     icons: iconify
+    # Quarto's author partial plus alt text on the ORCID badge. Repeated in
+    # research/_metadata.yml and in the live-html post's own frontmatter.
+    template-partials:
+      - html/partials/_title-meta-author.html
 
 
 
