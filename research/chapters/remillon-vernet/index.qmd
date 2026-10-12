@@ -3,6 +3,7 @@ title: "Les mesures de l’employabilité"
 description: "Book chapter (in French) on how employability is measured, in Évaluer et Valoriser (Presses Universitaires de Toulouse)."
 date: 2009-01-01
 author:
+  - name: Delphine Remillon
   - name: Antoine Vernet
     url: https://antoinevernet.com
     orcid: 0000-0002-7546-9829
@@ -15,6 +16,11 @@ categories:
 pub-info:
   reference: >-
      Delphine Remillon, <strong>Antoine Vernet</strong>, "Les mesures de l’employabilité," in <em>Évaluer et Valoriser</em> (2009), ed. François Vatin, Presses Universitaires de Toulouse.
+citation:
+  type: chapter
+  container-title: "Évaluer et valoriser"
+  editor: François Vatin
+  issued: 2009
 ---
 
 
@@ -22,16 +28,12 @@ pub-info:
 
 
 ```bibtex
-@inbook{remillonvernet2009,
+@incollection{remillonvernet2009,
    author = {Remillon, Delphine and Vernet, Antoine},
    title = {Les mesures de l’employabilité},
    booktitle = {Évaluer et Valoriser},
    editor = {Vatin, François},
    publisher = {Presses Universitaires de Toulouse},
-   pages = {},
-   ISBN = {},
-   DOI = {},
-   year = {2009},
-   type = {Book Section}
+   year = {2009}
 }
 ```

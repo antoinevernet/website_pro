@@ -21,7 +21,7 @@ categories:
   - innovation
 pub-info:
   reference: >-
-    Llewellyn Thomas, <strong>Antoine Vernet</strong>, and David Gann, "Adoption readiness in service innovation: the case of digital money," <em>Industry and Innovation</em> (2016), doi: <a href="https://doi.org/10.1080/13662716.2016.1156519"><code>10.1080/13662716.2016.1156519/</code></a>
+    Llewellyn Thomas, <strong>Antoine Vernet</strong>, and David Gann, "Adoption readiness in service innovation: the case of digital money," <em>Industry and Innovation</em> 23(4): 353–381 (2016), doi: <a href="https://doi.org/10.1080/13662716.2016.1156519"><code>10.1080/13662716.2016.1156519</code></a>
   links:
     # - name: Preprint
     #   url: https://discovery.ucl.ac.uk/id/eprint/10062104/1/How_does_energy_matter_Energy_Policy.pdf
@@ -42,6 +42,15 @@ doi: 10.1080/13662716.2016.1156519
 #   - fsfgfs
 #   - fgdfg
 
+citation:
+  type: article-journal
+  container-title: "Industry and Innovation"
+  volume: 23
+  issue: 4
+  page: 353-381
+  issued: 2016-05-18
+  publisher: Informa UK Limited
+  issn: "1366-2716"
 ---
 
 
@@ -72,10 +81,8 @@ We identify four stages of readiness and systematically analyse the factors that
    volume = {23},
    number = {4},
    pages = {353-381},
-   ISSN = {1366-2716
-1469-8390},
+   ISSN = {1366-2716},
    DOI = {10.1080/13662716.2016.1156519},
-   year = {2016},
-   type = {Journal Article}}
+   year = {2016}}
 ```
 

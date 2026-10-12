@@ -14,7 +14,15 @@ categories:
 
 pub-info:
   reference: >-
-     <strong>Antoine Vernet</strong>, "Transformer le script en image : la lumière au cinéma (Turning the screenplay into images: light in cinema)," in <em>Le cinéma. Travail et organisation</em> (2013), ed. Gwenaëlle Rot and Laure de Verdalle, La Dispute.
+     <strong>Antoine Vernet</strong>, "Transformer le script en image : la lumière au cinéma (Turning the screenplay into images: light in cinema)," in <em>Le cinéma. Travail et organisation</em> (2013), ed. Gwenaële Rot and Laure de Verdalle, La Dispute.
+citation:
+  type: chapter
+  container-title: "Le cinéma. Travail et organisation"
+  editor:
+    - Gwenaële Rot
+    - Laure de Verdalle
+  issued: 2013
+  publisher: La Dispute
 ---
 
 
@@ -22,15 +30,12 @@ pub-info:
 
 
 ```bibtex
-@inbook{Vernet2013
-author = {Vernet, Antoine},
+@incollection{vernet2013,
+   author = {Vernet, Antoine},
    title = {Transformer le script en image : la lumière au cinéma},
    booktitle = {Le cinéma. Travail et organisation},
-   editor = {Rot, Gwenaëlle and de Verdalle, Laure},
-   pages = {},
-   ISBN = {},
-   DOI = {},
-   year = {2013},
-   type = {Book Section}
+   editor = {Rot, Gwenaële and de Verdalle, Laure},
+   publisher = {La Dispute},
+   year = {2013}
 }
 ```

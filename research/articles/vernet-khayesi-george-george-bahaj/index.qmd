@@ -31,7 +31,7 @@ categories:
   - gender
 pub-info:
   reference: >-
-    <strong>Antoine Vernet</strong>, Jane N.O. Khayesi, Vivian George, Gerard George, and Abubakar S. Bahaj, "How does energy matter? Rural electrification, entrepreneurship, and community development in Kenya," <em>Energy Policy</em> (2019), doi: <a href="https://doi.org/10.1016/j.enpol.2018.11.012"><code>10.1016/j.enpol.2018.11.012/</code></a>
+    <strong>Antoine Vernet</strong>, Jane N.O. Khayesi, Vivian George, Gerard George, and Abubakar S. Bahaj, "How does energy matter? Rural electrification, entrepreneurship, and community development in Kenya," <em>Energy Policy</em> 126: 88–98 (2019), doi: <a href="https://doi.org/10.1016/j.enpol.2018.11.012"><code>10.1016/j.enpol.2018.11.012</code></a>
   links:
     - name: Preprint
       url: https://discovery.ucl.ac.uk/id/eprint/10062104/1/How_does_energy_matter_Energy_Policy.pdf
@@ -51,6 +51,15 @@ doi: 10.1016/j.enpol.2018.11.012
 #   - fsfgfs
 #   - fgdfg
 
+citation:
+  type: article-journal
+  container-title: "Energy Policy"
+  volume: 126
+  page: 88-98
+  issued: 2019-03
+  publisher: Elsevier
+  issn: "0301-4215"
+  pdf-url: https://discovery.ucl.ac.uk/id/eprint/10062104/1/How_does_energy_matter_Energy_Policy.pdf
 ---
 
 ## Important links
@@ -94,6 +103,6 @@ volume = {126},
 pages = {88-98},
 year = {2019},
 issn = {0301-4215},
-doi = {https://doi.org/10.1016/j.enpol.2018.11.012}}
+doi = {10.1016/j.enpol.2018.11.012}}
 ```
 

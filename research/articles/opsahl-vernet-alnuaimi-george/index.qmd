@@ -1,7 +1,7 @@
 ---
 title: "Revisiting the Small-World Phenomenon: Efficiency Variation and Classification of Small-World Networks"
 description: "Not all small-world networks are alike. We develop simulation-based measures of network efficiency to classify small-world networks more precisely. Published in Organizational Research Methods (2017)."
-date: 2016-10-02
+date: 2016-11-02
 author:
   - name: Tore Opsahl
     url: https://toreopsahl.com
@@ -15,7 +15,7 @@ author:
     url: 
     orcid: 
     affiliation:
-  - name: Gerry George
+  - name: Gerard George
     url: https://gufaculty360.georgetown.edu/s/contact/0031Q00002CZF3eQAH/gerry-george
     orcid: 0000-0002-6963-5085
     affiliation: Georgetown University
@@ -26,7 +26,7 @@ categories:
   - methodology
 pub-info:
   reference: >-
-    Tore Opsahl,<strong>Antoine Vernet</strong>, Tufool Alnuaimi, and Gerard George, "Revisiting the Small-World Phenomenon: Efficiency Variation and Classification of Small-World Networks," <em>Organizational Research Methods</em> (2017), doi: <a href="https://doi.org/10.1177/1094428116675032"><code>https://doi.org/10.1177/1094428116675032</code></a>
+    Tore Opsahl, <strong>Antoine Vernet</strong>, Tufool Alnuaimi, and Gerard George, "Revisiting the Small-World Phenomenon: Efficiency Variation and Classification of Small-World Networks," <em>Organizational Research Methods</em> 20(1): 149–173 (2017), doi: <a href="https://doi.org/10.1177/1094428116675032"><code>10.1177/1094428116675032</code></a>
   links:
     - name: Preprint
       url: https://discovery.ucl.ac.uk/id/eprint/1569219/1/ORMNetworks.pdf
@@ -46,6 +46,16 @@ doi: 10.1177/1094428116675032
 #   - fsfgfs
 #   - fgdfg
 
+citation:
+  type: article-journal
+  container-title: "Organizational Research Methods"
+  volume: 20
+  issue: 1
+  page: 149-173
+  issued: 2017-01
+  publisher: SAGE Publications
+  issn: "1094-4281"
+  pdf-url: https://discovery.ucl.ac.uk/id/eprint/1569219/1/ORMNetworks.pdf
 ---
 
 ## Important links
@@ -81,14 +91,14 @@ We explore implications for the field of management and organization.
 </p>
 
 ```bibtex
-@article{@opsahletal2017,
+@article{opsahletal2017,
    author = {Opsahl, Tore and Vernet, Antoine and Alnuaimi, Tufool and George, Gerard},
-   title = {Revisiting the Small-World Phenomenon},
+   title = {Revisiting the Small-World Phenomenon: Efficiency Variation and Classification of Small-World Networks},
    journal = {Organizational Research Methods},
    volume = {20},
    number = {1},
    pages = {149-173},
-   ISSN = {1094-42811552-7425},
+   ISSN = {1094-4281},
    year = {2017},
    doi = {10.1177/1094428116675032}}
 ```

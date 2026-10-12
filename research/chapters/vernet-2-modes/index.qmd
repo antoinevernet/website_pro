@@ -1,7 +1,7 @@
 ---
 title: "The Two-Pipe Problem: Analysing and Theorizing about 2-Mode Networks"
 description: "Bipartite (2-mode) networks are common in organizational research but often reduced to one mode. We review projection techniques, 2-mode clustering measures, and avenues for 2-mode theory."
-date: 2014-04-01
+date: 2014-02-07
 author:
   - name: Antoine Vernet
     url: https://antoinevernet.com
@@ -22,10 +22,10 @@ categories:
   - methodology
 pub-info:
   reference: >-
-     <strong>Antoine Vernet</strong>, Martin Kilduff, and Ammon Salter, "The Two-Pipe Problem: Analysing and Theorizing about 2-Mode Networks," <em>Research in the Sociology of Organizations</em> (2014), doi: <a href="https://doi.org/10.1108/S0733-558X(2014)0000040017"><code>10.1108/S0733-558X(2014)0000040017</code></a>
+     <strong>Antoine Vernet</strong>, Martin Kilduff, and Ammon Salter, "The Two-Pipe Problem: Analysing and Theorizing about 2-Mode Networks," in <em>Contemporary Perspectives on Organizational Social Networks</em>, Research in the Sociology of Organizations 40: 337–354 (2014), doi: <a href="https://doi.org/10.1108/S0733-558X(2014)0000040017"><code>10.1108/S0733-558X(2014)0000040017</code></a>
   links:
     - name: Final version
-      url: https://doi.org/10.1093/acrefore/9780190625979.013.76
+      url: https://doi.org/10.1108/S0733-558X(2014)0000040017
       icon: fa-solid fa-scroll
 #    - name: Code
 #      url: https://github.com/
@@ -38,6 +38,15 @@ doi: 10.1108/S0733-558X(2014)0000040017
 #   - Raw model results?
 #   - Stop! Hard to understand! Use
 #   - "{marginaleffects}."
+citation:
+  type: chapter
+  container-title: "Contemporary Perspectives on Organizational Social Networks"
+  collection-title: "Research in the Sociology of Organizations"
+  volume: 40
+  page: 337-354
+  issued: 2014-02-07
+  publisher: Emerald Group Publishing Limited
+  isbn: "978-1-78350-751-1"
 ---
 
 
@@ -57,16 +66,16 @@ We also address the potential for 2-mode theory development concerning (a) how c
 </p>
 
 ```bibtex
-@inbook{VernetKilduffSalter2014
-author = {Vernet, Antoine and Kilduff, Martin and Salter, Ammon},
+@incollection{VernetKilduffSalter2014,
+   author = {Vernet, Antoine and Kilduff, Martin and Salter, Ammon},
    title = {The Two-Pipe Problem: Analysing and Theorizing about 2-Mode Networks},
    booktitle = {Contemporary Perspectives on Organizational Social Networks},
    series = {Research in the Sociology of Organizations},
+   volume = {40},
+   publisher = {Emerald Group Publishing Limited},
    pages = {337-354},
-   ISBN = {978-1-78350-751-1
-978-1-78350-752-8},
+   ISBN = {978-1-78350-751-1},
    DOI = {10.1108/s0733-558x(2014)0000040017},
-   year = {2014},
-   type = {Book Section}
+   year = {2014}
 }
 ```

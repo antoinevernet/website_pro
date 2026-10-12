@@ -3,6 +3,9 @@ title: "La constitution des équipes techniques"
 description: "Book chapter (in French) on how technical crews are put together in film production, in Le cinéma. Travail et organisation (La Dispute, 2013)."
 date: 2013-04-01
 author:
+  - name: Adeline Lamberbourg
+  - name: Gwenaële Rot
+  - name: Laure de Verdalle
   - name: Antoine Vernet
     url: https://antoinevernet.com
     orcid: 0000-0002-7546-9829
@@ -13,7 +16,15 @@ categories:
   - labour market
 pub-info:
   reference: >-
-      Adeline Lamberbourg, Gwenaële Rot, Laure de Verdalle, <strong>Antoine Vernet</strong>, "La constitution des équipes techniques (Making the technical team)," in <em>Le cinéma. Travail et organisation</em> (2013), ed. Gwenaëlle Rot and Laure de Verdalle, La Dispute.
+      Adeline Lamberbourg, Gwenaële Rot, Laure de Verdalle, <strong>Antoine Vernet</strong>, "La constitution des équipes techniques (Making the technical team)," in <em>Le cinéma. Travail et organisation</em> (2013), ed. Gwenaële Rot and Laure de Verdalle, La Dispute.
+citation:
+  type: chapter
+  container-title: "Le cinéma. Travail et organisation"
+  editor:
+    - Gwenaële Rot
+    - Laure de Verdalle
+  issued: 2013
+  publisher: La Dispute
 ---
 
 
@@ -22,15 +33,12 @@ pub-info:
 
 
 ```bibtex
-@inbook{Vernet2013
-author = {Lamberbourg, Adeline and Rot, Gwenaële and de Verdalle, Laure and Vernet, Antoine},
+@incollection{lamberbourgetal2013,
+   author = {Lamberbourg, Adeline and Rot, Gwenaële and de Verdalle, Laure and Vernet, Antoine},
    title = {La constitution des équipes techniques},
    booktitle = {Le cinéma. Travail et organisation},
-   editor = {Rot, Gwenaëlle and de Verdalle, Laure},
-   pages = {},
-   ISBN = {},
-   DOI = {},
-   year = {2013},
-   type = {Book Section}
+   editor = {Rot, Gwenaële and de Verdalle, Laure},
+   publisher = {La Dispute},
+   year = {2013}
 }
 ```
