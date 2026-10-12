@@ -3,6 +3,7 @@ title: "The Snowflake World Tour in London"
 date: 2025-11-27
 description: "I went to the Snowflake world tour in London."
 image: "./img/hex_stickers.jpg"
+image-alt: "Hexagonal R and Posit package stickers on a dark blue background."
 twitter-card:
   image: "./img/hex_stickers.jpg"
 open-graph:
@@ -53,7 +54,7 @@ Finally, I attended another session on clean rooms which is a feature that enabl
 
 During one of the break, I had time to go visit the Posit booth, which allowed me to get a nice selection of stickers that I am very pleased about.
 
-![Posit stickers](./img/hex_stickers.jpg)
+![Posit stickers](./img/hex_stickers.jpg){fig-alt="Eleven hexagonal stickers on a dark blue background: posit, Quarto, gander, ellmer, tidyverse, RStudio, dplyr, orbital, chatlas, ggplot2 and Shiny."}
 
 Overall, it was very interesting and it hammered home that there seem to be a lot more work in data engineering than in data analytics, as many organisations are struggling to just make their data available to their employees and that this is the first pain point to resolve before they can hope to gain value from sophisticated analyses.
 It highlighted to me that Snowflake, by promising to make data more accessible has a lot of potential to help organisations move from the step at which data engineering provides most of the value, to a position where they can start deploying analytics effectively.

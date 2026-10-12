@@ -28,9 +28,9 @@ Many false claims crumble quickly under scrutiny, but we are too quick to accept
 
 A particularly effective way of making us jump to conclusions is to show us data about two measures over time with two different y-axes for each time series ([this tweet is an example](https://x.com/jburnmurdoch/status/1525766154958123008?s=20&t=pfALfwi7oZ-5CgCaJLBXBA), [here is why I think it is not very convincing](https://x.com/Antoine__V/status/1525825735641993216?s=20&t=pfALfwi7oZ-5CgCaJLBXBA)).
 
-![Tweets about two y-axes](img/tweets_screenshot.png)
+![Tweets about two y-axes](img/tweets_screenshot.png){fig-alt="Screenshot of a tweet by Antoine Vernet quoting John Burn-Murdoch: ‘While this slide is carefully worded, I think it’s highly likely people will over-interpret the meaning of this correlation. One good rule of thumb is that you shouldn’t use two y-axis: it often lead to over-interpreting correlations.’ The quoted tweet shows the FT chart of Daily Mail immigration coverage and public concern about immigration."}
 
-![Larger FT graph](img/ft_chart.webp)
+![Larger FT graph](img/ft_chart.webp){fig-alt="FT line chart titled ‘Public concern with immigration has historically tracked tabloid newspapers’ coverage even more closely than it tracks actual immigration levels’, 1989 to 2021. One line is the percentage of Daily Mail print articles mentioning immigration (left axis, 1 to 5 percent); the other is the percentage of Britons saying immigration is one of the most important issues facing the UK (right axis, 0 to 40 percent). With the two axes scaled this way, the lines move almost together, rising from 2000, peaking around the 2016 EU referendum and falling sharply afterwards."}
 
 Changing the scale of one of the y-axes allows to increase the impression that the two time series coevolve, our ability to see patterns when there is none does the rest.
 

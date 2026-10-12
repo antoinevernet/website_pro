@@ -3,6 +3,7 @@ title: "Two things to keep in mind when preparing or delivering teaching"
 date: 2025-11-23
 description: "It took me longer than I care to admit to realise this, maybe I can save you some time."
 image: "https://imgs.xkcd.com/comics/ten_thousand.png"
+image-alt: "xkcd comic ‘Ten Thousand’, about the 10,000 people who learn any common fact for the first time each day."
 twitter-card:
   image: "https://imgs.xkcd.com/comics/ten_thousand.png"
 open-graph:
@@ -22,7 +23,7 @@ Helpfully, they are both described in [xkcd](https://xkcd.com) comics.
 ::::{.columns}
 
 :::{.column width="70%"}
-![](https://imgs.xkcd.com/comics/ten_thousand.png)
+![](https://imgs.xkcd.com/comics/ten_thousand.png){fig-alt="xkcd comic ‘Ten Thousand’. The narrator says they try not to make fun of people for admitting they don’t know things: for anything ‘everyone knows’ by adulthood, about 10,000 people in the US hear about it for the first time every day, and mocking them means missing out on the fun. One stick figure has never heard of the Diet Coke and Mentos thing; the other excitedly takes them to the grocery store, saying they are one of today’s lucky 10,000."}
 
 Ten Thousand
 :::
@@ -31,7 +32,7 @@ Ten Thousand
 :::
 
 :::{.column width="29%"}
-![](https://imgs.xkcd.com/comics/average_familiarity.png)
+![](https://imgs.xkcd.com/comics/average_familiarity.png){fig-alt="xkcd comic ‘Average Familiarity’. A geochemist says it is easy to forget that the average person probably only knows the formulas for olivine and one or two feldspars; her colleague adds ‘And quartz, of course.’ Caption: even when they’re trying to compensate for it, experts in anything wildly overestimate the average person’s familiarity with their field."}
 
 Average Familiarity
 :::

@@ -3,6 +3,7 @@ title: "Bruno Latour and Social Network Theory"
 date: 2021-03-21
 description: ""
 image: "img/sky-1.jpg"
+image-alt: "A photo of sundown in the English countryside."
 # twitter-card:
 #   image: ""
 # open-graph:

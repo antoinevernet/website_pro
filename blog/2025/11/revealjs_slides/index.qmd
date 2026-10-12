@@ -3,6 +3,7 @@ title: "Changing tech to teach or how to end up with a weird revealjs slides qua
 date: 2025-11-06
 description: "Ok, this might be a very bad idea, and niche. This post describes a revealjs customisation of the default theme to make slides that work well for scholarly presentation, and---maybe---for teaching."
 image: "./img/title_slide.png"
+image-alt: "Title slide reading ‘Now your slides can be as ugly as mine!’, Antoine Vernet, 6 November 2025, in white text on a dark background."
 twitter-card:
   image: "./img/title_slide.png"
 open-graph:

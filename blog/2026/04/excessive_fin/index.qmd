@@ -3,6 +3,7 @@ title: "Do Universities Really Take Excessive Financial Risks?"
 date: 2026-04-15
 description: "I am not mad, please do not put in the paper that I was mad."
 image: "img/fig1.png"
+image-alt: "Bar chart of the ten higher education providers that added the most FTE students between 2015/16 and 2024/25, led by Arden University with 25,715."
 twitter-card:
   image: "img/fig1.png"
 open-graph:
@@ -53,6 +54,7 @@ fte <- read.csv("data/fte.csv")
 
 ```{r}
 #| label: Figure3
+#| fig-alt: "Bar chart of the ten universities with the highest external borrowing as a percentage of total income in 2023/24: Northampton 137.3%, Surrey 86.7%, Cranfield 86.2%, Oxford Brookes 71.7%, Chichester 67.4%, Cardiff 65.9%, Winchester 59.4%, Derby 56.2%, Coventry 55.8% and the Arts University Bournemouth 55.3%. Source: HESA Finance Table 14."
 #| echo: false
 
 focus_providers <- c(
@@ -150,6 +152,7 @@ To address the differences in the institutions that are represented in my graph,
 
 ```{r}
 #| label: Figure1_report
+#| fig-alt: "Bar chart of the ten higher education providers that added the most FTE students between 2015/16 and 2024/25, using the providers in the report: Arden University 25,715, Canterbury Christ Church 22,205, Bath Spa 17,570, BPP 17,215, UCL 14,345, the University of Law 12,320, Anglia Ruskin 11,275, King’s College London 10,880, Buckinghamshire New University 10,070 and Bristol 9,840. Source: HESA Student Table 2."
 #| message: false
 #| warning: false
 #| echo: false
@@ -209,6 +212,7 @@ This will tell us if institutions are indeed growing too fast.
 
 ```{r}
 #| label: Figure1_redux
+#| fig-alt: "Bar chart of proportional growth in FTE students, 2015/16 to 2024/25, for the same ten providers. Arden grew 3,117% and the University of Law 1,711%, while BPP grew 322%, Bath Spa 262%, Canterbury Christ Church 178%, Buckinghamshire New 144%, Anglia Ruskin 67%, and Bristol, UCL and King’s College London between 45% and 48%."
 #| message: false
 #| warning: false
 #| echo: false
@@ -265,6 +269,7 @@ The list may well be different: smaller providers that doubled or tripled in siz
 
 ```{r}
 #| label: Figure1_redux2
+#| fig-alt: "Bar chart of the ten providers with the highest proportional growth in FTE students, 2015/16 to 2024/25: Point Blank Music School 3,500%, Arden University 3,117%, Apex College 1,830%, the University of Law 1,711%, Regent College London 1,308%, University of London (Institutes and activities) 753%, West Dean College 583%, Northeastern University London 486%, the Markfield Institute of Higher Education 340% and BPP University 322%."
 #| message: false
 #| warning: false
 #| echo: false

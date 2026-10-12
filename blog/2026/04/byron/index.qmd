@@ -3,6 +3,7 @@ title: "The rise and fall of Byron, in maps"
 date: 2026-04-02
 description: "Using OpenStreetMap historical data to map the rise and fall of burger chains in London."
 image: "img/byron_animation.gif"
+image-alt: "Animated map of burger chain locations across London from 2012 to 2026."
 twitter-card:
   image: "img/byron_animation.gif"
 open-graph:
@@ -181,6 +182,7 @@ message("Loaded ", nrow(all_data), " records across ", n_snapshots,
 Before jumping to maps, let's look at the count of locations for each chain over time. This gives us a quick overview of what happened:
 
 ```{r count_plot, fig.width=8, fig.height=5}
+#| fig-alt: "Line chart of the number of London locations in OpenStreetMap for four burger chains, 2012 to 2026. Byron rises from 7 to a peak of 22 around 2020, then falls to 6. GBK grows from 12 to 24 around 2023, then drops to 11. Five Guys appears in 2014 and climbs steadily to 34, the most of any chain. Honest Burgers grows from a handful to about 17."
 count_data <- all_data |>
   sf::st_drop_geometry() |>
   dplyr::count(snapshot_date, chain)
@@ -203,6 +205,7 @@ Keeping in mind the OSM data quality caveat from earlier, I suspect that in the 
 Let's start with a static faceted view, selecting a snapshot roughly every two years to see the broad spatial patterns:
 
 ```{r faceted_maps, fig.width=10, fig.height=8}
+#| fig-alt: "Seven small maps of the London boroughs, one every two years from September 2012 to September 2024, with dots for Byron, Five Guys, GBK and Honest Burgers locations. In 2012 a few Byron and GBK dots sit in central London; over time Five Guys and Honest Burgers dots multiply and Five Guys spreads to outer boroughs, while Byron dots thin out."
 time_points <- sort(unique(all_data$snapshot_date))
 selected_dates <- time_points[seq(1, length(time_points), by = 4)]
 
@@ -276,7 +279,7 @@ unlink("img/frames", recursive = TRUE)
 
 ```
 
-![Burger chains in London over time](img/byron_animation.gif)
+![Burger chains in London over time](img/byron_animation.gif){fig-alt="Animated map of London boroughs stepping through every six months from September 2012 to February 2026, with dots for each burger chain location. It starts with a few Byron and GBK restaurants in central London and ends with dozens of Five Guys and Honest Burgers locations, Five Guys reaching into outer boroughs, and only a handful of Byron restaurants left."}
 
 # Conclusion
 

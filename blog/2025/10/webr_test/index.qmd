@@ -3,6 +3,7 @@ title: "We live in magical times"
 date: 2025-10-27
 description: "What one can do with a static website these days is pretty amazing!"
 image: "texas.png"
+image-alt: "Line chart of monthly Texas housing sales from 2000 to 2015, showing strong seasonal swings around a rising trend."
 twitter-card:
   image: ""
 open-graph:
@@ -30,6 +31,8 @@ format:
     grid:
       body-width: 900px
     icons: iconify
+    template-partials:
+      - ../../../../html/partials/_title-meta-author.html
 engine: knitr
 # engine: jupyter
 freeze: auto
