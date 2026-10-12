@@ -48,7 +48,7 @@ author:
     orcid: 0000-0002-0592-577X
     affiliation: Massey University
   - name: Generalizability Tests Forecasting Collaboration (GTFC)
-  - name: Antoine Vernet (part of the GTFC)
+  - name: Antoine Vernet
     url: https://antoinevernet.com
     orcid: 0000-0002-7546-9829
     affiliation: University College London
@@ -79,6 +79,16 @@ doi: 10.1073/pnas.2120377119
 #   - fsfgfs
 #   - fgdfg
 
+citation:
+  type: article-journal
+  container-title: "Proceedings of the National Academy of Sciences"
+  volume: 119
+  issue: 30
+  page: e2120377119
+  issued: 2022-07-26
+  publisher: National Academy of Sciences
+  issn: "0027-8424"
+  pdf-url: https://www.pnas.org/doi/pdf/10.1073/pnas.2120377119
 ---
 
 ## Important links
@@ -105,9 +115,9 @@ In a forecasting survey, independent scientists were able to anticipate which ef
 
 ```bibtex
 @article{deliosetal2022,
-   author = {Delios, A. and Clemente, E. G. and Wu, T. and Tan, H. and Wang, Y. and Gordon, M. and Viganola, D. and Chen, Z. and Dreber, A. and Johannesson, M. and Pfeiffer, T. and Generalizability Tests Forecasting, Collaboration and Uhlmann, E. L.},
+   author = {Delios, A. and Clemente, E. G. and Wu, T. and Tan, H. and Wang, Y. and Gordon, M. and Viganola, D. and Chen, Z. and Dreber, A. and Johannesson, M. and Pfeiffer, T. and {Generalizability Tests Forecasting Collaboration} and Uhlmann, E. L.},
    title = {Examining the generalizability of research findings from archival data},
-   journal = {Proceedings of the National Academy of Science U S A},
+   journal = {Proceedings of the National Academy of Sciences},
    volume = {119},
    number = {30},
    pages = {e2120377119},

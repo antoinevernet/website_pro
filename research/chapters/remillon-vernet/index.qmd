@@ -1,6 +1,6 @@
 ---
 title: "Les mesures de l’employabilité"
-description: "Book chapter (in French) on how employability is measured, in Évaluer et Valoriser (Presses Universitaires de Toulouse)."
+description: "Book chapter (in French) on how employability is measured, in Évaluer et Valoriser (Presses Universitaires du Mirail, 2009)."
 date: 2009-01-01
 author:
   - name: Delphine Remillon
@@ -15,11 +15,12 @@ categories:
   - labour market
 pub-info:
   reference: >-
-     Delphine Remillon, <strong>Antoine Vernet</strong>, "Les mesures de l’employabilité," in <em>Évaluer et Valoriser</em> (2009), ed. François Vatin, Presses Universitaires de Toulouse.
+     Delphine Remillon, <strong>Antoine Vernet</strong>, "Les mesures de l’employabilité," in <em>Évaluer et Valoriser</em> (2009), ed. François Vatin, Presses Universitaires du Mirail.
 citation:
   type: chapter
   container-title: "Évaluer et valoriser"
   editor: François Vatin
+  publisher: Presses Universitaires du Mirail
   issued: 2009
 ---
 
@@ -33,7 +34,7 @@ citation:
    title = {Les mesures de l’employabilité},
    booktitle = {Évaluer et Valoriser},
    editor = {Vatin, François},
-   publisher = {Presses Universitaires de Toulouse},
+   publisher = {Presses Universitaires du Mirail},
    year = {2009}
 }
 ```
