@@ -104,6 +104,7 @@ Now to remake the second graph.
 
 ```{r}
 #| label: Figure1
+#| fig-alt: "Bar chart of the ten higher education providers that added the most FTE students between 2015/16 and 2024/25: Arden University 25,715, Canterbury Christ Church 22,205, Bath Spa 17,570, BPP 17,215, UCL 14,345, the University of Law 12,320, Anglia Ruskin 11,275, King’s College London 10,880, Glasgow 10,400 and East London 10,255. Source: HESA Student Table 2."
 #| message: false
 #| warning: false
 #| echo: false
@@ -142,6 +143,8 @@ ggsave(
     "img/fig1.png", fig1,
     width = 8, height = 4, dpi = 300
   )
+
+fig1
 ```
 
 Again, I am able to reproduce the graph from the report[^almost].
@@ -289,10 +292,10 @@ ggplot(top10_pct, aes(x = pct_growth, y = reorder(he_provider, pct_growth))) +
     x        = "% change in FTE students",
     y        = NULL
   ) +
-  scale_x_continuous(labels = function(x) paste0(x, "%")) +
-  xlim(0, 4000) +
+  scale_x_continuous(limits = c(0, 4000), labels = function(x) paste0(x, "%")) +
   theme_minimal(base_size = 12) +
   theme(
+    plot.title.position = "plot",
     plot.title        = element_text(face = "bold", size = 14),
     plot.subtitle     = element_text(colour = "grey40", size = 10),
     plot.caption      = element_text(colour = "grey50", size = 8, hjust = 0),
